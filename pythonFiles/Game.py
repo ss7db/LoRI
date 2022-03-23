@@ -1,6 +1,6 @@
 import itertools
 from operator import add
-import gambit
+import pygambit
 import Traveler
 import Graph
 import time
@@ -343,11 +343,11 @@ class Game():
         start = timer()
         payoff = []
         for i in costMatrices:
-            payoff.append(numpy.array(i, dtype=gambit.Rational))
+            payoff.append(numpy.array(i, dtype=pygambit.Rational))
             # print(payoff)
             # print(*payoff)
-        g = gambit.Game.from_arrays(*payoff)
-        solver = gambit.nash.ExternalLogitSolver()
+        g = pygambit.Game.from_arrays(*payoff)
+        solver = pygambit.nash.ExternalLogitSolver()
         x = solver.solve(g)
         end = timer()
         # print("Time to compute QRE is" + str(end - start))
