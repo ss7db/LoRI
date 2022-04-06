@@ -1,6 +1,6 @@
 import itertools
 from operator import add
-import pygambit
+import gambit
 import Traveler
 import Graph
 import time
@@ -14,7 +14,7 @@ class Game():
     def __init__(self):
         self.Travelers = []
         self.activeTravelers = []
-        self.dummy = Game.addTraveler(self, 999, 1, Graph.graph.a, Graph.graph.a, 0.5)
+        self.dummy = Game.addTraveler(self, 999, 1, [1], [3], 0.5)
         self.dummy.state[0] = 0
         # self.traveler1 = Game.addTraveler(self,1,1, Graph.graph.b, Graph.graph.d, 0.8)
         # self.traveler2 = Game.addTraveler(self,1, Graph.graph.a, Graph.graph.d, 0.6)
@@ -58,9 +58,12 @@ class Game():
         row_traveler_incidence = []
 
         if traveler.state[1] == None:
-            row_traveler_incidence = []
+            current_edge = traveler.current_edge_if_path_is_not_chosen()
+            row_traveler_incidence = Graph.graph.graph.incident(current_edge)
+            # print(row_traveler_incidence)
         else:
             row_traveler_incidence = Graph.graph.graph.incident(traveler.state[1][1])
+            # print(row_traveler_incidence)
         
 
         travelers_incident_with_row_traveler = []
@@ -70,6 +73,7 @@ class Game():
                 pass
             elif len(set(row_traveler_incidence).intersection(Graph.graph.graph.incident(i.state[1][1]))) != 0:
                 travelers_incident_with_row_traveler.append(i)
+                # print(travelers_incident_with_row_traveler)
         
         temp = []
         for i in travelers_incident_with_row_traveler:
@@ -262,20 +266,17 @@ class Game():
             costMatrix = []
             # print(len(traveler.top3Paths())) 
             for path in traveler.top3Paths():
-                # print(path)
                 costList = []
                 cost = 0
                 for i in range(len(path)-1):
                     # print(i)
                     if i == 0:
                         e = Graph.graph.graph.get_eid(path[i], path[i+1])
-                        # print(e)
                         cost += traveler.edgeCost(e, networkState)
                         # print("cost for edge", e, cost)
                     else: 
                         e = Graph.graph.graph.get_eid(path[i], path[i+1])
                         cost += traveler.edgeCost(e, networkState)
-                        # print("cost for edge", e, cost)
                         # cost += traveler.edgeCost(e, dic[keyList[-1]])
                 cost = int(cost)*100
                 # cost = int(cvxpy.multiply(cost, 100))
@@ -292,35 +293,42 @@ class Game():
         costMatrix = []
         t = int(time.time())
         strategyProfiles = Game.strategyProfiles(self, traveler)
+        # print(strategyProfiles)
         # predictedLocationsForAllStrategies = Game.locationPredictionForAllStrategies(self, networkState,strategyProfiles)
-        for path in traveler.top3Paths():
-            costList = []
-            travelerLocation = Game.predictedLocation(self, t, path, networkState)
-            for i in range(len(strategyProfiles)):
-                cost = 0
-                predictedLocationsForProfile = Game.locationPredictionForProfile(self, networkState, strategyProfiles[i])
-                incDcr = Game.networkStateIncDcrBasedOnProfile(self, predictedLocationsForProfile)
-                network = Game.networkStateAtTimeIntervalsForProfile(self, incDcr)
-                for dic in network:
-                    keyList = Game.dicKeys(self, dic)
-                    for i in range(len(path)-1):
-                        if i == 0:
-                            e = Graph.graph.graph.get_eid(path[i], path[i+1])
-                            cost += traveler.edgeCost(e, dic[keyList[i]])
-                            print(cost)
-                        else: 
-                            e = Graph.graph.graph.get_eid(path[i], path[i+1])
-                            # cost += traveler.edgeCost(e, Game.networkStateGivenTime(self, travelerLocation[e], dic))
-                            cost += traveler.edgeCost(e, dic[keyList[-1]])
-                            print(cost)
-                # print(cost)
-                cost = int(cost*100)
-                # print(cost)
-                costList.append(cost)
-                # print(costList)
-            costMatrix.append(costList)
-            # print(costMatrix)
-        return costMatrix
+        if len(strategyProfiles[0]) == 0:
+            # print("Strategy profile is empty")
+            return 
+        else: 
+            for path in traveler.top3Paths():
+                print(path)
+                costList = []
+                travelerLocation = Game.predictedLocation(self, t, path, networkState)
+                for i in range(len(strategyProfiles)):
+                    # print("fsafsd" + str(i))
+                    cost = 0
+                    predictedLocationsForProfile = Game.locationPredictionForProfile(self, networkState, strategyProfiles[i])
+                    incDcr = Game.networkStateIncDcrBasedOnProfile(self, predictedLocationsForProfile)
+                    network = Game.networkStateAtTimeIntervalsForProfile(self, incDcr)
+                    for dic in network:
+                        keyList = Game.dicKeys(self, dic)
+                        for i in range(len(path)-1):
+                            if i == 0:
+                                e = Graph.graph.graph.get_eid(path[i], path[i+1])
+                                cost += traveler.edgeCost(e, dic[keyList[i]])
+                                print(cost)
+                            else: 
+                                e = Graph.graph.graph.get_eid(path[i], path[i+1])
+                                # cost += traveler.edgeCost(e, Game.networkStateGivenTime(self, travelerLocation[e], dic))
+                                cost += traveler.edgeCost(e, dic[keyList[-1]])
+                                print(cost)
+                    # print(cost)
+                    cost = int(cost*100)
+                    # print(cost)
+                    costList.append(cost)
+                    # print(costList)
+                costMatrix.append(costList)
+                # print(costMatrix)
+            return costMatrix
 
     def padding(self, costMatrices):
         maxColumn =  max(list(map(lambda x:len(x), costMatrices)))
@@ -343,11 +351,11 @@ class Game():
         start = timer()
         payoff = []
         for i in costMatrices:
-            payoff.append(numpy.array(i, dtype=pygambit.Rational))
+            payoff.append(numpy.array(i, dtype=gambit.Rational))
             # print(payoff)
             # print(*payoff)
-        g = pygambit.Game.from_arrays(*payoff)
-        solver = pygambit.nash.ExternalLogitSolver()
+        g = gambit.Game.from_arrays(*payoff)
+        solver = gambit.nash.ExternalLogitSolver()
         x = solver.solve(g)
         end = timer()
         # print("Time to compute QRE is" + str(end - start))
@@ -410,16 +418,55 @@ class Game():
             for activeTraveler in tempList:
                 if activeTraveler != traveler:
                     cost = self.travelerCostMatrix2forCP(activeTraveler, Graph.graph.networkState)
+                    if cost == None:
+                        return self.chosen_path_single_traveler(traveler)
                 # costTraveler2 = Game.game.travelerCostMatrix(Game.game.traveler2, Graph.graph.networkState)
                     costMatrices.append(cost)
-        
+        # print(costMatrices)
         paddedCosts = self.padding(costMatrices)
+        print(paddedCosts)
         QREProb = self.QRE(paddedCosts)
         QRESlicced = self.QRESlicing(len(paddedCosts[0]), QREProb)
         pathIndex = QRESlicced[self.activeTravelers.index(traveler)].index(max(QRESlicced[self.activeTravelers.index(traveler)]))
         # systemCost = Game.game.systemCost(traveler, QRESlicced)
         return traveler.top3Paths()[pathIndex]
-        
+
+    def chosen_path_single_traveler(self, traveler):
+        costList = []
+        for path in traveler.top3Paths():
+            cost = 0
+            for i in range(len(path)-1):
+                if i == 0:
+                    e = Graph.graph.graph.get_eid(path[i], path[i+1])
+                    cost += traveler.edgeCost(e, Graph.graph.networkState)
+                else: 
+                    e = Graph.graph.graph.get_eid(path[i], path[i+1])
+                    cost += traveler.edgeCost(e, Graph.graph.networkState)
+            # cost = int(cost*100)
+            costList.append(cost)
+        # print(costList)
+        bestCost = min(costList)
+        # print(bestCost)
+        pathIndex = costList.index(bestCost)
+        # print(costList[pathIndex])
+        return traveler.top3Paths()[pathIndex]
+
+    def system_cost_single_traveler(self, traveler, path):
+        travelerLocation = Game.predictedLocation(self, int(time.time()), path, Graph.graph.networkState)
+        l = []
+        l.append(travelerLocation)
+        incDcr = Game.networkStateIncDcrBasedOnProfile(self, l)
+        network = Game.networkStateAtTimeIntervalsForProfile(self, incDcr)
+        for dic in network:
+            keyList = Game.dicKeys(self, dic)
+            for i in range(len(path)-1):
+                if i == 0:
+                    e = Graph.graph.graph.get_eid(path[i], path[i+1])
+                    cost += RecSys.System.y(dic[keyList[i]])
+                else: 
+                    e = Graph.graph.graph.get_eid(path[i], path[i+1])
+                    cost += RecSys.System.y(Game.networkStateGivenTime(self, travelerLocation[e], dic))
+        return cost
     # def gamePreprocessing(self):
     # def piList(self, filepath):
         # f = open("mainGame.nfg","r")
@@ -557,5 +604,4 @@ game = Game()
 # x = game.strategyProfiles(traveler1)
 # print(traveler1.paths())
 # print(x, len(x))
-# print(traveler1.top3Paths()())
 

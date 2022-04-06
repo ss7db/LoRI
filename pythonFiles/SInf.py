@@ -1,3 +1,4 @@
+from queue import Empty
 import Game
 import Graph
 import Traveler
@@ -9,17 +10,17 @@ from timeit import default_timer as timer
 
 startTime = time.time()
 
-traveler0 = Game.game.addTraveler(0, int(time.time()), [0], [3], 0.5)
-traveler1 = Game.game.addTraveler(1, int(time.time()), [0], [5], 0.6)
-traveler2 = Game.game.addTraveler(2, int(time.time()), [100], [110], 0.7)
+traveler0 = Game.game.addTraveler(0, int(time.time()), [1], [3], 0.5)
+traveler1 = Game.game.addTraveler(1, int(time.time()), [1], [3], 0.6)
+traveler2 = Game.game.addTraveler(2, int(time.time()), [1], [3], 0.7)
 traveler3 = Game.game.addTraveler(3, int(time.time()), [200], [205], 0.5)
 traveler4 = Game.game.addTraveler(4, int(time.time()), [350], [326], 0.6)
-traveler5 = Game.game.addTraveler(5, int(time.time()), [4000], [3982], 0.7)
-traveler6 = Game.game.addTraveler(6, int(time.time()), [26], [39], 0.5)
-traveler7 = Game.game.addTraveler(7, int(time.time()), [51], [59], 0.6)
-traveler8 = Game.game.addTraveler(8, int(time.time()), [69], [36], 0.7)
-traveler9 = Game.game.addTraveler(9, int(time.time()), [420], [450], 0.5)
-traveler10 = Game.game.addTraveler(10, int(time.time()),[900], [999], 0.6)
+# traveler5 = Game.game.addTraveler(5, int(time.time()), [4000], [3982], 0.7)
+# traveler6 = Game.game.addTraveler(6, int(time.time()), [26], [39], 0.5)
+# traveler7 = Game.game.addTraveler(7, int(time.time()), [51], [59], 0.6)
+# traveler8 = Game.game.addTraveler(8, int(time.time()), [69], [36], 0.7)
+# traveler9 = Game.game.addTraveler(9, int(time.time()), [420], [450], 0.5)
+# traveler10 = Game.game.addTraveler(10, int(time.time()),[900], [999], 0.6)
 # traveler11 = Game.game.addTraveler(11, int(time.time()), Graph.graph.d, Graph.graph.c, 0.7)
 # traveler12 = Game.game.addTraveler(12, int(time.time()), Graph.graph.a, Graph.graph.b, 0.2)
 # traveler13 = Game.game.addTraveler(13, int(time.time()), Graph.graph.a, Graph.graph.c, 0.3)
@@ -75,7 +76,7 @@ def systemCost(ttWeight, networkState):
     #         cost += ttWeight*(Graph.graph.edgeState[e][1])
     #     elif Graph.graph.edgeState[e][0] == "switch":
     #         cost += 1
-    for e in Graph.graph.edgeState:
+    for e in range(15089):
         bpr = max(Graph.graph.BPR(e, networkState), Graph.graph.flow(e))
         CO = max(Graph.graph.CO(e, networkState), Graph.graph.flow(e))
         cost += ttWeight*(bpr)+ (1 - ttWeight)*(CO)
@@ -151,14 +152,15 @@ def activeInactive(systemTtWeight):
                     # print(k/len(systemCostList))
                     system_average_cost = k/len(systemCostList)
 
-                if newOrigin in Graph.graph.a:
-                    traveler.origin = Graph.graph.a
-                elif newOrigin in Graph.graph.b:
-                    traveler.origin = Graph.graph.b
-                elif newOrigin in Graph.graph.c:
-                    traveler.origin = Graph.graph.c
-                elif newOrigin in Graph.graph.d:
-                    traveler.origin = Graph.graph.d
+                # if newOrigin in Graph.graph.a:
+                #     traveler.origin = Graph.graph.a
+                # elif newOrigin in Graph.graph.b:
+                #     traveler.origin = Graph.graph.b
+                # elif newOrigin in Graph.graph.c:
+                #     traveler.origin = Graph.graph.c
+                # elif newOrigin in Graph.graph.d:
+                #     traveler.origin = Graph.graph.d
+                traveler.origin = [newOrigin]
                 travelTimeDict.pop(traveler)
                 end = timer()
                 print("Time to run activeInactive is" + str(end - start))
@@ -177,3 +179,51 @@ print(activeInactive(0.7))
 # activeInactive(0.1)
 # activeInactive(0.2)
 # print(Game.game.travelerCostMatrix2forCP(traveler0, Graph.graph.networkState))
+#--------------------------------Testing Chosen path - manhatten.graphml - 15089 no. of edges-------------------------
+# mu = traveler0.priorBeliefs(15089, 10)
+# print(Game.game.chosenPath(mu, traveler0))
+# mu = signalOptimization.optimalSignal(traveler0)
+# path = Game.game.chosenPath(mu, traveler0)
+# print(path)
+#This caused an error while computing QRE Game.from_arrays(*payoffs) tuple index out of range
+#---------------------------------------------------------------------------------------------------------------------
+# x = Game.game.travelerCostMatrix2forCP(Game.game.dummy, Graph.graph.networkState)
+# print(x)
+# print("========================")
+# padded = Game.game.padding(x)
+# print(padded)
+# print("========================")
+
+# qre = Game.game.QRE(padded)
+# print(qre)
+# print("========================")
+
+# qreslice = Game.game.QRESlicing(len(padded[0]), qre)
+# print(qreslice)
+# print("========================")
+# sys_cost = Game.game.systemCost(Game.game.dummy, qreslice)
+# print(sys_cost)
+# print(Game.game.activeTravelers)
+# mu = signalOptimization.optimalSignal(traveler0)
+# print(mu)
+# path = Game.game.chosenPath(mu, traveler0)
+# print("========================")
+# print(path)
+# print(qre)
+# print(len(traveler0.paths()))
+# print(Game.game.strategyProfiles(Game.game.dummy))
+# v = Graph.graph.graph.vs[1]
+# x = v.incident()
+# print(x)
+# print(Graph.graph.graph.incident(1))
+# print(traveler0.current_edge_if_path_is_not_chosen())
+# print(traveler0.top3Paths())
+# print(Graph.graph.graph.incident(1))
+# if len(Game.game.strategyProfiles(traveler2)[0]) == 0:
+#     print("dsafs")
+# print(Game.game.travelerCostMatrix1forCP(traveler1, Graph.graph.networkState))
+# x = signalOptimization.optimalSignal(traveler0)
+# print(x)
+# if Game.game.activeTravelers == 1:
+    # print("fdgs")
+# print(len(Game.game.activeTravelers))

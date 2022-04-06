@@ -170,8 +170,15 @@ class Traveler:
         return [z[1] for z in x]
 
 
-
-
+    def current_edge_if_path_is_not_chosen(self):
+        incident_edges_to_origin = Graph.graph.graph.incident(self.origin[0])
+        edge_costs = []
+        for edge in incident_edges_to_origin:
+            cost = self.edgeCost(edge, Graph.graph.networkState)
+            edge_costs.append(cost)
+        min_cost = min(edge_costs)
+        min_cost_index = edge_costs.index(min_cost)
+        return incident_edges_to_origin[min_cost_index]
 
             
 

@@ -19,29 +19,29 @@ class Graph():
         #                     [0,0,1,0,0,0,1,0,0,0,0,0],
         #                     [0,0,0,0,0,0,0,0,0,0,0,0]], directed = True)
         self.graph = igraph.Graph.Load('manhatten.graphml')
-        self.a = [0,4,8]
-        self.b = [1,5,9]
-        self.c = [2,6,10]
-        self.d = [3,7,11]
+        # self.a = [0,4,8]
+        # self.b = [1,5,9]
+        # self.c = [2,6,10]
+        # self.d = [3,7,11]
 
             #edge state: mode, number of commuters, flow
-        self.edgeState = {
-            0 : ["car", 2,],
-            1 : ["car", 3], 
-            2 : ["car", 1], 
-            3 : ["car", 3],
-            4 : ["switch", "car", "train"], 
-            5 : ["car", 2],
-            6 : ["train", 3],
-            7 : ["switch", "train", "car"], 
-            8 : ["train", 4], 
-            9 : ["switch", "train", "walk"],
-            10 : ["train", 4], 
-            11 : ["train", 2],
-            12 : ["walk", 4],
-            13 : ["switch", "walk", "car"],
-            14 : ["switch", "walk", "train"]
-        }
+        # self.edgeState = {
+        #     0 : ["car", 2,],
+        #     1 : ["car", 3], 
+        #     2 : ["car", 1], 
+        #     3 : ["car", 3],
+        #     4 : ["switch", "car", "train"], 
+        #     5 : ["car", 2],
+        #     6 : ["train", 3],
+        #     7 : ["switch", "train", "car"], 
+        #     8 : ["train", 4], 
+        #     9 : ["switch", "train", "walk"],
+        #     10 : ["train", 4], 
+        #     11 : ["train", 2],
+        #     12 : ["walk", 4],
+        #     13 : ["switch", "walk", "car"],
+        #     14 : ["switch", "walk", "train"]
+        # }
 
         self.phi = [[1,0,0,0,0,0,0,0],
                     [1,0,0,0,0,0,0,0],

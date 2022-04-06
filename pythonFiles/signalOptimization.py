@@ -10,7 +10,7 @@ maxTravelers = 10
 # traveler0 = Game.game.addTraveler(0, int(time.time()), Graph.graph.a, Graph.graph.d, 0.5)
 # traveler1 = Game.game.addTraveler(1, int(time.time()), Graph.graph.b, Graph.graph.b, 0.8)
 # traveler2 = Game.game.addTraveler(2, int(time.time()), Graph.graph.a, Graph.graph.d, 0.6)
-
+# traveler2 = Game.game.addTraveler(2, int(time.time()), [1], [3], 0.7)
 # travelTimeDict = {}
 
 # def activeInactive():
@@ -125,10 +125,15 @@ def systemCost(variable, traveler):
     if Game.game.activeTravelers == 1: 
         costMatrices = Game.game.travelerCostMatrix1(traveler, networkStateTraveler)
         # print("The cost matrix of traveler " + str(traveler.id) + "is \n")
+        # print("only one active traveler")
         # print(costMatrices)
     else: 
+        # print("More than one active traveler")
         costMatrices = []
         costTraveler = Game.game.travelerCostMatrix2(traveler, networkStateTraveler)
+        if costTraveler == None:
+            path = Game.game.chosen_path_single_traveler(traveler)
+            return Game.game.system_cost_single_traveler(traveler, path)
         costMatrices.append(costTraveler)
         tempList = [x for x in Game.game.activeTravelers if x != Game.game.dummy]
         if len(tempList) == 1: 
@@ -136,6 +141,9 @@ def systemCost(variable, traveler):
         for activeTraveler in tempList:
             if activeTraveler != traveler:
                 cost = Game.game.travelerCostMatrix2(activeTraveler, Graph.graph.networkState)
+                if cost == None:
+                    path = Game.game.chosen_path_single_traveler(traveler)
+                    return Game.game.system_cost_single_traveler(traveler, path)
             # costTraveler2 = Game.game.travelerCostMatrix(Game.game.traveler2, Graph.graph.networkState)
                 costMatrices.append(cost)
         # print("The cost matrix of traveler " + str(traveler.id) + "with \n" + str(len(costMatrices)) + "number of path choices and \n" + str(len(costMatrices[0]))+ "number of possible strategies across all the other" + str(len(Game.game.activeTravelers) - 1) + "active travelers")
@@ -158,7 +166,7 @@ def systemCost(variable, traveler):
 # activeInactive()
 
 
-# print(optimalSignal(traveler0))
+# print(optimalSignal(traveler2))
 
 
 # print(variable.value)

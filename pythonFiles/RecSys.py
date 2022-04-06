@@ -71,7 +71,8 @@ class RecSys:
         #         cost += self.ttWeight*(Graph.graph.edgeState[e][1])
         #     elif Graph.graph.edgeState[e][0] == "switch":
         #         cost += 1
-        for e in Graph.graph.edgeState:
+
+        for e in range(15089):
             bpr = max(Graph.graph.BPR(e, networkState), Graph.graph.flow(e))
             CO = max(Graph.graph.CO(e, networkState), Graph.graph.flow(e))
             cost += self.ttWeight*(bpr)+ (1 - self.ttWeight)*(CO)
