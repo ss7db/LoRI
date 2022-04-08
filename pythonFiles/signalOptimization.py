@@ -141,9 +141,9 @@ def systemCost(variable, traveler):
         for activeTraveler in tempList:
             if activeTraveler != traveler:
                 cost = Game.game.travelerCostMatrix2(activeTraveler, Graph.graph.networkState)
-                if cost == None:
-                    path = Game.game.chosen_path_single_traveler(traveler)
-                    return Game.game.system_cost_single_traveler(traveler, path)
+                # if cost == None:
+                #     path = Game.game.chosen_path_single_traveler(activeTraveler)
+                #     return Game.game.system_cost_single_traveler(activeTraveler, path)
             # costTraveler2 = Game.game.travelerCostMatrix(Game.game.traveler2, Graph.graph.networkState)
                 costMatrices.append(cost)
         # print("The cost matrix of traveler " + str(traveler.id) + "with \n" + str(len(costMatrices)) + "number of path choices and \n" + str(len(costMatrices[0]))+ "number of possible strategies across all the other" + str(len(Game.game.activeTravelers) - 1) + "active travelers")

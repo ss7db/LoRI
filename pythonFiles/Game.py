@@ -1,6 +1,6 @@
 import itertools
 from operator import add
-import pygambit
+import gambit
 import Traveler
 import Graph
 import time
@@ -227,36 +227,39 @@ class Game():
         costMatrix = []
         t = int(time.time())
         strategyProfiles = Game.strategyProfiles(self, traveler)
+        if len(strategyProfiles[0]) == 0:
+            return
+        else:
         # print(strategyProfiles)
         # predictedLocationsForAllStrategies = Game.locationPredictionForAllStrategies(self, networkState,strategyProfiles)
-        for path in traveler.top3Paths():
-            costList = []
-            travelerLocation = Game.predictedLocation(self, t, path, networkState)
-            for i in range(len(strategyProfiles)):
-                cost = 0
-                predictedLocationsForProfile = Game.locationPredictionForProfile(self, networkState, strategyProfiles[i])
-                incDcr = Game.networkStateIncDcrBasedOnProfile(self, predictedLocationsForProfile)
-                network = Game.networkStateAtTimeIntervalsForProfile(self, incDcr)
-                for dic in network:
-                    keyList = Game.dicKeys(self, dic)
-                    for i in range(len(path)-1):
-                        if i == 0:
-                            e = Graph.graph.graph.get_eid(path[i], path[i+1])
-                            cost += traveler.edgeCost(e, dic[keyList[i]])
-                        else: 
-                            e = Graph.graph.graph.get_eid(path[i], path[i+1])
-                            # cost += traveler.edgeCost(e, Game.networkStateGivenTime(self, travelerLocation[e], dic))
-                            cost += traveler.edgeCost(e, dic[keyList[-1]])
-                cost = int(cost*100)
-                # print(cost)
-                costList.append(cost)
-                # print(costList)
-            costMatrix.append(costList)
-            end = timer()
-            # print("Time to run travelerCostMatrix2 is " + str(end - start))
-            # print("\n")
-            # print(costMatrix)
-        return costMatrix
+            for path in traveler.top3Paths():
+                costList = []
+                travelerLocation = Game.predictedLocation(self, t, path, networkState)
+                for i in range(len(strategyProfiles)):
+                    cost = 0
+                    predictedLocationsForProfile = Game.locationPredictionForProfile(self, networkState, strategyProfiles[i])
+                    incDcr = Game.networkStateIncDcrBasedOnProfile(self, predictedLocationsForProfile)
+                    network = Game.networkStateAtTimeIntervalsForProfile(self, incDcr)
+                    for dic in network:
+                        keyList = Game.dicKeys(self, dic)
+                        for i in range(len(path)-1):
+                            if i == 0:
+                                e = Graph.graph.graph.get_eid(path[i], path[i+1])
+                                cost += traveler.edgeCost(e, dic[keyList[i]])
+                            else: 
+                                e = Graph.graph.graph.get_eid(path[i], path[i+1])
+                                # cost += traveler.edgeCost(e, Game.networkStateGivenTime(self, travelerLocation[e], dic))
+                                cost += traveler.edgeCost(e, dic[keyList[-1]])
+                    cost = int(cost*100)
+                    # print(cost)
+                    costList.append(cost)
+                    # print(costList)
+                costMatrix.append(costList)
+                end = timer()
+                # print("Time to run travelerCostMatrix2 is " + str(end - start))
+                # print("\n")
+                # print(costMatrix)
+            return costMatrix
 
     # def costTensor(self, networkState):
 
@@ -351,11 +354,11 @@ class Game():
         start = timer()
         payoff = []
         for i in costMatrices:
-            payoff.append(numpy.array(i, dtype=pygambit.Rational))
+            payoff.append(numpy.array(i, dtype=gambit.Rational))
             # print(payoff)
             # print(*payoff)
-        g = pygambit.Game.from_arrays(*payoff)
-        solver = pygambit.nash.ExternalLogitSolver()
+        g = gambit.Game.from_arrays(*payoff)
+        solver = gambit.nash.ExternalLogitSolver()
         x = solver.solve(g)
         end = timer()
         # print("Time to compute QRE is" + str(end - start))
@@ -452,6 +455,7 @@ class Game():
         return traveler.top3Paths()[pathIndex]
 
     def system_cost_single_traveler(self, traveler, path):
+        cost = 0
         travelerLocation = Game.predictedLocation(self, int(time.time()), path, Graph.graph.networkState)
         l = []
         l.append(travelerLocation)
