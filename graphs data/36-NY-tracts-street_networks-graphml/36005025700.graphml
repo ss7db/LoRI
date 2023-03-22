@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="bridge" attr.type="string" for="edge" id="d18" />
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d17" />
+  <key attr.name="ref" attr.type="string" for="edge" id="d16" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d15" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d9" />
+  <key attr.name="ref" attr.type="string" for="node" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42731033">
+      <data key="d4">40.8617552</data>
+      <data key="d5">-73.9117484</data>
+      <data key="d6">42731033</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42749265">
+      <data key="d4">40.860059</data>
+      <data key="d5">-73.915241</data>
+      <data key="d6">42749265</data>
+    </node>
+    <node id="42776140">
+      <data key="d4">40.8608096</data>
+      <data key="d5">-73.9119073</data>
+      <data key="d6">42776140</data>
+    </node>
+    <node id="595749116">
+      <data key="d4">40.8591502</data>
+      <data key="d5">-73.9160874</data>
+      <data key="d6">595749116</data>
+      <data key="d8">9</data>
+      <data key="d7">motorway_junction</data>
+    </node>
+    <node id="595750842">
+      <data key="d4">40.8569268</data>
+      <data key="d5">-73.9173896</data>
+      <data key="d6">595750842</data>
+    </node>
+    <node id="1396352602">
+      <data key="d4">40.8616499</data>
+      <data key="d5">-73.9108015</data>
+      <data key="d6">1396352602</data>
+    </node>
+    <node id="1764746685">
+      <data key="d4">40.862133</data>
+      <data key="d5">-73.9133522</data>
+      <data key="d6">1764746685</data>
+    </node>
+    <node id="1764747381">
+      <data key="d4">40.8618728</data>
+      <data key="d5">-73.9130298</data>
+      <data key="d6">1764747381</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="1764747387">
+      <data key="d4">40.8620043</data>
+      <data key="d5">-73.9132299</data>
+      <data key="d6">1764747387</data>
+    </node>
+    <node id="1764747390">
+      <data key="d4">40.8617328</data>
+      <data key="d5">-73.9132137</data>
+      <data key="d6">1764747390</data>
+    </node>
+    <node id="1764747393">
+      <data key="d4">40.8617825</data>
+      <data key="d5">-73.9125191</data>
+      <data key="d6">1764747393</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42731033" target="1396352602">
+      <data key="d9">548193561</data>
+      <data key="d10">False</data>
+      <data key="d11">West Fordham Road</data>
+      <data key="d12">primary</data>
+      <data key="d13">81.01</data>
+      <data key="d14">LINESTRING (-73.91174839999999 40.8617552, -73.9115516 40.8617275, -73.9114355 40.8617089, -73.9109924 40.861638, -73.91080150000001 40.8616499)</data>
+    </edge>
+    <edge id="0" source="42776140" target="1396352602">
+      <data key="d9">5699181</data>
+      <data key="d11">Hampden Place</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">133.627</data>
+      <data key="d14">LINESTRING (-73.9119073 40.8608096, -73.9108537 40.8615254, -73.91080150000001 40.8616499)</data>
+    </edge>
+    <edge id="0" source="595749116" target="1764747393">
+      <data key="d9">46619128</data>
+      <data key="d10">True</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">419.334</data>
+      <data key="d14">LINESTRING (-73.9160874 40.8591502, -73.9156917 40.8594229, -73.9152196 40.8597393, -73.9133099 40.8611593, -73.9125191 40.8617825)</data>
+    </edge>
+    <edge id="0" source="595750842" target="595749116">
+      <data key="d9">587061852</data>
+      <data key="d10">True</data>
+      <data key="d15">3</data>
+      <data key="d16">I 87</data>
+      <data key="d11">Major Deegan Expressway</data>
+      <data key="d12">motorway</data>
+      <data key="d17">50 mph</data>
+      <data key="d13">271.991</data>
+      <data key="d14">LINESTRING (-73.91738960000001 40.8569268, -73.9170934 40.8576222, -73.9169046 40.8580117, -73.9167329 40.8583428, -73.916484 40.8586933, -73.9162608 40.8589725, -73.9160874 40.8591502)</data>
+    </edge>
+    <edge id="0" source="1396352602" target="42776140">
+      <data key="d9">5699181</data>
+      <data key="d11">Hampden Place</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">133.627</data>
+      <data key="d14">LINESTRING (-73.91080150000001 40.8616499, -73.9108537 40.8615254, -73.9119073 40.8608096)</data>
+    </edge>
+    <edge id="0" source="1396352602" target="42731033">
+      <data key="d9">548193561</data>
+      <data key="d10">False</data>
+      <data key="d11">West Fordham Road</data>
+      <data key="d12">primary</data>
+      <data key="d13">81.01</data>
+      <data key="d14">LINESTRING (-73.91080150000001 40.8616499, -73.9109924 40.861638, -73.9114355 40.8617089, -73.9115516 40.8617275, -73.91174839999999 40.8617552)</data>
+    </edge>
+    <edge id="0" source="1764746685" target="1764747387">
+      <data key="d9">164877225</data>
+      <data key="d18">yes</data>
+      <data key="d10">True</data>
+      <data key="d11">West Fordham Road</data>
+      <data key="d12">primary</data>
+      <data key="d13">17.63</data>
+      <data key="d14">LINESTRING (-73.91335220000001 40.862133, -73.91326840000001 40.8620414, -73.9132299 40.8620043)</data>
+    </edge>
+    <edge id="0" source="1764747381" target="1764747390">
+      <data key="d9">175473435</data>
+      <data key="d18">yes</data>
+      <data key="d10">True</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">21.943</data>
+    </edge>
+    <edge id="0" source="1764747381" target="1764747393">
+      <data key="d9">[421833864, 164877225, 421833862]</data>
+      <data key="d18">yes</data>
+      <data key="d10">True</data>
+      <data key="d11">West Fordham Road</data>
+      <data key="d12">primary</data>
+      <data key="d13">44.376000000000005</data>
+      <data key="d14">LINESTRING (-73.9130298 40.8618728, -73.9129719 40.8618503, -73.9129334 40.8618394, -73.91292 40.8618356, -73.9128523 40.8618231, -73.9125726 40.8617895, -73.9125191 40.8617825)</data>
+    </edge>
+    <edge id="0" source="1764747387" target="1764747381">
+      <data key="d9">164877225</data>
+      <data key="d18">yes</data>
+      <data key="d10">True</data>
+      <data key="d11">West Fordham Road</data>
+      <data key="d12">primary</data>
+      <data key="d13">22.384</data>
+      <data key="d14">LINESTRING (-73.9132299 40.8620043, -73.91309459999999 40.8619045, -73.9130298 40.8618728)</data>
+    </edge>
+    <edge id="0" source="1764747387" target="1764747390">
+      <data key="d9">164877226</data>
+      <data key="d18">yes</data>
+      <data key="d10">True</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">30.778</data>
+      <data key="d14">LINESTRING (-73.9132299 40.8620043, -73.91319230000001 40.8618922, -73.91318889999999 40.8618364, -73.9132137 40.8617328)</data>
+    </edge>
+    <edge id="0" source="1764747390" target="42749265">
+      <data key="d9">[175473435, 175473412]</data>
+      <data key="d18">yes</data>
+      <data key="d10">True</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">252.402</data>
+      <data key="d14">LINESTRING (-73.9132137 40.8617328, -73.9132895 40.8616699, -73.9141789 40.8609321, -73.91524099999999 40.860059)</data>
+    </edge>
+    <edge id="0" source="1764747393" target="42731033">
+      <data key="d9">164877224</data>
+      <data key="d10">True</data>
+      <data key="d11">West Fordham Road</data>
+      <data key="d12">primary</data>
+      <data key="d13">65.618</data>
+      <data key="d14">LINESTRING (-73.9125191 40.8617825, -73.91242130000001 40.8617709, -73.9120178 40.8617231, -73.9118959 40.8617342, -73.91174839999999 40.8617552)</data>
+    </edge>
+    <data key="d0">36_NY_36005025700</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42731033: 5, 42749265: 3, 42776140: 1, 595749116: 3, 595750842: 3, 1396352602: 3, 1764746685: 3, 1764747381: 4, 1764747387: 3, 1764747390: 3, 1764747393: 4}</data>
+  </graph>
+</graphml>

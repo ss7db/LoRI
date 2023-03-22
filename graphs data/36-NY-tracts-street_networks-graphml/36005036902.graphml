@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42740434">
+      <data key="d4">40.842862</data>
+      <data key="d5">-73.893474</data>
+      <data key="d6">42740434</data>
+    </node>
+    <node id="42740437">
+      <data key="d4">40.842286</data>
+      <data key="d5">-73.892503</data>
+      <data key="d6">42740437</data>
+    </node>
+    <node id="42740440">
+      <data key="d4">40.841699</data>
+      <data key="d5">-73.891502</data>
+      <data key="d6">42740440</data>
+    </node>
+    <node id="42740957">
+      <data key="d4">40.84105</data>
+      <data key="d5">-73.892169</data>
+      <data key="d6">42740957</data>
+    </node>
+    <node id="42746101">
+      <data key="d4">40.8433213</data>
+      <data key="d5">-73.8930025</data>
+      <data key="d6">42746101</data>
+    </node>
+    <node id="42750043">
+      <data key="d4">40.841638</data>
+      <data key="d5">-73.893171</data>
+      <data key="d6">42750043</data>
+    </node>
+    <node id="42754125">
+      <data key="d4">40.84219</data>
+      <data key="d5">-73.894101</data>
+      <data key="d6">42754125</data>
+    </node>
+    <edge id="0" source="42740434" target="42754125">
+      <data key="d7">46151751</data>
+      <data key="d8">False</data>
+      <data key="d9">Crotona Avenue</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">91.654</data>
+      <data key="d12">LINESTRING (-73.893474 40.842862, -73.893821 40.8425363, -73.89410100000001 40.84219)</data>
+    </edge>
+    <edge id="0" source="42740434" target="42746101">
+      <data key="d7">46151751</data>
+      <data key="d8">False</data>
+      <data key="d9">Crotona Avenue</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">64.664</data>
+      <data key="d12">LINESTRING (-73.893474 40.842862, -73.89343460000001 40.8429004, -73.89300249999999 40.8433213)</data>
+    </edge>
+    <edge id="0" source="42740437" target="42750043">
+      <data key="d7">5697596</data>
+      <data key="d8">True</data>
+      <data key="d9">Clinton Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">91.375</data>
+    </edge>
+    <edge id="0" source="42740437" target="42740434">
+      <data key="d7">521570069</data>
+      <data key="d8">True</data>
+      <data key="d9">East 175th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">103.797</data>
+    </edge>
+    <edge id="0" source="42740440" target="42740437">
+      <data key="d7">521570069</data>
+      <data key="d8">True</data>
+      <data key="d9">East 175th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">106.54</data>
+    </edge>
+    <edge id="0" source="42740957" target="42740440">
+      <data key="d7">5697012</data>
+      <data key="d8">True</data>
+      <data key="d9">Prospect Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">91.412</data>
+    </edge>
+    <edge id="0" source="42746101" target="42740437">
+      <data key="d7">[5697329, 5697596]</data>
+      <data key="d8">True</data>
+      <data key="d9">['Clinton Avenue', 'Fairmont Place']</data>
+      <data key="d10">residential</data>
+      <data key="d11">168.4</data>
+      <data key="d12">LINESTRING (-73.89300249999999 40.8433213, -73.89245459999999 40.8430014, -73.89203379999999 40.8427557, -73.892503 40.842286)</data>
+    </edge>
+    <edge id="0" source="42746101" target="42740434">
+      <data key="d7">46151751</data>
+      <data key="d8">False</data>
+      <data key="d9">Crotona Avenue</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">64.664</data>
+      <data key="d12">LINESTRING (-73.89300249999999 40.8433213, -73.89343460000001 40.8429004, -73.893474 40.842862)</data>
+    </edge>
+    <edge id="0" source="42750043" target="42740957">
+      <data key="d7">5697806</data>
+      <data key="d8">True</data>
+      <data key="d9">Crotona Park North</data>
+      <data key="d10">residential</data>
+      <data key="d11">106.676</data>
+    </edge>
+    <edge id="0" source="42754125" target="42750043">
+      <data key="d7">5697806</data>
+      <data key="d8">True</data>
+      <data key="d9">Crotona Park North</data>
+      <data key="d10">residential</data>
+      <data key="d11">99.438</data>
+      <data key="d12">LINESTRING (-73.89410100000001 40.84219, -73.89325340000001 40.8416869, -73.893171 40.841638)</data>
+    </edge>
+    <edge id="0" source="42754125" target="42740434">
+      <data key="d7">46151751</data>
+      <data key="d8">False</data>
+      <data key="d9">Crotona Avenue</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">91.654</data>
+      <data key="d12">LINESTRING (-73.89410100000001 40.84219, -73.893821 40.8425363, -73.893474 40.842862)</data>
+    </edge>
+    <data key="d0">36_NY_36005036902</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42740434: 3, 42740437: 4, 42740440: 4, 42740957: 3, 42746101: 3, 42750043: 3, 42754125: 4}</data>
+  </graph>
+</graphml>

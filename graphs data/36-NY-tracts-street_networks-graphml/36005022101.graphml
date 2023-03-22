@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42726506">
+      <data key="d4">40.837669</data>
+      <data key="d5">-73.919202</data>
+      <data key="d6">42726506</data>
+    </node>
+    <node id="42733751">
+      <data key="d4">40.83644</data>
+      <data key="d5">-73.918412</data>
+      <data key="d6">42733751</data>
+    </node>
+    <node id="42733755">
+      <data key="d4">40.837156</data>
+      <data key="d5">-73.917848</data>
+      <data key="d6">42733755</data>
+    </node>
+    <node id="42733759">
+      <data key="d4">40.837745</data>
+      <data key="d5">-73.917383</data>
+      <data key="d6">42733759</data>
+    </node>
+    <node id="42733764">
+      <data key="d4">40.838336</data>
+      <data key="d5">-73.916917</data>
+      <data key="d6">42733764</data>
+    </node>
+    <node id="42733768">
+      <data key="d4">40.838948</data>
+      <data key="d5">-73.916429</data>
+      <data key="d6">42733768</data>
+    </node>
+    <node id="42734199">
+      <data key="d4">40.836796</data>
+      <data key="d5">-73.91948</data>
+      <data key="d6">42734199</data>
+    </node>
+    <node id="42736037">
+      <data key="d4">40.838381</data>
+      <data key="d5">-73.919017</data>
+      <data key="d6">42736037</data>
+    </node>
+    <node id="42736040">
+      <data key="d4">40.838982</data>
+      <data key="d5">-73.918592</data>
+      <data key="d6">42736040</data>
+    </node>
+    <node id="42736365">
+      <data key="d4">40.840225</data>
+      <data key="d5">-73.917683</data>
+      <data key="d6">42736365</data>
+    </node>
+    <node id="42736368">
+      <data key="d4">40.839607</data>
+      <data key="d5">-73.918137</data>
+      <data key="d6">42736368</data>
+    </node>
+    <node id="42739223">
+      <data key="d4">40.839881</data>
+      <data key="d5">-73.916783</data>
+      <data key="d6">42739223</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42726506" target="42733755">
+      <data key="d8">455689187</data>
+      <data key="d9">False</data>
+      <data key="d10">East 169th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">127.392</data>
+    </edge>
+    <edge id="0" source="42733751" target="42734199">
+      <data key="d8">5697111</data>
+      <data key="d10">East 168th Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">98.18299999999999</data>
+      <data key="d13">LINESTRING (-73.918412 40.83644, -73.91941 40.8367727, -73.91947999999999 40.836796)</data>
+    </edge>
+    <edge id="0" source="42733755" target="42726506">
+      <data key="d8">455689187</data>
+      <data key="d9">False</data>
+      <data key="d10">East 169th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">127.392</data>
+    </edge>
+    <edge id="0" source="42733755" target="42733751">
+      <data key="d8">542399495</data>
+      <data key="d9">True</data>
+      <data key="d10">Walton Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">92.682</data>
+    </edge>
+    <edge id="0" source="42733759" target="42733755">
+      <data key="d8">542399495</data>
+      <data key="d9">True</data>
+      <data key="d10">Walton Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">76.287</data>
+    </edge>
+    <edge id="0" source="42733764" target="42736040">
+      <data key="d8">542399282</data>
+      <data key="d9">True</data>
+      <data key="d10">Marcy Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">158.162</data>
+    </edge>
+    <edge id="0" source="42733764" target="42733759">
+      <data key="d8">542399494</data>
+      <data key="d9">True</data>
+      <data key="d10">Walton Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">76.521</data>
+    </edge>
+    <edge id="0" source="42733768" target="42733764">
+      <data key="d8">225980852</data>
+      <data key="d9">True</data>
+      <data key="d10">Walton Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">79.475</data>
+    </edge>
+    <edge id="0" source="42734199" target="42733751">
+      <data key="d8">5697111</data>
+      <data key="d10">East 168th Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">98.18299999999999</data>
+      <data key="d13">LINESTRING (-73.91947999999999 40.836796, -73.91941 40.8367727, -73.918412 40.83644)</data>
+    </edge>
+    <edge id="0" source="42734199" target="42726506">
+      <data key="d8">225980809</data>
+      <data key="d9">True</data>
+      <data key="d10">Gerard Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">100.916</data>
+      <data key="d13">LINESTRING (-73.91947999999999 40.836796, -73.919442 40.8368663, -73.9192621 40.8371997, -73.919202 40.837669)</data>
+    </edge>
+    <edge id="0" source="42736037" target="42733759">
+      <data key="d8">5697424</data>
+      <data key="d9">True</data>
+      <data key="d10">East Clarke Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">154.587</data>
+    </edge>
+    <edge id="0" source="42736037" target="42736040">
+      <data key="d8">225980812</data>
+      <data key="d14">4</data>
+      <data key="d10">Jerome Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">75.791</data>
+    </edge>
+    <edge id="0" source="42736040" target="42736368">
+      <data key="d8">223894159</data>
+      <data key="d9">False</data>
+      <data key="d10">Jerome Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.341</data>
+    </edge>
+    <edge id="0" source="42736040" target="42736037">
+      <data key="d8">225980812</data>
+      <data key="d14">4</data>
+      <data key="d10">Jerome Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">75.791</data>
+    </edge>
+    <edge id="0" source="42736365" target="42739223">
+      <data key="d8">5696890</data>
+      <data key="d9">False</data>
+      <data key="d10">East 170th Street</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">84.825</data>
+    </edge>
+    <edge id="0" source="42736365" target="42736368">
+      <data key="d8">223894159</data>
+      <data key="d9">False</data>
+      <data key="d10">Jerome Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.619</data>
+    </edge>
+    <edge id="0" source="42736368" target="42733768">
+      <data key="d8">5697583</data>
+      <data key="d9">True</data>
+      <data key="d10">Elliot Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">161.291</data>
+    </edge>
+    <edge id="0" source="42736368" target="42736040">
+      <data key="d8">223894159</data>
+      <data key="d9">False</data>
+      <data key="d10">Jerome Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.341</data>
+    </edge>
+    <edge id="0" source="42736368" target="42736365">
+      <data key="d8">223894159</data>
+      <data key="d9">False</data>
+      <data key="d10">Jerome Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.619</data>
+    </edge>
+    <edge id="0" source="42739223" target="42736365">
+      <data key="d8">5696890</data>
+      <data key="d9">False</data>
+      <data key="d10">East 170th Street</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">84.825</data>
+    </edge>
+    <data key="d0">36_NY_36005022101</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42726506: 4, 42733751: 4, 42733755: 4, 42733759: 4, 42733764: 4, 42733768: 4, 42734199: 4, 42736037: 3, 42736040: 4, 42736365: 4, 42736368: 3, 42739223: 3}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42734422">
+      <data key="d4">40.885897</data>
+      <data key="d5">-73.864894</data>
+      <data key="d6">42734422</data>
+    </node>
+    <node id="42753567">
+      <data key="d4">40.88872</data>
+      <data key="d5">-73.863336</data>
+      <data key="d6">42753567</data>
+    </node>
+    <node id="42771144">
+      <data key="d4">40.885193</data>
+      <data key="d5">-73.865278</data>
+      <data key="d6">42771144</data>
+    </node>
+    <node id="42771168">
+      <data key="d4">40.888017</data>
+      <data key="d5">-73.863728</data>
+      <data key="d6">42771168</data>
+    </node>
+    <node id="42778810">
+      <data key="d4">40.886608</data>
+      <data key="d5">-73.864505</data>
+      <data key="d6">42778810</data>
+    </node>
+    <node id="42780714">
+      <data key="d4">40.88731</data>
+      <data key="d5">-73.864117</data>
+      <data key="d6">42780714</data>
+    </node>
+    <node id="3395893122">
+      <data key="d4">40.8883</data>
+      <data key="d5">-73.8646</data>
+      <data key="d6">3395893122</data>
+    </node>
+    <edge id="0" source="42734422" target="42771144">
+      <data key="d7">487519016</data>
+      <data key="d8">True</data>
+      <data key="d9">Carpenter Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">84.676</data>
+    </edge>
+    <edge id="0" source="42753567" target="42771168">
+      <data key="d7">487519016</data>
+      <data key="d8">True</data>
+      <data key="d9">Carpenter Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">84.832</data>
+    </edge>
+    <edge id="0" source="42771168" target="3395893122">
+      <data key="d7">5698818</data>
+      <data key="d8">True</data>
+      <data key="d9">East 224th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">79.771</data>
+    </edge>
+    <edge id="0" source="42771168" target="42780714">
+      <data key="d7">487519016</data>
+      <data key="d8">True</data>
+      <data key="d9">Carpenter Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">85.145</data>
+    </edge>
+    <edge id="0" source="42778810" target="42734422">
+      <data key="d7">487519016</data>
+      <data key="d8">True</data>
+      <data key="d9">Carpenter Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">85.556</data>
+    </edge>
+    <edge id="0" source="42780714" target="42778810">
+      <data key="d7">487519016</data>
+      <data key="d8">True</data>
+      <data key="d9">Carpenter Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">84.599</data>
+    </edge>
+    <data key="d0">36_NY_36005039400</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42734422: 3, 42753567: 3, 42771144: 3, 42771168: 4, 42778810: 4, 42780714: 3, 3395893122: 3}</data>
+  </graph>
+</graphml>

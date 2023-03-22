@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42435885">
+      <data key="d4">40.826626</data>
+      <data key="d5">-73.939149</data>
+      <data key="d6">42435885</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42435891">
+      <data key="d4">40.827251</data>
+      <data key="d5">-73.938692</data>
+      <data key="d6">42435891</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42435894">
+      <data key="d4">40.827877</data>
+      <data key="d5">-73.938237</data>
+      <data key="d6">42435894</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42435898">
+      <data key="d4">40.8285</data>
+      <data key="d5">-73.937782</data>
+      <data key="d6">42435898</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42438018">
+      <data key="d4">40.828986</data>
+      <data key="d5">-73.93896</data>
+      <data key="d6">42438018</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42440065">
+      <data key="d4">40.826414</data>
+      <data key="d5">-73.940595</data>
+      <data key="d6">42440065</data>
+    </node>
+    <node id="42440069">
+      <data key="d4">40.827039</data>
+      <data key="d5">-73.94014</data>
+      <data key="d6">42440069</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42440072">
+      <data key="d4">40.827657</data>
+      <data key="d5">-73.93969</data>
+      <data key="d6">42440072</data>
+    </node>
+    <node id="42440075">
+      <data key="d4">40.828296</data>
+      <data key="d5">-73.939248</data>
+      <data key="d6">42440075</data>
+    </node>
+    <node id="589927879">
+      <data key="d4">40.8291536</data>
+      <data key="d5">-73.9372824</data>
+      <data key="d6">589927879</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42435885" target="42440069">
+      <data key="d8">204084138</data>
+      <data key="d9">True</data>
+      <data key="d10">West 151st Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">95.193</data>
+    </edge>
+    <edge id="0" source="42435885" target="42435891">
+      <data key="d8">483360099</data>
+      <data key="d9">False</data>
+      <data key="d13">4</data>
+      <data key="d10">Frederick Douglass Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.425</data>
+    </edge>
+    <edge id="0" source="42435891" target="42435894">
+      <data key="d8">483360099</data>
+      <data key="d9">False</data>
+      <data key="d13">4</data>
+      <data key="d10">Frederick Douglass Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.441</data>
+    </edge>
+    <edge id="0" source="42435891" target="42435885">
+      <data key="d8">483360099</data>
+      <data key="d9">False</data>
+      <data key="d13">4</data>
+      <data key="d10">Frederick Douglass Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.425</data>
+    </edge>
+    <edge id="0" source="42435894" target="42435898">
+      <data key="d8">483360099</data>
+      <data key="d9">False</data>
+      <data key="d13">4</data>
+      <data key="d10">Frederick Douglass Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.149</data>
+    </edge>
+    <edge id="0" source="42435894" target="42435891">
+      <data key="d8">483360099</data>
+      <data key="d9">False</data>
+      <data key="d13">4</data>
+      <data key="d10">Frederick Douglass Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.441</data>
+    </edge>
+    <edge id="0" source="42435894" target="42440075">
+      <data key="d8">204083301</data>
+      <data key="d9">True</data>
+      <data key="d10">West 153rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">96.98700000000001</data>
+      <data key="d14">LINESTRING (-73.938237 40.827877, -73.9391597 40.8282594, -73.93924800000001 40.828296)</data>
+    </edge>
+    <edge id="0" source="42435898" target="42438018">
+      <data key="d8">5670655</data>
+      <data key="d9">True</data>
+      <data key="d10">West 154th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">112.889</data>
+    </edge>
+    <edge id="0" source="42435898" target="589927879">
+      <data key="d8">483360099</data>
+      <data key="d9">False</data>
+      <data key="d13">4</data>
+      <data key="d10">Frederick Douglass Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">83.958</data>
+    </edge>
+    <edge id="0" source="42435898" target="42435894">
+      <data key="d8">483360099</data>
+      <data key="d9">False</data>
+      <data key="d13">4</data>
+      <data key="d10">Frederick Douglass Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.149</data>
+    </edge>
+    <edge id="0" source="42438018" target="42440075">
+      <data key="d8">243046573</data>
+      <data key="d10">Bradhurst Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">80.46</data>
+    </edge>
+    <edge id="0" source="42438018" target="589927879">
+      <data key="d8">[243046573, 537122095]</data>
+      <data key="d10">['Bradhurst Avenue', 'West 155th Street (surface)']</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">221.55200000000002</data>
+      <data key="d14">LINESTRING (-73.93895999999999 40.828986, -73.9387119 40.829649, -73.9386779 40.8297407, -73.9372824 40.8291536)</data>
+    </edge>
+    <edge id="0" source="42440065" target="42440069">
+      <data key="d8">243046573</data>
+      <data key="d10">Bradhurst Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">79.344</data>
+    </edge>
+    <edge id="0" source="42440069" target="42440072">
+      <data key="d8">243046573</data>
+      <data key="d10">Bradhurst Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">78.459</data>
+    </edge>
+    <edge id="0" source="42440069" target="42440065">
+      <data key="d8">243046573</data>
+      <data key="d10">Bradhurst Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">79.344</data>
+    </edge>
+    <edge id="0" source="42440072" target="42435891">
+      <data key="d8">5671187</data>
+      <data key="d9">True</data>
+      <data key="d10">West 152nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">95.337</data>
+    </edge>
+    <edge id="0" source="42440072" target="42440075">
+      <data key="d8">243046573</data>
+      <data key="d10">Bradhurst Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">80.198</data>
+    </edge>
+    <edge id="0" source="42440072" target="42440069">
+      <data key="d8">243046573</data>
+      <data key="d10">Bradhurst Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">78.459</data>
+    </edge>
+    <edge id="0" source="42440075" target="42438018">
+      <data key="d8">243046573</data>
+      <data key="d10">Bradhurst Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">80.46</data>
+    </edge>
+    <edge id="0" source="42440075" target="42440072">
+      <data key="d8">243046573</data>
+      <data key="d10">Bradhurst Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">80.198</data>
+    </edge>
+    <edge id="0" source="589927879" target="42435898">
+      <data key="d8">483360099</data>
+      <data key="d9">False</data>
+      <data key="d13">4</data>
+      <data key="d10">Frederick Douglass Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">83.958</data>
+    </edge>
+    <edge id="0" source="589927879" target="42438018">
+      <data key="d8">[243046573, 537122095]</data>
+      <data key="d10">['West 155th Street (surface)', 'Bradhurst Avenue']</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">221.55200000000002</data>
+      <data key="d14">LINESTRING (-73.9372824 40.8291536, -73.9386779 40.8297407, -73.9387119 40.829649, -73.93895999999999 40.828986)</data>
+    </edge>
+    <data key="d0">36_NY_36061023502</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42435885: 4, 42435891: 4, 42435894: 4, 42435898: 4, 42438018: 3, 42440065: 3, 42440069: 3, 42440072: 3, 42440075: 3, 589927879: 4}</data>
+  </graph>
+</graphml>

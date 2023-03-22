@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42739662">
+      <data key="d4">40.873285</data>
+      <data key="d5">-73.870377</data>
+      <data key="d6">42739662</data>
+    </node>
+    <node id="42739664">
+      <data key="d4">40.873261</data>
+      <data key="d5">-73.869296</data>
+      <data key="d6">42739664</data>
+    </node>
+    <node id="42739667">
+      <data key="d4">40.873235</data>
+      <data key="d5">-73.868208</data>
+      <data key="d6">42739667</data>
+    </node>
+    <node id="42742786">
+      <data key="d4">40.871483</data>
+      <data key="d5">-73.869351</data>
+      <data key="d6">42742786</data>
+    </node>
+    <node id="42755833">
+      <data key="d4">40.875341</data>
+      <data key="d5">-73.870313</data>
+      <data key="d6">42755833</data>
+    </node>
+    <node id="42763561">
+      <data key="d4">40.8753058</data>
+      <data key="d5">-73.8681464</data>
+      <data key="d6">42763561</data>
+    </node>
+    <node id="42765336">
+      <data key="d4">40.875329</data>
+      <data key="d5">-73.869215</data>
+      <data key="d6">42765336</data>
+    </node>
+    <node id="1314452024">
+      <data key="d4">40.877368</data>
+      <data key="d5">-73.868068</data>
+      <data key="d6">1314452024</data>
+    </node>
+    <node id="3341053331">
+      <data key="d4">40.8762678</data>
+      <data key="d5">-73.8691987</data>
+      <data key="d6">3341053331</data>
+    </node>
+    <node id="3341053332">
+      <data key="d4">40.877145</data>
+      <data key="d5">-73.868077</data>
+      <data key="d6">3341053332</data>
+    </node>
+    <edge id="0" source="42739662" target="42755833">
+      <data key="d7">5697900</data>
+      <data key="d8">Bronx Boulevard</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">228.68</data>
+    </edge>
+    <edge id="0" source="42739664" target="42739662">
+      <data key="d7">5696924</data>
+      <data key="d10">True</data>
+      <data key="d8">Rosewood Street</data>
+      <data key="d9">residential</data>
+      <data key="d11">90.931</data>
+    </edge>
+    <edge id="0" source="42739664" target="42742786">
+      <data key="d7">5698451</data>
+      <data key="d10">True</data>
+      <data key="d8">Barker Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d11">197.759</data>
+    </edge>
+    <edge id="0" source="42739667" target="42739664">
+      <data key="d7">5696924</data>
+      <data key="d10">True</data>
+      <data key="d8">Rosewood Street</data>
+      <data key="d9">residential</data>
+      <data key="d11">91.526</data>
+    </edge>
+    <edge id="0" source="42739667" target="42763561">
+      <data key="d7">574812143</data>
+      <data key="d10">True</data>
+      <data key="d8">Olinville Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d11">230.324</data>
+      <data key="d12">LINESTRING (-73.868208 40.873235, -73.8681806 40.8739631, -73.8681589 40.8748637, -73.8681464 40.8753058)</data>
+    </edge>
+    <edge id="0" source="42755833" target="42739662">
+      <data key="d7">5697900</data>
+      <data key="d8">Bronx Boulevard</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">228.68</data>
+    </edge>
+    <edge id="0" source="42755833" target="42765336">
+      <data key="d7">225878901</data>
+      <data key="d10">True</data>
+      <data key="d8">Magenta Street</data>
+      <data key="d9">residential</data>
+      <data key="d11">92.328</data>
+    </edge>
+    <edge id="0" source="42763561" target="3341053332">
+      <data key="d7">574812143</data>
+      <data key="d10">True</data>
+      <data key="d8">Olinville Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d11">204.593</data>
+    </edge>
+    <edge id="0" source="42765336" target="42739664">
+      <data key="d7">5698451</data>
+      <data key="d10">True</data>
+      <data key="d8">Barker Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d11">230.052</data>
+    </edge>
+    <edge id="0" source="42765336" target="42763561">
+      <data key="d7">225878901</data>
+      <data key="d10">True</data>
+      <data key="d8">Magenta Street</data>
+      <data key="d9">residential</data>
+      <data key="d11">89.883</data>
+    </edge>
+    <edge id="0" source="3341053331" target="42765336">
+      <data key="d7">5698451</data>
+      <data key="d10">True</data>
+      <data key="d8">Barker Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d11">104.399</data>
+    </edge>
+    <edge id="0" source="3341053331" target="3341053332">
+      <data key="d7">5698972</data>
+      <data key="d10">True</data>
+      <data key="d8">Duncomb Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d11">135.733</data>
+      <data key="d12">LINESTRING (-73.8691987 40.8762678, -73.8686367 40.8766821, -73.868077 40.877145)</data>
+    </edge>
+    <edge id="0" source="3341053332" target="1314452024">
+      <data key="d7">574812143</data>
+      <data key="d10">True</data>
+      <data key="d8">Olinville Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d11">24.808</data>
+      <data key="d12">LINESTRING (-73.868077 40.877145, -73.8680705 40.8773061, -73.86806799999999 40.877368)</data>
+    </edge>
+    <data key="d0">36_NY_36005037600</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42739662: 3, 42739664: 4, 42739667: 4, 42742786: 4, 42755833: 3, 42763561: 4, 42765336: 4, 1314452024: 3, 3341053331: 3, 3341053332: 3}</data>
+  </graph>
+</graphml>

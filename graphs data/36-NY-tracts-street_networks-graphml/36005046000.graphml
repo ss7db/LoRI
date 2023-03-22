@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d16" />
+  <key attr.name="ref" attr.type="string" for="edge" id="d15" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42728612">
+      <data key="d4">40.882211</data>
+      <data key="d5">-73.846576</data>
+      <data key="d6">42728612</data>
+    </node>
+    <node id="42747097">
+      <data key="d4">40.879872</data>
+      <data key="d5">-73.842015</data>
+      <data key="d6">42747097</data>
+    </node>
+    <node id="42755077">
+      <data key="d4">40.8819405</data>
+      <data key="d5">-73.8421278</data>
+      <data key="d6">42755077</data>
+    </node>
+    <node id="42762841">
+      <data key="d4">40.883484</data>
+      <data key="d5">-73.845308</data>
+      <data key="d6">42762841</data>
+    </node>
+    <node id="42768046">
+      <data key="d4">40.882192</data>
+      <data key="d5">-73.841271</data>
+      <data key="d6">42768046</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42769672">
+      <data key="d4">40.879109</data>
+      <data key="d5">-73.843241</data>
+      <data key="d6">42769672</data>
+    </node>
+    <node id="42769681">
+      <data key="d4">40.880926</data>
+      <data key="d5">-73.839652</data>
+      <data key="d6">42769681</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42770409">
+      <data key="d4">40.8824</data>
+      <data key="d5">-73.840417</data>
+      <data key="d6">42770409</data>
+    </node>
+    <node id="42770643">
+      <data key="d4">40.8797502</data>
+      <data key="d5">-73.844753</data>
+      <data key="d6">42770643</data>
+    </node>
+    <node id="42770645">
+      <data key="d4">40.88042</data>
+      <data key="d5">-73.844263</data>
+      <data key="d6">42770645</data>
+    </node>
+    <node id="42770650">
+      <data key="d4">40.881021</data>
+      <data key="d5">-73.843798</data>
+      <data key="d6">42770650</data>
+    </node>
+    <node id="42770653">
+      <data key="d4">40.8816527</data>
+      <data key="d5">-73.8433843</data>
+      <data key="d6">42770653</data>
+    </node>
+    <node id="42771994">
+      <data key="d4">40.883989</data>
+      <data key="d5">-73.842172</data>
+      <data key="d6">42771994</data>
+    </node>
+    <node id="1348698015">
+      <data key="d4">40.8860259</data>
+      <data key="d5">-73.8410419</data>
+      <data key="d6">1348698015</data>
+    </node>
+    <node id="5412918342">
+      <data key="d4">40.880317</data>
+      <data key="d5">-73.841277</data>
+      <data key="d6">5412918342</data>
+    </node>
+    <edge id="0" source="42728612" target="42770650">
+      <data key="d8">5698820</data>
+      <data key="d9">True</data>
+      <data key="d10">East 224th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">268.429</data>
+      <data key="d13">LINESTRING (-73.846576 40.882211, -73.84523299999999 40.881636, -73.84458600000001 40.881358, -73.84379800000001 40.881021)</data>
+    </edge>
+    <edge id="0" source="42747097" target="5412918342">
+      <data key="d8">561343359</data>
+      <data key="d9">False</data>
+      <data key="d14">4</data>
+      <data key="d15">US 1</data>
+      <data key="d10">Boston Road</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.36099999999999</data>
+      <data key="d13">LINESTRING (-73.842015 40.879872, -73.8415115 40.8801756, -73.84127700000001 40.880317)</data>
+    </edge>
+    <edge id="0" source="42755077" target="5412918342">
+      <data key="d8">561343358</data>
+      <data key="d10">Ely Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">194.179</data>
+      <data key="d13">LINESTRING (-73.8421278 40.8819405, -73.8415069 40.8807557, -73.84127700000001 40.880317)</data>
+    </edge>
+    <edge id="0" source="42768046" target="42771994">
+      <data key="d8">5698876</data>
+      <data key="d9">False</data>
+      <data key="d10">East 229th Street</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">214.017</data>
+      <data key="d13">LINESTRING (-73.84127100000001 40.882192, -73.84130740000001 40.8822731, -73.8414308 40.8825575, -73.84157 40.8828773, -73.841587 40.8829164, -73.8417493 40.8832744, -73.8418016 40.8833839, -73.84195769999999 40.8836627, -73.84217200000001 40.883989)</data>
+    </edge>
+    <edge id="0" source="42768046" target="42770409">
+      <data key="d8">120238497</data>
+      <data key="d10">Needham Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">75.444</data>
+      <data key="d13">LINESTRING (-73.84127100000001 40.882192, -73.84113170000001 40.8822207, -73.840417 40.8824)</data>
+    </edge>
+    <edge id="0" source="42769672" target="42770643">
+      <data key="d8">487516655</data>
+      <data key="d9">False</data>
+      <data key="d10">East 222nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d16">25 mph</data>
+      <data key="d12">145.749</data>
+      <data key="d13">LINESTRING (-73.84324100000001 40.879109, -73.8438044 40.8793479, -73.844753 40.8797502)</data>
+    </edge>
+    <edge id="0" source="42769681" target="42770409">
+      <data key="d8">5698752</data>
+      <data key="d10">Edson Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">176.162</data>
+      <data key="d13">LINESTRING (-73.839652 40.880926, -73.8397248 40.8810566, -73.8399278 40.8814233, -73.84016699999999 40.8818658, -73.8402926 40.8821057, -73.840417 40.8824)</data>
+    </edge>
+    <edge id="0" source="42770409" target="42769681">
+      <data key="d8">5698752</data>
+      <data key="d10">Edson Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">176.16200000000003</data>
+      <data key="d13">LINESTRING (-73.840417 40.8824, -73.8402926 40.8821057, -73.84016699999999 40.8818658, -73.8399278 40.8814233, -73.8397248 40.8810566, -73.839652 40.880926)</data>
+    </edge>
+    <edge id="0" source="42770409" target="42768046">
+      <data key="d8">120238497</data>
+      <data key="d10">Needham Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">75.444</data>
+      <data key="d13">LINESTRING (-73.840417 40.8824, -73.84113170000001 40.8822207, -73.84127100000001 40.882192)</data>
+    </edge>
+    <edge id="0" source="42770643" target="42770645">
+      <data key="d8">5698772</data>
+      <data key="d10">Needham Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">85.112</data>
+    </edge>
+    <edge id="0" source="42770643" target="42769672">
+      <data key="d8">487516655</data>
+      <data key="d9">False</data>
+      <data key="d10">East 222nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d16">25 mph</data>
+      <data key="d12">145.749</data>
+      <data key="d13">LINESTRING (-73.844753 40.8797502, -73.8438044 40.8793479, -73.84324100000001 40.879109)</data>
+    </edge>
+    <edge id="0" source="42770645" target="42770650">
+      <data key="d8">5698772</data>
+      <data key="d10">Needham Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">77.423</data>
+    </edge>
+    <edge id="0" source="42770645" target="42770643">
+      <data key="d8">5698772</data>
+      <data key="d10">Needham Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">85.112</data>
+    </edge>
+    <edge id="0" source="42770650" target="42770645">
+      <data key="d8">5698772</data>
+      <data key="d10">Needham Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">77.423</data>
+    </edge>
+    <edge id="0" source="42770650" target="42770653">
+      <data key="d8">5698772</data>
+      <data key="d10">Needham Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">78.381</data>
+      <data key="d13">LINESTRING (-73.84379800000001 40.881021, -73.84351150000001 40.8814585, -73.8433843 40.8816527)</data>
+    </edge>
+    <edge id="0" source="42770650" target="42747097">
+      <data key="d8">5698820</data>
+      <data key="d9">True</data>
+      <data key="d10">East 224th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">202.31900000000002</data>
+      <data key="d13">LINESTRING (-73.84379800000001 40.881021, -73.842687 40.880573, -73.8423926 40.8802979, -73.842263 40.8801767, -73.842015 40.879872)</data>
+    </edge>
+    <edge id="0" source="42770653" target="42770650">
+      <data key="d8">5698772</data>
+      <data key="d10">Needham Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">78.381</data>
+      <data key="d13">LINESTRING (-73.8433843 40.8816527, -73.84351150000001 40.8814585, -73.84379800000001 40.881021)</data>
+    </edge>
+    <edge id="0" source="42771994" target="42768046">
+      <data key="d8">5698876</data>
+      <data key="d9">False</data>
+      <data key="d10">East 229th Street</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">214.01700000000002</data>
+      <data key="d13">LINESTRING (-73.84217200000001 40.883989, -73.84195769999999 40.8836627, -73.8418016 40.8833839, -73.8417493 40.8832744, -73.841587 40.8829164, -73.84157 40.8828773, -73.8414308 40.8825575, -73.84130740000001 40.8822731, -73.84127100000001 40.882192)</data>
+    </edge>
+    <edge id="0" source="5412918342" target="42755077">
+      <data key="d8">561343358</data>
+      <data key="d10">Ely Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">194.179</data>
+      <data key="d13">LINESTRING (-73.84127700000001 40.880317, -73.8415069 40.8807557, -73.8421278 40.8819405)</data>
+    </edge>
+    <edge id="0" source="5412918342" target="42747097">
+      <data key="d8">561343359</data>
+      <data key="d9">False</data>
+      <data key="d14">4</data>
+      <data key="d15">US 1</data>
+      <data key="d10">Boston Road</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.36099999999999</data>
+      <data key="d13">LINESTRING (-73.84127700000001 40.880317, -73.8415115 40.8801756, -73.842015 40.879872)</data>
+    </edge>
+    <data key="d0">36_NY_36005046000</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42728612: 4, 42747097: 4, 42755077: 1, 42762841: 3, 42768046: 3, 42769672: 4, 42769681: 4, 42770409: 3, 42770643: 4, 42770645: 4, 42770650: 4, 42770653: 1, 42771994: 3, 1348698015: 3, 5412918342: 4}</data>
+  </graph>
+</graphml>

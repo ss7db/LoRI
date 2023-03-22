@@ -1,0 +1,953 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d17" />
+  <key attr.name="ref" attr.type="string" for="edge" id="d16" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d15" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d9" />
+  <key attr.name="ref" attr.type="string" for="node" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42786535">
+      <data key="d4">40.726977</data>
+      <data key="d5">-73.90129</data>
+      <data key="d6">42786535</data>
+    </node>
+    <node id="42786538">
+      <data key="d4">40.726938</data>
+      <data key="d5">-73.9008</data>
+      <data key="d6">42786538</data>
+    </node>
+    <node id="42786540">
+      <data key="d4">40.726911</data>
+      <data key="d5">-73.900322</data>
+      <data key="d6">42786540</data>
+    </node>
+    <node id="42786681">
+      <data key="d4">40.728377</data>
+      <data key="d5">-73.898728</data>
+      <data key="d6">42786681</data>
+    </node>
+    <node id="42786687">
+      <data key="d4">40.728919</data>
+      <data key="d5">-73.897735</data>
+      <data key="d6">42786687</data>
+    </node>
+    <node id="42786691">
+      <data key="d4">40.728996</data>
+      <data key="d5">-73.896853</data>
+      <data key="d6">42786691</data>
+    </node>
+    <node id="42786696">
+      <data key="d4">40.729063</data>
+      <data key="d5">-73.895971</data>
+      <data key="d6">42786696</data>
+    </node>
+    <node id="42786700">
+      <data key="d4">40.728965</data>
+      <data key="d5">-73.895589</data>
+      <data key="d6">42786700</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42786771">
+      <data key="d4">40.7285145</data>
+      <data key="d5">-73.9057171</data>
+      <data key="d6">42786771</data>
+    </node>
+    <node id="42786781">
+      <data key="d4">40.727841</data>
+      <data key="d5">-73.904076</data>
+      <data key="d6">42786781</data>
+    </node>
+    <node id="42786792">
+      <data key="d4">40.727041</data>
+      <data key="d5">-73.902226</data>
+      <data key="d6">42786792</data>
+    </node>
+    <node id="42801650">
+      <data key="d4">40.727733</data>
+      <data key="d5">-73.90673</data>
+      <data key="d6">42801650</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42813709">
+      <data key="d4">40.729343</data>
+      <data key="d5">-73.902618</data>
+      <data key="d6">42813709</data>
+    </node>
+    <node id="42813711">
+      <data key="d4">40.7290458</data>
+      <data key="d5">-73.9021392</data>
+      <data key="d6">42813711</data>
+    </node>
+    <node id="42813714">
+      <data key="d4">40.728632</data>
+      <data key="d5">-73.901226</data>
+      <data key="d6">42813714</data>
+    </node>
+    <node id="42813741">
+      <data key="d4">40.7289879</data>
+      <data key="d5">-73.9002399</data>
+      <data key="d6">42813741</data>
+    </node>
+    <node id="42813743">
+      <data key="d4">40.72905</data>
+      <data key="d5">-73.899246</data>
+      <data key="d6">42813743</data>
+    </node>
+    <node id="42823506">
+      <data key="d4">40.72701</data>
+      <data key="d5">-73.901762</data>
+      <data key="d6">42823506</data>
+    </node>
+    <node id="42834127">
+      <data key="d4">40.728077</data>
+      <data key="d5">-73.900271</data>
+      <data key="d6">42834127</data>
+    </node>
+    <node id="42834133">
+      <data key="d4">40.726701</data>
+      <data key="d5">-73.900329</data>
+      <data key="d6">42834133</data>
+    </node>
+    <node id="42871329">
+      <data key="d4">40.7256264</data>
+      <data key="d5">-73.8958572</data>
+      <data key="d6">42871329</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42871334">
+      <data key="d4">40.725921</data>
+      <data key="d5">-73.895341</data>
+      <data key="d6">42871334</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42873418">
+      <data key="d4">40.725995</data>
+      <data key="d5">-73.898425</data>
+      <data key="d6">42873418</data>
+    </node>
+    <node id="42873421">
+      <data key="d4">40.7267723</data>
+      <data key="d5">-73.8965431</data>
+      <data key="d6">42873421</data>
+    </node>
+    <node id="42875652">
+      <data key="d4">40.727519</data>
+      <data key="d5">-73.89869</data>
+      <data key="d6">42875652</data>
+    </node>
+    <node id="42875653">
+      <data key="d4">40.726709</data>
+      <data key="d5">-73.898652</data>
+      <data key="d6">42875653</data>
+    </node>
+    <node id="42875656">
+      <data key="d4">40.72601</data>
+      <data key="d5">-73.898619</data>
+      <data key="d6">42875656</data>
+    </node>
+    <node id="42876225">
+      <data key="d4">40.726969</data>
+      <data key="d5">-73.896544</data>
+      <data key="d6">42876225</data>
+    </node>
+    <node id="42878670">
+      <data key="d4">40.7259366</data>
+      <data key="d5">-73.8969088</data>
+      <data key="d6">42878670</data>
+    </node>
+    <node id="42878674">
+      <data key="d4">40.7261392</data>
+      <data key="d5">-73.8965329</data>
+      <data key="d6">42878674</data>
+    </node>
+    <node id="42885105">
+      <data key="d4">40.7262749</data>
+      <data key="d5">-73.9011572</data>
+      <data key="d6">42885105</data>
+    </node>
+    <node id="42885108">
+      <data key="d4">40.726602</data>
+      <data key="d5">-73.90052</data>
+      <data key="d6">42885108</data>
+    </node>
+    <node id="42885118">
+      <data key="d4">40.72833</data>
+      <data key="d5">-73.89653</data>
+      <data key="d6">42885118</data>
+    </node>
+    <node id="42885444">
+      <data key="d4">40.727789</data>
+      <data key="d5">-73.895499</data>
+      <data key="d6">42885444</data>
+    </node>
+    <node id="42900473">
+      <data key="d4">40.728053</data>
+      <data key="d5">-73.899167</data>
+      <data key="d6">42900473</data>
+    </node>
+    <node id="42900479">
+      <data key="d4">40.726402</data>
+      <data key="d5">-73.900339</data>
+      <data key="d6">42900479</data>
+    </node>
+    <node id="42900482">
+      <data key="d4">40.7261671</data>
+      <data key="d5">-73.9001125</data>
+      <data key="d6">42900482</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42901575">
+      <data key="d4">40.7263328</data>
+      <data key="d5">-73.9017862</data>
+      <data key="d6">42901575</data>
+    </node>
+    <node id="42901579">
+      <data key="d4">40.7261295</data>
+      <data key="d5">-73.8998202</data>
+      <data key="d6">42901579</data>
+    </node>
+    <node id="42901588">
+      <data key="d4">40.725933</data>
+      <data key="d5">-73.8965313</data>
+      <data key="d6">42901588</data>
+    </node>
+    <node id="42923614">
+      <data key="d4">40.727771</data>
+      <data key="d5">-73.896579</data>
+      <data key="d6">42923614</data>
+    </node>
+    <node id="588181373">
+      <data key="d4">40.725964</data>
+      <data key="d5">-73.8978994</data>
+      <data key="d6">588181373</data>
+    </node>
+    <node id="597325451">
+      <data key="d4">40.7260757</data>
+      <data key="d5">-73.9022462</data>
+      <data key="d6">597325451</data>
+      <data key="d8">17W</data>
+      <data key="d7">motorway_junction</data>
+    </node>
+    <node id="597328292">
+      <data key="d4">40.7259618</data>
+      <data key="d5">-73.9009802</data>
+      <data key="d6">597328292</data>
+      <data key="d8">18</data>
+      <data key="d7">motorway_junction</data>
+    </node>
+    <node id="597334463">
+      <data key="d4">40.7259336</data>
+      <data key="d5">-73.8959751</data>
+      <data key="d6">597334463</data>
+    </node>
+    <node id="3440285495">
+      <data key="d4">40.7265307</data>
+      <data key="d5">-73.9038395</data>
+      <data key="d6">3440285495</data>
+    </node>
+    <node id="3440285496">
+      <data key="d4">40.7264731</data>
+      <data key="d5">-73.9031609</data>
+      <data key="d6">3440285496</data>
+    </node>
+    <node id="3440285498">
+      <data key="d4">40.726249</data>
+      <data key="d5">-73.8995792</data>
+      <data key="d6">3440285498</data>
+    </node>
+    <node id="3440285499">
+      <data key="d4">40.7260925</data>
+      <data key="d5">-73.8994482</data>
+      <data key="d6">3440285499</data>
+    </node>
+    <edge id="0" source="42786535" target="42786538">
+      <data key="d9">5699871</data>
+      <data key="d10">False</data>
+      <data key="d11">55th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">41.518</data>
+    </edge>
+    <edge id="0" source="42786535" target="42823506">
+      <data key="d9">5699871</data>
+      <data key="d10">False</data>
+      <data key="d11">55th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">39.943</data>
+    </edge>
+    <edge id="0" source="42786535" target="42813714">
+      <data key="d9">5707379</data>
+      <data key="d10">True</data>
+      <data key="d11">64th Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">184.107</data>
+    </edge>
+    <edge id="0" source="42786538" target="42786540">
+      <data key="d9">5699871</data>
+      <data key="d10">False</data>
+      <data key="d11">55th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">40.391</data>
+    </edge>
+    <edge id="0" source="42786538" target="42786535">
+      <data key="d9">5699871</data>
+      <data key="d10">False</data>
+      <data key="d11">55th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">41.518</data>
+    </edge>
+    <edge id="0" source="42786538" target="42885108">
+      <data key="d9">5707118</data>
+      <data key="d10">True</data>
+      <data key="d11">Hamilton Place</data>
+      <data key="d12">residential</data>
+      <data key="d13">44.188</data>
+    </edge>
+    <edge id="0" source="42786540" target="42786538">
+      <data key="d9">5699871</data>
+      <data key="d10">False</data>
+      <data key="d11">55th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">40.391</data>
+    </edge>
+    <edge id="0" source="42786540" target="42834133">
+      <data key="d9">198924785</data>
+      <data key="d10">False</data>
+      <data key="d11">65th Place</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">23.358</data>
+    </edge>
+    <edge id="0" source="42786540" target="42834127">
+      <data key="d9">198924785</data>
+      <data key="d10">False</data>
+      <data key="d11">65th Place</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">129.725</data>
+    </edge>
+    <edge id="0" source="42786681" target="42875652">
+      <data key="d9">46735713</data>
+      <data key="d11">66th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">95.459</data>
+      <data key="d14">LINESTRING (-73.89872800000001 40.728377, -73.898715 40.728089, -73.89869 40.727519)</data>
+    </edge>
+    <edge id="0" source="42786681" target="42813743">
+      <data key="d9">46735713</data>
+      <data key="d11">66th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">87.19299999999998</data>
+      <data key="d14">LINESTRING (-73.89872800000001 40.728377, -73.89894150000001 40.7286373, -73.89916650000001 40.7288747, -73.89924600000001 40.72905)</data>
+    </edge>
+    <edge id="0" source="42786687" target="42786681">
+      <data key="d9">5699879</data>
+      <data key="d10">True</data>
+      <data key="d11">54th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">111.513</data>
+      <data key="d14">LINESTRING (-73.897735 40.728919, -73.89823800000001 40.728872, -73.89872800000001 40.728377)</data>
+    </edge>
+    <edge id="0" source="42786691" target="42786687">
+      <data key="d9">5699879</data>
+      <data key="d10">True</data>
+      <data key="d11">54th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">74.813</data>
+    </edge>
+    <edge id="0" source="42786696" target="42786691">
+      <data key="d9">5699879</data>
+      <data key="d10">True</data>
+      <data key="d11">54th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">74.693</data>
+    </edge>
+    <edge id="0" source="42786696" target="42885118">
+      <data key="d9">198595468</data>
+      <data key="d11">Jay Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">94.138</data>
+    </edge>
+    <edge id="0" source="42786700" target="42885444">
+      <data key="d9">198595572</data>
+      <data key="d10">False</data>
+      <data key="d11">69th Street</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">130.985</data>
+    </edge>
+    <edge id="0" source="42786771" target="42801650">
+      <data key="d9">46869120</data>
+      <data key="d10">False</data>
+      <data key="d11">Maurice Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">121.805</data>
+    </edge>
+    <edge id="0" source="42786792" target="42823506">
+      <data key="d9">5699871</data>
+      <data key="d10">False</data>
+      <data key="d11">55th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">39.251</data>
+    </edge>
+    <edge id="0" source="42786792" target="42813711">
+      <data key="d9">5704157</data>
+      <data key="d10">True</data>
+      <data key="d11">63rd Place</data>
+      <data key="d12">residential</data>
+      <data key="d13">223.044</data>
+    </edge>
+    <edge id="0" source="42801650" target="42786771">
+      <data key="d9">46869120</data>
+      <data key="d10">False</data>
+      <data key="d11">Maurice Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">121.805</data>
+    </edge>
+    <edge id="0" source="42813709" target="42813711">
+      <data key="d9">526345512</data>
+      <data key="d11">53rd Drive</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">52.152</data>
+    </edge>
+    <edge id="0" source="42813711" target="42813709">
+      <data key="d9">526345512</data>
+      <data key="d11">53rd Drive</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">52.152</data>
+    </edge>
+    <edge id="0" source="42813711" target="42813714">
+      <data key="d9">526345512</data>
+      <data key="d11">53rd Drive</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">92.737</data>
+      <data key="d14">LINESTRING (-73.90213919999999 40.7290458, -73.9018815 40.7288398, -73.9016867 40.728726, -73.9014622 40.7286595, -73.90122599999999 40.728632)</data>
+    </edge>
+    <edge id="0" source="42813714" target="42813741">
+      <data key="d9">526345512</data>
+      <data key="d11">53rd Drive</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">94.84700000000001</data>
+      <data key="d14">LINESTRING (-73.90122599999999 40.728632, -73.901081 40.728637, -73.900955 40.728653, -73.90081000000001 40.728685, -73.90069 40.728724, -73.900531 40.728796, -73.900375 40.728896, -73.9002399 40.7289879)</data>
+    </edge>
+    <edge id="0" source="42813714" target="42813711">
+      <data key="d9">526345512</data>
+      <data key="d11">53rd Drive</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">92.737</data>
+      <data key="d14">LINESTRING (-73.90122599999999 40.728632, -73.9014622 40.7286595, -73.9016867 40.728726, -73.9018815 40.7288398, -73.90213919999999 40.7290458)</data>
+    </edge>
+    <edge id="0" source="42813741" target="42813743">
+      <data key="d9">198924765</data>
+      <data key="d11">53rd Drive</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">86.484</data>
+      <data key="d14">LINESTRING (-73.9002399 40.7289879, -73.90013039999999 40.7290563, -73.89924600000001 40.72905)</data>
+    </edge>
+    <edge id="0" source="42813741" target="42834127">
+      <data key="d9">198924785</data>
+      <data key="d10">False</data>
+      <data key="d11">65th Place</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">101.322</data>
+      <data key="d14">LINESTRING (-73.9002399 40.7289879, -73.9002595 40.7284126, -73.900271 40.728077)</data>
+    </edge>
+    <edge id="0" source="42813741" target="42813714">
+      <data key="d9">526345512</data>
+      <data key="d11">53rd Drive</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">94.84700000000001</data>
+      <data key="d14">LINESTRING (-73.9002399 40.7289879, -73.900375 40.728896, -73.900531 40.728796, -73.90069 40.728724, -73.90081000000001 40.728685, -73.900955 40.728653, -73.901081 40.728637, -73.90122599999999 40.728632)</data>
+    </edge>
+    <edge id="0" source="42813743" target="42786681">
+      <data key="d9">46735713</data>
+      <data key="d11">66th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">87.193</data>
+      <data key="d14">LINESTRING (-73.89924600000001 40.72905, -73.89916650000001 40.7288747, -73.89894150000001 40.7286373, -73.89872800000001 40.728377)</data>
+    </edge>
+    <edge id="0" source="42813743" target="42813741">
+      <data key="d9">198924765</data>
+      <data key="d11">53rd Drive</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">86.484</data>
+      <data key="d14">LINESTRING (-73.89924600000001 40.72905, -73.90013039999999 40.7290563, -73.9002399 40.7289879)</data>
+    </edge>
+    <edge id="0" source="42823506" target="42786535">
+      <data key="d9">5699871</data>
+      <data key="d10">False</data>
+      <data key="d11">55th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">39.943</data>
+    </edge>
+    <edge id="0" source="42823506" target="42786792">
+      <data key="d9">5699871</data>
+      <data key="d10">False</data>
+      <data key="d11">55th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">39.251</data>
+    </edge>
+    <edge id="0" source="42823506" target="42901575">
+      <data key="d9">5707380</data>
+      <data key="d11">64th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">75.329</data>
+    </edge>
+    <edge id="0" source="42834127" target="42900473">
+      <data key="d9">5707116</data>
+      <data key="d11">Claran Court</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">93.067</data>
+    </edge>
+    <edge id="0" source="42834127" target="42786540">
+      <data key="d9">198924785</data>
+      <data key="d10">False</data>
+      <data key="d11">65th Place</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">129.725</data>
+    </edge>
+    <edge id="0" source="42834127" target="42813741">
+      <data key="d9">198924785</data>
+      <data key="d10">False</data>
+      <data key="d11">65th Place</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">101.322</data>
+      <data key="d14">LINESTRING (-73.900271 40.728077, -73.9002595 40.7284126, -73.9002399 40.7289879)</data>
+    </edge>
+    <edge id="0" source="42834133" target="42885108">
+      <data key="d9">5706016</data>
+      <data key="d10">True</data>
+      <data key="d11">Jay Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">19.5</data>
+    </edge>
+    <edge id="0" source="42834133" target="42900479">
+      <data key="d9">5707119</data>
+      <data key="d10">False</data>
+      <data key="d11">Hamilton Place</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">33.258</data>
+    </edge>
+    <edge id="0" source="42834133" target="42875652">
+      <data key="d9">198595468</data>
+      <data key="d11">Jay Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">165.374</data>
+    </edge>
+    <edge id="0" source="42834133" target="42786540">
+      <data key="d9">198924785</data>
+      <data key="d10">False</data>
+      <data key="d11">65th Place</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">23.358</data>
+    </edge>
+    <edge id="0" source="42871329" target="42871334">
+      <data key="d9">46140401</data>
+      <data key="d10">False</data>
+      <data key="d11">Grand Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">54.454</data>
+    </edge>
+    <edge id="0" source="42871329" target="588181373">
+      <data key="d9">46726341</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">176.139</data>
+    </edge>
+    <edge id="0" source="42871334" target="42871329">
+      <data key="d9">46140401</data>
+      <data key="d10">False</data>
+      <data key="d11">Grand Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">54.454</data>
+    </edge>
+    <edge id="0" source="42873418" target="42875656">
+      <data key="d9">46140402</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">16.433</data>
+    </edge>
+    <edge id="0" source="42873421" target="42878674">
+      <data key="d9">5708909</data>
+      <data key="d11">68th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">70.403</data>
+    </edge>
+    <edge id="0" source="42873421" target="42876225">
+      <data key="d9">5708909</data>
+      <data key="d11">68th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">21.872</data>
+    </edge>
+    <edge id="0" source="42875652" target="42875653">
+      <data key="d9">46735713</data>
+      <data key="d11">66th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">90.125</data>
+    </edge>
+    <edge id="0" source="42875652" target="42834133">
+      <data key="d9">198595468</data>
+      <data key="d11">Jay Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">165.374</data>
+    </edge>
+    <edge id="0" source="42875652" target="42786681">
+      <data key="d9">46735713</data>
+      <data key="d11">66th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">95.459</data>
+      <data key="d14">LINESTRING (-73.89869 40.727519, -73.898715 40.728089, -73.89872800000001 40.728377)</data>
+    </edge>
+    <edge id="0" source="42875652" target="42885118">
+      <data key="d9">198595468</data>
+      <data key="d11">Jay Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">207.904</data>
+      <data key="d14">LINESTRING (-73.89869 40.727519, -73.8974195 40.7281713, -73.897237 40.728265, -73.89653 40.72833)</data>
+    </edge>
+    <edge id="0" source="42875653" target="42875652">
+      <data key="d9">46735713</data>
+      <data key="d11">66th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">90.125</data>
+    </edge>
+    <edge id="0" source="42875653" target="3440285498">
+      <data key="d9">526344523</data>
+      <data key="d10">False</data>
+      <data key="d11">Hull Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">93.386</data>
+    </edge>
+    <edge id="0" source="42875653" target="42875656">
+      <data key="d9">526344524</data>
+      <data key="d11">66th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">77.775</data>
+    </edge>
+    <edge id="0" source="42875653" target="42923614">
+      <data key="d9">526344525</data>
+      <data key="d10">True</data>
+      <data key="d11">Hull Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">210.854</data>
+    </edge>
+    <edge id="0" source="42875656" target="3440285499">
+      <data key="d9">46140402</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">70.474</data>
+    </edge>
+    <edge id="0" source="42875656" target="42875653">
+      <data key="d9">526344524</data>
+      <data key="d11">66th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">77.775</data>
+    </edge>
+    <edge id="0" source="42876225" target="42873418">
+      <data key="d9">5705395</data>
+      <data key="d10">True</data>
+      <data key="d11">56th Road</data>
+      <data key="d12">residential</data>
+      <data key="d13">191.974</data>
+    </edge>
+    <edge id="0" source="42876225" target="42873421">
+      <data key="d9">5708909</data>
+      <data key="d11">68th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">21.872</data>
+    </edge>
+    <edge id="0" source="42876225" target="42923614">
+      <data key="d9">5708909</data>
+      <data key="d11">68th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">89.227</data>
+    </edge>
+    <edge id="0" source="42878670" target="588181373">
+      <data key="d9">273372175</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">83.532</data>
+      <data key="d14">LINESTRING (-73.89690880000001 40.7259366, -73.8975366 40.725954, -73.8978994 40.725964)</data>
+    </edge>
+    <edge id="0" source="42878674" target="42878670">
+      <data key="d9">5705573</data>
+      <data key="d10">True</data>
+      <data key="d11">Perry Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">38.87</data>
+    </edge>
+    <edge id="0" source="42878674" target="42873421">
+      <data key="d9">5708909</data>
+      <data key="d11">68th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">70.403</data>
+    </edge>
+    <edge id="0" source="42878674" target="42901588">
+      <data key="d9">273371482</data>
+      <data key="d10">False</data>
+      <data key="d11">68th Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">22.929</data>
+    </edge>
+    <edge id="0" source="42885105" target="42901575">
+      <data key="d9">198924520</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">53.394</data>
+    </edge>
+    <edge id="0" source="42885108" target="42885105">
+      <data key="d9">5706016</data>
+      <data key="d10">True</data>
+      <data key="d11">Jay Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">64.854</data>
+    </edge>
+    <edge id="0" source="42885108" target="42900479">
+      <data key="d9">5707118</data>
+      <data key="d10">True</data>
+      <data key="d11">Hamilton Place</data>
+      <data key="d12">residential</data>
+      <data key="d13">26.967</data>
+    </edge>
+    <edge id="0" source="42885118" target="42923614">
+      <data key="d9">5708909</data>
+      <data key="d11">68th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">62.295</data>
+    </edge>
+    <edge id="0" source="42885118" target="42786696">
+      <data key="d9">198595468</data>
+      <data key="d11">Jay Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">94.138</data>
+    </edge>
+    <edge id="0" source="42885118" target="42875652">
+      <data key="d9">198595468</data>
+      <data key="d11">Jay Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">207.904</data>
+      <data key="d14">LINESTRING (-73.89653 40.72833, -73.897237 40.728265, -73.8974195 40.7281713, -73.89869 40.727519)</data>
+    </edge>
+    <edge id="0" source="42885444" target="42786700">
+      <data key="d9">198595572</data>
+      <data key="d10">False</data>
+      <data key="d11">69th Street</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">130.985</data>
+    </edge>
+    <edge id="0" source="42900473" target="42834127">
+      <data key="d9">5707116</data>
+      <data key="d11">Claran Court</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">93.067</data>
+    </edge>
+    <edge id="0" source="42900479" target="42834133">
+      <data key="d9">5707119</data>
+      <data key="d10">False</data>
+      <data key="d11">Hamilton Place</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">33.258</data>
+    </edge>
+    <edge id="0" source="42900479" target="42900482">
+      <data key="d9">46725743</data>
+      <data key="d10">False</data>
+      <data key="d11">Hamilton Place</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">32.35</data>
+    </edge>
+    <edge id="0" source="42900482" target="42900479">
+      <data key="d9">46725743</data>
+      <data key="d10">False</data>
+      <data key="d11">Hamilton Place</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">32.35</data>
+    </edge>
+    <edge id="0" source="42900482" target="42885105">
+      <data key="d9">198924520</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">88.847</data>
+    </edge>
+    <edge id="0" source="42901575" target="42823506">
+      <data key="d9">5707380</data>
+      <data key="d11">64th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">75.329</data>
+    </edge>
+    <edge id="0" source="42901575" target="3440285496">
+      <data key="d9">198924520</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">116.888</data>
+    </edge>
+    <edge id="0" source="42901579" target="42900482">
+      <data key="d9">46140402</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">24.984</data>
+    </edge>
+    <edge id="0" source="42901588" target="597334463">
+      <data key="d9">46726340</data>
+      <data key="d10">False</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">46.87</data>
+    </edge>
+    <edge id="0" source="42901588" target="42878674">
+      <data key="d9">273371482</data>
+      <data key="d10">False</data>
+      <data key="d11">68th Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">22.929</data>
+    </edge>
+    <edge id="0" source="42901588" target="42878670">
+      <data key="d9">273372175</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">31.814</data>
+    </edge>
+    <edge id="0" source="42923614" target="42876225">
+      <data key="d9">5708909</data>
+      <data key="d11">68th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">89.227</data>
+    </edge>
+    <edge id="0" source="42923614" target="42885118">
+      <data key="d9">5708909</data>
+      <data key="d11">68th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">62.295</data>
+    </edge>
+    <edge id="0" source="588181373" target="42873418">
+      <data key="d9">46140402</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">44.425</data>
+      <data key="d14">LINESTRING (-73.8978994 40.725964, -73.8980912 40.7259753, -73.898425 40.725995)</data>
+    </edge>
+    <edge id="0" source="597328292" target="597325451">
+      <data key="d9">122741147</data>
+      <data key="d10">True</data>
+      <data key="d15">4</data>
+      <data key="d16">I 495</data>
+      <data key="d11">Long Island Expressway</data>
+      <data key="d12">motorway</data>
+      <data key="d17">50 mph</data>
+      <data key="d13">107.432</data>
+    </edge>
+    <edge id="0" source="597328292" target="3440285495">
+      <data key="d9">46725697</data>
+      <data key="d10">True</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">249.22299999999998</data>
+      <data key="d14">LINESTRING (-73.90098020000001 40.7259618, -73.9015891 40.7261021, -73.9025654 40.7263054, -73.9031837 40.7264253, -73.9038395 40.7265307)</data>
+    </edge>
+    <edge id="0" source="597334463" target="42901588">
+      <data key="d9">46726340</data>
+      <data key="d10">False</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">46.87</data>
+    </edge>
+    <edge id="0" source="3440285495" target="42801650">
+      <data key="d9">[420317593, 5709037]</data>
+      <data key="d10">True</data>
+      <data key="d11">Queens-Midtown Expressway</data>
+      <data key="d12">secondary</data>
+      <data key="d13">279.58500000000004</data>
+      <data key="d14">LINESTRING (-73.9038395 40.7265307, -73.90408619999999 40.7265798, -73.90433160000001 40.7266367, -73.90494459999999 40.726864, -73.90576 40.7272218, -73.9061092 40.7274058, -73.90673 40.727733)</data>
+    </edge>
+    <edge id="0" source="3440285496" target="3440285495">
+      <data key="d9">5709037</data>
+      <data key="d10">True</data>
+      <data key="d11">Queens-Midtown Expressway</data>
+      <data key="d12">secondary</data>
+      <data key="d13">57.541</data>
+    </edge>
+    <edge id="0" source="3440285498" target="42901579">
+      <data key="d9">5709424</data>
+      <data key="d10">True</data>
+      <data key="d11">Hull Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">24.269</data>
+    </edge>
+    <edge id="0" source="3440285498" target="42875653">
+      <data key="d9">526344523</data>
+      <data key="d10">False</data>
+      <data key="d11">Hull Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">93.386</data>
+    </edge>
+    <edge id="0" source="3440285499" target="42901579">
+      <data key="d9">46140402</data>
+      <data key="d10">True</data>
+      <data key="d11">Borden Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">31.616</data>
+    </edge>
+    <edge id="0" source="3440285499" target="3440285498">
+      <data key="d9">336939629</data>
+      <data key="d10">True</data>
+      <data key="d11">Hull Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">20.608</data>
+    </edge>
+    <data key="d0">36_NY_36081051100</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42786535: 3, 42786538: 3, 42786540: 3, 42786681: 3, 42786687: 3, 42786691: 3, 42786696: 3, 42786700: 3, 42786771: 3, 42786781: 3, 42786792: 3, 42801650: 4, 42813709: 4, 42813711: 3, 42813714: 4, 42813741: 4, 42813743: 3, 42823506: 3, 42834127: 3, 42834133: 4, 42871329: 4, 42871334: 4, 42873418: 3, 42873421: 3, 42875652: 4, 42875653: 4, 42875656: 3, 42876225: 3, 42878670: 3, 42878674: 3, 42885105: 3, 42885108: 4, 42885118: 3, 42885444: 3, 42900473: 1, 42900479: 3, 42900482: 4, 42901575: 3, 42901579: 3, 42901588: 3, 42923614: 3, 588181373: 3, 597325451: 3, 597328292: 3, 597334463: 1, 3440285495: 3, 3440285496: 3, 3440285498: 3, 3440285499: 3}</data>
+  </graph>
+</graphml>

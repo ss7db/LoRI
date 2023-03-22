@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42467075">
+      <data key="d4">40.659496</data>
+      <data key="d5">-73.96056</data>
+      <data key="d6">42467075</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42467077">
+      <data key="d4">40.65973</data>
+      <data key="d5">-73.956801</data>
+      <data key="d6">42467077</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42472138">
+      <data key="d4">40.661734</data>
+      <data key="d5">-73.96077</data>
+      <data key="d6">42472138</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42478481">
+      <data key="d4">40.660948</data>
+      <data key="d5">-73.9606432</data>
+      <data key="d6">42478481</data>
+    </node>
+    <node id="42485079">
+      <data key="d4">40.660205</data>
+      <data key="d5">-73.960622</data>
+      <data key="d6">42485079</data>
+    </node>
+    <node id="42485081">
+      <data key="d4">40.660442</data>
+      <data key="d5">-73.956875</data>
+      <data key="d6">42485081</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42490212">
+      <data key="d4">40.66118</data>
+      <data key="d5">-73.956958</data>
+      <data key="d6">42490212</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42491660">
+      <data key="d4">40.660027</data>
+      <data key="d5">-73.9606</data>
+      <data key="d6">42491660</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42491671">
+      <data key="d4">40.658779</data>
+      <data key="d5">-73.960519</data>
+      <data key="d6">42491671</data>
+    </node>
+    <node id="42491675">
+      <data key="d4">40.65841</data>
+      <data key="d5">-73.960484</data>
+      <data key="d6">42491675</data>
+    </node>
+    <node id="42491678">
+      <data key="d4">40.658072</data>
+      <data key="d5">-73.960426</data>
+      <data key="d6">42491678</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42493632">
+      <data key="d4">40.658306</data>
+      <data key="d5">-73.956649</data>
+      <data key="d6">42493632</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42497508">
+      <data key="d4">40.659017</data>
+      <data key="d5">-73.956725</data>
+      <data key="d6">42497508</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42467075" target="42491660">
+      <data key="d8">221698687</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">Flatbush Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">59.141</data>
+    </edge>
+    <edge id="0" source="42467075" target="42491671">
+      <data key="d8">221698687</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">Flatbush Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">79.802</data>
+    </edge>
+    <edge id="0" source="42467077" target="42497508">
+      <data key="d8">221570521</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">Bedford Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">79.541</data>
+    </edge>
+    <edge id="0" source="42467077" target="42485081">
+      <data key="d8">221570521</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">Bedford Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">79.417</data>
+    </edge>
+    <edge id="0" source="42467077" target="42467075">
+      <data key="d8">276080892</data>
+      <data key="d9">True</data>
+      <data key="d11">Midwood Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">318.145</data>
+    </edge>
+    <edge id="0" source="42478481" target="42472138">
+      <data key="d8">261445003</data>
+      <data key="d9">True</data>
+      <data key="d11">Washington Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d14">30 mph</data>
+      <data key="d13">88.051</data>
+    </edge>
+    <edge id="0" source="42485079" target="42485081">
+      <data key="d8">5677276</data>
+      <data key="d9">True</data>
+      <data key="d11">Maple Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">317.16</data>
+    </edge>
+    <edge id="0" source="42485079" target="42491660">
+      <data key="d8">221698687</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">Flatbush Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">19.88</data>
+    </edge>
+    <edge id="0" source="42485081" target="42467077">
+      <data key="d8">221570521</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">Bedford Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">79.417</data>
+    </edge>
+    <edge id="0" source="42485081" target="42490212">
+      <data key="d8">221570521</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">Bedford Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">82.36</data>
+    </edge>
+    <edge id="0" source="42490212" target="42478481">
+      <data key="d8">5677764</data>
+      <data key="d9">True</data>
+      <data key="d11">Lincoln Road</data>
+      <data key="d12">residential</data>
+      <data key="d13">311.915</data>
+    </edge>
+    <edge id="0" source="42490212" target="42485081">
+      <data key="d8">221570521</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">Bedford Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">82.36</data>
+    </edge>
+    <edge id="0" source="42491660" target="42485079">
+      <data key="d8">221698687</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">Flatbush Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">19.88</data>
+    </edge>
+    <edge id="0" source="42491660" target="42467075">
+      <data key="d8">221698687</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">Flatbush Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">59.141</data>
+    </edge>
+    <edge id="0" source="42491671" target="42497508">
+      <data key="d8">5678309</data>
+      <data key="d9">True</data>
+      <data key="d11">Rutland Road</data>
+      <data key="d12">residential</data>
+      <data key="d13">321.127</data>
+    </edge>
+    <edge id="0" source="42491671" target="42467075">
+      <data key="d8">221698687</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">Flatbush Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">79.802</data>
+    </edge>
+    <edge id="0" source="42491671" target="42491675">
+      <data key="d8">221698687</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">Flatbush Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">41.137</data>
+    </edge>
+    <edge id="0" source="42491675" target="42491671">
+      <data key="d8">221698687</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">Flatbush Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">41.137</data>
+    </edge>
+    <edge id="0" source="42491675" target="42491678">
+      <data key="d8">221698687</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">Flatbush Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">37.901</data>
+    </edge>
+    <edge id="0" source="42491678" target="42491675">
+      <data key="d8">221698687</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">Flatbush Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">37.901</data>
+    </edge>
+    <edge id="0" source="42493632" target="42497508">
+      <data key="d8">221570521</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">Bedford Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">79.319</data>
+    </edge>
+    <edge id="0" source="42493632" target="42491678">
+      <data key="d8">276080885</data>
+      <data key="d9">True</data>
+      <data key="d11">Fenimore Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">319.665</data>
+    </edge>
+    <edge id="0" source="42497508" target="42493632">
+      <data key="d8">221570521</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">Bedford Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">79.319</data>
+    </edge>
+    <edge id="0" source="42497508" target="42467077">
+      <data key="d8">221570521</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">Bedford Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">79.541</data>
+    </edge>
+    <data key="d0">36_NY_36047079801</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42467075: 3, 42467077: 4, 42472138: 4, 42478481: 4, 42485079: 3, 42485081: 4, 42490212: 4, 42491660: 3, 42491671: 3, 42491675: 3, 42491678: 3, 42493632: 4, 42497508: 4}</data>
+  </graph>
+</graphml>

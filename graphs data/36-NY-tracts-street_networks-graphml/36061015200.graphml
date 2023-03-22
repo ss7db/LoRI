@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="name" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d9" />
+  <key attr.name="ref" attr.type="string" for="node" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42423905">
+      <data key="d4">40.7800859</data>
+      <data key="d5">-73.9441319</data>
+      <data key="d6">42423905</data>
+    </node>
+    <node id="42428047">
+      <data key="d4">40.7784828</data>
+      <data key="d5">-73.9452574</data>
+      <data key="d6">42428047</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42428049">
+      <data key="d4">40.7791055</data>
+      <data key="d5">-73.9448126</data>
+      <data key="d6">42428049</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42428052">
+      <data key="d4">40.7797677</data>
+      <data key="d5">-73.9443278</data>
+      <data key="d6">42428052</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42433408">
+      <data key="d4">40.7823163</data>
+      <data key="d5">-73.9443755</data>
+      <data key="d6">42433408</data>
+    </node>
+    <node id="42433421">
+      <data key="d4">40.7797235</data>
+      <data key="d5">-73.9438984</data>
+      <data key="d6">42433421</data>
+    </node>
+    <node id="42433422">
+      <data key="d4">40.7792986</data>
+      <data key="d5">-73.9435726</data>
+      <data key="d6">42433422</data>
+    </node>
+    <node id="42436551">
+      <data key="d4">40.7788085</data>
+      <data key="d5">-73.9479669</data>
+      <data key="d6">42436551</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42436556">
+      <data key="d4">40.7769097</data>
+      <data key="d5">-73.9433922</data>
+      <data key="d6">42436556</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42444506">
+      <data key="d4">40.781947</data>
+      <data key="d5">-73.94567</data>
+      <data key="d6">42444506</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42448745">
+      <data key="d4">40.7806939</data>
+      <data key="d5">-73.9465786</data>
+      <data key="d6">42448745</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="371207282">
+      <data key="d4">40.7809188</data>
+      <data key="d5">-73.9440144</data>
+      <data key="d6">371207282</data>
+      <data key="d8">14</data>
+      <data key="d7">motorway_junction</data>
+    </node>
+    <node id="589929417">
+      <data key="d4">40.7805327</data>
+      <data key="d5">-73.9442146</data>
+      <data key="d6">589929417</data>
+    </node>
+    <node id="4779073680">
+      <data key="d4">40.7829186</data>
+      <data key="d5">-73.9441106</data>
+      <data key="d6">4779073680</data>
+    </node>
+    <edge id="0" source="42423905" target="42433421">
+      <data key="d9">32961932</data>
+      <data key="d10">True</data>
+      <data key="d11">motorway_link</data>
+      <data key="d12">45.341</data>
+      <data key="d13">LINESTRING (-73.9441319 40.7800859, -73.9441161 40.7800215, -73.9441015 40.7799836, -73.9440822 40.7799482, -73.94404830000001 40.7798994, -73.94389839999999 40.7797235)</data>
+    </edge>
+    <edge id="0" source="42423905" target="589929417">
+      <data key="d9">46240376</data>
+      <data key="d14">FDR Drive</data>
+      <data key="d11">secondary</data>
+      <data key="d10">False</data>
+      <data key="d12">50.342</data>
+      <data key="d13">LINESTRING (-73.9441319 40.7800859, -73.9441272 40.7801301, -73.9441303 40.780172, -73.9441382 40.7802126, -73.94415720000001 40.7803143, -73.9442146 40.7805327)</data>
+    </edge>
+    <edge id="0" source="42423905" target="42428052">
+      <data key="d9">581189155</data>
+      <data key="d14">York Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d10">False</data>
+      <data key="d12">39.179</data>
+      <data key="d13">LINESTRING (-73.9441319 40.7800859, -73.9441499 40.780041, -73.9441661 40.7800007, -73.94419190000001 40.779958, -73.9443278 40.7797677)</data>
+    </edge>
+    <edge id="0" source="42428047" target="42428049">
+      <data key="d9">478478415</data>
+      <data key="d14">York Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d10">False</data>
+      <data key="d12">78.721</data>
+    </edge>
+    <edge id="0" source="42428047" target="42436556">
+      <data key="d9">[569266493, 440122894]</data>
+      <data key="d10">True</data>
+      <data key="d14">['East End Avenue', 'East 90th Street']</data>
+      <data key="d11">residential</data>
+      <data key="d12">293.47900000000004</data>
+      <data key="d13">LINESTRING (-73.9452574 40.7784828, -73.94311999999999 40.7775804, -73.94303600000001 40.7775449, -73.9430076 40.7775167, -73.94301059999999 40.777467, -73.94304200000001 40.7774069, -73.943331 40.7769992, -73.9433586 40.7769588, -73.94339220000001 40.7769097)</data>
+    </edge>
+    <edge id="0" source="42428049" target="42428047">
+      <data key="d9">478478415</data>
+      <data key="d14">York Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d10">False</data>
+      <data key="d12">78.721</data>
+    </edge>
+    <edge id="0" source="42428049" target="42428052">
+      <data key="d9">584971500</data>
+      <data key="d14">York Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d10">False</data>
+      <data key="d12">84.19200000000001</data>
+      <data key="d13">LINESTRING (-73.94481260000001 40.7791055, -73.9447685 40.7791658, -73.9443278 40.7797677)</data>
+    </edge>
+    <edge id="0" source="42428052" target="42433421">
+      <data key="d9">32961933</data>
+      <data key="d10">True</data>
+      <data key="d11">motorway_link</data>
+      <data key="d12">37.095</data>
+      <data key="d13">LINESTRING (-73.9443278 40.7797677, -73.9442499 40.7797431, -73.94420959999999 40.7797394, -73.94417730000001 40.7797394, -73.9441322 40.7797443, -73.9440757 40.7797467, -73.9440032 40.7797443, -73.9439661 40.7797394, -73.94389839999999 40.7797235)</data>
+    </edge>
+    <edge id="0" source="42428052" target="42423905">
+      <data key="d9">581189155</data>
+      <data key="d14">York Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d10">False</data>
+      <data key="d12">39.179</data>
+      <data key="d13">LINESTRING (-73.9443278 40.7797677, -73.94419190000001 40.779958, -73.9441661 40.7800007, -73.9441499 40.780041, -73.9441319 40.7800859)</data>
+    </edge>
+    <edge id="0" source="42428052" target="42428049">
+      <data key="d9">584971500</data>
+      <data key="d14">York Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d10">False</data>
+      <data key="d12">84.19200000000001</data>
+      <data key="d13">LINESTRING (-73.9443278 40.7797677, -73.9447685 40.7791658, -73.94481260000001 40.7791055)</data>
+    </edge>
+    <edge id="0" source="42433408" target="589929417">
+      <data key="d9">46240376</data>
+      <data key="d14">FDR Drive</data>
+      <data key="d11">secondary</data>
+      <data key="d10">False</data>
+      <data key="d12">200.155</data>
+      <data key="d13">LINESTRING (-73.94437550000001 40.7823163, -73.94441620000001 40.7820927, -73.94444129999999 40.7818082, -73.94443819999999 40.7816735, -73.944423 40.7815037, -73.9444 40.7813226, -73.94435300000001 40.7810939, -73.9442146 40.7805327)</data>
+    </edge>
+    <edge id="0" source="42433421" target="42433422">
+      <data key="d9">32961932</data>
+      <data key="d10">True</data>
+      <data key="d11">motorway_link</data>
+      <data key="d12">54.79900000000001</data>
+      <data key="d13">LINESTRING (-73.94389839999999 40.7797235, -73.94388379999999 40.7797089, -73.9438693 40.779693, -73.9438435 40.7796637, -73.9438193 40.7796307, -73.94379189999999 40.7795819, -73.94376130000001 40.7795245, -73.9435726 40.7792986)</data>
+    </edge>
+    <edge id="0" source="42448745" target="42428052">
+      <data key="d9">195743173</data>
+      <data key="d10">True</data>
+      <data key="d14">East 92nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">215.699</data>
+      <data key="d13">LINESTRING (-73.9465786 40.7806939, -73.94625019999999 40.7805652, -73.9459501 40.7804407, -73.94508260000001 40.7800808, -73.9443278 40.7797677)</data>
+    </edge>
+    <edge id="0" source="589929417" target="42433408">
+      <data key="d9">46240376</data>
+      <data key="d14">FDR Drive</data>
+      <data key="d11">secondary</data>
+      <data key="d10">False</data>
+      <data key="d12">200.15499999999997</data>
+      <data key="d13">LINESTRING (-73.9442146 40.7805327, -73.94435300000001 40.7810939, -73.9444 40.7813226, -73.944423 40.7815037, -73.94443819999999 40.7816735, -73.94444129999999 40.7818082, -73.94441620000001 40.7820927, -73.94437550000001 40.7823163)</data>
+    </edge>
+    <edge id="0" source="589929417" target="42423905">
+      <data key="d9">46240376</data>
+      <data key="d14">FDR Drive</data>
+      <data key="d11">secondary</data>
+      <data key="d10">False</data>
+      <data key="d12">50.342</data>
+      <data key="d13">LINESTRING (-73.9442146 40.7805327, -73.94415720000001 40.7803143, -73.9441382 40.7802126, -73.9441303 40.780172, -73.9441272 40.7801301, -73.9441319 40.7800859)</data>
+    </edge>
+    <edge id="0" source="4779073680" target="42433408">
+      <data key="d9">499914753</data>
+      <data key="d10">True</data>
+      <data key="d14">FDR Drive</data>
+      <data key="d11">secondary</data>
+      <data key="d12">70.931</data>
+      <data key="d13">LINESTRING (-73.9441106 40.7829186, -73.94415410000001 40.7828493, -73.944253 40.7826818, -73.94432550000001 40.7825088, -73.94437550000001 40.7823163)</data>
+    </edge>
+    <data key="d0">36_NY_36061015200</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42423905: 3, 42428047: 4, 42428049: 3, 42428052: 4, 42433408: 3, 42433421: 3, 42433422: 3, 42436551: 4, 42436556: 3, 42444506: 3, 42448745: 4, 371207282: 3, 589929417: 3, 4779073680: 4}</data>
+  </graph>
+</graphml>

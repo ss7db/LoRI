@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42730123">
+      <data key="d4">40.837642</data>
+      <data key="d5">-73.903338</data>
+      <data key="d6">42730123</data>
+    </node>
+    <node id="42730127">
+      <data key="d4">40.838874</data>
+      <data key="d5">-73.902647</data>
+      <data key="d6">42730127</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42760032">
+      <data key="d4">40.835694</data>
+      <data key="d5">-73.901989</data>
+      <data key="d6">42760032</data>
+    </node>
+    <node id="42760033">
+      <data key="d4">40.836814</data>
+      <data key="d5">-73.901126</data>
+      <data key="d6">42760033</data>
+    </node>
+    <node id="42760042">
+      <data key="d4">40.83846</data>
+      <data key="d5">-73.901744</data>
+      <data key="d6">42760042</data>
+    </node>
+    <node id="42761163">
+      <data key="d4">40.838265</data>
+      <data key="d5">-73.905229</data>
+      <data key="d6">42761163</data>
+    </node>
+    <node id="42762954">
+      <data key="d4">40.835927</data>
+      <data key="d5">-73.902906</data>
+      <data key="d6">42762954</data>
+    </node>
+    <node id="42763602">
+      <data key="d4">40.838505</data>
+      <data key="d5">-73.905979</data>
+      <data key="d6">42763602</data>
+    </node>
+    <node id="42763610">
+      <data key="d4">40.838156</data>
+      <data key="d5">-73.904842</data>
+      <data key="d6">42763610</data>
+    </node>
+    <node id="42763615">
+      <data key="d4">40.838018</data>
+      <data key="d5">-73.904509</data>
+      <data key="d6">42763615</data>
+    </node>
+    <node id="42763620">
+      <data key="d4">40.8371385</data>
+      <data key="d5">-73.9019918</data>
+      <data key="d6">42763620</data>
+    </node>
+    <node id="42763624">
+      <data key="d4">40.836592</data>
+      <data key="d5">-73.900567</data>
+      <data key="d6">42763624</data>
+    </node>
+    <node id="42764746">
+      <data key="d4">40.839769</data>
+      <data key="d5">-73.905383</data>
+      <data key="d6">42764746</data>
+    </node>
+    <node id="42768599">
+      <data key="d4">40.838198</data>
+      <data key="d5">-73.901175</data>
+      <data key="d6">42768599</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42776482">
+      <data key="d4">40.8376439</data>
+      <data key="d5">-73.899981</data>
+      <data key="d6">42776482</data>
+    </node>
+    <edge id="0" source="42730123" target="42763620">
+      <data key="d8">278136293</data>
+      <data key="d9">True</data>
+      <data key="d10">East 171st Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">126.334</data>
+    </edge>
+    <edge id="0" source="42730127" target="42760042">
+      <data key="d8">153014619</data>
+      <data key="d9">False</data>
+      <data key="d10">Claremont Parkway</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">88.825</data>
+    </edge>
+    <edge id="0" source="42730127" target="42730123">
+      <data key="d8">223503120</data>
+      <data key="d9">True</data>
+      <data key="d10">Washington Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">148.816</data>
+    </edge>
+    <edge id="0" source="42760032" target="42760033">
+      <data key="d8">5698144</data>
+      <data key="d10">Crotona Place</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">144.156</data>
+    </edge>
+    <edge id="0" source="42760032" target="42762954">
+      <data key="d8">5698322</data>
+      <data key="d10">Saint Pauls Place</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">81.38</data>
+    </edge>
+    <edge id="0" source="42760033" target="42760032">
+      <data key="d8">5698144</data>
+      <data key="d10">Crotona Place</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">144.156</data>
+    </edge>
+    <edge id="0" source="42760033" target="42763624">
+      <data key="d8">278136295</data>
+      <data key="d9">True</data>
+      <data key="d10">East 171st Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">53.112</data>
+    </edge>
+    <edge id="0" source="42760042" target="42768599">
+      <data key="d8">153014619</data>
+      <data key="d9">False</data>
+      <data key="d10">Claremont Parkway</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">56.036</data>
+    </edge>
+    <edge id="0" source="42760042" target="42730127">
+      <data key="d8">153014619</data>
+      <data key="d9">False</data>
+      <data key="d10">Claremont Parkway</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">88.825</data>
+    </edge>
+    <edge id="0" source="42761163" target="42763602">
+      <data key="d8">5698359</data>
+      <data key="d10">East 171st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">68.506</data>
+    </edge>
+    <edge id="0" source="42761163" target="42763610">
+      <data key="d8">5698359</data>
+      <data key="d10">East 171st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">34.74</data>
+      <data key="d13">LINESTRING (-73.90522900000001 40.838265, -73.90511669999999 40.8382334, -73.904842 40.838156)</data>
+    </edge>
+    <edge id="0" source="42762954" target="42760032">
+      <data key="d8">5698322</data>
+      <data key="d10">Saint Pauls Place</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">81.38</data>
+    </edge>
+    <edge id="0" source="42762954" target="42763620">
+      <data key="d8">492813790</data>
+      <data key="d14">5</data>
+      <data key="d10">3rd Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">155.12099999999998</data>
+      <data key="d13">LINESTRING (-73.902906 40.835927, -73.9023409 40.8366759, -73.9019918 40.8371385)</data>
+    </edge>
+    <edge id="0" source="42763602" target="42761163">
+      <data key="d8">5698359</data>
+      <data key="d10">East 171st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">68.506</data>
+    </edge>
+    <edge id="0" source="42763610" target="42761163">
+      <data key="d8">5698359</data>
+      <data key="d10">East 171st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">34.74</data>
+      <data key="d13">LINESTRING (-73.904842 40.838156, -73.90511669999999 40.8382334, -73.90522900000001 40.838265)</data>
+    </edge>
+    <edge id="0" source="42763615" target="42730123">
+      <data key="d8">153184020</data>
+      <data key="d9">True</data>
+      <data key="d10">East 171st Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">107.017</data>
+    </edge>
+    <edge id="0" source="42763620" target="42768599">
+      <data key="d8">492813790</data>
+      <data key="d14">5</data>
+      <data key="d10">3rd Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">136.386</data>
+    </edge>
+    <edge id="0" source="42763620" target="42760033">
+      <data key="d8">278136294</data>
+      <data key="d9">True</data>
+      <data key="d10">East 171st Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">81.285</data>
+      <data key="d13">LINESTRING (-73.9019918 40.8371385, -73.9014234 40.8369255, -73.901126 40.836814)</data>
+    </edge>
+    <edge id="0" source="42763620" target="42762954">
+      <data key="d8">492813790</data>
+      <data key="d14">5</data>
+      <data key="d10">3rd Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">155.12099999999998</data>
+      <data key="d13">LINESTRING (-73.9019918 40.8371385, -73.9023409 40.8366759, -73.902906 40.835927)</data>
+    </edge>
+    <edge id="0" source="42763624" target="42776482">
+      <data key="d8">5699162</data>
+      <data key="d9">True</data>
+      <data key="d10">Fulton Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">126.93100000000001</data>
+      <data key="d13">LINESTRING (-73.900567 40.836592, -73.900046 40.8375272, -73.899981 40.8376439)</data>
+    </edge>
+    <edge id="0" source="42768599" target="42776482">
+      <data key="d8">153014619</data>
+      <data key="d9">False</data>
+      <data key="d10">Claremont Parkway</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">117.838</data>
+    </edge>
+    <edge id="0" source="42768599" target="42760042">
+      <data key="d8">153014619</data>
+      <data key="d9">False</data>
+      <data key="d10">Claremont Parkway</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">56.036</data>
+    </edge>
+    <edge id="0" source="42768599" target="42763620">
+      <data key="d8">492813790</data>
+      <data key="d14">5</data>
+      <data key="d10">3rd Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">136.386</data>
+    </edge>
+    <edge id="0" source="42776482" target="42768599">
+      <data key="d8">153014619</data>
+      <data key="d9">False</data>
+      <data key="d10">Claremont Parkway</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">117.838</data>
+    </edge>
+    <data key="d0">36_NY_36005016900</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42730123: 4, 42730127: 4, 42760032: 3, 42760033: 3, 42760042: 3, 42761163: 3, 42762954: 3, 42763602: 4, 42763610: 1, 42763615: 3, 42763620: 4, 42763624: 3, 42764746: 5, 42768599: 4, 42776482: 4}</data>
+  </graph>
+</graphml>

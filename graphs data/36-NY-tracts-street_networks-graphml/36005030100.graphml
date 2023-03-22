@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42748877">
+      <data key="d4">40.8846236</data>
+      <data key="d5">-73.9149146</data>
+      <data key="d6">42748877</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42759296">
+      <data key="d4">40.8815009</data>
+      <data key="d5">-73.917376</data>
+      <data key="d6">42759296</data>
+    </node>
+    <node id="42759298">
+      <data key="d4">40.881874</data>
+      <data key="d5">-73.9179524</data>
+      <data key="d6">42759298</data>
+    </node>
+    <node id="42763390">
+      <data key="d4">40.883606</data>
+      <data key="d5">-73.915576</data>
+      <data key="d6">42763390</data>
+    </node>
+    <node id="42770885">
+      <data key="d4">40.8839842</data>
+      <data key="d5">-73.9167841</data>
+      <data key="d6">42770885</data>
+    </node>
+    <node id="42770888">
+      <data key="d4">40.884805</data>
+      <data key="d5">-73.919267</data>
+      <data key="d6">42770888</data>
+    </node>
+    <node id="721834121">
+      <data key="d4">40.8812419</data>
+      <data key="d5">-73.9176673</data>
+      <data key="d6">721834121</data>
+    </node>
+    <node id="2520287889">
+      <data key="d4">40.8808487</data>
+      <data key="d5">-73.9191149</data>
+      <data key="d6">2520287889</data>
+    </node>
+    <node id="2520449232">
+      <data key="d4">40.8849049</data>
+      <data key="d5">-73.9163032</data>
+      <data key="d6">2520449232</data>
+    </node>
+    <edge id="0" source="42748877" target="42763390">
+      <data key="d8">244751654</data>
+      <data key="d9">True</data>
+      <data key="d10">Henry Hudson Parkway West</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">126.743</data>
+      <data key="d14">LINESTRING (-73.9149146 40.8846236, -73.9150489 40.8844798, -73.9151688 40.8843337, -73.9153084 40.8841325, -73.9154218 40.8839385, -73.91551200000001 40.883762, -73.915576 40.883606)</data>
+    </edge>
+    <edge id="0" source="42759296" target="42759298">
+      <data key="d8">5698100</data>
+      <data key="d10">West 227th Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">63.792</data>
+    </edge>
+    <edge id="0" source="42759296" target="721834121">
+      <data key="d8">244751654</data>
+      <data key="d9">True</data>
+      <data key="d10">Henry Hudson Parkway West</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">37.804</data>
+    </edge>
+    <edge id="0" source="42759298" target="42759296">
+      <data key="d8">5698100</data>
+      <data key="d10">West 227th Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">63.792</data>
+    </edge>
+    <edge id="0" source="42759298" target="42770885">
+      <data key="d8">244751661</data>
+      <data key="d10">Independence Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d9">False</data>
+      <data key="d13">255.486</data>
+      <data key="d14">LINESTRING (-73.9179524 40.881874, -73.9178282 40.8819878, -73.91750140000001 40.882578, -73.9172839 40.8829709, -73.9171989 40.8831384, -73.9171197 40.8832843, -73.9168279 40.8838219, -73.9167975 40.8839034, -73.9167841 40.8839842)</data>
+    </edge>
+    <edge id="0" source="42759298" target="2520287889">
+      <data key="d8">244751661</data>
+      <data key="d10">Independence Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d9">False</data>
+      <data key="d13">150.166</data>
+      <data key="d14">LINESTRING (-73.9179524 40.881874, -73.9190909 40.880869, -73.9191149 40.8808487)</data>
+    </edge>
+    <edge id="0" source="42763390" target="42770885">
+      <data key="d8">5698793</data>
+      <data key="d10">West 231st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">109.925</data>
+    </edge>
+    <edge id="0" source="42763390" target="42759296">
+      <data key="d8">244751654</data>
+      <data key="d9">True</data>
+      <data key="d10">Henry Hudson Parkway West</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">282.318</data>
+      <data key="d14">LINESTRING (-73.915576 40.883606, -73.9156476 40.8833844, -73.9157067 40.8832451, -73.9157924 40.8830909, -73.9159677 40.8828432, -73.9161687 40.882596, -73.91634070000001 40.8824194, -73.9167185 40.8820745, -73.917376 40.8815009)</data>
+    </edge>
+    <edge id="0" source="42770885" target="42763390">
+      <data key="d8">5698793</data>
+      <data key="d10">West 231st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">109.925</data>
+    </edge>
+    <edge id="0" source="42770885" target="42770888">
+      <data key="d8">5698793</data>
+      <data key="d10">West 231st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">227.81300000000002</data>
+      <data key="d14">LINESTRING (-73.9167841 40.8839842, -73.9176461 40.884267, -73.91815010000001 40.8844366, -73.919267 40.884805)</data>
+    </edge>
+    <edge id="0" source="42770885" target="2520449232">
+      <data key="d8">244751661</data>
+      <data key="d10">Independence Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d9">False</data>
+      <data key="d13">111.845</data>
+      <data key="d14">LINESTRING (-73.9167841 40.8839842, -73.9167619 40.8840737, -73.9167084 40.8841776, -73.9166094 40.8842945, -73.9165234 40.88439, -73.9164754 40.8844652, -73.9164488 40.8845423, -73.9164435 40.8846295, -73.9164352 40.8846883, -73.91641370000001 40.884743, -73.9163684 40.884816, -73.9163032 40.8849049)</data>
+    </edge>
+    <edge id="0" source="42770885" target="42759298">
+      <data key="d8">244751661</data>
+      <data key="d10">Independence Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d9">False</data>
+      <data key="d13">255.486</data>
+      <data key="d14">LINESTRING (-73.9167841 40.8839842, -73.9167975 40.8839034, -73.9168279 40.8838219, -73.9171197 40.8832843, -73.9171989 40.8831384, -73.9172839 40.8829709, -73.91750140000001 40.882578, -73.9178282 40.8819878, -73.9179524 40.881874)</data>
+    </edge>
+    <edge id="0" source="42770888" target="42770885">
+      <data key="d8">5698793</data>
+      <data key="d10">West 231st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">227.81300000000002</data>
+      <data key="d14">LINESTRING (-73.919267 40.884805, -73.91815010000001 40.8844366, -73.9176461 40.884267, -73.9167841 40.8839842)</data>
+    </edge>
+    <edge id="0" source="721834121" target="2520287889">
+      <data key="d8">244751654</data>
+      <data key="d9">True</data>
+      <data key="d10">Henry Hudson Parkway West</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">157.826</data>
+      <data key="d14">LINESTRING (-73.91766730000001 40.8812419, -73.91811680000001 40.8808597, -73.9182722 40.8807275, -73.9183105 40.8806943, -73.91836410000001 40.8806659, -73.91843009999999 40.8806407, -73.9184913 40.8806312, -73.91857400000001 40.8806313, -73.91867430000001 40.880643, -73.9187743 40.880671, -73.9188614 40.8807026, -73.918926 40.8807347, -73.9189877 40.8807664, -73.9191149 40.8808487)</data>
+    </edge>
+    <edge id="0" source="2520287889" target="42759298">
+      <data key="d8">244751661</data>
+      <data key="d10">Independence Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d9">False</data>
+      <data key="d13">150.166</data>
+      <data key="d14">LINESTRING (-73.9191149 40.8808487, -73.9190909 40.880869, -73.9179524 40.881874)</data>
+    </edge>
+    <edge id="0" source="2520449232" target="42770885">
+      <data key="d8">244751661</data>
+      <data key="d10">Independence Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d9">False</data>
+      <data key="d13">111.84499999999998</data>
+      <data key="d14">LINESTRING (-73.9163032 40.8849049, -73.9163684 40.884816, -73.91641370000001 40.884743, -73.9164352 40.8846883, -73.9164435 40.8846295, -73.9164488 40.8845423, -73.9164754 40.8844652, -73.9165234 40.88439, -73.9166094 40.8842945, -73.9167084 40.8841776, -73.9167619 40.8840737, -73.9167841 40.8839842)</data>
+    </edge>
+    <data key="d0">36_NY_36005030100</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42748877: 4, 42759296: 3, 42759298: 3, 42763390: 4, 42770885: 4, 42770888: 4, 721834121: 3, 2520287889: 3, 2520449232: 3}</data>
+  </graph>
+</graphml>

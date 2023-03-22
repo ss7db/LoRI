@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42473144">
+      <data key="d4">40.658478</data>
+      <data key="d5">-73.928172</data>
+      <data key="d6">42473144</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42473147">
+      <data key="d4">40.656802</data>
+      <data key="d5">-73.927995</data>
+      <data key="d6">42473147</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42494706">
+      <data key="d4">40.65661</data>
+      <data key="d5">-73.930903</data>
+      <data key="d6">42494706</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42494709">
+      <data key="d4">40.656684</data>
+      <data key="d5">-73.929898</data>
+      <data key="d6">42494709</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42494712">
+      <data key="d4">40.656742</data>
+      <data key="d5">-73.928964</data>
+      <data key="d6">42494712</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42497535">
+      <data key="d4">40.660415</data>
+      <data key="d5">-73.934231</data>
+      <data key="d6">42497535</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42497547">
+      <data key="d4">40.660532</data>
+      <data key="d5">-73.932336</data>
+      <data key="d6">42497547</data>
+    </node>
+    <node id="42503266">
+      <data key="d4">40.65836</data>
+      <data key="d5">-73.930076</data>
+      <data key="d6">42503266</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42516395">
+      <data key="d4">40.658119</data>
+      <data key="d5">-73.933996</data>
+      <data key="d6">42516395</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42520965">
+      <data key="d4">40.658296</data>
+      <data key="d5">-73.931083</data>
+      <data key="d6">42520965</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42522040">
+      <data key="d4">40.658235</data>
+      <data key="d5">-73.93209</data>
+      <data key="d6">42522040</data>
+    </node>
+    <node id="42522051">
+      <data key="d4">40.658418</data>
+      <data key="d5">-73.929143</data>
+      <data key="d6">42522051</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42473144" target="42522051">
+      <data key="d8">274887917</data>
+      <data key="d9">False</data>
+      <data key="d10">Winthrop Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">82.178</data>
+    </edge>
+    <edge id="0" source="42473147" target="42494712">
+      <data key="d8">221570529</data>
+      <data key="d9">False</data>
+      <data key="d10">Clarkson Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">82.012</data>
+    </edge>
+    <edge id="0" source="42473147" target="42473144">
+      <data key="d8">274893353</data>
+      <data key="d9">True</data>
+      <data key="d10">East 53rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">186.96</data>
+    </edge>
+    <edge id="0" source="42494706" target="42494709">
+      <data key="d8">221570529</data>
+      <data key="d9">False</data>
+      <data key="d10">Clarkson Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">85.176</data>
+    </edge>
+    <edge id="0" source="42494706" target="42520965">
+      <data key="d8">[420910112, 420910122, 420910108, 420910118]</data>
+      <data key="d9">False</data>
+      <data key="d10">Utica Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">188.089</data>
+      <data key="d13">LINESTRING (-73.930903 40.65661, -73.9309269 40.6568334, -73.9309385 40.6569421, -73.9310515 40.6580014, -73.931083 40.658296)</data>
+    </edge>
+    <edge id="0" source="42494709" target="42494712">
+      <data key="d8">221570529</data>
+      <data key="d9">False</data>
+      <data key="d10">Clarkson Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">79.052</data>
+    </edge>
+    <edge id="0" source="42494709" target="42494706">
+      <data key="d8">221570529</data>
+      <data key="d9">False</data>
+      <data key="d10">Clarkson Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">85.176</data>
+    </edge>
+    <edge id="0" source="42494709" target="42503266">
+      <data key="d8">276090408</data>
+      <data key="d9">True</data>
+      <data key="d14">1</data>
+      <data key="d10">East 51st Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">186.967</data>
+    </edge>
+    <edge id="0" source="42494712" target="42473147">
+      <data key="d8">221570529</data>
+      <data key="d9">False</data>
+      <data key="d10">Clarkson Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">82.012</data>
+    </edge>
+    <edge id="0" source="42494712" target="42494709">
+      <data key="d8">221570529</data>
+      <data key="d9">False</data>
+      <data key="d10">Clarkson Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">79.052</data>
+    </edge>
+    <edge id="0" source="42497535" target="42497547">
+      <data key="d8">5678309</data>
+      <data key="d9">True</data>
+      <data key="d10">Rutland Road</data>
+      <data key="d11">residential</data>
+      <data key="d12">160.373</data>
+    </edge>
+    <edge id="0" source="42497535" target="42516395">
+      <data key="d8">221571173</data>
+      <data key="d9">True</data>
+      <data key="d10">Schenectady Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">256.072</data>
+      <data key="d13">LINESTRING (-73.934231 40.660415, -73.93407759999999 40.6589165, -73.93406830000001 40.6588258, -73.93399599999999 40.658119)</data>
+    </edge>
+    <edge id="0" source="42503266" target="42520965">
+      <data key="d8">274887914</data>
+      <data key="d9">False</data>
+      <data key="d10">Winthrop Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">85.242</data>
+    </edge>
+    <edge id="0" source="42503266" target="42522051">
+      <data key="d8">274887921</data>
+      <data key="d9">False</data>
+      <data key="d10">Winthrop Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">78.966</data>
+    </edge>
+    <edge id="0" source="42516395" target="42522040">
+      <data key="d8">274887919</data>
+      <data key="d9">False</data>
+      <data key="d10">Winthrop Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">161.29399999999998</data>
+      <data key="d13">LINESTRING (-73.93399599999999 40.658119, -73.9328672 40.6581877, -73.93209 40.658235)</data>
+    </edge>
+    <edge id="0" source="42520965" target="42503266">
+      <data key="d8">274887914</data>
+      <data key="d9">False</data>
+      <data key="d10">Winthrop Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">85.242</data>
+    </edge>
+    <edge id="0" source="42520965" target="42522040">
+      <data key="d8">274887916</data>
+      <data key="d9">False</data>
+      <data key="d10">Winthrop Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">85.214</data>
+    </edge>
+    <edge id="0" source="42520965" target="42494706">
+      <data key="d8">[420910112, 420910122, 420910108, 420910118]</data>
+      <data key="d9">False</data>
+      <data key="d10">Utica Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">188.08900000000003</data>
+      <data key="d13">LINESTRING (-73.931083 40.658296, -73.9310515 40.6580014, -73.9309385 40.6569421, -73.9309269 40.6568334, -73.930903 40.65661)</data>
+    </edge>
+    <edge id="0" source="42522040" target="42520965">
+      <data key="d8">274887916</data>
+      <data key="d9">False</data>
+      <data key="d10">Winthrop Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">85.214</data>
+    </edge>
+    <edge id="0" source="42522040" target="42497547">
+      <data key="d8">5682148</data>
+      <data key="d9">True</data>
+      <data key="d10">East 49th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">256.25600000000003</data>
+      <data key="d13">LINESTRING (-73.93209 40.658235, -73.9322208 40.6594567, -73.93232759999999 40.6604539, -73.93233600000001 40.660532)</data>
+    </edge>
+    <edge id="0" source="42522040" target="42516395">
+      <data key="d8">274887919</data>
+      <data key="d9">False</data>
+      <data key="d10">Winthrop Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">161.29399999999998</data>
+      <data key="d13">LINESTRING (-73.93209 40.658235, -73.9328672 40.6581877, -73.93399599999999 40.658119)</data>
+    </edge>
+    <edge id="0" source="42522051" target="42473144">
+      <data key="d8">274887917</data>
+      <data key="d9">False</data>
+      <data key="d10">Winthrop Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">82.178</data>
+    </edge>
+    <edge id="0" source="42522051" target="42503266">
+      <data key="d8">274887921</data>
+      <data key="d9">False</data>
+      <data key="d10">Winthrop Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">78.966</data>
+    </edge>
+    <edge id="0" source="42522051" target="42494712">
+      <data key="d8">276029817</data>
+      <data key="d9">True</data>
+      <data key="d10">East 52nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">186.974</data>
+    </edge>
+    <data key="d0">36_NY_36047087800</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42473144: 4, 42473147: 4, 42494706: 4, 42494709: 4, 42494712: 4, 42497535: 4, 42497547: 3, 42503266: 4, 42516395: 3, 42520965: 4, 42522040: 3, 42522051: 4}</data>
+  </graph>
+</graphml>

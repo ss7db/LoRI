@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42737871">
+      <data key="d4">40.8839183</data>
+      <data key="d5">-73.887037</data>
+      <data key="d6">42737871</data>
+    </node>
+    <node id="42741595">
+      <data key="d4">40.8826658</data>
+      <data key="d5">-73.8925038</data>
+      <data key="d6">42741595</data>
+    </node>
+    <node id="42743308">
+      <data key="d4">40.8824294</data>
+      <data key="d5">-73.8915549</data>
+      <data key="d6">42743308</data>
+    </node>
+    <node id="42743312">
+      <data key="d4">40.8825884</data>
+      <data key="d5">-73.8903731</data>
+      <data key="d6">42743312</data>
+    </node>
+    <node id="42743315">
+      <data key="d4">40.8828258</data>
+      <data key="d5">-73.8886135</data>
+      <data key="d6">42743315</data>
+    </node>
+    <node id="42743324">
+      <data key="d4">40.8831712</data>
+      <data key="d5">-73.8871188</data>
+      <data key="d6">42743324</data>
+    </node>
+    <node id="42752280">
+      <data key="d4">40.8842731</data>
+      <data key="d5">-73.8875909</data>
+      <data key="d6">42752280</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42756620">
+      <data key="d4">40.883679</data>
+      <data key="d5">-73.893128</data>
+      <data key="d6">42756620</data>
+    </node>
+    <node id="42756625">
+      <data key="d4">40.884532</data>
+      <data key="d5">-73.892174</data>
+      <data key="d6">42756625</data>
+    </node>
+    <node id="1543888830">
+      <data key="d4">40.8828993</data>
+      <data key="d5">-73.8881078</data>
+      <data key="d6">1543888830</data>
+    </node>
+    <node id="1954027052">
+      <data key="d4">40.8827369</data>
+      <data key="d5">-73.8926441</data>
+      <data key="d6">1954027052</data>
+    </node>
+    <edge id="0" source="42737871" target="42743324">
+      <data key="d8">141032797</data>
+      <data key="d9">True</data>
+      <data key="d10">1</data>
+      <data key="d11">West Mosholu Parkway South</data>
+      <data key="d12">residential</data>
+      <data key="d13">83.755</data>
+      <data key="d14">LINESTRING (-73.88703700000001 40.8839183, -73.88709900000001 40.8836683, -73.8871341 40.8834377, -73.8871188 40.8831712)</data>
+    </edge>
+    <edge id="0" source="42741595" target="1954027052">
+      <data key="d8">420883765</data>
+      <data key="d9">True</data>
+      <data key="d11">Sedgwick Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">14.199</data>
+    </edge>
+    <edge id="0" source="42743308" target="42741595">
+      <data key="d8">223871003</data>
+      <data key="d9">True</data>
+      <data key="d11">Sedgwick Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">86.636</data>
+      <data key="d14">LINESTRING (-73.8915549 40.8824294, -73.89182150000001 40.8824154, -73.8919951 40.8824499, -73.89221929999999 40.8825355, -73.8925038 40.8826658)</data>
+    </edge>
+    <edge id="0" source="42743312" target="42743308">
+      <data key="d8">223871003</data>
+      <data key="d9">True</data>
+      <data key="d11">Sedgwick Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">100.914</data>
+    </edge>
+    <edge id="0" source="42743315" target="42743312">
+      <data key="d8">223871003</data>
+      <data key="d9">True</data>
+      <data key="d11">Sedgwick Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">150.265</data>
+    </edge>
+    <edge id="0" source="42743315" target="42752280">
+      <data key="d8">5697715</data>
+      <data key="d11">Dickinson Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d9">False</data>
+      <data key="d13">182.53199999999998</data>
+      <data key="d14">LINESTRING (-73.88861350000001 40.8828258, -73.88801170000001 40.8836627, -73.8877766 40.8839897, -73.88763830000001 40.884182, -73.88759090000001 40.8842731)</data>
+    </edge>
+    <edge id="0" source="42743324" target="1543888830">
+      <data key="d8">141032797</data>
+      <data key="d9">True</data>
+      <data key="d10">1</data>
+      <data key="d11">West Mosholu Parkway South</data>
+      <data key="d12">residential</data>
+      <data key="d13">92.095</data>
+      <data key="d14">LINESTRING (-73.8871188 40.8831712, -73.8872229 40.8830537, -73.887253 40.8830493, -73.88750400000001 40.8830123, -73.8881078 40.8828993)</data>
+    </edge>
+    <edge id="0" source="42752280" target="42743315">
+      <data key="d8">5697715</data>
+      <data key="d11">Dickinson Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d9">False</data>
+      <data key="d13">182.53199999999998</data>
+      <data key="d14">LINESTRING (-73.88759090000001 40.8842731, -73.88763830000001 40.884182, -73.8877766 40.8839897, -73.88801170000001 40.8836627, -73.88861350000001 40.8828258)</data>
+    </edge>
+    <edge id="0" source="42756620" target="42756625">
+      <data key="d8">5697940</data>
+      <data key="d11">Orloff Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">131.164</data>
+      <data key="d14">LINESTRING (-73.893128 40.883679, -73.892777 40.8837505, -73.892174 40.884532)</data>
+    </edge>
+    <edge id="0" source="42756625" target="42756620">
+      <data key="d8">5697940</data>
+      <data key="d11">Orloff Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">131.164</data>
+      <data key="d14">LINESTRING (-73.892174 40.884532, -73.892777 40.8837505, -73.893128 40.883679)</data>
+    </edge>
+    <edge id="0" source="1543888830" target="42743315">
+      <data key="d8">223871003</data>
+      <data key="d9">True</data>
+      <data key="d11">Sedgwick Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">43.292</data>
+    </edge>
+    <data key="d0">36_NY_36005028100</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42737871: 3, 42741595: 3, 42743308: 4, 42743312: 4, 42743315: 4, 42743324: 3, 42752280: 4, 42756620: 4, 42756625: 3, 1543888830: 4, 1954027052: 3}</data>
+  </graph>
+</graphml>

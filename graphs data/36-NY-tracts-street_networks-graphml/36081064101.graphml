@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42846359">
+      <data key="d4">40.6984939</data>
+      <data key="d5">-73.8517045</data>
+      <data key="d6">42846359</data>
+    </node>
+    <node id="42846364">
+      <data key="d4">40.697682</data>
+      <data key="d5">-73.851838</data>
+      <data key="d6">42846364</data>
+    </node>
+    <node id="42860316">
+      <data key="d4">40.6975864</data>
+      <data key="d5">-73.8526282</data>
+      <data key="d6">42860316</data>
+    </node>
+    <node id="42869722">
+      <data key="d4">40.69809</data>
+      <data key="d5">-73.849933</data>
+      <data key="d6">42869722</data>
+    </node>
+    <node id="42919181">
+      <data key="d4">40.698196</data>
+      <data key="d5">-73.849478</data>
+      <data key="d6">42919181</data>
+    </node>
+    <node id="2757013581">
+      <data key="d4">40.6999606</data>
+      <data key="d5">-73.8535588</data>
+      <data key="d6">2757013581</data>
+    </node>
+    <edge id="0" source="42846359" target="42846364">
+      <data key="d7">276149415</data>
+      <data key="d8">False</data>
+      <data key="d9">94th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">93.607</data>
+      <data key="d12">LINESTRING (-73.8517045 40.6984939, -73.85175580000001 40.698365, -73.851828 40.698315, -73.851838 40.697682)</data>
+    </edge>
+    <edge id="0" source="42846364" target="42869722">
+      <data key="d7">5710644</data>
+      <data key="d9">Park Lane South</data>
+      <data key="d10">residential</data>
+      <data key="d8">False</data>
+      <data key="d11">166.883</data>
+    </edge>
+    <edge id="0" source="42846364" target="42860316">
+      <data key="d7">5710644</data>
+      <data key="d9">Park Lane South</data>
+      <data key="d10">residential</data>
+      <data key="d8">False</data>
+      <data key="d11">67.46</data>
+    </edge>
+    <edge id="0" source="42846364" target="42846359">
+      <data key="d7">276149415</data>
+      <data key="d8">False</data>
+      <data key="d9">94th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">93.607</data>
+      <data key="d12">LINESTRING (-73.851838 40.697682, -73.851828 40.698315, -73.85175580000001 40.698365, -73.8517045 40.6984939)</data>
+    </edge>
+    <edge id="0" source="42860316" target="42846364">
+      <data key="d7">5710644</data>
+      <data key="d9">Park Lane South</data>
+      <data key="d10">residential</data>
+      <data key="d8">False</data>
+      <data key="d11">67.46</data>
+    </edge>
+    <edge id="0" source="42860316" target="2757013581">
+      <data key="d7">270694743</data>
+      <data key="d8">True</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">287.866</data>
+      <data key="d12">LINESTRING (-73.8526282 40.6975864, -73.8524979 40.6978367, -73.8524752 40.6979649, -73.85246890000001 40.6980728, -73.8524694 40.6982001, -73.8524877 40.6983149, -73.8525401 40.698458, -73.8526699 40.6986992, -73.8529017 40.6990561, -73.8535588 40.6999606)</data>
+    </edge>
+    <edge id="0" source="42869722" target="42919181">
+      <data key="d7">5710644</data>
+      <data key="d9">Park Lane South</data>
+      <data key="d10">residential</data>
+      <data key="d8">False</data>
+      <data key="d11">40.128</data>
+    </edge>
+    <edge id="0" source="42869722" target="42846364">
+      <data key="d7">5710644</data>
+      <data key="d9">Park Lane South</data>
+      <data key="d10">residential</data>
+      <data key="d8">False</data>
+      <data key="d11">166.883</data>
+    </edge>
+    <edge id="0" source="42919181" target="42869722">
+      <data key="d7">5710644</data>
+      <data key="d9">Park Lane South</data>
+      <data key="d10">residential</data>
+      <data key="d8">False</data>
+      <data key="d11">40.128</data>
+    </edge>
+    <edge id="0" source="42919181" target="2757013581">
+      <data key="d7">270694766</data>
+      <data key="d8">True</data>
+      <data key="d9">98th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">433.94399999999996</data>
+      <data key="d12">LINESTRING (-73.849478 40.698196, -73.84985639999999 40.6987155, -73.8499544 40.69885, -73.8500501 40.6989814, -73.85031069999999 40.6992278, -73.85058669999999 40.6995507, -73.8506641 40.6995944, -73.8508255 40.6996513, -73.8509858 40.6996882, -73.8535588 40.6999606)</data>
+    </edge>
+    <data key="d0">36_NY_36081064101</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42846359: 1, 42846364: 4, 42860316: 6, 42869722: 3, 42919181: 4, 2757013581: 3}</data>
+  </graph>
+</graphml>

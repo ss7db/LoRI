@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="119765028">
+      <data key="d4">42.114611</data>
+      <data key="d5">-76.8269271</data>
+      <data key="d6">119765028</data>
+    </node>
+    <node id="119842564">
+      <data key="d4">42.11651</data>
+      <data key="d5">-76.827239</data>
+      <data key="d6">119842564</data>
+    </node>
+    <node id="211798906">
+      <data key="d4">42.115641</data>
+      <data key="d5">-76.827094</data>
+      <data key="d6">211798906</data>
+    </node>
+    <edge id="0" source="119765028" target="211798906">
+      <data key="d7">139807452</data>
+      <data key="d8">Davis Street</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">115.355</data>
+    </edge>
+    <edge id="0" source="119842564" target="211798906">
+      <data key="d7">139807452</data>
+      <data key="d8">Davis Street</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">97.366</data>
+    </edge>
+    <edge id="0" source="211798906" target="119842564">
+      <data key="d7">139807452</data>
+      <data key="d8">Davis Street</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">97.366</data>
+    </edge>
+    <edge id="0" source="211798906" target="119765028">
+      <data key="d7">139807452</data>
+      <data key="d8">Davis Street</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">115.355</data>
+    </edge>
+    <data key="d0">36_NY_36015000300</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{119765028: 5, 119842564: 3, 211798906: 3}</data>
+  </graph>
+</graphml>

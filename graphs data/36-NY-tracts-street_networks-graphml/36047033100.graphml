@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42467476">
+      <data key="d4">40.664947</data>
+      <data key="d5">-73.942613</data>
+      <data key="d6">42467476</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42467478">
+      <data key="d4">40.664055</data>
+      <data key="d5">-73.942696</data>
+      <data key="d6">42467478</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42472176">
+      <data key="d4">40.663021</data>
+      <data key="d5">-73.940029</data>
+      <data key="d6">42472176</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42472180">
+      <data key="d4">40.663192</data>
+      <data key="d5">-73.937264</data>
+      <data key="d6">42472180</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42475511">
+      <data key="d4">40.664794</data>
+      <data key="d5">-73.939845</data>
+      <data key="d6">42475511</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42475513">
+      <data key="d4">40.663904</data>
+      <data key="d5">-73.939926</data>
+      <data key="d6">42475513</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42477566">
+      <data key="d4">40.664129</data>
+      <data key="d5">-73.944082</data>
+      <data key="d6">42477566</data>
+    </node>
+    <node id="42479632">
+      <data key="d4">40.665248</data>
+      <data key="d5">-73.948151</data>
+      <data key="d6">42479632</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42479634">
+      <data key="d4">40.665099</data>
+      <data key="d5">-73.945381</data>
+      <data key="d6">42479634</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42479640">
+      <data key="d4">40.664644</data>
+      <data key="d5">-73.937074</data>
+      <data key="d6">42479640</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42481975">
+      <data key="d4">40.664082</data>
+      <data key="d5">-73.948166</data>
+      <data key="d6">42481975</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42481979">
+      <data key="d4">40.664226</data>
+      <data key="d5">-73.945463</data>
+      <data key="d6">42481979</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42481982">
+      <data key="d4">40.664174</data>
+      <data key="d5">-73.944892</data>
+      <data key="d6">42481982</data>
+    </node>
+    <node id="42481985">
+      <data key="d4">40.663753</data>
+      <data key="d5">-73.937158</data>
+      <data key="d6">42481985</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42496535">
+      <data key="d4">40.664403</data>
+      <data key="d5">-73.948222</data>
+      <data key="d6">42496535</data>
+    </node>
+    <node id="4202560354">
+      <data key="d4">40.6640433</data>
+      <data key="d5">-73.942345</data>
+      <data key="d6">4202560354</data>
+    </node>
+    <edge id="0" source="42467476" target="42475511">
+      <data key="d8">276055789</data>
+      <data key="d9">True</data>
+      <data key="d10">Montgomery Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">234.087</data>
+    </edge>
+    <edge id="0" source="42467478" target="42467476">
+      <data key="d8">221753942</data>
+      <data key="d9">True</data>
+      <data key="d10">Kingston Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">99.43299999999999</data>
+      <data key="d13">LINESTRING (-73.942696 40.664055, -73.9426529 40.6645181, -73.94261299999999 40.664947)</data>
+    </edge>
+    <edge id="0" source="42467478" target="42477566">
+      <data key="d8">[420317225, 420317218]</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">117.19300000000001</data>
+      <data key="d13">LINESTRING (-73.942696 40.664055, -73.94316619999999 40.6640801, -73.94408199999999 40.664129)</data>
+    </edge>
+    <edge id="0" source="42467478" target="4202560354">
+      <data key="d8">421116330</data>
+      <data key="d9">True</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">31.675</data>
+      <data key="d13">LINESTRING (-73.942696 40.664055, -73.94262000000001 40.6640182, -73.9424155 40.6640134, -73.942345 40.6640433)</data>
+    </edge>
+    <edge id="0" source="42472176" target="42472180">
+      <data key="d8">497407038</data>
+      <data key="d9">False</data>
+      <data key="d10">Lefferts Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">233.995</data>
+    </edge>
+    <edge id="0" source="42472180" target="42481985">
+      <data key="d8">221570530</data>
+      <data key="d9">True</data>
+      <data key="d10">Troy Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">63.018</data>
+    </edge>
+    <edge id="0" source="42472180" target="42472176">
+      <data key="d8">497407038</data>
+      <data key="d9">False</data>
+      <data key="d10">Lefferts Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">233.995</data>
+    </edge>
+    <edge id="0" source="42475511" target="42475513">
+      <data key="d8">276043634</data>
+      <data key="d9">True</data>
+      <data key="d10">Albany Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">99.199</data>
+    </edge>
+    <edge id="0" source="42475511" target="42479640">
+      <data key="d8">276055801</data>
+      <data key="d9">True</data>
+      <data key="d10">Montgomery Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">234.316</data>
+    </edge>
+    <edge id="0" source="42475513" target="4202560354">
+      <data key="d8">221753938</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">204.621</data>
+    </edge>
+    <edge id="0" source="42475513" target="42472176">
+      <data key="d8">276043632</data>
+      <data key="d9">True</data>
+      <data key="d10">Albany Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">98.569</data>
+    </edge>
+    <edge id="0" source="42475513" target="42481985">
+      <data key="d8">[420307985, 420908357, 420908359]</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">234.07399999999998</data>
+      <data key="d13">LINESTRING (-73.939926 40.663904, -73.9394444 40.6638777, -73.93764760000001 40.6637797, -73.937158 40.663753)</data>
+    </edge>
+    <edge id="0" source="42477566" target="42467478">
+      <data key="d8">[420317225, 420317218]</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">117.19300000000001</data>
+      <data key="d13">LINESTRING (-73.94408199999999 40.664129, -73.94316619999999 40.6640801, -73.942696 40.664055)</data>
+    </edge>
+    <edge id="0" source="42477566" target="42481982">
+      <data key="d8">420317225</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">68.503</data>
+      <data key="d13">LINESTRING (-73.94408199999999 40.664129, -73.94486879999999 40.6641727, -73.944892 40.664174)</data>
+    </edge>
+    <edge id="0" source="42479632" target="42479634">
+      <data key="d8">276055775</data>
+      <data key="d9">True</data>
+      <data key="d10">Montgomery Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">234.222</data>
+    </edge>
+    <edge id="0" source="42479634" target="42467476">
+      <data key="d8">276055785</data>
+      <data key="d9">True</data>
+      <data key="d10">Montgomery Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">234.078</data>
+    </edge>
+    <edge id="0" source="42479634" target="42481979">
+      <data key="d8">479748558</data>
+      <data key="d9">True</data>
+      <data key="d10">Brooklyn Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">97.32</data>
+      <data key="d13">LINESTRING (-73.945381 40.665099, -73.9454191 40.6646938, -73.945463 40.664226)</data>
+    </edge>
+    <edge id="0" source="42481975" target="42496535">
+      <data key="d8">450610492</data>
+      <data key="d9">True</data>
+      <data key="d10">New York Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">36.005</data>
+    </edge>
+    <edge id="0" source="42481975" target="42481979">
+      <data key="d8">420317212</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">228.549</data>
+      <data key="d13">LINESTRING (-73.948166 40.664082, -73.9476818 40.6641078, -73.945463 40.664226)</data>
+    </edge>
+    <edge id="0" source="42481979" target="42481975">
+      <data key="d8">420317212</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">228.549</data>
+      <data key="d13">LINESTRING (-73.945463 40.664226, -73.9476818 40.6641078, -73.948166 40.664082)</data>
+    </edge>
+    <edge id="0" source="42481979" target="42481982">
+      <data key="d8">[420317225, 420317215]</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">48.508</data>
+      <data key="d13">LINESTRING (-73.945463 40.664226, -73.944988 40.6641827, -73.944892 40.664174)</data>
+    </edge>
+    <edge id="0" source="42481982" target="42477566">
+      <data key="d8">420317225</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">68.503</data>
+      <data key="d13">LINESTRING (-73.944892 40.664174, -73.94486879999999 40.6641727, -73.94408199999999 40.664129)</data>
+    </edge>
+    <edge id="0" source="42481982" target="42481979">
+      <data key="d8">[420317225, 420317215]</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">48.508</data>
+      <data key="d13">LINESTRING (-73.944892 40.664174, -73.944988 40.6641827, -73.945463 40.664226)</data>
+    </edge>
+    <edge id="0" source="42481985" target="42479640">
+      <data key="d8">46866159</data>
+      <data key="d9">True</data>
+      <data key="d10">Troy Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">99.328</data>
+    </edge>
+    <edge id="0" source="42481985" target="42475513">
+      <data key="d8">[420307985, 420908357, 420908359]</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">234.07399999999998</data>
+      <data key="d13">LINESTRING (-73.937158 40.663753, -73.93764760000001 40.6637797, -73.9394444 40.6638777, -73.939926 40.663904)</data>
+    </edge>
+    <edge id="0" source="42496535" target="42479632">
+      <data key="d8">450610492</data>
+      <data key="d9">True</data>
+      <data key="d10">New York Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">94.15</data>
+      <data key="d13">LINESTRING (-73.948222 40.664403, -73.9481849 40.6648443, -73.948151 40.665248)</data>
+    </edge>
+    <edge id="0" source="4202560354" target="42475513">
+      <data key="d8">221753938</data>
+      <data key="d9">False</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">204.621</data>
+    </edge>
+    <edge id="0" source="4202560354" target="42467478">
+      <data key="d8">[421116325, 420317222]</data>
+      <data key="d9">True</data>
+      <data key="d10">Empire Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">33.147</data>
+      <data key="d13">LINESTRING (-73.942345 40.6640433, -73.9424068 40.6640897, -73.94261899999999 40.6640955, -73.942696 40.664055)</data>
+    </edge>
+    <data key="d0">36_NY_36047033100</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42467476: 4, 42467478: 4, 42472176: 4, 42472180: 4, 42475511: 4, 42475513: 4, 42477566: 3, 42479632: 4, 42479634: 4, 42479640: 4, 42481975: 4, 42481979: 4, 42481982: 3, 42481985: 5, 42496535: 3, 4202560354: 2}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42948726">
+      <data key="d4">40.635396</data>
+      <data key="d5">-74.117384</data>
+      <data key="d6">42948726</data>
+    </node>
+    <node id="42961321">
+      <data key="d4">40.634446</data>
+      <data key="d5">-74.118493</data>
+      <data key="d6">42961321</data>
+    </node>
+    <node id="42980934">
+      <data key="d4">40.6345731</data>
+      <data key="d5">-74.1172111</data>
+      <data key="d6">42980934</data>
+    </node>
+    <node id="42996871">
+      <data key="d4">40.634521</data>
+      <data key="d5">-74.11781</data>
+      <data key="d6">42996871</data>
+    </node>
+    <node id="42996874">
+      <data key="d4">40.634363</data>
+      <data key="d5">-74.11943</data>
+      <data key="d6">42996874</data>
+    </node>
+    <node id="42996879">
+      <data key="d4">40.6343</data>
+      <data key="d5">-74.120239</data>
+      <data key="d6">42996879</data>
+    </node>
+    <node id="43012397">
+      <data key="d4">40.636667</data>
+      <data key="d5">-74.119752</data>
+      <data key="d6">43012397</data>
+    </node>
+    <edge id="0" source="42948726" target="42980934">
+      <data key="d7">68665338</data>
+      <data key="d8">Broadway</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">92.658</data>
+    </edge>
+    <edge id="0" source="42961321" target="42996874">
+      <data key="d7">222788044</data>
+      <data key="d8">Castleton Avenue</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">79.604</data>
+    </edge>
+    <edge id="0" source="42961321" target="42996871">
+      <data key="d7">222788044</data>
+      <data key="d8">Castleton Avenue</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">58.234</data>
+    </edge>
+    <edge id="0" source="42980934" target="42948726">
+      <data key="d7">68665338</data>
+      <data key="d8">Broadway</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">92.658</data>
+    </edge>
+    <edge id="0" source="42980934" target="42996871">
+      <data key="d7">222788044</data>
+      <data key="d8">Castleton Avenue</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">50.868</data>
+    </edge>
+    <edge id="0" source="42996871" target="42961321">
+      <data key="d7">222788044</data>
+      <data key="d8">Castleton Avenue</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">58.234</data>
+    </edge>
+    <edge id="0" source="42996871" target="42980934">
+      <data key="d7">222788044</data>
+      <data key="d8">Castleton Avenue</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">50.868</data>
+    </edge>
+    <edge id="0" source="42996874" target="42961321">
+      <data key="d7">222788044</data>
+      <data key="d8">Castleton Avenue</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">79.604</data>
+    </edge>
+    <edge id="0" source="42996874" target="42996879">
+      <data key="d7">222788044</data>
+      <data key="d8">Castleton Avenue</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">68.625</data>
+      <data key="d12">LINESTRING (-74.11942999999999 40.634363, -74.1201058 40.6343104, -74.120239 40.6343)</data>
+    </edge>
+    <edge id="0" source="42996879" target="42996874">
+      <data key="d7">222788044</data>
+      <data key="d8">Castleton Avenue</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">68.625</data>
+      <data key="d12">LINESTRING (-74.120239 40.6343, -74.1201058 40.6343104, -74.11942999999999 40.634363)</data>
+    </edge>
+    <data key="d0">36_NY_36085013301</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42948726: 3, 42961321: 3, 42980934: 4, 42996871: 3, 42996874: 3, 42996879: 3, 43012397: 3}</data>
+  </graph>
+</graphml>

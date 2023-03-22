@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42460599">
+      <data key="d4">40.643838</data>
+      <data key="d5">-73.939226</data>
+      <data key="d6">42460599</data>
+    </node>
+    <node id="42460600">
+      <data key="d4">40.641538</data>
+      <data key="d5">-73.938981</data>
+      <data key="d6">42460600</data>
+    </node>
+    <node id="42460602">
+      <data key="d4">40.6392</data>
+      <data key="d5">-73.938731</data>
+      <data key="d6">42460602</data>
+    </node>
+    <node id="42475343">
+      <data key="d4">40.643896</data>
+      <data key="d5">-73.938255</data>
+      <data key="d6">42475343</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42475346">
+      <data key="d4">40.641603</data>
+      <data key="d5">-73.938012</data>
+      <data key="d6">42475346</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42476219">
+      <data key="d4">40.643958</data>
+      <data key="d5">-73.937284</data>
+      <data key="d6">42476219</data>
+    </node>
+    <node id="42476222">
+      <data key="d4">40.641658</data>
+      <data key="d5">-73.937041</data>
+      <data key="d6">42476222</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42476229">
+      <data key="d4">40.639319</data>
+      <data key="d5">-73.936792</data>
+      <data key="d6">42476229</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42487283">
+      <data key="d4">40.641481</data>
+      <data key="d5">-73.939914</data>
+      <data key="d6">42487283</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42487284">
+      <data key="d4">40.639142</data>
+      <data key="d5">-73.939664</data>
+      <data key="d6">42487284</data>
+    </node>
+    <edge id="0" source="42460599" target="42460600">
+      <data key="d8">5673733</data>
+      <data key="d9">True</data>
+      <data key="d10">East 40th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">256.583</data>
+    </edge>
+    <edge id="0" source="42460599" target="42475343">
+      <data key="d8">5681936</data>
+      <data key="d10">Clarendon Road</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">82.178</data>
+    </edge>
+    <edge id="0" source="42460600" target="42460602">
+      <data key="d8">5673733</data>
+      <data key="d9">True</data>
+      <data key="d10">East 40th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">260.828</data>
+    </edge>
+    <edge id="0" source="42460600" target="42475346">
+      <data key="d8">221453107</data>
+      <data key="d9">False</data>
+      <data key="d10">Avenue D</data>
+      <data key="d11">residential</data>
+      <data key="d12">82.078</data>
+    </edge>
+    <edge id="0" source="42460600" target="42487283">
+      <data key="d8">221453107</data>
+      <data key="d9">False</data>
+      <data key="d10">Avenue D</data>
+      <data key="d11">residential</data>
+      <data key="d12">78.976</data>
+    </edge>
+    <edge id="0" source="42460602" target="42487284">
+      <data key="d8">497257956</data>
+      <data key="d9">False</data>
+      <data key="d10">Foster Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">78.988</data>
+    </edge>
+    <edge id="0" source="42475343" target="42475346">
+      <data key="d8">5676422</data>
+      <data key="d9">False</data>
+      <data key="d10">Albany Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">255.793</data>
+    </edge>
+    <edge id="0" source="42475343" target="42476219">
+      <data key="d8">5681936</data>
+      <data key="d10">Clarendon Road</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">82.215</data>
+    </edge>
+    <edge id="0" source="42475343" target="42460599">
+      <data key="d8">5681936</data>
+      <data key="d10">Clarendon Road</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">82.178</data>
+    </edge>
+    <edge id="0" source="42475346" target="42475343">
+      <data key="d8">5676422</data>
+      <data key="d9">False</data>
+      <data key="d10">Albany Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">255.793</data>
+    </edge>
+    <edge id="0" source="42475346" target="42476222">
+      <data key="d8">221453107</data>
+      <data key="d9">False</data>
+      <data key="d10">Avenue D</data>
+      <data key="d11">residential</data>
+      <data key="d12">82.156</data>
+    </edge>
+    <edge id="0" source="42475346" target="42460600">
+      <data key="d8">221453107</data>
+      <data key="d9">False</data>
+      <data key="d10">Avenue D</data>
+      <data key="d11">residential</data>
+      <data key="d12">82.078</data>
+    </edge>
+    <edge id="0" source="42476219" target="42476222">
+      <data key="d8">5676507</data>
+      <data key="d9">True</data>
+      <data key="d10">East 42nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">256.569</data>
+    </edge>
+    <edge id="0" source="42476219" target="42475343">
+      <data key="d8">5681936</data>
+      <data key="d10">Clarendon Road</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">82.215</data>
+    </edge>
+    <edge id="0" source="42476222" target="42476229">
+      <data key="d8">5676507</data>
+      <data key="d9">True</data>
+      <data key="d10">East 42nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">260.932</data>
+    </edge>
+    <edge id="0" source="42476222" target="42475346">
+      <data key="d8">221453107</data>
+      <data key="d9">False</data>
+      <data key="d10">Avenue D</data>
+      <data key="d11">residential</data>
+      <data key="d12">82.156</data>
+    </edge>
+    <edge id="0" source="42487283" target="42460600">
+      <data key="d8">221453107</data>
+      <data key="d9">False</data>
+      <data key="d10">Avenue D</data>
+      <data key="d11">residential</data>
+      <data key="d12">78.976</data>
+    </edge>
+    <edge id="0" source="42487284" target="42487283">
+      <data key="d8">276042187</data>
+      <data key="d9">True</data>
+      <data key="d10">East 39th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">260.939</data>
+    </edge>
+    <edge id="0" source="42487284" target="42460602">
+      <data key="d8">497257956</data>
+      <data key="d9">False</data>
+      <data key="d10">Foster Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">78.988</data>
+    </edge>
+    <data key="d0">36_NY_36047083400</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42460599: 4, 42460600: 4, 42460602: 4, 42475343: 4, 42475346: 4, 42476219: 4, 42476222: 4, 42476229: 4, 42487283: 4, 42487284: 4}</data>
+  </graph>
+</graphml>

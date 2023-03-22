@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d15" />
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42469653">
+      <data key="d4">40.675906</data>
+      <data key="d5">-73.969498</data>
+      <data key="d6">42469653</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42469657">
+      <data key="d4">40.6753667</data>
+      <data key="d5">-73.9696883</data>
+      <data key="d6">42469657</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42474783">
+      <data key="d4">40.673001</data>
+      <data key="d5">-73.9688829</data>
+      <data key="d6">42474783</data>
+    </node>
+    <node id="42474966">
+      <data key="d4">40.675492</data>
+      <data key="d5">-73.967519</data>
+      <data key="d6">42474966</data>
+    </node>
+    <node id="42474968">
+      <data key="d4">40.675302</data>
+      <data key="d5">-73.966613</data>
+      <data key="d6">42474968</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42474970">
+      <data key="d4">40.674573</data>
+      <data key="d5">-73.963137</data>
+      <data key="d6">42474970</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42478446">
+      <data key="d4">40.675561</data>
+      <data key="d5">-73.963331</data>
+      <data key="d6">42478446</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42478450">
+      <data key="d4">40.675274</data>
+      <data key="d5">-73.963275</data>
+      <data key="d6">42478450</data>
+    </node>
+    <node id="42507970">
+      <data key="d4">40.674713</data>
+      <data key="d5">-73.9689879</data>
+      <data key="d6">42507970</data>
+    </node>
+    <node id="42518604">
+      <data key="d4">40.673694</data>
+      <data key="d5">-73.967191</data>
+      <data key="d6">42518604</data>
+    </node>
+    <node id="42526338">
+      <data key="d4">40.67618</data>
+      <data key="d5">-73.966296</data>
+      <data key="d6">42526338</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42526342">
+      <data key="d4">40.674416</data>
+      <data key="d5">-73.966942</data>
+      <data key="d6">42526342</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42533528">
+      <data key="d4">40.673928</data>
+      <data key="d5">-73.9687199</data>
+      <data key="d6">42533528</data>
+    </node>
+    <node id="248606587">
+      <data key="d4">40.6731371</data>
+      <data key="d5">-73.9688127</data>
+      <data key="d6">248606587</data>
+    </node>
+    <node id="541999453">
+      <data key="d4">40.6730585</data>
+      <data key="d5">-73.9674334</data>
+      <data key="d6">541999453</data>
+      <data key="d7">stop</data>
+    </node>
+    <node id="4205375731">
+      <data key="d4">40.6729565</data>
+      <data key="d5">-73.9683269</data>
+      <data key="d6">4205375731</data>
+    </node>
+    <edge id="0" source="42469653" target="42469657">
+      <data key="d8">[420584212, 421118181]</data>
+      <data key="d9">False</data>
+      <data key="d10">Vanderbilt Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">62.077</data>
+      <data key="d13">LINESTRING (-73.969498 40.675906, -73.96958530000001 40.6756585, -73.9696883 40.6753667)</data>
+    </edge>
+    <edge id="0" source="42469657" target="42469653">
+      <data key="d8">[420584212, 421118181]</data>
+      <data key="d9">False</data>
+      <data key="d10">Vanderbilt Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">62.077</data>
+      <data key="d13">LINESTRING (-73.9696883 40.6753667, -73.96958530000001 40.6756585, -73.969498 40.675906)</data>
+    </edge>
+    <edge id="0" source="42474783" target="248606587">
+      <data key="d8">46137551</data>
+      <data key="d9">True</data>
+      <data key="d10">Plaza Street East</data>
+      <data key="d11">residential</data>
+      <data key="d12">16.36</data>
+      <data key="d13">LINESTRING (-73.9688829 40.673001, -73.968836 40.6730686, -73.9688127 40.6731371)</data>
+    </edge>
+    <edge id="0" source="42474966" target="42507970">
+      <data key="d8">5679232</data>
+      <data key="d10">Butler Place</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">151.157</data>
+    </edge>
+    <edge id="0" source="42474966" target="42469653">
+      <data key="d8">221759322</data>
+      <data key="d9">True</data>
+      <data key="d10">Sterling Place</data>
+      <data key="d11">residential</data>
+      <data key="d14">25 mph</data>
+      <data key="d12">173.125</data>
+    </edge>
+    <edge id="0" source="42474968" target="42526342">
+      <data key="d8">46772625</data>
+      <data key="d10">Underhill Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">102.351</data>
+    </edge>
+    <edge id="0" source="42474968" target="42526338">
+      <data key="d8">46772625</data>
+      <data key="d10">Underhill Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">101.223</data>
+    </edge>
+    <edge id="0" source="42474968" target="42474966">
+      <data key="d8">221759322</data>
+      <data key="d9">True</data>
+      <data key="d10">Sterling Place</data>
+      <data key="d11">residential</data>
+      <data key="d14">25 mph</data>
+      <data key="d12">79.272</data>
+    </edge>
+    <edge id="0" source="42474970" target="42478450">
+      <data key="d8">227064556</data>
+      <data key="d9">False</data>
+      <data key="d10">Washington Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.812</data>
+    </edge>
+    <edge id="0" source="42474970" target="42474968">
+      <data key="d8">221759322</data>
+      <data key="d9">True</data>
+      <data key="d10">Sterling Place</data>
+      <data key="d11">residential</data>
+      <data key="d14">25 mph</data>
+      <data key="d12">304.141</data>
+      <data key="d13">LINESTRING (-73.963137 40.674573, -73.96653209999999 40.675285, -73.966613 40.675302)</data>
+    </edge>
+    <edge id="0" source="42478446" target="42478450">
+      <data key="d8">227064556</data>
+      <data key="d9">False</data>
+      <data key="d10">Washington Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">32.261</data>
+    </edge>
+    <edge id="0" source="42478450" target="42474970">
+      <data key="d8">227064556</data>
+      <data key="d9">False</data>
+      <data key="d10">Washington Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.812</data>
+    </edge>
+    <edge id="0" source="42478450" target="42478446">
+      <data key="d8">227064556</data>
+      <data key="d9">False</data>
+      <data key="d10">Washington Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">32.261</data>
+    </edge>
+    <edge id="0" source="42507970" target="42474966">
+      <data key="d8">5679232</data>
+      <data key="d10">Butler Place</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">151.157</data>
+    </edge>
+    <edge id="0" source="42507970" target="42469657">
+      <data key="d8">334262992</data>
+      <data key="d9">True</data>
+      <data key="d10">Plaza Street East</data>
+      <data key="d11">residential</data>
+      <data key="d12">94.96400000000001</data>
+      <data key="d13">LINESTRING (-73.9689879 40.674713, -73.9690739 40.674852, -73.9691629 40.674964, -73.9692719 40.675076, -73.96940189999999 40.675185, -73.96957980000001 40.6753066, -73.9696883 40.6753667)</data>
+    </edge>
+    <edge id="0" source="42518604" target="541999453">
+      <data key="d8">46772625</data>
+      <data key="d10">Underhill Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">73.562</data>
+    </edge>
+    <edge id="0" source="42518604" target="42526342">
+      <data key="d8">46772625</data>
+      <data key="d10">Underhill Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">82.984</data>
+    </edge>
+    <edge id="0" source="42526338" target="42474968">
+      <data key="d8">46772625</data>
+      <data key="d10">Underhill Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">101.223</data>
+    </edge>
+    <edge id="0" source="42526338" target="42478446">
+      <data key="d8">483704094</data>
+      <data key="d9">True</data>
+      <data key="d10">Park Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">259.343</data>
+    </edge>
+    <edge id="0" source="42526342" target="42518604">
+      <data key="d8">46772625</data>
+      <data key="d10">Underhill Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">82.984</data>
+    </edge>
+    <edge id="0" source="42526342" target="42474968">
+      <data key="d8">46772625</data>
+      <data key="d10">Underhill Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">102.351</data>
+    </edge>
+    <edge id="0" source="42526342" target="42533528">
+      <data key="d8">5681547</data>
+      <data key="d9">False</data>
+      <data key="d10">Saint Johns Place</data>
+      <data key="d11">residential</data>
+      <data key="d14">25 mph</data>
+      <data key="d12">159.453</data>
+      <data key="d13">LINESTRING (-73.966942 40.674416, -73.96857079999999 40.6739689, -73.9687199 40.673928)</data>
+    </edge>
+    <edge id="0" source="42533528" target="42526342">
+      <data key="d8">5681547</data>
+      <data key="d9">False</data>
+      <data key="d10">Saint Johns Place</data>
+      <data key="d11">residential</data>
+      <data key="d14">25 mph</data>
+      <data key="d12">159.453</data>
+      <data key="d13">LINESTRING (-73.9687199 40.673928, -73.96857079999999 40.6739689, -73.966942 40.674416)</data>
+    </edge>
+    <edge id="0" source="42533528" target="42507970">
+      <data key="d8">334262992</data>
+      <data key="d9">True</data>
+      <data key="d10">Plaza Street East</data>
+      <data key="d11">residential</data>
+      <data key="d12">90.737</data>
+      <data key="d13">LINESTRING (-73.9687199 40.673928, -73.9687299 40.674025, -73.9687462 40.6741155, -73.96876589999999 40.674202, -73.9687887 40.6742953, -73.9688239 40.674386, -73.9688949 40.674548, -73.9689879 40.674713)</data>
+    </edge>
+    <edge id="0" source="248606587" target="42533528">
+      <data key="d8">[334262992, 296910902]</data>
+      <data key="d9">True</data>
+      <data key="d10">Plaza Street East</data>
+      <data key="d11">residential</data>
+      <data key="d12">88.653</data>
+      <data key="d13">LINESTRING (-73.9688127 40.6731371, -73.9688003 40.6732389, -73.9687808 40.6733045, -73.9687619 40.6733761, -73.9687373 40.6734978, -73.96872070000001 40.6736202, -73.9687081 40.6737319, -73.9687086 40.6738328, -73.9687199 40.673928)</data>
+    </edge>
+    <edge id="0" source="541999453" target="42518604">
+      <data key="d8">46772625</data>
+      <data key="d10">Underhill Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">73.562</data>
+    </edge>
+    <edge id="0" source="541999453" target="248606587">
+      <data key="d8">221583042</data>
+      <data key="d9">True</data>
+      <data key="d10">Eastern Parkway Service Road</data>
+      <data key="d11">residential</data>
+      <data key="d12">116.98700000000002</data>
+      <data key="d13">LINESTRING (-73.9674334 40.6730585, -73.96767749999999 40.6730908, -73.96793 40.6731187, -73.9682275 40.6731403, -73.9686397 40.6731428, -73.9687157 40.6731403, -73.9688127 40.6731371)</data>
+    </edge>
+    <edge id="0" source="4205375731" target="42474783">
+      <data key="d8">420583298</data>
+      <data key="d9">True</data>
+      <data key="d15">2</data>
+      <data key="d10">Eastern Parkway</data>
+      <data key="d11">primary</data>
+      <data key="d14">30 mph</data>
+      <data key="d12">47.924</data>
+      <data key="d13">LINESTRING (-73.96832689999999 40.6729565, -73.9684128 40.6729923, -73.96872399999999 40.6729981, -73.9688829 40.673001)</data>
+    </edge>
+    <data key="d0">36_NY_36047020700</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42469653: 4, 42469657: 4, 42474783: 4, 42474966: 3, 42474968: 4, 42474970: 4, 42478446: 4, 42478450: 3, 42507970: 3, 42518604: 3, 42526338: 4, 42526342: 4, 42533528: 3, 248606587: 3, 541999453: 3, 4205375731: 3}</data>
+  </graph>
+</graphml>

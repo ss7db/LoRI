@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="ref" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="213203029">
+      <data key="d4">42.6728507</data>
+      <data key="d5">-74.4971299</data>
+      <data key="d6">213203029</data>
+    </node>
+    <node id="213216420">
+      <data key="d4">42.6756364</data>
+      <data key="d5">-74.4955042</data>
+      <data key="d6">213216420</data>
+    </node>
+    <node id="213225127">
+      <data key="d4">42.6697005</data>
+      <data key="d5">-74.502639</data>
+      <data key="d6">213225127</data>
+    </node>
+    <node id="213225599">
+      <data key="d4">42.6729128</data>
+      <data key="d5">-74.5025281</data>
+      <data key="d6">213225599</data>
+    </node>
+    <edge id="0" source="213216420" target="213225127">
+      <data key="d7">132182632</data>
+      <data key="d8">NY 7;NY 10</data>
+      <data key="d9">West Main Street</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">961.9309999999999</data>
+      <data key="d13">LINESTRING (-74.4955042 42.6756364, -74.4962175 42.6757363, -74.49664009999999 42.6757777, -74.49717939999999 42.6757303, -74.49771079999999 42.675593, -74.49809399999999 42.6754187, -74.49842750000001 42.6751903, -74.498713 42.6748715, -74.49906319999999 42.674389, -74.4994341 42.6738258, -74.4996301 42.6735306, -74.5003222 42.6725081, -74.5009043 42.6716992, -74.50190259999999 42.6707392, -74.5021093 42.6704996, -74.5023762 42.6701722, -74.502639 42.6697005)</data>
+    </edge>
+    <edge id="0" source="213225127" target="213216420">
+      <data key="d7">132182632</data>
+      <data key="d8">NY 7;NY 10</data>
+      <data key="d9">West Main Street</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">961.9309999999999</data>
+      <data key="d13">LINESTRING (-74.502639 42.6697005, -74.5023762 42.6701722, -74.5021093 42.6704996, -74.50190259999999 42.6707392, -74.5009043 42.6716992, -74.5003222 42.6725081, -74.4996301 42.6735306, -74.4994341 42.6738258, -74.49906319999999 42.674389, -74.498713 42.6748715, -74.49842750000001 42.6751903, -74.49809399999999 42.6754187, -74.49771079999999 42.675593, -74.49717939999999 42.6757303, -74.49664009999999 42.6757777, -74.4962175 42.6757363, -74.4955042 42.6756364)</data>
+    </edge>
+    <data key="d0">36_NY_36095740300</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{213203029: 1, 213216420: 3, 213225127: 4, 213225599: 1}</data>
+  </graph>
+</graphml>

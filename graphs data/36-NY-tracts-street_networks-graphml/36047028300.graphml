@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42466932">
+      <data key="d4">40.6959504</data>
+      <data key="d5">-73.9376361</data>
+      <data key="d6">42466932</data>
+    </node>
+    <node id="42466939">
+      <data key="d4">40.6952183</data>
+      <data key="d5">-73.9374903</data>
+      <data key="d6">42466939</data>
+    </node>
+    <node id="42466943">
+      <data key="d4">40.6944848</data>
+      <data key="d5">-73.9373442</data>
+      <data key="d6">42466943</data>
+    </node>
+    <node id="42477909">
+      <data key="d4">40.6941478</data>
+      <data key="d5">-73.940267</data>
+      <data key="d6">42477909</data>
+    </node>
+    <node id="42492342">
+      <data key="d4">40.694559</data>
+      <data key="d5">-73.9432344</data>
+      <data key="d6">42492342</data>
+    </node>
+    <node id="42492346">
+      <data key="d4">40.6948807</data>
+      <data key="d5">-73.9404133</data>
+      <data key="d6">42492346</data>
+    </node>
+    <node id="42499161">
+      <data key="d4">40.69529</data>
+      <data key="d5">-73.9433789</data>
+      <data key="d6">42499161</data>
+    </node>
+    <node id="42516233">
+      <data key="d4">40.6963537</data>
+      <data key="d5">-73.9407073</data>
+      <data key="d6">42516233</data>
+    </node>
+    <node id="42516238">
+      <data key="d4">40.6956154</data>
+      <data key="d5">-73.94056</data>
+      <data key="d6">42516238</data>
+    </node>
+    <edge id="0" source="42466932" target="42516238">
+      <data key="d7">5680637</data>
+      <data key="d8">True</data>
+      <data key="d9">Vernon Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">249.30200000000002</data>
+      <data key="d12">LINESTRING (-73.93763610000001 40.6959504, -73.938677 40.695831, -73.9388213 40.6958145, -73.94056 40.6956154)</data>
+    </edge>
+    <edge id="0" source="42466939" target="42466932">
+      <data key="d7">221585914</data>
+      <data key="d8">True</data>
+      <data key="d9">Lewis Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">82.328</data>
+      <data key="d12">LINESTRING (-73.93749029999999 40.6952183, -73.937563 40.6955833, -73.93763610000001 40.6959504)</data>
+    </edge>
+    <edge id="0" source="42466943" target="42477909">
+      <data key="d7">5676690</data>
+      <data key="d8">True</data>
+      <data key="d9">Hart Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">249.248</data>
+    </edge>
+    <edge id="0" source="42466943" target="42466939">
+      <data key="d7">221585914</data>
+      <data key="d8">True</data>
+      <data key="d9">Lewis Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">82.486</data>
+    </edge>
+    <edge id="0" source="42492342" target="42492346">
+      <data key="d7">5677950</data>
+      <data key="d8">True</data>
+      <data key="d9">Willoughby Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">240.515</data>
+    </edge>
+    <edge id="0" source="42492342" target="42499161">
+      <data key="d7">5678442</data>
+      <data key="d8">True</data>
+      <data key="d9">Throop Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">82.191</data>
+    </edge>
+    <edge id="0" source="42492346" target="42466939">
+      <data key="d7">5677950</data>
+      <data key="d8">True</data>
+      <data key="d9">Willoughby Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">249.272</data>
+    </edge>
+    <edge id="0" source="42492346" target="42477909">
+      <data key="d7">221777109</data>
+      <data key="d8">True</data>
+      <data key="d9">Marcus Garvey Boulevard</data>
+      <data key="d10">residential</data>
+      <data key="d11">82.423</data>
+    </edge>
+    <edge id="0" source="42516233" target="42516238">
+      <data key="d7">221777109</data>
+      <data key="d8">True</data>
+      <data key="d9">Marcus Garvey Boulevard</data>
+      <data key="d10">residential</data>
+      <data key="d11">83.029</data>
+      <data key="d12">LINESTRING (-73.9407073 40.6963537, -73.94065310000001 40.6960819, -73.94056 40.6956154)</data>
+    </edge>
+    <edge id="0" source="42516238" target="42499161">
+      <data key="d7">5680637</data>
+      <data key="d8">True</data>
+      <data key="d9">Vernon Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">240.39</data>
+    </edge>
+    <edge id="0" source="42516238" target="42492346">
+      <data key="d7">221777109</data>
+      <data key="d8">True</data>
+      <data key="d9">Marcus Garvey Boulevard</data>
+      <data key="d10">residential</data>
+      <data key="d11">82.626</data>
+    </edge>
+    <data key="d0">36_NY_36047028300</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42466932: 4, 42466939: 4, 42466943: 4, 42477909: 4, 42492342: 4, 42492346: 4, 42499161: 4, 42516233: 4, 42516238: 4}</data>
+  </graph>
+</graphml>

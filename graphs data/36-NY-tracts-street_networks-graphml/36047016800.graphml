@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d9" />
+  <key attr.name="ref" attr.type="string" for="node" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42479545">
+      <data key="d4">40.606842</data>
+      <data key="d5">-74.015499</data>
+      <data key="d6">42479545</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42480177">
+      <data key="d4">40.606016</data>
+      <data key="d5">-74.01391</data>
+      <data key="d6">42480177</data>
+    </node>
+    <node id="42480180">
+      <data key="d4">40.6039283</data>
+      <data key="d5">-74.0160661</data>
+      <data key="d6">42480180</data>
+    </node>
+    <node id="42480335">
+      <data key="d4">40.602813</data>
+      <data key="d5">-74.014521</data>
+      <data key="d6">42480335</data>
+    </node>
+    <node id="42490890">
+      <data key="d4">40.605214</data>
+      <data key="d5">-74.01237</data>
+      <data key="d6">42490890</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42490892">
+      <data key="d4">40.603428</data>
+      <data key="d5">-74.01398</data>
+      <data key="d6">42490892</data>
+    </node>
+    <node id="42493674">
+      <data key="d4">40.606424</data>
+      <data key="d5">-74.014695</data>
+      <data key="d6">42493674</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42493680">
+      <data key="d4">40.605622</data>
+      <data key="d5">-74.013156</data>
+      <data key="d6">42493680</data>
+    </node>
+    <node id="42495341">
+      <data key="d4">40.6041752</data>
+      <data key="d5">-74.017024</data>
+      <data key="d6">42495341</data>
+    </node>
+    <node id="42495343">
+      <data key="d4">40.6037074</data>
+      <data key="d5">-74.0151673</data>
+      <data key="d6">42495343</data>
+    </node>
+    <node id="42495352">
+      <data key="d4">40.604672</data>
+      <data key="d5">-74.016516</data>
+      <data key="d6">42495352</data>
+    </node>
+    <node id="455443121">
+      <data key="d4">40.602899</data>
+      <data key="d5">-74.0159443</data>
+      <data key="d6">455443121</data>
+      <data key="d8">4</data>
+      <data key="d7">motorway_junction</data>
+    </node>
+    <node id="598424317">
+      <data key="d4">40.603586</data>
+      <data key="d5">-74.0176401</data>
+      <data key="d6">598424317</data>
+    </node>
+    <edge id="0" source="42479545" target="42493674">
+      <data key="d9">480456048</data>
+      <data key="d10">False</data>
+      <data key="d11">Cropsey Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">82.262</data>
+    </edge>
+    <edge id="0" source="42480177" target="42480180">
+      <data key="d9">5676889</data>
+      <data key="d10">True</data>
+      <data key="d11">Bay 10th Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">294.994</data>
+    </edge>
+    <edge id="0" source="42480177" target="42493680">
+      <data key="d9">480456048</data>
+      <data key="d10">False</data>
+      <data key="d11">Cropsey Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">77.273</data>
+    </edge>
+    <edge id="0" source="42480177" target="42493674">
+      <data key="d9">480456048</data>
+      <data key="d10">False</data>
+      <data key="d11">Cropsey Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">80.311</data>
+    </edge>
+    <edge id="0" source="42480180" target="42495343">
+      <data key="d9">5678220</data>
+      <data key="d11">Independence Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">79.76100000000001</data>
+      <data key="d14">LINESTRING (-74.0160661 40.6039283, -74.0159901 40.6039107, -74.015856 40.6038759, -74.01577090000001 40.6038557, -74.01573310000001 40.6038468, -74.01570340000001 40.6038404, -74.0156162 40.6038188, -74.0154861 40.6037865, -74.0153627 40.6037559, -74.01524070000001 40.6037256, -74.0151673 40.6037074)</data>
+    </edge>
+    <edge id="0" source="42480180" target="42495341">
+      <data key="d9">5678220</data>
+      <data key="d11">Independence Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">85.402</data>
+      <data key="d14">LINESTRING (-74.0160661 40.6039283, -74.0161094 40.6039395, -74.01622949999999 40.6039704, -74.01634660000001 40.6040006, -74.0164932 40.6040384, -74.0166344 40.6040748, -74.01673270000001 40.6041001, -74.01702400000001 40.6041752)</data>
+    </edge>
+    <edge id="0" source="42480335" target="42490892">
+      <data key="d9">379500311</data>
+      <data key="d11">16th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">82.23500000000001</data>
+      <data key="d14">LINESTRING (-74.014521 40.602813, -74.0143054 40.6030581, -74.0142257 40.6031487, -74.01398 40.603428)</data>
+    </edge>
+    <edge id="0" source="42480335" target="598424317">
+      <data key="d9">594657232</data>
+      <data key="d10">True</data>
+      <data key="d11">Shore Parkway</data>
+      <data key="d12">residential</data>
+      <data key="d13">277.079</data>
+      <data key="d14">LINESTRING (-74.014521 40.602813, -74.01512529999999 40.6029437, -74.0152875 40.6029788, -74.015367 40.602996, -74.01542310000001 40.6030106, -74.0155467 40.6030426, -74.0156727 40.6030753, -74.01579099999999 40.603106, -74.0159257 40.6031409, -74.0159859 40.6031565, -74.0160089 40.6031623, -74.016049 40.6031724, -74.0160834 40.603181, -74.0161664 40.6032018, -74.0163014 40.6032357, -74.0164176 40.603265, -74.0165066 40.6032873, -74.01654720000001 40.6032983, -74.0166746 40.6033327, -74.01679729999999 40.6033658, -74.01693710000001 40.6034036, -74.0170141 40.6034244, -74.0170341 40.6034298, -74.0171309 40.6034553, -74.017296 40.6034987, -74.0173259 40.6035066, -74.01764009999999 40.603586)</data>
+    </edge>
+    <edge id="0" source="42490890" target="42490892">
+      <data key="d9">379500311</data>
+      <data key="d11">16th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">240.652</data>
+      <data key="d14">LINESTRING (-74.01237 40.605214, -74.01377770000001 40.6036524, -74.01398 40.603428)</data>
+    </edge>
+    <edge id="0" source="42490890" target="42493680">
+      <data key="d9">480456048</data>
+      <data key="d10">False</data>
+      <data key="d11">Cropsey Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">80.381</data>
+      <data key="d14">LINESTRING (-74.01237 40.605214, -74.0127924 40.6054333, -74.013156 40.605622)</data>
+    </edge>
+    <edge id="0" source="42490892" target="42495343">
+      <data key="d9">5678220</data>
+      <data key="d11">Independence Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">104.945</data>
+      <data key="d14">LINESTRING (-74.01398 40.603428, -74.014602 40.6035703, -74.01463750000001 40.6035784, -74.0147745 40.6036097, -74.0149917 40.6036637, -74.01511979999999 40.6036956, -74.0151673 40.6037074)</data>
+    </edge>
+    <edge id="0" source="42490892" target="42480335">
+      <data key="d9">379500311</data>
+      <data key="d11">16th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">82.23500000000001</data>
+      <data key="d14">LINESTRING (-74.01398 40.603428, -74.0142257 40.6031487, -74.0143054 40.6030581, -74.014521 40.602813)</data>
+    </edge>
+    <edge id="0" source="42490892" target="42490890">
+      <data key="d9">379500311</data>
+      <data key="d11">16th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">240.652</data>
+      <data key="d14">LINESTRING (-74.01398 40.603428, -74.01377770000001 40.6036524, -74.01237 40.605214)</data>
+    </edge>
+    <edge id="0" source="42493674" target="42495352">
+      <data key="d9">247960271</data>
+      <data key="d11">15th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">248.163</data>
+    </edge>
+    <edge id="0" source="42493674" target="42480177">
+      <data key="d9">480456048</data>
+      <data key="d10">False</data>
+      <data key="d11">Cropsey Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">80.311</data>
+    </edge>
+    <edge id="0" source="42493674" target="42479545">
+      <data key="d9">480456048</data>
+      <data key="d10">False</data>
+      <data key="d11">Cropsey Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">82.262</data>
+    </edge>
+    <edge id="0" source="42493680" target="42480177">
+      <data key="d9">480456048</data>
+      <data key="d10">False</data>
+      <data key="d11">Cropsey Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">77.273</data>
+    </edge>
+    <edge id="0" source="42493680" target="42490890">
+      <data key="d9">480456048</data>
+      <data key="d10">False</data>
+      <data key="d11">Cropsey Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">80.381</data>
+      <data key="d14">LINESTRING (-74.013156 40.605622, -74.0127924 40.6054333, -74.01237 40.605214)</data>
+    </edge>
+    <edge id="0" source="42495341" target="42495352">
+      <data key="d9">247960271</data>
+      <data key="d11">15th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">69.935</data>
+    </edge>
+    <edge id="0" source="42495341" target="42480180">
+      <data key="d9">5678220</data>
+      <data key="d11">Independence Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">85.40199999999999</data>
+      <data key="d14">LINESTRING (-74.01702400000001 40.6041752, -74.01673270000001 40.6041001, -74.0166344 40.6040748, -74.0164932 40.6040384, -74.01634660000001 40.6040006, -74.01622949999999 40.6039704, -74.0161094 40.6039395, -74.0160661 40.6039283)</data>
+    </edge>
+    <edge id="0" source="42495341" target="598424317">
+      <data key="d9">247960271</data>
+      <data key="d11">15th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">83.654</data>
+      <data key="d14">LINESTRING (-74.01702400000001 40.6041752, -74.01712259999999 40.6040812, -74.017177 40.6040294, -74.0172486 40.6039612, -74.0173317 40.6038821, -74.0173638 40.6038516, -74.01754 40.6036837, -74.01764009999999 40.603586)</data>
+    </edge>
+    <edge id="0" source="42495343" target="42493680">
+      <data key="d9">5681378</data>
+      <data key="d10">True</data>
+      <data key="d11">Bay 11th Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">272.314</data>
+    </edge>
+    <edge id="0" source="42495343" target="42490892">
+      <data key="d9">5678220</data>
+      <data key="d11">Independence Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">104.945</data>
+      <data key="d14">LINESTRING (-74.0151673 40.6037074, -74.01511979999999 40.6036956, -74.0149917 40.6036637, -74.0147745 40.6036097, -74.01463750000001 40.6035784, -74.014602 40.6035703, -74.01398 40.603428)</data>
+    </edge>
+    <edge id="0" source="42495343" target="42480180">
+      <data key="d9">5678220</data>
+      <data key="d11">Independence Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">79.76100000000001</data>
+      <data key="d14">LINESTRING (-74.0151673 40.6037074, -74.01524070000001 40.6037256, -74.0153627 40.6037559, -74.0154861 40.6037865, -74.0156162 40.6038188, -74.01570340000001 40.6038404, -74.01573310000001 40.6038468, -74.01577090000001 40.6038557, -74.015856 40.6038759, -74.0159901 40.6039107, -74.0160661 40.6039283)</data>
+    </edge>
+    <edge id="0" source="42495352" target="42495341">
+      <data key="d9">247960271</data>
+      <data key="d11">15th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">69.935</data>
+    </edge>
+    <edge id="0" source="42495352" target="42493674">
+      <data key="d9">247960271</data>
+      <data key="d11">15th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">248.163</data>
+    </edge>
+    <edge id="0" source="455443121" target="598424317">
+      <data key="d9">5673985</data>
+      <data key="d10">True</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">162.503</data>
+      <data key="d14">LINESTRING (-74.0159443 40.602899, -74.0166789 40.6031581, -74.01699549999999 40.6032838, -74.01764009999999 40.603586)</data>
+    </edge>
+    <edge id="0" source="598424317" target="42495341">
+      <data key="d9">247960271</data>
+      <data key="d11">15th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">83.654</data>
+      <data key="d14">LINESTRING (-74.01764009999999 40.603586, -74.01754 40.6036837, -74.0173638 40.6038516, -74.0173317 40.6038821, -74.0172486 40.6039612, -74.017177 40.6040294, -74.01712259999999 40.6040812, -74.01702400000001 40.6041752)</data>
+    </edge>
+    <data key="d0">36_NY_36047016800</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42479545: 4, 42480177: 4, 42480180: 3, 42480335: 3, 42490890: 4, 42490892: 3, 42493674: 4, 42493680: 4, 42495341: 3, 42495343: 3, 42495352: 3, 455443121: 3, 598424317: 4}</data>
+  </graph>
+</graphml>

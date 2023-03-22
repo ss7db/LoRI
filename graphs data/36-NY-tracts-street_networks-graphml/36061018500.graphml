@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d15" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42425232">
+      <data key="d4">40.792384</data>
+      <data key="d5">-73.9641881</data>
+      <data key="d6">42425232</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42425570">
+      <data key="d4">40.7941908</data>
+      <data key="d5">-73.9628569</data>
+      <data key="d6">42425570</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42433252">
+      <data key="d4">40.7953582</data>
+      <data key="d5">-73.9694084</data>
+      <data key="d6">42433252</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42442542">
+      <data key="d4">40.7947337</data>
+      <data key="d5">-73.9698644</data>
+      <data key="d6">42442542</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42442549">
+      <data key="d4">40.7959856</data>
+      <data key="d5">-73.9689504</data>
+      <data key="d6">42442549</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42442552">
+      <data key="d4">40.7966412</data>
+      <data key="d5">-73.9684718</data>
+      <data key="d6">42442552</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42447273">
+      <data key="d4">40.794787</data>
+      <data key="d5">-73.964303</data>
+      <data key="d6">42447273</data>
+    </node>
+    <edge id="0" source="42425232" target="42425570">
+      <data key="d8">195743153</data>
+      <data key="d9">Central Park West</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">230.05399999999997</data>
+      <data key="d13">LINESTRING (-73.9641881 40.792384, -73.9637106 40.7930189, -73.9629056 40.7941252, -73.96285690000001 40.7941908)</data>
+    </edge>
+    <edge id="0" source="42425570" target="42425232">
+      <data key="d8">195743153</data>
+      <data key="d9">Central Park West</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">230.05399999999997</data>
+      <data key="d13">LINESTRING (-73.96285690000001 40.7941908, -73.9629056 40.7941252, -73.9637106 40.7930189, -73.9641881 40.792384)</data>
+    </edge>
+    <edge id="0" source="42433252" target="42442549">
+      <data key="d8">439805285</data>
+      <data key="d11">True</data>
+      <data key="d14">3</data>
+      <data key="d9">Amsterdam Avenue</data>
+      <data key="d10">primary</data>
+      <data key="d15">25 mph</data>
+      <data key="d12">79.708</data>
+    </edge>
+    <edge id="0" source="42442542" target="42433252">
+      <data key="d8">439805285</data>
+      <data key="d11">True</data>
+      <data key="d14">3</data>
+      <data key="d9">Amsterdam Avenue</data>
+      <data key="d10">primary</data>
+      <data key="d15">25 mph</data>
+      <data key="d12">79.345</data>
+    </edge>
+    <edge id="0" source="42442549" target="42442552">
+      <data key="d8">439805285</data>
+      <data key="d11">True</data>
+      <data key="d14">3</data>
+      <data key="d9">Amsterdam Avenue</data>
+      <data key="d10">primary</data>
+      <data key="d15">25 mph</data>
+      <data key="d12">83.291</data>
+    </edge>
+    <edge id="0" source="42447273" target="42425570">
+      <data key="d8">295999078</data>
+      <data key="d11">True</data>
+      <data key="d9">West 100th Street</data>
+      <data key="d10">residential</data>
+      <data key="d12">138.615</data>
+    </edge>
+    <data key="d0">36_NY_36061018500</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42425232: 4, 42425570: 3, 42433252: 3, 42442542: 4, 42442549: 3, 42442552: 4, 42447273: 3}</data>
+  </graph>
+</graphml>

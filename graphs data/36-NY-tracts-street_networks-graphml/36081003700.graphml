@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42810468">
+      <data key="d4">40.771029</data>
+      <data key="d5">-73.934246</data>
+      <data key="d6">42810468</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42815748">
+      <data key="d4">40.760658</data>
+      <data key="d5">-73.943304</data>
+      <data key="d6">42815748</data>
+    </node>
+    <node id="42826801">
+      <data key="d4">40.7673724</data>
+      <data key="d5">-73.9370864</data>
+      <data key="d6">42826801</data>
+    </node>
+    <node id="42826802">
+      <data key="d4">40.7669158</data>
+      <data key="d5">-73.9383577</data>
+      <data key="d6">42826802</data>
+    </node>
+    <node id="42826813">
+      <data key="d4">40.763734</data>
+      <data key="d5">-73.94139</data>
+      <data key="d6">42826813</data>
+    </node>
+    <node id="42826820">
+      <data key="d4">40.759308</data>
+      <data key="d5">-73.944167</data>
+      <data key="d6">42826820</data>
+    </node>
+    <node id="42826823">
+      <data key="d4">40.757799</data>
+      <data key="d5">-73.945814</data>
+      <data key="d6">42826823</data>
+    </node>
+    <node id="42826940">
+      <data key="d4">40.769526</data>
+      <data key="d5">-73.935227</data>
+      <data key="d6">42826940</data>
+    </node>
+    <node id="42826957">
+      <data key="d4">40.770412</data>
+      <data key="d5">-73.934474</data>
+      <data key="d6">42826957</data>
+    </node>
+    <node id="2402842573">
+      <data key="d4">40.7655288</data>
+      <data key="d5">-73.940297</data>
+      <data key="d6">2402842573</data>
+    </node>
+    <node id="2629162213">
+      <data key="d4">40.7564301</data>
+      <data key="d5">-73.9473115</data>
+      <data key="d6">2629162213</data>
+    </node>
+    <node id="3785702957">
+      <data key="d4">40.7619859</data>
+      <data key="d5">-73.9424775</data>
+      <data key="d6">3785702957</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="3785702958">
+      <data key="d4">40.7620897</data>
+      <data key="d5">-73.9424154</data>
+      <data key="d6">3785702958</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="3785702959">
+      <data key="d4">40.7618781</data>
+      <data key="d5">-73.9425461</data>
+      <data key="d6">3785702959</data>
+      <data key="d7">crossing</data>
+    </node>
+    <node id="4573599938">
+      <data key="d4">40.7668254</data>
+      <data key="d5">-73.9386112</data>
+      <data key="d6">4573599938</data>
+    </node>
+    <edge id="0" source="42810468" target="42826957">
+      <data key="d8">461925996</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">71.243</data>
+    </edge>
+    <edge id="0" source="42815748" target="42826820">
+      <data key="d8">47798749</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">166.785</data>
+      <data key="d13">LINESTRING (-73.943304 40.760658, -73.9439946 40.7595777, -73.94416699999999 40.759308)</data>
+    </edge>
+    <edge id="0" source="42815748" target="3785702959">
+      <data key="d8">47798749</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">149.93599999999998</data>
+      <data key="d13">LINESTRING (-73.943304 40.760658, -73.9431537 40.7608999, -73.9427388 40.7615679, -73.9425718 40.7618367, -73.9425461 40.7618781)</data>
+    </edge>
+    <edge id="0" source="42826801" target="42826802">
+      <data key="d8">461925995</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">118.492</data>
+      <data key="d13">LINESTRING (-73.9370864 40.7673724, -73.93713049999999 40.7673566, -73.93722649999999 40.7673221, -73.9380615 40.7670222, -73.9383577 40.7669158)</data>
+    </edge>
+    <edge id="0" source="42826802" target="4573599938">
+      <data key="d8">461925995</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">23.597</data>
+    </edge>
+    <edge id="0" source="42826802" target="42826801">
+      <data key="d8">461925995</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">118.492</data>
+      <data key="d13">LINESTRING (-73.9383577 40.7669158, -73.9380615 40.7670222, -73.93722649999999 40.7673221, -73.93713049999999 40.7673566, -73.9370864 40.7673724)</data>
+    </edge>
+    <edge id="0" source="42826813" target="3785702958">
+      <data key="d8">198595516</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">202.20700000000002</data>
+      <data key="d13">LINESTRING (-73.94139 40.763734, -73.9415255 40.7635167, -73.9424154 40.7620897)</data>
+    </edge>
+    <edge id="0" source="42826813" target="2402842573">
+      <data key="d8">198595516</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">219.778</data>
+      <data key="d13">LINESTRING (-73.94139 40.763734, -73.9412482 40.7639668, -73.9403435 40.7654525, -73.940297 40.7655288)</data>
+    </edge>
+    <edge id="0" source="42826820" target="42826823">
+      <data key="d8">47798749</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">217.71099999999998</data>
+      <data key="d13">LINESTRING (-73.94416699999999 40.759308, -73.9445298 40.7589756, -73.9455799 40.7580135, -73.945814 40.757799)</data>
+    </edge>
+    <edge id="0" source="42826820" target="42815748">
+      <data key="d8">47798749</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">166.785</data>
+      <data key="d13">LINESTRING (-73.94416699999999 40.759308, -73.9439946 40.7595777, -73.943304 40.760658)</data>
+    </edge>
+    <edge id="0" source="42826823" target="42826820">
+      <data key="d8">47798749</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">217.71099999999998</data>
+      <data key="d13">LINESTRING (-73.945814 40.757799, -73.9455799 40.7580135, -73.9445298 40.7589756, -73.94416699999999 40.759308)</data>
+    </edge>
+    <edge id="0" source="42826940" target="42826957">
+      <data key="d8">461925996</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">117.96400000000001</data>
+      <data key="d13">LINESTRING (-73.935227 40.769526, -73.935019 40.769701, -73.93493580000001 40.7697855, -73.934832 40.769891, -73.9347191 40.7700293, -73.93469 40.770065, -73.93459900000001 40.770195, -73.93447399999999 40.770412)</data>
+    </edge>
+    <edge id="0" source="42826957" target="42810468">
+      <data key="d8">461925996</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">71.243</data>
+    </edge>
+    <edge id="0" source="42826957" target="42826940">
+      <data key="d8">461925996</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">117.964</data>
+      <data key="d13">LINESTRING (-73.93447399999999 40.770412, -73.93459900000001 40.770195, -73.93469 40.770065, -73.9347191 40.7700293, -73.934832 40.769891, -73.93493580000001 40.7697855, -73.935019 40.769701, -73.935227 40.769526)</data>
+    </edge>
+    <edge id="0" source="2402842573" target="42826813">
+      <data key="d8">198595516</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">219.778</data>
+      <data key="d13">LINESTRING (-73.940297 40.7655288, -73.9403435 40.7654525, -73.9412482 40.7639668, -73.94139 40.763734)</data>
+    </edge>
+    <edge id="0" source="2402842573" target="4573599938">
+      <data key="d8">461925994</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">213.91999999999996</data>
+      <data key="d13">LINESTRING (-73.940297 40.7655288, -73.9402408 40.7656199, -73.9400926 40.7658599, -73.9398343 40.7662785, -73.9397692 40.7663633, -73.9397283 40.7663979, -73.9396821 40.7664369, -73.93936619999999 40.7665531, -73.9390418 40.7666724, -73.9386112 40.7668254)</data>
+    </edge>
+    <edge id="0" source="3785702957" target="3785702959">
+      <data key="d8">47798749</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">13.307</data>
+    </edge>
+    <edge id="0" source="3785702957" target="3785702958">
+      <data key="d8">198595516</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">12.672</data>
+      <data key="d13">LINESTRING (-73.9424775 40.7619859, -73.9424511 40.76203, -73.9424154 40.7620897)</data>
+    </edge>
+    <edge id="0" source="3785702958" target="3785702957">
+      <data key="d8">198595516</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">12.672</data>
+      <data key="d13">LINESTRING (-73.9424154 40.7620897, -73.9424511 40.76203, -73.9424775 40.7619859)</data>
+    </edge>
+    <edge id="0" source="3785702958" target="42826813">
+      <data key="d8">198595516</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">202.20700000000002</data>
+      <data key="d13">LINESTRING (-73.9424154 40.7620897, -73.9415255 40.7635167, -73.94139 40.763734)</data>
+    </edge>
+    <edge id="0" source="3785702959" target="3785702957">
+      <data key="d8">47798749</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">13.307</data>
+    </edge>
+    <edge id="0" source="3785702959" target="42815748">
+      <data key="d8">47798749</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">149.936</data>
+      <data key="d13">LINESTRING (-73.9425461 40.7618781, -73.9425718 40.7618367, -73.9427388 40.7615679, -73.9431537 40.7608999, -73.943304 40.760658)</data>
+    </edge>
+    <edge id="0" source="3785702959" target="3785702958">
+      <data key="d8">[375187272, 375187271, 108314576]</data>
+      <data key="d11">True</data>
+      <data key="d9">36th Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d12">377.26800000000014</data>
+      <data key="d13">LINESTRING (-73.9425461 40.7618781, -73.9426678 40.7619209, -73.94307910000001 40.7620721, -73.94339600000001 40.7622034, -73.94434939999999 40.7625767, -73.94437139999999 40.7625904, -73.94439079999999 40.7626051, -73.9444024 40.7626218, -73.94441019999999 40.7626384, -73.9444167 40.76266, -73.94441930000001 40.7626796, -73.9444141 40.7627011, -73.94440760000001 40.7627207, -73.9443869 40.7627452, -73.9443753 40.762756, -73.9443533 40.7627687, -73.94431710000001 40.7627785, -73.9442873 40.7627805, -73.9442614 40.7627785, -73.94423430000001 40.7627746, -73.9440984 40.7627139, -73.9439264 40.7626394, -73.9437763 40.7625796, -73.9436094 40.7625189, -73.9425202 40.762126, -73.9424154 40.7620897)</data>
+    </edge>
+    <edge id="0" source="4573599938" target="42826802">
+      <data key="d8">461925995</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">23.597</data>
+    </edge>
+    <edge id="0" source="4573599938" target="2402842573">
+      <data key="d8">461925994</data>
+      <data key="d9">Vernon Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">213.92</data>
+      <data key="d13">LINESTRING (-73.9386112 40.7668254, -73.9390418 40.7666724, -73.93936619999999 40.7665531, -73.9396821 40.7664369, -73.9397283 40.7663979, -73.9397692 40.7663633, -73.9398343 40.7662785, -73.9400926 40.7658599, -73.9402408 40.7656199, -73.940297 40.7655288)</data>
+    </edge>
+    <data key="d0">36_NY_36081003700</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42810468: 3, 42815748: 3, 42826801: 3, 42826802: 3, 42826813: 3, 42826820: 3, 42826823: 3, 42826940: 3, 42826957: 3, 2402842573: 3, 2629162213: 3, 3785702957: 4, 3785702958: 3, 3785702959: 3, 4573599938: 3}</data>
+  </graph>
+</graphml>

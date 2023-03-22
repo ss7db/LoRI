@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42471874">
+      <data key="d4">40.6985417</data>
+      <data key="d5">-73.941144</data>
+      <data key="d6">42471874</data>
+    </node>
+    <node id="42471879">
+      <data key="d4">40.698848</data>
+      <data key="d5">-73.938568</data>
+      <data key="d6">42471879</data>
+    </node>
+    <node id="42499160">
+      <data key="d4">40.6960311</data>
+      <data key="d5">-73.9435254</data>
+      <data key="d6">42499160</data>
+    </node>
+    <edge id="0" source="42471874" target="42471879">
+      <data key="d7">221777103</data>
+      <data key="d8">False</data>
+      <data key="d9">Park Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">219.818</data>
+    </edge>
+    <edge id="0" source="42471879" target="42471874">
+      <data key="d7">221777103</data>
+      <data key="d8">False</data>
+      <data key="d9">Park Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">219.818</data>
+    </edge>
+    <data key="d0">36_NY_36047028502</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42471874: 4, 42471879: 3, 42499160: 4}</data>
+  </graph>
+</graphml>

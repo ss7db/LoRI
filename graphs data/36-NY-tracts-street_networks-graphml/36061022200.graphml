@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42435794">
+      <data key="d4">40.808238</data>
+      <data key="d5">-73.952585</data>
+      <data key="d6">42435794</data>
+    </node>
+    <node id="42438913">
+      <data key="d4">40.8077005</data>
+      <data key="d5">-73.9493541</data>
+      <data key="d6">42438913</data>
+    </node>
+    <node id="42439858">
+      <data key="d4">40.8070725</data>
+      <data key="d5">-73.9498151</data>
+      <data key="d6">42439858</data>
+    </node>
+    <node id="42439860">
+      <data key="d4">40.8083265</data>
+      <data key="d5">-73.9488961</data>
+      <data key="d6">42439860</data>
+    </node>
+    <node id="42439861">
+      <data key="d4">40.8090045</data>
+      <data key="d5">-73.9484021</data>
+      <data key="d6">42439861</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2141026491">
+      <data key="d4">40.8070115</data>
+      <data key="d5">-73.949671</data>
+      <data key="d6">2141026491</data>
+    </node>
+    <node id="2141026503">
+      <data key="d4">40.8089422</data>
+      <data key="d5">-73.9482544</data>
+      <data key="d6">2141026503</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2141026511">
+      <data key="d4">40.8082629</data>
+      <data key="d5">-73.948745</data>
+      <data key="d6">2141026511</data>
+    </node>
+    <node id="2141026538">
+      <data key="d4">40.8076384</data>
+      <data key="d5">-73.9492072</data>
+      <data key="d6">2141026538</data>
+    </node>
+    <node id="3099326118">
+      <data key="d4">40.8071315</data>
+      <data key="d5">-73.9460569</data>
+      <data key="d6">3099326118</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="3099326119">
+      <data key="d4">40.8065066</data>
+      <data key="d5">-73.946526</data>
+      <data key="d6">3099326119</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="3099326120">
+      <data key="d4">40.8078108</data>
+      <data key="d5">-73.9455708</data>
+      <data key="d6">3099326120</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="3099327968">
+      <data key="d4">40.8058736</data>
+      <data key="d5">-73.9469805</data>
+      <data key="d6">3099327968</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="4888388399">
+      <data key="d4">40.810843</data>
+      <data key="d5">-73.95068</data>
+      <data key="d6">4888388399</data>
+    </node>
+    <edge id="0" source="42435794" target="42439858">
+      <data key="d8">569369533</data>
+      <data key="d9">True</data>
+      <data key="d10">West 122nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">266.728</data>
+    </edge>
+    <edge id="0" source="42438913" target="42439858">
+      <data key="d8">[420877083, 420877103]</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.886</data>
+      <data key="d13">LINESTRING (-73.94935409999999 40.8077005, -73.9495525 40.8074302, -73.9498151 40.8070725)</data>
+    </edge>
+    <edge id="0" source="42439858" target="2141026491">
+      <data key="d8">569369533</data>
+      <data key="d9">True</data>
+      <data key="d10">West 122nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">13.896</data>
+    </edge>
+    <edge id="0" source="42439860" target="42438913">
+      <data key="d8">420877103</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.569</data>
+    </edge>
+    <edge id="0" source="42439860" target="2141026511">
+      <data key="d8">560344314</data>
+      <data key="d9">True</data>
+      <data key="d10">West 124th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">14.551</data>
+    </edge>
+    <edge id="0" source="42439861" target="2141026503">
+      <data key="d8">305323035</data>
+      <data key="d9">False</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">primary</data>
+      <data key="d12">14.231</data>
+    </edge>
+    <edge id="0" source="42439861" target="42439860">
+      <data key="d8">[420877082, 420877078]</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">86.095</data>
+      <data key="d13">LINESTRING (-73.9484021 40.8090045, -73.9484637 40.80892, -73.9486203 40.8087051, -73.9488961 40.8083265)</data>
+    </edge>
+    <edge id="0" source="2141026491" target="3099327968">
+      <data key="d8">569369533</data>
+      <data key="d9">True</data>
+      <data key="d10">West 122nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">259.4</data>
+    </edge>
+    <edge id="0" source="2141026491" target="2141026538">
+      <data key="d8">[420877091, 420877099]</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.894</data>
+      <data key="d13">LINESTRING (-73.949671 40.8070115, -73.9494316 40.8073351, -73.9492072 40.8076384)</data>
+    </edge>
+    <edge id="0" source="2141026503" target="42439861">
+      <data key="d8">305323035</data>
+      <data key="d9">False</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">primary</data>
+      <data key="d12">14.231</data>
+    </edge>
+    <edge id="0" source="2141026503" target="3099326120">
+      <data key="d8">305323035</data>
+      <data key="d9">False</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">primary</data>
+      <data key="d12">258.53499999999997</data>
+      <data key="d13">LINESTRING (-73.9482544 40.8089422, -73.9481468 40.8088968, -73.94695729999999 40.8083953, -73.9469126 40.8083765, -73.9468614 40.8083549, -73.9455708 40.8078108)</data>
+    </edge>
+    <edge id="0" source="2141026511" target="3099326118">
+      <data key="d8">560344314</data>
+      <data key="d9">True</data>
+      <data key="d10">West 124th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">258.868</data>
+    </edge>
+    <edge id="0" source="2141026511" target="2141026503">
+      <data key="d8">[420877104, 420877067]</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">86.083</data>
+      <data key="d13">LINESTRING (-73.948745 40.8082629, -73.9485282 40.8085631, -73.94831809999999 40.8088541, -73.9482544 40.8089422)</data>
+    </edge>
+    <edge id="0" source="2141026538" target="42438913">
+      <data key="d8">5670742</data>
+      <data key="d9">True</data>
+      <data key="d10">West 123rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">14.161</data>
+    </edge>
+    <edge id="0" source="2141026538" target="2141026511">
+      <data key="d8">420877104</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.595</data>
+    </edge>
+    <edge id="0" source="3099326118" target="3099326119">
+      <data key="d8">305323036</data>
+      <data key="d9">True</data>
+      <data key="d10">Malcolm X Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.919</data>
+    </edge>
+    <edge id="0" source="3099326119" target="2141026538">
+      <data key="d8">5670742</data>
+      <data key="d9">True</data>
+      <data key="d10">West 123rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">258.384</data>
+    </edge>
+    <edge id="0" source="3099326119" target="3099327968">
+      <data key="d8">[420878083, 305323036]</data>
+      <data key="d9">True</data>
+      <data key="d10">Malcolm X Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">80.11</data>
+      <data key="d13">LINESTRING (-73.94652600000001 40.8065066, -73.9468445 40.806063, -73.9469805 40.8058736)</data>
+    </edge>
+    <edge id="0" source="3099326120" target="3099326118">
+      <data key="d8">305323036</data>
+      <data key="d9">True</data>
+      <data key="d10">Malcolm X Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">85.903</data>
+    </edge>
+    <edge id="0" source="3099326120" target="2141026503">
+      <data key="d8">305323035</data>
+      <data key="d9">False</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">primary</data>
+      <data key="d12">258.535</data>
+      <data key="d13">LINESTRING (-73.9455708 40.8078108, -73.9468614 40.8083549, -73.9469126 40.8083765, -73.94695729999999 40.8083953, -73.9481468 40.8088968, -73.9482544 40.8089422)</data>
+    </edge>
+    <data key="d0">36_NY_36061022200</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42435794: 4, 42438913: 4, 42439858: 4, 42439860: 4, 42439861: 4, 2141026491: 4, 2141026503: 4, 2141026511: 4, 2141026538: 4, 3099326118: 4, 3099326119: 4, 3099326120: 4, 3099327968: 4, 4888388399: 4}</data>
+  </graph>
+</graphml>

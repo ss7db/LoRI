@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="261364340">
+      <data key="d4">40.726952</data>
+      <data key="d5">-73.556405</data>
+      <data key="d6">261364340</data>
+    </node>
+    <node id="261373801">
+      <data key="d4">40.726439</data>
+      <data key="d5">-73.556536</data>
+      <data key="d6">261373801</data>
+    </node>
+    <node id="261388704">
+      <data key="d4">40.7375087</data>
+      <data key="d5">-73.5507605</data>
+      <data key="d6">261388704</data>
+    </node>
+    <node id="261439881">
+      <data key="d4">40.7343657</data>
+      <data key="d5">-73.5465651</data>
+      <data key="d6">261439881</data>
+    </node>
+    <edge id="0" source="261364340" target="261373801">
+      <data key="d7">[420370449, 420370446, 420370447]</data>
+      <data key="d8">Carman Avenue</data>
+      <data key="d9">secondary</data>
+      <data key="d10">False</data>
+      <data key="d11">58.101</data>
+      <data key="d12">LINESTRING (-73.556405 40.726952, -73.5564613 40.7267316, -73.5564942 40.7266028, -73.55651640000001 40.7265158, -73.55653599999999 40.726439)</data>
+    </edge>
+    <edge id="0" source="261373801" target="261364340">
+      <data key="d7">[420370449, 420370446, 420370447]</data>
+      <data key="d8">Carman Avenue</data>
+      <data key="d9">secondary</data>
+      <data key="d10">False</data>
+      <data key="d11">58.101</data>
+      <data key="d12">LINESTRING (-73.55653599999999 40.726439, -73.55651640000001 40.7265158, -73.5564942 40.7266028, -73.5564613 40.7267316, -73.556405 40.726952)</data>
+    </edge>
+    <data key="d0">36_NY_36059407802</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{261364340: 3, 261373801: 3, 261388704: 3, 261439881: 3}</data>
+  </graph>
+</graphml>

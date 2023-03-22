@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42719497">
+      <data key="d4">40.8042336</data>
+      <data key="d5">-73.9154557</data>
+      <data key="d6">42719497</data>
+    </node>
+    <node id="42719500">
+      <data key="d4">40.803845</data>
+      <data key="d5">-73.914429</data>
+      <data key="d6">42719500</data>
+    </node>
+    <node id="42728721">
+      <data key="d4">40.8037106</data>
+      <data key="d5">-73.9158479</data>
+      <data key="d6">42728721</data>
+    </node>
+    <node id="42737714">
+      <data key="d4">40.806116</data>
+      <data key="d5">-73.917964</data>
+      <data key="d6">42737714</data>
+    </node>
+    <node id="42737719">
+      <data key="d4">40.804872</data>
+      <data key="d5">-73.914997</data>
+      <data key="d6">42737719</data>
+    </node>
+    <node id="42737723">
+      <data key="d4">40.804263</data>
+      <data key="d5">-73.913478</data>
+      <data key="d6">42737723</data>
+    </node>
+    <node id="42743519">
+      <data key="d4">40.805561</data>
+      <data key="d5">-73.914495</data>
+      <data key="d6">42743519</data>
+    </node>
+    <node id="42747190">
+      <data key="d4">40.804905</data>
+      <data key="d5">-73.918819</data>
+      <data key="d6">42747190</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42763139">
+      <data key="d4">40.806823</data>
+      <data key="d5">-73.917479</data>
+      <data key="d6">42763139</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42719497" target="42719500">
+      <data key="d8">5695581</data>
+      <data key="d9">East 136th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">96.617</data>
+    </edge>
+    <edge id="0" source="42719497" target="42737719">
+      <data key="d8">5697181</data>
+      <data key="d9">Cypress Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">80.807</data>
+    </edge>
+    <edge id="0" source="42719497" target="42728721">
+      <data key="d8">5697181</data>
+      <data key="d9">Cypress Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">66.871</data>
+    </edge>
+    <edge id="0" source="42719500" target="42719497">
+      <data key="d8">5695581</data>
+      <data key="d9">East 136th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">96.617</data>
+    </edge>
+    <edge id="0" source="42719500" target="42728721">
+      <data key="d8">83703554</data>
+      <data key="d11">True</data>
+      <data key="d9">Bruckner Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d12">121.23499999999999</data>
+      <data key="d13">LINESTRING (-73.914429 40.803845, -73.9148179 40.8037593, -73.9153544 40.8037025, -73.9158479 40.8037106)</data>
+    </edge>
+    <edge id="0" source="42728721" target="42719497">
+      <data key="d8">5697181</data>
+      <data key="d9">Cypress Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">66.871</data>
+    </edge>
+    <edge id="0" source="42737714" target="42763139">
+      <data key="d8">586133561</data>
+      <data key="d9">Saint Ann's Avenue</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">False</data>
+      <data key="d12">88.581</data>
+    </edge>
+    <edge id="0" source="42737714" target="42747190">
+      <data key="d8">586133561</data>
+      <data key="d9">Saint Ann's Avenue</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">False</data>
+      <data key="d12">152.68</data>
+    </edge>
+    <edge id="0" source="42737719" target="42737714">
+      <data key="d8">5696770</data>
+      <data key="d11">True</data>
+      <data key="d9">East 137th Street</data>
+      <data key="d10">residential</data>
+      <data key="d12">285.476</data>
+    </edge>
+    <edge id="0" source="42737719" target="42743519">
+      <data key="d8">5697181</data>
+      <data key="d9">Cypress Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">87.492</data>
+    </edge>
+    <edge id="0" source="42737719" target="42719497">
+      <data key="d8">5697181</data>
+      <data key="d9">Cypress Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">80.807</data>
+    </edge>
+    <edge id="0" source="42737723" target="42737719">
+      <data key="d8">5696770</data>
+      <data key="d11">True</data>
+      <data key="d9">East 137th Street</data>
+      <data key="d10">residential</data>
+      <data key="d12">144.678</data>
+    </edge>
+    <edge id="0" source="42737723" target="42719500">
+      <data key="d8">83703554</data>
+      <data key="d11">True</data>
+      <data key="d9">Bruckner Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d12">92.561</data>
+    </edge>
+    <edge id="0" source="42743519" target="42737719">
+      <data key="d8">5697181</data>
+      <data key="d9">Cypress Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">87.492</data>
+    </edge>
+    <edge id="0" source="42743519" target="42763139">
+      <data key="d8">223892604</data>
+      <data key="d9">East 138th Street</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">287.697</data>
+    </edge>
+    <edge id="0" source="42747190" target="42737714">
+      <data key="d8">586133561</data>
+      <data key="d9">Saint Ann's Avenue</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">False</data>
+      <data key="d12">152.68</data>
+    </edge>
+    <edge id="0" source="42763139" target="42743519">
+      <data key="d8">223892604</data>
+      <data key="d9">East 138th Street</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">287.697</data>
+    </edge>
+    <edge id="0" source="42763139" target="42737714">
+      <data key="d8">586133561</data>
+      <data key="d9">Saint Ann's Avenue</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">False</data>
+      <data key="d12">88.581</data>
+    </edge>
+    <data key="d0">36_NY_36005002701</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42719497: 3, 42719500: 3, 42728721: 3, 42737714: 4, 42737719: 4, 42737723: 3, 42743519: 4, 42747190: 4, 42763139: 4}</data>
+  </graph>
+</graphml>

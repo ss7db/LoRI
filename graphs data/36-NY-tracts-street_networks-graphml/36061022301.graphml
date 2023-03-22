@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d9" />
+  <key attr.name="ref" attr.type="string" for="node" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42424698">
+      <data key="d4">40.8227216</data>
+      <data key="d5">-73.9574473</data>
+      <data key="d6">42424698</data>
+    </node>
+    <node id="42428892">
+      <data key="d4">40.8201687</data>
+      <data key="d5">-73.9552062</data>
+      <data key="d6">42428892</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42428912">
+      <data key="d4">40.8214465</data>
+      <data key="d5">-73.9542759</data>
+      <data key="d6">42428912</data>
+    </node>
+    <node id="42439054">
+      <data key="d4">40.8213403</data>
+      <data key="d5">-73.9579987</data>
+      <data key="d6">42439054</data>
+    </node>
+    <node id="42441947">
+      <data key="d4">40.821707</data>
+      <data key="d5">-73.956797</data>
+      <data key="d6">42441947</data>
+    </node>
+    <node id="42441949">
+      <data key="d4">40.822258</data>
+      <data key="d5">-73.956154</data>
+      <data key="d6">42441949</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="254342293">
+      <data key="d4">40.8224172</data>
+      <data key="d5">-73.957871</data>
+      <data key="d6">254342293</data>
+      <data key="d8">12</data>
+      <data key="d7">motorway_junction</data>
+    </node>
+    <node id="561035349">
+      <data key="d4">40.8200885</data>
+      <data key="d5">-73.9550161</data>
+      <data key="d6">561035349</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="561035350">
+      <data key="d4">40.8207561</data>
+      <data key="d5">-73.9545541</data>
+      <data key="d6">561035350</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="561035351">
+      <data key="d4">40.8208309</data>
+      <data key="d5">-73.9547233</data>
+      <data key="d6">561035351</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2383895312">
+      <data key="d4">40.8217508</data>
+      <data key="d5">-73.9576108</data>
+      <data key="d6">2383895312</data>
+    </node>
+    <node id="2395270098">
+      <data key="d4">40.821769</data>
+      <data key="d5">-73.9586641</data>
+      <data key="d6">2395270098</data>
+    </node>
+    <edge id="0" source="42428892" target="561035349">
+      <data key="d9">195743206</data>
+      <data key="d10">False</data>
+      <data key="d11">West 135th Street</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">18.314</data>
+    </edge>
+    <edge id="0" source="42428912" target="42441949">
+      <data key="d9">5671331</data>
+      <data key="d10">True</data>
+      <data key="d11">West 137th Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">181.982</data>
+    </edge>
+    <edge id="0" source="42428912" target="561035351">
+      <data key="d9">525667716</data>
+      <data key="d10">True</data>
+      <data key="d11">Broadway</data>
+      <data key="d12">primary</data>
+      <data key="d13">78.122</data>
+    </edge>
+    <edge id="0" source="42439054" target="2383895312">
+      <data key="d9">229846647</data>
+      <data key="d10">True</data>
+      <data key="d11">12th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">68.449</data>
+      <data key="d14">LINESTRING (-73.9579987 40.8213403, -73.9577804 40.8214283, -73.95751 40.8216794, -73.9576108 40.8217508)</data>
+    </edge>
+    <edge id="0" source="42439054" target="2395270098">
+      <data key="d9">351244362</data>
+      <data key="d11">West 135th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">77.231</data>
+      <data key="d14">LINESTRING (-73.9579987 40.8213403, -73.958591 40.8216029, -73.95866409999999 40.821769)</data>
+    </edge>
+    <edge id="0" source="42441947" target="42441949">
+      <data key="d9">195743194</data>
+      <data key="d11">Riverside Drive</data>
+      <data key="d12">secondary</data>
+      <data key="d10">False</data>
+      <data key="d13">81.739</data>
+    </edge>
+    <edge id="0" source="42441947" target="561035351">
+      <data key="d9">525667717</data>
+      <data key="d10">True</data>
+      <data key="d11">West 136th Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">199.848</data>
+    </edge>
+    <edge id="0" source="42441949" target="42441947">
+      <data key="d9">195743194</data>
+      <data key="d11">Riverside Drive</data>
+      <data key="d12">secondary</data>
+      <data key="d10">False</data>
+      <data key="d13">81.739</data>
+    </edge>
+    <edge id="0" source="561035349" target="42428892">
+      <data key="d9">195743206</data>
+      <data key="d10">False</data>
+      <data key="d11">West 135th Street</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">18.314</data>
+    </edge>
+    <edge id="0" source="561035349" target="561035350">
+      <data key="d9">525667719</data>
+      <data key="d10">True</data>
+      <data key="d11">Broadway</data>
+      <data key="d12">primary</data>
+      <data key="d13">83.798</data>
+    </edge>
+    <edge id="0" source="561035351" target="42428892">
+      <data key="d9">525667720</data>
+      <data key="d10">True</data>
+      <data key="d11">Broadway</data>
+      <data key="d12">primary</data>
+      <data key="d13">84.102</data>
+    </edge>
+    <edge id="0" source="561035351" target="561035350">
+      <data key="d9">5671781</data>
+      <data key="d10">True</data>
+      <data key="d11">West 136th Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">16.497</data>
+      <data key="d14">LINESTRING (-73.9547233 40.8208309, -73.9545991 40.8207784, -73.9545541 40.8207561)</data>
+    </edge>
+    <edge id="0" source="2383895312" target="42439054">
+      <data key="d9">5670759</data>
+      <data key="d10">True</data>
+      <data key="d11">12th Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">56.115</data>
+    </edge>
+    <edge id="0" source="2395270098" target="42439054">
+      <data key="d9">351244362</data>
+      <data key="d11">West 135th Street</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">77.231</data>
+      <data key="d14">LINESTRING (-73.95866409999999 40.821769, -73.958591 40.8216029, -73.9579987 40.8213403)</data>
+    </edge>
+    <data key="d0">36_NY_36061022301</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42424698: 3, 42428892: 4, 42428912: 3, 42439054: 3, 42441947: 3, 42441949: 3, 254342293: 3, 561035349: 4, 561035350: 5, 561035351: 4, 2383895312: 2, 2395270098: 1}</data>
+  </graph>
+</graphml>

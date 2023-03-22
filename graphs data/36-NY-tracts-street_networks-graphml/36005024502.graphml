@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42731712">
+      <data key="d4">40.855729</data>
+      <data key="d5">-73.910413</data>
+      <data key="d6">42731712</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42731718">
+      <data key="d4">40.856014</data>
+      <data key="d5">-73.91213</data>
+      <data key="d6">42731718</data>
+    </node>
+    <node id="42731722">
+      <data key="d4">40.8562808</data>
+      <data key="d5">-73.9139115</data>
+      <data key="d6">42731722</data>
+    </node>
+    <node id="42743984">
+      <data key="d4">40.854822</data>
+      <data key="d5">-73.911196</data>
+      <data key="d6">42743984</data>
+    </node>
+    <node id="42743990">
+      <data key="d4">40.853759</data>
+      <data key="d5">-73.912273</data>
+      <data key="d6">42743990</data>
+    </node>
+    <node id="42743993">
+      <data key="d4">40.853811</data>
+      <data key="d5">-73.913848</data>
+      <data key="d6">42743993</data>
+    </node>
+    <node id="42743997">
+      <data key="d4">40.853943</data>
+      <data key="d5">-73.914675</data>
+      <data key="d6">42743997</data>
+    </node>
+    <node id="42744003">
+      <data key="d4">40.8542063</data>
+      <data key="d5">-73.9154791</data>
+      <data key="d6">42744003</data>
+    </node>
+    <node id="42744007">
+      <data key="d4">40.854244</data>
+      <data key="d5">-73.915568</data>
+      <data key="d6">42744007</data>
+    </node>
+    <node id="42744012">
+      <data key="d4">40.854582</data>
+      <data key="d5">-73.91619</data>
+      <data key="d6">42744012</data>
+    </node>
+    <node id="42748017">
+      <data key="d4">40.85586</data>
+      <data key="d5">-73.915711</data>
+      <data key="d6">42748017</data>
+    </node>
+    <node id="42770814">
+      <data key="d4">40.855701</data>
+      <data key="d5">-73.914938</data>
+      <data key="d6">42770814</data>
+    </node>
+    <node id="42771338">
+      <data key="d4">40.85554</data>
+      <data key="d5">-73.914122</data>
+      <data key="d6">42771338</data>
+    </node>
+    <node id="42776770">
+      <data key="d4">40.855251</data>
+      <data key="d5">-73.912761</data>
+      <data key="d6">42776770</data>
+    </node>
+    <edge id="0" source="42731712" target="42743984">
+      <data key="d8">5698715</data>
+      <data key="d9">False</data>
+      <data key="d10">University Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">120.576</data>
+      <data key="d13">LINESTRING (-73.91041300000001 40.855729, -73.9107715 40.8552683, -73.9111271 40.8548945, -73.911196 40.854822)</data>
+    </edge>
+    <edge id="0" source="42731718" target="42731712">
+      <data key="d8">5696375</data>
+      <data key="d9">True</data>
+      <data key="d10">West 180th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">147.864</data>
+      <data key="d13">LINESTRING (-73.91213 40.856014, -73.91116700000001 40.855866, -73.91041300000001 40.855729)</data>
+    </edge>
+    <edge id="0" source="42731718" target="42776770">
+      <data key="d8">274458284</data>
+      <data key="d9">True</data>
+      <data key="d10">Andrews Avenue South</data>
+      <data key="d11">residential</data>
+      <data key="d12">100.072</data>
+      <data key="d13">LINESTRING (-73.91213 40.856014, -73.9127103 40.8553123, -73.912761 40.855251)</data>
+    </edge>
+    <edge id="0" source="42731722" target="42731718">
+      <data key="d8">5696375</data>
+      <data key="d9">True</data>
+      <data key="d10">West 180th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">152.738</data>
+      <data key="d13">LINESTRING (-73.9139115 40.8562808, -73.9122879 40.8560377, -73.91213 40.856014)</data>
+    </edge>
+    <edge id="0" source="42743984" target="42743990">
+      <data key="d8">5697216</data>
+      <data key="d9">False</data>
+      <data key="d10">University Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">150.24200000000002</data>
+      <data key="d13">LINESTRING (-73.911196 40.854822, -73.9112713 40.8547654, -73.9116693 40.8544667, -73.9118876 40.8542688, -73.9121518 40.8539642, -73.91224630000001 40.8538041, -73.912273 40.853759)</data>
+    </edge>
+    <edge id="0" source="42743984" target="42731712">
+      <data key="d8">5698715</data>
+      <data key="d9">False</data>
+      <data key="d10">University Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">120.576</data>
+      <data key="d13">LINESTRING (-73.911196 40.854822, -73.9111271 40.8548945, -73.9107715 40.8552683, -73.91041300000001 40.855729)</data>
+    </edge>
+    <edge id="0" source="42743984" target="42776770">
+      <data key="d8">5699190</data>
+      <data key="d9">True</data>
+      <data key="d10">West 179th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">140.001</data>
+      <data key="d13">LINESTRING (-73.911196 40.854822, -73.9113619 40.8548675, -73.9126783 40.8552283, -73.912761 40.855251)</data>
+    </edge>
+    <edge id="0" source="42743990" target="42743993">
+      <data key="d8">5697155</data>
+      <data key="d9">False</data>
+      <data key="d10">West Burnside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">132.594</data>
+      <data key="d13">LINESTRING (-73.912273 40.853759, -73.9124353 40.8537644, -73.9137714 40.8538085, -73.913848 40.853811)</data>
+    </edge>
+    <edge id="0" source="42743990" target="42743984">
+      <data key="d8">5697216</data>
+      <data key="d9">False</data>
+      <data key="d10">University Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">150.242</data>
+      <data key="d13">LINESTRING (-73.912273 40.853759, -73.91224630000001 40.8538041, -73.9121518 40.8539642, -73.9118876 40.8542688, -73.9116693 40.8544667, -73.9112713 40.8547654, -73.911196 40.854822)</data>
+    </edge>
+    <edge id="0" source="42743993" target="42743997">
+      <data key="d8">5697155</data>
+      <data key="d9">False</data>
+      <data key="d10">West Burnside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">71.087</data>
+    </edge>
+    <edge id="0" source="42743993" target="42743990">
+      <data key="d8">5697155</data>
+      <data key="d9">False</data>
+      <data key="d10">West Burnside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">132.594</data>
+      <data key="d13">LINESTRING (-73.913848 40.853811, -73.9137714 40.8538085, -73.9124353 40.8537644, -73.912273 40.853759)</data>
+    </edge>
+    <edge id="0" source="42743997" target="42743993">
+      <data key="d8">5697155</data>
+      <data key="d9">False</data>
+      <data key="d10">West Burnside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">71.087</data>
+    </edge>
+    <edge id="0" source="42743997" target="42744003">
+      <data key="d8">5697155</data>
+      <data key="d9">False</data>
+      <data key="d10">West Burnside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">73.695</data>
+    </edge>
+    <edge id="0" source="42743997" target="42771338">
+      <data key="d8">5698828</data>
+      <data key="d9">True</data>
+      <data key="d10">Loring Place South</data>
+      <data key="d11">residential</data>
+      <data key="d12">183.568</data>
+    </edge>
+    <edge id="0" source="42744003" target="42743997">
+      <data key="d8">5697155</data>
+      <data key="d9">False</data>
+      <data key="d10">West Burnside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">73.695</data>
+    </edge>
+    <edge id="0" source="42744003" target="42744007">
+      <data key="d8">5697155</data>
+      <data key="d9">False</data>
+      <data key="d10">West Burnside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">8.572</data>
+    </edge>
+    <edge id="0" source="42744007" target="42744003">
+      <data key="d8">5697155</data>
+      <data key="d9">False</data>
+      <data key="d10">West Burnside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">8.572</data>
+    </edge>
+    <edge id="0" source="42744007" target="42744012">
+      <data key="d8">5697155</data>
+      <data key="d9">False</data>
+      <data key="d10">West Burnside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">64.415</data>
+    </edge>
+    <edge id="0" source="42744012" target="42744007">
+      <data key="d8">5697155</data>
+      <data key="d9">False</data>
+      <data key="d10">West Burnside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">64.415</data>
+    </edge>
+    <edge id="0" source="42744012" target="42748017">
+      <data key="d8">5697466</data>
+      <data key="d9">True</data>
+      <data key="d10">Osborne Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">147.707</data>
+    </edge>
+    <edge id="0" source="42748017" target="42731722">
+      <data key="d8">[5697466, 5696375]</data>
+      <data key="d9">True</data>
+      <data key="d10">['West 180th Street', 'Osborne Place']</data>
+      <data key="d11">residential</data>
+      <data key="d12">210.044</data>
+      <data key="d13">LINESTRING (-73.915711 40.85586, -73.915452 40.8565295, -73.9139115 40.8562808)</data>
+    </edge>
+    <edge id="0" source="42770814" target="42748017">
+      <data key="d8">5699190</data>
+      <data key="d9">True</data>
+      <data key="d10">West 179th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">67.373</data>
+    </edge>
+    <edge id="0" source="42770814" target="42744003">
+      <data key="d8">5698786</data>
+      <data key="d9">True</data>
+      <data key="d10">Hennessy Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">173.09</data>
+      <data key="d13">LINESTRING (-73.91493800000001 40.855701, -73.9154034 40.8542837, -73.9154791 40.8542063)</data>
+    </edge>
+    <edge id="0" source="42771338" target="42731722">
+      <data key="d8">5698828</data>
+      <data key="d9">True</data>
+      <data key="d10">Loring Place South</data>
+      <data key="d11">residential</data>
+      <data key="d12">84.254</data>
+    </edge>
+    <edge id="0" source="42771338" target="42770814">
+      <data key="d8">5699190</data>
+      <data key="d9">True</data>
+      <data key="d10">West 179th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">70.925</data>
+    </edge>
+    <edge id="0" source="42776770" target="42771338">
+      <data key="d8">5699190</data>
+      <data key="d9">True</data>
+      <data key="d10">West 179th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">118.891</data>
+    </edge>
+    <edge id="0" source="42776770" target="42743993">
+      <data key="d8">274458284</data>
+      <data key="d9">True</data>
+      <data key="d10">Andrews Avenue South</data>
+      <data key="d11">residential</data>
+      <data key="d12">186.18</data>
+      <data key="d13">LINESTRING (-73.912761 40.855251, -73.91280980000001 40.8551927, -73.9138263 40.8539778, -73.9138359 40.8539041, -73.913848 40.853811)</data>
+    </edge>
+    <data key="d0">36_NY_36005024502</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42731712: 3, 42731718: 3, 42731722: 3, 42743984: 4, 42743990: 3, 42743993: 4, 42743997: 4, 42744003: 3, 42744007: 3, 42744012: 3, 42748017: 3, 42770814: 3, 42771338: 4, 42776770: 4}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42432871">
+      <data key="d4">40.757364</data>
+      <data key="d5">-73.960671</data>
+      <data key="d6">42432871</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42432875">
+      <data key="d4">40.757197</data>
+      <data key="d5">-73.960279</data>
+      <data key="d6">42432875</data>
+      <data key="d7">turning_circle</data>
+    </node>
+    <node id="42440566">
+      <data key="d4">40.756059</data>
+      <data key="d5">-73.961622</data>
+      <data key="d6">42440566</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42440567">
+      <data key="d4">40.7566813</data>
+      <data key="d5">-73.9611629</data>
+      <data key="d6">42440567</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42443618">
+      <data key="d4">40.7576322</data>
+      <data key="d5">-73.9634155</data>
+      <data key="d6">42443618</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42443621">
+      <data key="d4">40.756496</data>
+      <data key="d5">-73.960724</data>
+      <data key="d6">42443621</data>
+      <data key="d7">turning_circle</data>
+    </node>
+    <node id="42448329">
+      <data key="d4">40.758663</data>
+      <data key="d5">-73.959722</data>
+      <data key="d6">42448329</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42448406">
+      <data key="d4">40.755889</data>
+      <data key="d5">-73.961219</data>
+      <data key="d6">42448406</data>
+      <data key="d7">turning_circle</data>
+    </node>
+    <node id="42454660">
+      <data key="d4">40.758037</data>
+      <data key="d5">-73.960182</data>
+      <data key="d6">42454660</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42456041">
+      <data key="d4">40.758981</data>
+      <data key="d5">-73.962432</data>
+      <data key="d6">42456041</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="4918486745">
+      <data key="d4">40.7583241</data>
+      <data key="d5">-73.9590727</data>
+      <data key="d6">4918486745</data>
+    </node>
+    <node id="5163687759">
+      <data key="d4">40.7578199</data>
+      <data key="d5">-73.959435</data>
+      <data key="d6">5163687759</data>
+    </node>
+    <edge id="0" source="42432871" target="42432875">
+      <data key="d8">46211841</data>
+      <data key="d9">East 57th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">37.881</data>
+    </edge>
+    <edge id="0" source="42432871" target="42440567">
+      <data key="d8">169381963</data>
+      <data key="d9">Sutton Place South</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">86.483</data>
+    </edge>
+    <edge id="0" source="42432871" target="42454660">
+      <data key="d8">5672515</data>
+      <data key="d9">Sutton Place</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">85.42299999999999</data>
+      <data key="d13">LINESTRING (-73.960671 40.757364, -73.9602222 40.757985, -73.960182 40.758037)</data>
+    </edge>
+    <edge id="0" source="42432875" target="42432871">
+      <data key="d8">46211841</data>
+      <data key="d9">East 57th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">37.881</data>
+    </edge>
+    <edge id="0" source="42440566" target="42448406">
+      <data key="d8">5671577</data>
+      <data key="d9">East 55th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">38.853</data>
+    </edge>
+    <edge id="0" source="42440566" target="42440567">
+      <data key="d8">169381963</data>
+      <data key="d9">Sutton Place South</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">79.269</data>
+    </edge>
+    <edge id="0" source="42440567" target="42443621">
+      <data key="d8">46694751</data>
+      <data key="d9">East 56th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">42.322</data>
+    </edge>
+    <edge id="0" source="42440567" target="42440566">
+      <data key="d8">169381963</data>
+      <data key="d9">Sutton Place South</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">79.269</data>
+    </edge>
+    <edge id="0" source="42440567" target="42432871">
+      <data key="d8">169381963</data>
+      <data key="d9">Sutton Place South</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">86.483</data>
+    </edge>
+    <edge id="0" source="42443618" target="42440567">
+      <data key="d8">466953403</data>
+      <data key="d11">True</data>
+      <data key="d14">2</data>
+      <data key="d9">East 56th Street</data>
+      <data key="d10">residential</data>
+      <data key="d12">217.206</data>
+    </edge>
+    <edge id="0" source="42443621" target="42440567">
+      <data key="d8">46694751</data>
+      <data key="d9">East 56th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">42.322</data>
+    </edge>
+    <edge id="0" source="42448329" target="42454660">
+      <data key="d8">5672515</data>
+      <data key="d9">Sutton Place</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">79.665</data>
+      <data key="d13">LINESTRING (-73.959722 40.758663, -73.9597644 40.7586053, -73.9601376 40.7580975, -73.960182 40.758037)</data>
+    </edge>
+    <edge id="0" source="42448329" target="4918486745">
+      <data key="d8">[46211834, 532047246]</data>
+      <data key="d9">['East 59th Street', 'Riverview Terrace']</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">72.679</data>
+      <data key="d13">LINESTRING (-73.959722 40.758663, -73.9596018 40.7586129, -73.95903509999999 40.7583765, -73.95907269999999 40.7583241)</data>
+    </edge>
+    <edge id="0" source="42448406" target="42440566">
+      <data key="d8">5671577</data>
+      <data key="d9">East 55th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">38.853</data>
+    </edge>
+    <edge id="0" source="42454660" target="42432871">
+      <data key="d8">5672515</data>
+      <data key="d9">Sutton Place</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">85.42299999999999</data>
+      <data key="d13">LINESTRING (-73.960182 40.758037, -73.9602222 40.757985, -73.960671 40.757364)</data>
+    </edge>
+    <edge id="0" source="42454660" target="42448329">
+      <data key="d8">5672515</data>
+      <data key="d9">Sutton Place</data>
+      <data key="d10">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">79.665</data>
+      <data key="d13">LINESTRING (-73.960182 40.758037, -73.9601376 40.7580975, -73.9597644 40.7586053, -73.959722 40.758663)</data>
+    </edge>
+    <edge id="0" source="42454660" target="5163687759">
+      <data key="d8">[5671579, 5673372]</data>
+      <data key="d9">['Riverview Terrace', 'Sutton Square']</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">76.2</data>
+      <data key="d13">LINESTRING (-73.960182 40.758037, -73.9600556 40.757984, -73.9594883 40.7577457, -73.9594467 40.7578036, -73.959435 40.7578199)</data>
+    </edge>
+    <edge id="0" source="42456041" target="42454660">
+      <data key="d8">46211836</data>
+      <data key="d11">True</data>
+      <data key="d14">2</data>
+      <data key="d9">East 58th Street</data>
+      <data key="d10">residential</data>
+      <data key="d12">216.639</data>
+      <data key="d13">LINESTRING (-73.96243200000001 40.758981, -73.96229769999999 40.7589246, -73.9603135 40.7580923, -73.960182 40.758037)</data>
+    </edge>
+    <edge id="0" source="4918486745" target="42448329">
+      <data key="d8">[46211834, 532047246]</data>
+      <data key="d9">['East 59th Street', 'Riverview Terrace']</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">72.679</data>
+      <data key="d13">LINESTRING (-73.95907269999999 40.7583241, -73.95903509999999 40.7583765, -73.9596018 40.7586129, -73.959722 40.758663)</data>
+    </edge>
+    <edge id="0" source="5163687759" target="42454660">
+      <data key="d8">[5671579, 5673372]</data>
+      <data key="d9">['Riverview Terrace', 'Sutton Square']</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">76.2</data>
+      <data key="d13">LINESTRING (-73.959435 40.7578199, -73.9594467 40.7578036, -73.9594883 40.7577457, -73.9600556 40.757984, -73.960182 40.758037)</data>
+    </edge>
+    <data key="d0">36_NY_36061010601</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42432871: 4, 42432875: 1, 42440566: 4, 42440567: 4, 42443618: 4, 42443621: 1, 42448329: 4, 42448406: 1, 42454660: 4, 42456041: 4, 4918486745: 1, 5163687759: 1}</data>
+  </graph>
+</graphml>

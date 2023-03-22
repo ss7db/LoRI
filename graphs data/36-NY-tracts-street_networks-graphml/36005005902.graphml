@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d15" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42748152">
+      <data key="d4">40.8263962</data>
+      <data key="d5">-73.9211598</data>
+      <data key="d6">42748152</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42760978">
+      <data key="d4">40.8231</data>
+      <data key="d5">-73.923371</data>
+      <data key="d6">42760978</data>
+    </node>
+    <node id="42760984">
+      <data key="d4">40.823624</data>
+      <data key="d5">-73.923073</data>
+      <data key="d6">42760984</data>
+    </node>
+    <node id="42767711">
+      <data key="d4">40.82497</data>
+      <data key="d5">-73.922274</data>
+      <data key="d6">42767711</data>
+    </node>
+    <node id="42767715">
+      <data key="d4">40.82564</data>
+      <data key="d5">-73.921739</data>
+      <data key="d6">42767715</data>
+    </node>
+    <node id="2408448907">
+      <data key="d4">40.8267109</data>
+      <data key="d5">-73.922618</data>
+      <data key="d6">2408448907</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2408448908">
+      <data key="d4">40.8260807</data>
+      <data key="d5">-73.9230026</data>
+      <data key="d6">2408448908</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2408448912">
+      <data key="d4">40.8253967</data>
+      <data key="d5">-73.9234195</data>
+      <data key="d6">2408448912</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2408448917">
+      <data key="d4">40.8263148</data>
+      <data key="d5">-73.9212194</data>
+      <data key="d6">2408448917</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2408448920">
+      <data key="d4">40.8234586</data>
+      <data key="d5">-73.9244028</data>
+      <data key="d6">2408448920</data>
+    </node>
+    <node id="2408448924">
+      <data key="d4">40.8219255</data>
+      <data key="d5">-73.9250435</data>
+      <data key="d6">2408448924</data>
+    </node>
+    <edge id="0" source="42760978" target="42760984">
+      <data key="d8">5698607</data>
+      <data key="d9">True</data>
+      <data key="d10">Concourse Village West</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">63.433</data>
+    </edge>
+    <edge id="0" source="42760984" target="42767711">
+      <data key="d8">5698607</data>
+      <data key="d9">True</data>
+      <data key="d10">Concourse Village West</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">164.075</data>
+      <data key="d14">LINESTRING (-73.923073 40.823624, -73.922966 40.8238042, -73.9223844 40.8247841, -73.922274 40.82497)</data>
+    </edge>
+    <edge id="0" source="42767711" target="42767715">
+      <data key="d8">5698607</data>
+      <data key="d9">True</data>
+      <data key="d10">Concourse Village West</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">87.04499999999999</data>
+      <data key="d14">LINESTRING (-73.922274 40.82497, -73.9222504 40.8249996, -73.921739 40.82564)</data>
+    </edge>
+    <edge id="0" source="42767715" target="2408448917">
+      <data key="d8">5698607</data>
+      <data key="d9">True</data>
+      <data key="d10">Concourse Village West</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">86.842</data>
+    </edge>
+    <edge id="0" source="42767715" target="2408448908">
+      <data key="d8">5698783</data>
+      <data key="d9">True</data>
+      <data key="d10">East 159th Street</data>
+      <data key="d11">residential</data>
+      <data key="d13">117.071</data>
+    </edge>
+    <edge id="0" source="2408448907" target="2408448917">
+      <data key="d8">469112002</data>
+      <data key="d9">True</data>
+      <data key="d10">East 161st Street</data>
+      <data key="d11">secondary</data>
+      <data key="d13">126.15400000000001</data>
+      <data key="d14">LINESTRING (-73.922618 40.8267109, -73.92254560000001 40.8266979, -73.9224852 40.8266835, -73.9213144 40.8263184, -73.92126930000001 40.8263147, -73.9212194 40.8263148)</data>
+    </edge>
+    <edge id="0" source="2408448908" target="2408448907">
+      <data key="d8">[420897712, 420897714, 420897710]</data>
+      <data key="d9">True</data>
+      <data key="d15">3</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">primary</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">77.18599999999999</data>
+      <data key="d14">LINESTRING (-73.9230026 40.8260807, -73.9229624 40.8261463, -73.9226768 40.8266125, -73.922618 40.8267109)</data>
+    </edge>
+    <edge id="0" source="2408448912" target="2408448908">
+      <data key="d8">420897710</data>
+      <data key="d9">True</data>
+      <data key="d15">3</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">primary</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">83.757</data>
+    </edge>
+    <edge id="0" source="2408448912" target="42767711">
+      <data key="d8">552613484</data>
+      <data key="d9">True</data>
+      <data key="d10">East 158th Street</data>
+      <data key="d11">residential</data>
+      <data key="d13">107.43</data>
+    </edge>
+    <edge id="0" source="2408448917" target="42748152">
+      <data key="d8">469112003</data>
+      <data key="d9">True</data>
+      <data key="d10">Concourse Village West</data>
+      <data key="d11">residential</data>
+      <data key="d13">10.348</data>
+    </edge>
+    <edge id="0" source="2408448920" target="42760978">
+      <data key="d8">5698199</data>
+      <data key="d9">True</data>
+      <data key="d10">East 156th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">95.539</data>
+    </edge>
+    <edge id="0" source="2408448920" target="2408448912">
+      <data key="d8">420897710</data>
+      <data key="d9">True</data>
+      <data key="d15">3</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">primary</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">231.963</data>
+      <data key="d14">LINESTRING (-73.9244028 40.8234586, -73.92436240000001 40.8236063, -73.9243488 40.8236846, -73.9243331 40.8237709, -73.92431259999999 40.823844, -73.9242861 40.8239203, -73.92421330000001 40.824055, -73.92341949999999 40.8253967)</data>
+    </edge>
+    <edge id="0" source="2408448924" target="2408448920">
+      <data key="d8">[589096641, 420897711]</data>
+      <data key="d9">True</data>
+      <data key="d15">['4', '3']</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">primary</data>
+      <data key="d12">25 mph</data>
+      <data key="d13">179.014</data>
+      <data key="d14">LINESTRING (-73.9250435 40.8219255, -73.9249416 40.8221118, -73.9248559 40.8222739, -73.924774 40.8224519, -73.9247057 40.8226261, -73.9246332 40.8228139, -73.9246212 40.8228474, -73.9244028 40.8234586)</data>
+    </edge>
+    <data key="d0">36_NY_36005005902</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42748152: 4, 42760978: 3, 42760984: 3, 42767711: 3, 42767715: 3, 2408448907: 4, 2408448908: 4, 2408448912: 4, 2408448917: 4, 2408448920: 4, 2408448924: 3}</data>
+  </graph>
+</graphml>

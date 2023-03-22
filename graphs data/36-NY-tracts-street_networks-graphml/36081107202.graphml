@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d9" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42786950">
+      <data key="d4">40.614941</data>
+      <data key="d5">-73.8215944</data>
+      <data key="d6">42786950</data>
+    </node>
+    <node id="42886497">
+      <data key="d4">40.6347328</data>
+      <data key="d5">-73.829844</data>
+      <data key="d6">42886497</data>
+    </node>
+    <node id="2757350501">
+      <data key="d4">40.6200273</data>
+      <data key="d5">-73.8254646</data>
+      <data key="d6">2757350501</data>
+    </node>
+    <node id="2757350502">
+      <data key="d4">40.6200843</data>
+      <data key="d5">-73.8252642</data>
+      <data key="d6">2757350502</data>
+    </node>
+    <node id="2757350515">
+      <data key="d4">40.6346846</data>
+      <data key="d5">-73.8300001</data>
+      <data key="d6">2757350515</data>
+    </node>
+    <edge id="0" source="42786950" target="2757350502">
+      <data key="d7">[420904841, 118714378, 420904845, 38595625]</data>
+      <data key="d8">True</data>
+      <data key="d9">['2', '3']</data>
+      <data key="d10">Cross Bay Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">653.0330000000001</data>
+      <data key="d13">LINESTRING (-73.8215944 40.614941, -73.8225501 40.6160612, -73.8231428 40.6167925, -73.82354309999999 40.6172863, -73.8236265 40.617358, -73.8242217 40.6181591, -73.8249732 40.6194078, -73.82526420000001 40.6200843)</data>
+    </edge>
+    <edge id="0" source="42886497" target="2757350515">
+      <data key="d7">270734457</data>
+      <data key="d11">primary_link</data>
+      <data key="d8">False</data>
+      <data key="d12">14.221</data>
+    </edge>
+    <edge id="0" source="2757350501" target="2757350502">
+      <data key="d7">270734455</data>
+      <data key="d11">primary_link</data>
+      <data key="d8">False</data>
+      <data key="d12">18.063</data>
+    </edge>
+    <edge id="0" source="2757350502" target="2757350501">
+      <data key="d7">270734455</data>
+      <data key="d11">primary_link</data>
+      <data key="d8">False</data>
+      <data key="d12">18.063</data>
+    </edge>
+    <edge id="0" source="2757350502" target="42886497">
+      <data key="d7">38595625</data>
+      <data key="d8">True</data>
+      <data key="d9">2</data>
+      <data key="d10">Cross Bay Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">1675.6140000000003</data>
+      <data key="d13">LINESTRING (-73.82526420000001 40.6200843, -73.82559089999999 40.6208437, -73.8258948 40.6218858, -73.8285702 40.6312378, -73.8287282 40.6318988, -73.8288652 40.6323718, -73.82898520000001 40.6327388, -73.8291862 40.6332848, -73.8292982 40.6335608, -73.82951919999999 40.6340598, -73.82984399999999 40.6347328)</data>
+    </edge>
+    <edge id="0" source="2757350515" target="42886497">
+      <data key="d7">270734457</data>
+      <data key="d11">primary_link</data>
+      <data key="d8">False</data>
+      <data key="d12">14.221</data>
+    </edge>
+    <edge id="0" source="2757350515" target="2757350501">
+      <data key="d7">270734450</data>
+      <data key="d8">True</data>
+      <data key="d9">2</data>
+      <data key="d10">Cross Bay Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">1675.3430000000003</data>
+      <data key="d13">LINESTRING (-73.83000010000001 40.6346846, -73.8297073 40.6340096, -73.8294872 40.6335125, -73.829376 40.6332384, -73.82917569999999 40.6326944, -73.8290564 40.6323295, -73.8289201 40.6318589, -73.82876210000001 40.631198, -73.8260863 40.6218446, -73.8257813 40.6207987, -73.8254646 40.6200273)</data>
+    </edge>
+    <data key="d0">36_NY_36081107202</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42786950: 3, 42886497: 3, 2757350501: 3, 2757350502: 3, 2757350515: 3}</data>
+  </graph>
+</graphml>

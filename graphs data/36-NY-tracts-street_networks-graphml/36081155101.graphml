@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42829706">
+      <data key="d4">40.756281</data>
+      <data key="d5">-73.721093</data>
+      <data key="d6">42829706</data>
+    </node>
+    <node id="42829758">
+      <data key="d4">40.759245</data>
+      <data key="d5">-73.7159613</data>
+      <data key="d6">42829758</data>
+    </node>
+    <node id="42856079">
+      <data key="d4">40.756066</data>
+      <data key="d5">-73.720386</data>
+      <data key="d6">42856079</data>
+    </node>
+    <node id="944462225">
+      <data key="d4">40.7590708</data>
+      <data key="d5">-73.717517</data>
+      <data key="d6">944462225</data>
+    </node>
+    <node id="944462289">
+      <data key="d4">40.7584338</data>
+      <data key="d5">-73.7166607</data>
+      <data key="d6">944462289</data>
+      <data key="d7">crossing</data>
+    </node>
+    <edge id="0" source="42829706" target="42856079">
+      <data key="d8">5704104</data>
+      <data key="d9">267th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">64.17</data>
+    </edge>
+    <edge id="0" source="42829706" target="944462225">
+      <data key="d8">531057268</data>
+      <data key="d9">Grand Central Parkway South Service Road</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">False</data>
+      <data key="d12">444.29300000000006</data>
+      <data key="d13">LINESTRING (-73.721093 40.756281, -73.7208127 40.7567152, -73.72044270000001 40.7571552, -73.72024810000001 40.7574102, -73.72004219999999 40.7576426, -73.7198063 40.7578557, -73.7195067 40.7580944, -73.7193656 40.758205, -73.7191073 40.7583817, -73.7187095 40.7585948, -73.71820339999999 40.7588235, -73.71761770000001 40.7590303, -73.717517 40.7590708)</data>
+    </edge>
+    <edge id="0" source="42829758" target="944462225">
+      <data key="d8">531057269</data>
+      <data key="d9">Grand Central Parkway South Service Road</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">False</data>
+      <data key="d12">134.146</data>
+      <data key="d13">LINESTRING (-73.7159613 40.759245, -73.7163939 40.7592338, -73.7168061 40.7592386, -73.7171719 40.7591787, -73.717517 40.7590708)</data>
+    </edge>
+    <edge id="0" source="42856079" target="42829706">
+      <data key="d8">5704104</data>
+      <data key="d9">267th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">64.17</data>
+    </edge>
+    <edge id="0" source="944462225" target="944462289">
+      <data key="d8">5700452</data>
+      <data key="d11">True</data>
+      <data key="d10">residential</data>
+      <data key="d12">106.28699999999999</data>
+      <data key="d13">LINESTRING (-73.717517 40.7590708, -73.7174387 40.7589184, -73.7173939 40.7588353, -73.7173071 40.7587519, -73.7170557 40.7585753, -73.71695010000001 40.7585124, -73.7168468 40.7584685, -73.71666070000001 40.7584338)</data>
+    </edge>
+    <edge id="0" source="944462225" target="42829706">
+      <data key="d8">531057268</data>
+      <data key="d9">Grand Central Parkway South Service Road</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">False</data>
+      <data key="d12">444.293</data>
+      <data key="d13">LINESTRING (-73.717517 40.7590708, -73.71761770000001 40.7590303, -73.71820339999999 40.7588235, -73.7187095 40.7585948, -73.7191073 40.7583817, -73.7193656 40.758205, -73.7195067 40.7580944, -73.7198063 40.7578557, -73.72004219999999 40.7576426, -73.72024810000001 40.7574102, -73.72044270000001 40.7571552, -73.7208127 40.7567152, -73.721093 40.756281)</data>
+    </edge>
+    <edge id="0" source="944462225" target="42829758">
+      <data key="d8">531057269</data>
+      <data key="d9">Grand Central Parkway South Service Road</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">False</data>
+      <data key="d12">134.146</data>
+      <data key="d13">LINESTRING (-73.717517 40.7590708, -73.7171719 40.7591787, -73.7168061 40.7592386, -73.7163939 40.7592338, -73.7159613 40.759245)</data>
+    </edge>
+    <data key="d0">36_NY_36081155101</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42829706: 3, 42829758: 3, 42856079: 3, 944462225: 3, 944462289: 1}</data>
+  </graph>
+</graphml>

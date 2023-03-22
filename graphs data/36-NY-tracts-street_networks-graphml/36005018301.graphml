@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42732911">
+      <data key="d4">40.827211</data>
+      <data key="d5">-73.920694</data>
+      <data key="d6">42732911</data>
+    </node>
+    <node id="42739694">
+      <data key="d4">40.8281</data>
+      <data key="d5">-73.920201</data>
+      <data key="d6">42739694</data>
+    </node>
+    <node id="42742392">
+      <data key="d4">40.829702</data>
+      <data key="d5">-73.919313</data>
+      <data key="d6">42742392</data>
+    </node>
+    <node id="2408446151">
+      <data key="d4">40.8285452</data>
+      <data key="d5">-73.921574</data>
+      <data key="d6">2408446151</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2408446154">
+      <data key="d4">40.8269251</data>
+      <data key="d5">-73.9224783</data>
+      <data key="d6">2408446154</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2408446176">
+      <data key="d4">40.829565</data>
+      <data key="d5">-73.9209836</data>
+      <data key="d6">2408446176</data>
+    </node>
+    <node id="2408446186">
+      <data key="d4">40.8280296</data>
+      <data key="d5">-73.9218937</data>
+      <data key="d6">2408446186</data>
+    </node>
+    <node id="2408446187">
+      <data key="d4">40.8276673</data>
+      <data key="d5">-73.9220706</data>
+      <data key="d6">2408446187</data>
+    </node>
+    <node id="2829127625">
+      <data key="d4">40.8291144</data>
+      <data key="d5">-73.9196425</data>
+      <data key="d6">2829127625</data>
+    </node>
+    <edge id="0" source="42732911" target="42739694">
+      <data key="d8">5699508</data>
+      <data key="d9">True</data>
+      <data key="d10">Sheridan Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">107.203</data>
+    </edge>
+    <edge id="0" source="42739694" target="2829127625">
+      <data key="d8">5699508</data>
+      <data key="d9">True</data>
+      <data key="d10">Sheridan Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">122.193</data>
+    </edge>
+    <edge id="0" source="2408446151" target="42739694">
+      <data key="d8">232499160</data>
+      <data key="d9">True</data>
+      <data key="d10">East 163rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">125.682</data>
+    </edge>
+    <edge id="0" source="2408446151" target="2408446176">
+      <data key="d8">278565115</data>
+      <data key="d9">True</data>
+      <data key="d13">1</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">secondary</data>
+      <data key="d12">123.8</data>
+    </edge>
+    <edge id="0" source="2408446154" target="2408446187">
+      <data key="d8">440887356</data>
+      <data key="d9">True</data>
+      <data key="d13">2</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">primary</data>
+      <data key="d12">89.374</data>
+    </edge>
+    <edge id="0" source="2408446176" target="2829127625">
+      <data key="d8">232499157</data>
+      <data key="d10">East 164th Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">123.46</data>
+    </edge>
+    <edge id="0" source="2408446186" target="2408446151">
+      <data key="d8">278565115</data>
+      <data key="d9">True</data>
+      <data key="d13">1</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">secondary</data>
+      <data key="d12">63.442</data>
+      <data key="d14">LINESTRING (-73.9218937 40.8280296, -73.9218114 40.8281299, -73.92157400000001 40.8285452)</data>
+    </edge>
+    <edge id="0" source="2408446187" target="42732911">
+      <data key="d8">232499162</data>
+      <data key="d9">True</data>
+      <data key="d10">East 162nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">126.452</data>
+    </edge>
+    <edge id="0" source="2408446187" target="2408446186">
+      <data key="d8">440887356</data>
+      <data key="d9">True</data>
+      <data key="d13">2</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">primary</data>
+      <data key="d12">42.948</data>
+    </edge>
+    <edge id="0" source="2829127625" target="42742392">
+      <data key="d8">5699508</data>
+      <data key="d9">True</data>
+      <data key="d10">Sheridan Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">70.976</data>
+    </edge>
+    <edge id="0" source="2829127625" target="2408446176">
+      <data key="d8">232499157</data>
+      <data key="d10">East 164th Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">123.46</data>
+    </edge>
+    <data key="d0">36_NY_36005018301</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42732911: 3, 42739694: 4, 42742392: 4, 2408446151: 3, 2408446154: 4, 2408446176: 3, 2408446186: 3, 2408446187: 3, 2829127625: 3}</data>
+  </graph>
+</graphml>

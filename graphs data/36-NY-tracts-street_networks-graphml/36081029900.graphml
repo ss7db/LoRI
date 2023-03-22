@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d9" />
+  <key attr.name="ref" attr.type="string" for="node" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42807771">
+      <data key="d4">40.765963</data>
+      <data key="d5">-73.903417</data>
+      <data key="d6">42807771</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="106093576">
+      <data key="d4">40.7626691</data>
+      <data key="d5">-73.9020631</data>
+      <data key="d6">106093576</data>
+    </node>
+    <node id="482536836">
+      <data key="d4">40.7625091</data>
+      <data key="d5">-73.8969677</data>
+      <data key="d6">482536836</data>
+      <data key="d8">43</data>
+      <data key="d7">motorway_junction</data>
+    </node>
+    <node id="482596998">
+      <data key="d4">40.7626606</data>
+      <data key="d5">-73.9021389</data>
+      <data key="d6">482596998</data>
+    </node>
+    <edge id="0" source="106093576" target="482596998">
+      <data key="d9">46738932</data>
+      <data key="d10">False</data>
+      <data key="d11">Bulova Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">6.454</data>
+    </edge>
+    <edge id="0" source="106093576" target="42807771">
+      <data key="d9">5703851</data>
+      <data key="d10">True</data>
+      <data key="d11">Brooklyn-Queens Expressway West</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">383.60400000000004</data>
+      <data key="d14">LINESTRING (-73.90206310000001 40.7626691, -73.9029128 40.7647299, -73.90338439999999 40.7658833, -73.903417 40.765963)</data>
+    </edge>
+    <edge id="0" source="482596998" target="106093576">
+      <data key="d9">46738932</data>
+      <data key="d10">False</data>
+      <data key="d11">Bulova Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">6.454</data>
+    </edge>
+    <data key="d0">36_NY_36081029900</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42807771: 4, 106093576: 3, 482536836: 3, 482596998: 1}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42810501">
+      <data key="d4">40.7620248</data>
+      <data key="d5">-73.9121031</data>
+      <data key="d6">42810501</data>
+    </node>
+    <node id="42856566">
+      <data key="d4">40.7601922</data>
+      <data key="d5">-73.9146932</data>
+      <data key="d6">42856566</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42856569">
+      <data key="d4">40.7598185</data>
+      <data key="d5">-73.913898</data>
+      <data key="d6">42856569</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42920456">
+      <data key="d4">40.7612436</data>
+      <data key="d5">-73.9149432</data>
+      <data key="d6">42920456</data>
+    </node>
+    <node id="42926319">
+      <data key="d4">40.7623376</data>
+      <data key="d5">-73.915155</data>
+      <data key="d6">42926319</data>
+    </node>
+    <edge id="0" source="42810501" target="42856569">
+      <data key="d8">25347776</data>
+      <data key="d9">True</data>
+      <data key="d10">44th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">288.166</data>
+      <data key="d13">LINESTRING (-73.9121031 40.7620248, -73.91383999999999 40.7598898, -73.913898 40.7598185)</data>
+    </edge>
+    <edge id="0" source="42856566" target="42856569">
+      <data key="d8">484433150</data>
+      <data key="d10">31st Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d14">25 mph</data>
+      <data key="d9">False</data>
+      <data key="d12">78.82</data>
+      <data key="d13">LINESTRING (-73.9146932 40.7601922, -73.9145504 40.7601251, -73.91425030000001 40.759984, -73.9139717 40.7598531, -73.913898 40.7598185)</data>
+    </edge>
+    <edge id="0" source="42856569" target="42856566">
+      <data key="d8">484433150</data>
+      <data key="d10">31st Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d14">25 mph</data>
+      <data key="d9">False</data>
+      <data key="d12">78.82</data>
+      <data key="d13">LINESTRING (-73.913898 40.7598185, -73.9139717 40.7598531, -73.91425030000001 40.759984, -73.9145504 40.7601251, -73.9146932 40.7601922)</data>
+    </edge>
+    <edge id="0" source="42920456" target="42856566">
+      <data key="d8">5709116</data>
+      <data key="d9">True</data>
+      <data key="d10">Newtown Road</data>
+      <data key="d11">residential</data>
+      <data key="d12">118.934</data>
+      <data key="d13">LINESTRING (-73.9149432 40.7612436, -73.9147607 40.7603655, -73.9146932 40.7601922)</data>
+    </edge>
+    <edge id="0" source="42926319" target="42920456">
+      <data key="d8">5709116</data>
+      <data key="d9">True</data>
+      <data key="d10">Newtown Road</data>
+      <data key="d11">residential</data>
+      <data key="d12">122.948</data>
+      <data key="d13">LINESTRING (-73.915155 40.7623376, -73.9151389 40.7622544, -73.9149432 40.7612436)</data>
+    </edge>
+    <data key="d0">36_NY_36081014900</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42810501: 3, 42856566: 6, 42856569: 4, 42920456: 4, 42926319: 4}</data>
+  </graph>
+</graphml>

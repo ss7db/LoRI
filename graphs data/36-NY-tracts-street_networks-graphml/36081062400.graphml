@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42854082">
+      <data key="d4">40.686438</data>
+      <data key="d5">-73.736578</data>
+      <data key="d6">42854082</data>
+    </node>
+    <node id="42868918">
+      <data key="d4">40.686701</data>
+      <data key="d5">-73.737442</data>
+      <data key="d6">42868918</data>
+    </node>
+    <node id="42868923">
+      <data key="d4">40.686173</data>
+      <data key="d5">-73.7357</data>
+      <data key="d6">42868923</data>
+    </node>
+    <node id="42868926">
+      <data key="d4">40.685906</data>
+      <data key="d5">-73.73483</data>
+      <data key="d6">42868926</data>
+    </node>
+    <edge id="0" source="42854082" target="42868923">
+      <data key="d7">581447585</data>
+      <data key="d8">Francis Lewis Boulevard</data>
+      <data key="d9">secondary</data>
+      <data key="d10">False</data>
+      <data key="d11">79.68</data>
+    </edge>
+    <edge id="0" source="42854082" target="42868918">
+      <data key="d7">581447585</data>
+      <data key="d8">Francis Lewis Boulevard</data>
+      <data key="d9">secondary</data>
+      <data key="d10">False</data>
+      <data key="d11">78.501</data>
+    </edge>
+    <edge id="0" source="42868918" target="42854082">
+      <data key="d7">581447585</data>
+      <data key="d8">Francis Lewis Boulevard</data>
+      <data key="d9">secondary</data>
+      <data key="d10">False</data>
+      <data key="d11">78.501</data>
+    </edge>
+    <edge id="0" source="42868923" target="42868926">
+      <data key="d7">581447585</data>
+      <data key="d8">Francis Lewis Boulevard</data>
+      <data key="d9">secondary</data>
+      <data key="d10">False</data>
+      <data key="d11">79.137</data>
+    </edge>
+    <edge id="0" source="42868923" target="42854082">
+      <data key="d7">581447585</data>
+      <data key="d8">Francis Lewis Boulevard</data>
+      <data key="d9">secondary</data>
+      <data key="d10">False</data>
+      <data key="d11">79.68</data>
+    </edge>
+    <edge id="0" source="42868926" target="42868923">
+      <data key="d7">581447585</data>
+      <data key="d8">Francis Lewis Boulevard</data>
+      <data key="d9">secondary</data>
+      <data key="d10">False</data>
+      <data key="d11">79.137</data>
+    </edge>
+    <data key="d0">36_NY_36081062400</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42854082: 3, 42868918: 3, 42868923: 3, 42868926: 3}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d15" />
+  <key attr.name="ref" attr.type="string" for="edge" id="d14" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d13" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="261810583">
+      <data key="d4">41.5836666</data>
+      <data key="d5">-73.725354</data>
+      <data key="d6">261810583</data>
+    </node>
+    <node id="261810609">
+      <data key="d4">41.588074</data>
+      <data key="d5">-73.727857</data>
+      <data key="d6">261810609</data>
+    </node>
+    <node id="261845907">
+      <data key="d4">41.583275</data>
+      <data key="d5">-73.7250879</data>
+      <data key="d6">261845907</data>
+    </node>
+    <node id="261845913">
+      <data key="d4">41.5826651</data>
+      <data key="d5">-73.725972</data>
+      <data key="d6">261845913</data>
+    </node>
+    <edge id="0" source="261810583" target="261845907">
+      <data key="d7">24183515</data>
+      <data key="d8">Coombe Way</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">48.846</data>
+    </edge>
+    <edge id="0" source="261810583" target="261810609">
+      <data key="d7">24175742</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">556.428</data>
+      <data key="d12">LINESTRING (-73.725354 41.5836666, -73.7263925 41.5850983, -73.72673500000001 41.585549, -73.726781 41.585645, -73.72683499999999 41.585856, -73.72691 41.586017, -73.72703199999999 41.586218, -73.727093 41.5863, -73.72738699999999 41.586561, -73.72786600000001 41.586951, -73.727952 41.587034, -73.72799500000001 41.587094, -73.728024 41.587162, -73.728042 41.587302, -73.72802799999999 41.587416, -73.727985 41.587531, -73.72783800000001 41.587821, -73.727834 41.587996, -73.727857 41.588074)</data>
+    </edge>
+    <edge id="0" source="261810583" target="261845913">
+      <data key="d7">24183514</data>
+      <data key="d8">Coombe Way</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">155.211</data>
+      <data key="d12">LINESTRING (-73.725354 41.5836666, -73.7254655 41.5836153, -73.72556849999999 41.5835511, -73.7262638 41.5830439, -73.72628949999999 41.5829861, -73.72628090000001 41.5829219, -73.72622939999999 41.5828705, -73.725972 41.5826651)</data>
+    </edge>
+    <edge id="0" source="261810609" target="261810583">
+      <data key="d7">24175742</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">556.4279999999999</data>
+      <data key="d12">LINESTRING (-73.727857 41.588074, -73.727834 41.587996, -73.72783800000001 41.587821, -73.727985 41.587531, -73.72802799999999 41.587416, -73.728042 41.587302, -73.728024 41.587162, -73.72799500000001 41.587094, -73.727952 41.587034, -73.72786600000001 41.586951, -73.72738699999999 41.586561, -73.727093 41.5863, -73.72703199999999 41.586218, -73.72691 41.586017, -73.72683499999999 41.585856, -73.726781 41.585645, -73.72673500000001 41.585549, -73.7263925 41.5850983, -73.725354 41.5836666)</data>
+    </edge>
+    <edge id="0" source="261845907" target="261810583">
+      <data key="d7">24183515</data>
+      <data key="d8">Coombe Way</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">48.846</data>
+    </edge>
+    <edge id="0" source="261845907" target="261845913">
+      <data key="d7">139456777</data>
+      <data key="d13">2</data>
+      <data key="d14">NY 216</data>
+      <data key="d9">secondary</data>
+      <data key="d15">55 mph</data>
+      <data key="d10">False</data>
+      <data key="d11">100.084</data>
+      <data key="d12">LINESTRING (-73.72508790000001 41.583275, -73.72534539999999 41.5831145, -73.72563719999999 41.5829091, -73.725972 41.5826651)</data>
+    </edge>
+    <edge id="0" source="261845913" target="261810583">
+      <data key="d7">24183514</data>
+      <data key="d8">Coombe Way</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">155.21100000000004</data>
+      <data key="d12">LINESTRING (-73.725972 41.5826651, -73.72622939999999 41.5828705, -73.72628090000001 41.5829219, -73.72628949999999 41.5829861, -73.7262638 41.5830439, -73.72556849999999 41.5835511, -73.7254655 41.5836153, -73.725354 41.5836666)</data>
+    </edge>
+    <edge id="0" source="261845913" target="261845907">
+      <data key="d7">139456777</data>
+      <data key="d13">2</data>
+      <data key="d14">NY 216</data>
+      <data key="d9">secondary</data>
+      <data key="d15">55 mph</data>
+      <data key="d10">False</data>
+      <data key="d11">100.08399999999999</data>
+      <data key="d12">LINESTRING (-73.725972 41.5826651, -73.72563719999999 41.5829091, -73.72534539999999 41.5831145, -73.72508790000001 41.583275)</data>
+    </edge>
+    <data key="d0">36_NY_36027610000</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{261810583: 3, 261810609: 1, 261845907: 3, 261845913: 3}</data>
+  </graph>
+</graphml>

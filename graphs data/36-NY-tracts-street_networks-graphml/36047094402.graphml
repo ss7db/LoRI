@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42467749">
+      <data key="d4">40.635543</data>
+      <data key="d5">-73.922832</data>
+      <data key="d6">42467749</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42467751">
+      <data key="d4">40.633209</data>
+      <data key="d5">-73.922587</data>
+      <data key="d6">42467751</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42473329">
+      <data key="d4">40.636988</data>
+      <data key="d5">-73.920119</data>
+      <data key="d6">42473329</data>
+    </node>
+    <node id="42473333">
+      <data key="d4">40.633865</data>
+      <data key="d5">-73.919809</data>
+      <data key="d6">42473333</data>
+    </node>
+    <node id="42480966">
+      <data key="d4">40.637404</data>
+      <data key="d5">-73.919164</data>
+      <data key="d6">42480966</data>
+    </node>
+    <node id="42493416">
+      <data key="d4">40.636075</data>
+      <data key="d5">-73.921908</data>
+      <data key="d6">42493416</data>
+    </node>
+    <node id="42493418">
+      <data key="d4">40.6365394</data>
+      <data key="d5">-73.9209912</data>
+      <data key="d6">42493418</data>
+    </node>
+    <node id="42493420">
+      <data key="d4">40.63747</data>
+      <data key="d5">-73.919172</data>
+      <data key="d6">42493420</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42493967">
+      <data key="d4">40.635893</data>
+      <data key="d5">-73.919006</data>
+      <data key="d6">42493967</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42493968">
+      <data key="d4">40.634483</data>
+      <data key="d5">-73.918852</data>
+      <data key="d6">42493968</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42500325">
+      <data key="d4">40.63333</data>
+      <data key="d5">-73.920683</data>
+      <data key="d6">42500325</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42515629">
+      <data key="d4">40.633474</data>
+      <data key="d5">-73.920412</data>
+      <data key="d6">42515629</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42524238">
+      <data key="d4">40.633276</data>
+      <data key="d5">-73.921618</data>
+      <data key="d6">42524238</data>
+    </node>
+    <node id="3574847194">
+      <data key="d4">40.635262</data>
+      <data key="d5">-73.9228025</data>
+      <data key="d6">3574847194</data>
+    </node>
+    <edge id="0" source="42467749" target="3574847194">
+      <data key="d8">226938464</data>
+      <data key="d9">East 56th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">31.345</data>
+    </edge>
+    <edge id="0" source="42467749" target="42493416">
+      <data key="d8">27624094</data>
+      <data key="d9">Farragut Road</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">97.87</data>
+      <data key="d13">LINESTRING (-73.922832 40.635543, -73.92239499999999 40.6357946, -73.921908 40.636075)</data>
+    </edge>
+    <edge id="0" source="42467751" target="42524238">
+      <data key="d8">221442680</data>
+      <data key="d11">False</data>
+      <data key="d9">Avenue H</data>
+      <data key="d10">residential</data>
+      <data key="d12">82.108</data>
+      <data key="d13">LINESTRING (-73.92258699999999 40.633209, -73.9223654 40.6332243, -73.92203050000001 40.6332475, -73.921618 40.633276)</data>
+    </edge>
+    <edge id="0" source="42467751" target="3574847194">
+      <data key="d8">226938464</data>
+      <data key="d9">East 56th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">229.00699999999998</data>
+      <data key="d13">LINESTRING (-73.92258699999999 40.633209, -73.9226117 40.6334443, -73.9226488 40.6337974, -73.9226656 40.6339575, -73.92269400000001 40.6342287, -73.9227114 40.634394, -73.9227463 40.6347268, -73.9227649 40.634904, -73.9228025 40.635262)</data>
+    </edge>
+    <edge id="0" source="42473329" target="42493420">
+      <data key="d8">27624094</data>
+      <data key="d9">Farragut Road</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">96.218</data>
+    </edge>
+    <edge id="0" source="42473329" target="42493418">
+      <data key="d8">27624094</data>
+      <data key="d9">Farragut Road</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">88.908</data>
+      <data key="d13">LINESTRING (-73.920119 40.636988, -73.920557 40.6367636, -73.9209912 40.6365394)</data>
+    </edge>
+    <edge id="0" source="42473333" target="42493968">
+      <data key="d8">5679831</data>
+      <data key="d11">False</data>
+      <data key="d9">Glenwood Road</data>
+      <data key="d10">residential</data>
+      <data key="d12">106.037</data>
+      <data key="d13">LINESTRING (-73.919809 40.633865, -73.91968489999999 40.6339451, -73.91961999999999 40.6339871, -73.91933950000001 40.6341682, -73.9191105 40.6343161, -73.918852 40.634483)</data>
+    </edge>
+    <edge id="0" source="42473333" target="42515629">
+      <data key="d8">5679831</data>
+      <data key="d11">False</data>
+      <data key="d9">Glenwood Road</data>
+      <data key="d10">residential</data>
+      <data key="d12">66.928</data>
+      <data key="d13">LINESTRING (-73.919809 40.633865, -73.92038959999999 40.6334885, -73.920412 40.633474)</data>
+    </edge>
+    <edge id="0" source="42480966" target="42493420">
+      <data key="d8">46865759</data>
+      <data key="d11">False</data>
+      <data key="d9">Ralph Avenue</data>
+      <data key="d10">secondary</data>
+      <data key="d12">7.37</data>
+    </edge>
+    <edge id="0" source="42493416" target="42493418">
+      <data key="d8">27624094</data>
+      <data key="d9">Farragut Road</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">93.012</data>
+      <data key="d13">LINESTRING (-73.921908 40.636075, -73.9216976 40.636182, -73.921249 40.636409, -73.9209912 40.6365394)</data>
+    </edge>
+    <edge id="0" source="42493416" target="42467749">
+      <data key="d8">27624094</data>
+      <data key="d9">Farragut Road</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">97.87</data>
+      <data key="d13">LINESTRING (-73.921908 40.636075, -73.92239499999999 40.6357946, -73.922832 40.635543)</data>
+    </edge>
+    <edge id="0" source="42493418" target="42473329">
+      <data key="d8">27624094</data>
+      <data key="d9">Farragut Road</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">88.908</data>
+      <data key="d13">LINESTRING (-73.9209912 40.6365394, -73.920557 40.6367636, -73.920119 40.636988)</data>
+    </edge>
+    <edge id="0" source="42493418" target="42493416">
+      <data key="d8">27624094</data>
+      <data key="d9">Farragut Road</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">93.012</data>
+      <data key="d13">LINESTRING (-73.9209912 40.6365394, -73.921249 40.636409, -73.9216976 40.636182, -73.921908 40.636075)</data>
+    </edge>
+    <edge id="0" source="42493420" target="42473329">
+      <data key="d8">27624094</data>
+      <data key="d9">Farragut Road</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">96.218</data>
+    </edge>
+    <edge id="0" source="42493420" target="42480966">
+      <data key="d8">46865759</data>
+      <data key="d11">False</data>
+      <data key="d9">Ralph Avenue</data>
+      <data key="d10">secondary</data>
+      <data key="d12">7.37</data>
+    </edge>
+    <edge id="0" source="42493967" target="42493968">
+      <data key="d8">46865759</data>
+      <data key="d11">False</data>
+      <data key="d9">Ralph Avenue</data>
+      <data key="d10">secondary</data>
+      <data key="d12">157.322</data>
+      <data key="d13">LINESTRING (-73.919006 40.635893, -73.9189865 40.6357132, -73.91894480000001 40.6353324, -73.918924 40.635142, -73.9188637 40.6345898, -73.918852 40.634483)</data>
+    </edge>
+    <edge id="0" source="42493968" target="42473333">
+      <data key="d8">5679831</data>
+      <data key="d11">False</data>
+      <data key="d9">Glenwood Road</data>
+      <data key="d10">residential</data>
+      <data key="d12">106.037</data>
+      <data key="d13">LINESTRING (-73.918852 40.634483, -73.9191105 40.6343161, -73.91933950000001 40.6341682, -73.91961999999999 40.6339871, -73.91968489999999 40.6339451, -73.919809 40.633865)</data>
+    </edge>
+    <edge id="0" source="42493968" target="42493967">
+      <data key="d8">46865759</data>
+      <data key="d11">False</data>
+      <data key="d9">Ralph Avenue</data>
+      <data key="d10">secondary</data>
+      <data key="d12">157.322</data>
+      <data key="d13">LINESTRING (-73.918852 40.634483, -73.9188637 40.6345898, -73.918924 40.635142, -73.91894480000001 40.6353324, -73.9189865 40.6357132, -73.919006 40.635893)</data>
+    </edge>
+    <edge id="0" source="42500325" target="42515629">
+      <data key="d8">5679831</data>
+      <data key="d11">False</data>
+      <data key="d9">Glenwood Road</data>
+      <data key="d10">residential</data>
+      <data key="d12">27.917</data>
+      <data key="d13">LINESTRING (-73.920683 40.63333, -73.9206618 40.6333413, -73.920412 40.633474)</data>
+    </edge>
+    <edge id="0" source="42500325" target="42524238">
+      <data key="d8">221442680</data>
+      <data key="d11">False</data>
+      <data key="d9">Avenue H</data>
+      <data key="d10">residential</data>
+      <data key="d12">79.128</data>
+      <data key="d13">LINESTRING (-73.920683 40.63333, -73.92097219999999 40.6333133, -73.92145650000001 40.6332853, -73.921618 40.633276)</data>
+    </edge>
+    <edge id="0" source="42515629" target="42473333">
+      <data key="d8">5679831</data>
+      <data key="d11">False</data>
+      <data key="d9">Glenwood Road</data>
+      <data key="d10">residential</data>
+      <data key="d12">66.928</data>
+      <data key="d13">LINESTRING (-73.920412 40.633474, -73.92038959999999 40.6334885, -73.919809 40.633865)</data>
+    </edge>
+    <edge id="0" source="42515629" target="42500325">
+      <data key="d8">5679831</data>
+      <data key="d11">False</data>
+      <data key="d9">Glenwood Road</data>
+      <data key="d10">residential</data>
+      <data key="d12">27.917</data>
+      <data key="d13">LINESTRING (-73.920412 40.633474, -73.9206618 40.6333413, -73.920683 40.63333)</data>
+    </edge>
+    <edge id="0" source="42524238" target="42500325">
+      <data key="d8">221442680</data>
+      <data key="d11">False</data>
+      <data key="d9">Avenue H</data>
+      <data key="d10">residential</data>
+      <data key="d12">79.128</data>
+      <data key="d13">LINESTRING (-73.921618 40.633276, -73.92145650000001 40.6332853, -73.92097219999999 40.6333133, -73.920683 40.63333)</data>
+    </edge>
+    <edge id="0" source="42524238" target="42467751">
+      <data key="d8">221442680</data>
+      <data key="d11">False</data>
+      <data key="d9">Avenue H</data>
+      <data key="d10">residential</data>
+      <data key="d12">82.108</data>
+      <data key="d13">LINESTRING (-73.921618 40.633276, -73.92203050000001 40.6332475, -73.9223654 40.6332243, -73.92258699999999 40.633209)</data>
+    </edge>
+    <edge id="0" source="3574847194" target="42467749">
+      <data key="d8">226938464</data>
+      <data key="d9">East 56th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">31.345</data>
+    </edge>
+    <edge id="0" source="3574847194" target="42467751">
+      <data key="d8">226938464</data>
+      <data key="d9">East 56th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">229.007</data>
+      <data key="d13">LINESTRING (-73.9228025 40.635262, -73.9227649 40.634904, -73.9227463 40.6347268, -73.9227114 40.634394, -73.92269400000001 40.6342287, -73.9226656 40.6339575, -73.9226488 40.6337974, -73.9226117 40.6334443, -73.92258699999999 40.633209)</data>
+    </edge>
+    <data key="d0">36_NY_36047094402</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42467749: 4, 42467751: 4, 42473329: 3, 42473333: 3, 42480966: 3, 42493416: 3, 42493418: 3, 42493420: 4, 42493967: 3, 42493968: 4, 42500325: 4, 42515629: 3, 42524238: 3, 3574847194: 3}</data>
+  </graph>
+</graphml>

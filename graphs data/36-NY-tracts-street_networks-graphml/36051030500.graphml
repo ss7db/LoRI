@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="212551701">
+      <data key="d4">42.7948117</data>
+      <data key="d5">-77.819443</data>
+      <data key="d6">212551701</data>
+    </node>
+    <node id="212551703">
+      <data key="d4">42.7948585</data>
+      <data key="d5">-77.8197439</data>
+      <data key="d6">212551703</data>
+    </node>
+    <node id="212555563">
+      <data key="d4">42.7978252</data>
+      <data key="d5">-77.8187729</data>
+      <data key="d6">212555563</data>
+    </node>
+    <node id="212555788">
+      <data key="d4">42.7934762</data>
+      <data key="d5">-77.8192594</data>
+      <data key="d6">212555788</data>
+    </node>
+    <node id="212556654">
+      <data key="d4">42.8028302</data>
+      <data key="d5">-77.8246134</data>
+      <data key="d6">212556654</data>
+    </node>
+    <node id="212579267">
+      <data key="d4">42.8025206</data>
+      <data key="d5">-77.8236607</data>
+      <data key="d6">212579267</data>
+    </node>
+    <node id="1351593484">
+      <data key="d4">42.7933271</data>
+      <data key="d5">-77.8264745</data>
+      <data key="d6">1351593484</data>
+    </node>
+    <node id="1351593515">
+      <data key="d4">42.7936009</data>
+      <data key="d5">-77.8273728</data>
+      <data key="d6">1351593515</data>
+    </node>
+    <node id="3627507521">
+      <data key="d4">42.7957538</data>
+      <data key="d5">-77.8188094</data>
+      <data key="d6">3627507521</data>
+    </node>
+    <edge id="0" source="212551701" target="212551703">
+      <data key="d7">20106865</data>
+      <data key="d8">Park Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">15 mph</data>
+      <data key="d11">False</data>
+      <data key="d12">25.097</data>
+    </edge>
+    <edge id="1" source="212551701" target="212551703">
+      <data key="d7">[20108722, 339816946, 339816951]</data>
+      <data key="d11">True</data>
+      <data key="d8">College Circle</data>
+      <data key="d9">residential</data>
+      <data key="d12">212.068</data>
+      <data key="d13">LINESTRING (-77.81944300000001 42.7948117, -77.81942770000001 42.7948946, -77.81941399999999 42.7949684, -77.81937670000001 42.7951616, -77.8193394 42.7953123, -77.81929169999999 42.7955389, -77.8192627 42.79565, -77.8195654 42.7956819, -77.81960479999999 42.7955055, -77.81963380000001 42.7953914, -77.8196628 42.795221, -77.8197014 42.7950639, -77.81972450000001 42.7949524, -77.81974390000001 42.7948585)</data>
+    </edge>
+    <edge id="0" source="212551703" target="212551701">
+      <data key="d7">20106865</data>
+      <data key="d8">Park Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">15 mph</data>
+      <data key="d11">False</data>
+      <data key="d12">25.097</data>
+    </edge>
+    <edge id="0" source="212555788" target="1351593484">
+      <data key="d7">120566338</data>
+      <data key="d8">Mary Jemison Drive</data>
+      <data key="d9">secondary</data>
+      <data key="d10">30 mph</data>
+      <data key="d11">False</data>
+      <data key="d12">599.411</data>
+      <data key="d13">LINESTRING (-77.81925940000001 42.7934762, -77.8194835 42.7934779, -77.81966799999999 42.7934711, -77.8199108 42.7934505, -77.8214309 42.7933031, -77.8221104 42.7932346, -77.8221442 42.7932312, -77.8241158 42.7930331, -77.8244177 42.7930011, -77.8247404 42.7929829, -77.82497309999999 42.7929793, -77.82518090000001 42.7929964, -77.8254845 42.7930358, -77.82572260000001 42.7930804, -77.8260495 42.7931712, -77.8263134 42.793262, -77.8264745 42.7933271)</data>
+    </edge>
+    <edge id="0" source="212556654" target="212579267">
+      <data key="d7">20108830</data>
+      <data key="d8">Court Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">30 mph</data>
+      <data key="d11">False</data>
+      <data key="d12">85.02499999999999</data>
+      <data key="d13">LINESTRING (-77.8246134 42.8028302, -77.82454869999999 42.8028055, -77.8243828 42.8027546, -77.8239511 42.8026113, -77.8236607 42.8025206)</data>
+    </edge>
+    <edge id="0" source="212579267" target="212556654">
+      <data key="d7">20108830</data>
+      <data key="d8">Court Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">30 mph</data>
+      <data key="d11">False</data>
+      <data key="d12">85.025</data>
+      <data key="d13">LINESTRING (-77.8236607 42.8025206, -77.8239511 42.8026113, -77.8243828 42.8027546, -77.82454869999999 42.8028055, -77.8246134 42.8028302)</data>
+    </edge>
+    <edge id="0" source="1351593484" target="1351593515">
+      <data key="d7">20107347</data>
+      <data key="d8">Mary Jemison Drive</data>
+      <data key="d9">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">79.369</data>
+    </edge>
+    <edge id="0" source="1351593484" target="212555788">
+      <data key="d7">120566338</data>
+      <data key="d8">Mary Jemison Drive</data>
+      <data key="d9">secondary</data>
+      <data key="d10">30 mph</data>
+      <data key="d11">False</data>
+      <data key="d12">599.411</data>
+      <data key="d13">LINESTRING (-77.8264745 42.7933271, -77.8263134 42.793262, -77.8260495 42.7931712, -77.82572260000001 42.7930804, -77.8254845 42.7930358, -77.82518090000001 42.7929964, -77.82497309999999 42.7929793, -77.8247404 42.7929829, -77.8244177 42.7930011, -77.8241158 42.7930331, -77.8221442 42.7932312, -77.8221104 42.7932346, -77.8214309 42.7933031, -77.8199108 42.7934505, -77.81966799999999 42.7934711, -77.8194835 42.7934779, -77.81925940000001 42.7934762)</data>
+    </edge>
+    <edge id="0" source="1351593515" target="1351593484">
+      <data key="d7">20107347</data>
+      <data key="d8">Mary Jemison Drive</data>
+      <data key="d9">secondary</data>
+      <data key="d11">False</data>
+      <data key="d12">79.369</data>
+    </edge>
+    <data key="d0">36_NY_36051030500</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{212551701: 3, 212551703: 3, 212555563: 3, 212555788: 3, 212556654: 3, 212579267: 3, 1351593484: 3, 1351593515: 3, 3627507521: 1}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42432985">
+      <data key="d4">40.830891</data>
+      <data key="d5">-73.941368</data>
+      <data key="d6">42432985</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42432990">
+      <data key="d4">40.8323747</data>
+      <data key="d5">-73.9408792</data>
+      <data key="d6">42432990</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42432992">
+      <data key="d4">40.833098</data>
+      <data key="d5">-73.940653</data>
+      <data key="d6">42432992</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42432994">
+      <data key="d4">40.833786</data>
+      <data key="d5">-73.94036</data>
+      <data key="d6">42432994</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42433339">
+      <data key="d4">40.8322331</data>
+      <data key="d5">-73.9424802</data>
+      <data key="d6">42433339</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42438255">
+      <data key="d4">40.833278</data>
+      <data key="d5">-73.939155</data>
+      <data key="d6">42438255</data>
+    </node>
+    <node id="42439711">
+      <data key="d4">40.832685</data>
+      <data key="d5">-73.939676</data>
+      <data key="d6">42439711</data>
+    </node>
+    <node id="42442656">
+      <data key="d4">40.8328806</data>
+      <data key="d5">-73.9420072</data>
+      <data key="d6">42442656</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42442659">
+      <data key="d4">40.8334829</data>
+      <data key="d5">-73.9415672</data>
+      <data key="d6">42442659</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42456979">
+      <data key="d4">40.8321814</data>
+      <data key="d5">-73.9404015</data>
+      <data key="d6">42456979</data>
+    </node>
+    <edge id="0" source="42432985" target="42432990">
+      <data key="d8">[196117058, 569361666, 569361671]</data>
+      <data key="d9">3</data>
+      <data key="d10">Saint Nicholas Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">False</data>
+      <data key="d13">170.03000000000003</data>
+      <data key="d14">LINESTRING (-73.941368 40.830891, -73.9412136 40.8313508, -73.9411272 40.8316081, -73.9409759 40.8320757, -73.9408792 40.8323747)</data>
+    </edge>
+    <edge id="0" source="42432990" target="42456979">
+      <data key="d8">60251942</data>
+      <data key="d12">False</data>
+      <data key="d10">West 157th Street</data>
+      <data key="d11">residential</data>
+      <data key="d13">45.577</data>
+    </edge>
+    <edge id="0" source="42432990" target="42442656">
+      <data key="d8">551646028</data>
+      <data key="d12">True</data>
+      <data key="d10">West 157th Street</data>
+      <data key="d11">residential</data>
+      <data key="d13">110.321</data>
+    </edge>
+    <edge id="0" source="42432990" target="42432992">
+      <data key="d8">551646029</data>
+      <data key="d9">2</data>
+      <data key="d10">Saint Nicholas Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">False</data>
+      <data key="d13">82.648</data>
+    </edge>
+    <edge id="0" source="42432990" target="42432985">
+      <data key="d8">[569361666, 196117058, 569361671]</data>
+      <data key="d9">3</data>
+      <data key="d10">Saint Nicholas Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">False</data>
+      <data key="d13">170.03</data>
+      <data key="d14">LINESTRING (-73.9408792 40.8323747, -73.9409759 40.8320757, -73.9411272 40.8316081, -73.9412136 40.8313508, -73.941368 40.830891)</data>
+    </edge>
+    <edge id="0" source="42432992" target="42432994">
+      <data key="d8">551646029</data>
+      <data key="d9">2</data>
+      <data key="d10">Saint Nicholas Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">False</data>
+      <data key="d13">80.376</data>
+    </edge>
+    <edge id="0" source="42432992" target="42432990">
+      <data key="d8">551646029</data>
+      <data key="d9">2</data>
+      <data key="d10">Saint Nicholas Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">False</data>
+      <data key="d13">82.648</data>
+    </edge>
+    <edge id="0" source="42432992" target="42439711">
+      <data key="d8">5671597</data>
+      <data key="d12">True</data>
+      <data key="d10">West 158th Street</data>
+      <data key="d11">residential</data>
+      <data key="d13">94.15599999999999</data>
+      <data key="d14">LINESTRING (-73.940653 40.833098, -73.9397798 40.8327289, -73.93967600000001 40.832685)</data>
+    </edge>
+    <edge id="0" source="42432994" target="42432992">
+      <data key="d8">551646029</data>
+      <data key="d9">2</data>
+      <data key="d10">Saint Nicholas Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">False</data>
+      <data key="d13">80.376</data>
+    </edge>
+    <edge id="0" source="42433339" target="42442656">
+      <data key="d8">196116972</data>
+      <data key="d12">False</data>
+      <data key="d10">Amsterdam Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d13">82.265</data>
+    </edge>
+    <edge id="0" source="42438255" target="42432994">
+      <data key="d8">5670684</data>
+      <data key="d12">True</data>
+      <data key="d10">West 159th Street</data>
+      <data key="d11">residential</data>
+      <data key="d13">116.053</data>
+    </edge>
+    <edge id="0" source="42438255" target="42439711">
+      <data key="d8">196117019</data>
+      <data key="d10">Edgecombe Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">False</data>
+      <data key="d13">80.108</data>
+      <data key="d14">LINESTRING (-73.939155 40.833278, -73.9393925 40.8330799, -73.93951199999999 40.832959, -73.9396035 40.8328388, -73.93967600000001 40.832685)</data>
+    </edge>
+    <edge id="0" source="42439711" target="42438255">
+      <data key="d8">196117019</data>
+      <data key="d10">Edgecombe Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">False</data>
+      <data key="d13">80.108</data>
+      <data key="d14">LINESTRING (-73.93967600000001 40.832685, -73.9396035 40.8328388, -73.93951199999999 40.832959, -73.9393925 40.8330799, -73.939155 40.833278)</data>
+    </edge>
+    <edge id="0" source="42442656" target="42442659">
+      <data key="d8">196116972</data>
+      <data key="d12">False</data>
+      <data key="d10">Amsterdam Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d13">76.523</data>
+    </edge>
+    <edge id="0" source="42442656" target="42433339">
+      <data key="d8">196116972</data>
+      <data key="d12">False</data>
+      <data key="d10">Amsterdam Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d13">82.265</data>
+    </edge>
+    <edge id="0" source="42442659" target="42432992">
+      <data key="d8">5671597</data>
+      <data key="d12">True</data>
+      <data key="d10">West 158th Street</data>
+      <data key="d11">residential</data>
+      <data key="d13">88.019</data>
+    </edge>
+    <edge id="0" source="42442659" target="42442656">
+      <data key="d8">196116972</data>
+      <data key="d12">False</data>
+      <data key="d10">Amsterdam Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d13">76.523</data>
+    </edge>
+    <edge id="0" source="42456979" target="42432990">
+      <data key="d8">60251942</data>
+      <data key="d12">False</data>
+      <data key="d10">West 157th Street</data>
+      <data key="d11">residential</data>
+      <data key="d13">45.577</data>
+    </edge>
+    <data key="d0">36_NY_36061023900</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42432985: 4, 42432990: 4, 42432992: 4, 42432994: 4, 42433339: 3, 42438255: 3, 42439711: 3, 42442656: 4, 42442659: 4, 42456979: 1}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="bridge" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="111330552">
+      <data key="d4">42.94113</data>
+      <data key="d5">-78.556277</data>
+      <data key="d6">111330552</data>
+    </node>
+    <node id="111381272">
+      <data key="d4">42.9318489</data>
+      <data key="d5">-78.539935</data>
+      <data key="d6">111381272</data>
+    </node>
+    <node id="111381314">
+      <data key="d4">42.9302515</data>
+      <data key="d5">-78.5496941</data>
+      <data key="d6">111381314</data>
+    </node>
+    <node id="111422948">
+      <data key="d4">42.936996</data>
+      <data key="d5">-78.541597</data>
+      <data key="d6">111422948</data>
+    </node>
+    <node id="111428696">
+      <data key="d4">42.933114</data>
+      <data key="d5">-78.565747</data>
+      <data key="d6">111428696</data>
+    </node>
+    <node id="638891643">
+      <data key="d4">42.9307459</data>
+      <data key="d5">-78.5390561</data>
+      <data key="d6">638891643</data>
+    </node>
+    <node id="1049824955">
+      <data key="d4">42.9306389</data>
+      <data key="d5">-78.5409489</data>
+      <data key="d6">1049824955</data>
+    </node>
+    <node id="1130381469">
+      <data key="d4">42.9331123</data>
+      <data key="d5">-78.5455093</data>
+      <data key="d6">1130381469</data>
+    </node>
+    <edge id="0" source="111381272" target="111381314">
+      <data key="d7">[87456912, 87456913, 12289238]</data>
+      <data key="d8">Creekview Drive</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">994.4</data>
+      <data key="d12">yes</data>
+      <data key="d13">LINESTRING (-78.539935 42.9318489, -78.54029610000001 42.9317793, -78.541416 42.9328199, -78.5415655 42.9329948, -78.5418885 42.9330358, -78.54241349999999 42.9329408, -78.5448774 42.9325377, -78.5449572 42.932407, -78.5448337 42.9319767, -78.5449734 42.9318543, -78.5462129 42.9315854, -78.54648109999999 42.9312889, -78.5481399 42.9306139, -78.5486227 42.9304175, -78.5493213 42.9302377, -78.5496941 42.9302515)</data>
+    </edge>
+    <edge id="0" source="111381272" target="111422948">
+      <data key="d7">[52096003, 52096004, 12293614]</data>
+      <data key="d8">Wende Road</data>
+      <data key="d9">tertiary</data>
+      <data key="d14">45 mph</data>
+      <data key="d10">False</data>
+      <data key="d11">588.2280000000001</data>
+      <data key="d12">yes</data>
+      <data key="d13">LINESTRING (-78.539935 42.9318489, -78.540043 42.932112, -78.54046219999999 42.933581, -78.54052009999999 42.9337519, -78.541597 42.936996)</data>
+    </edge>
+    <edge id="0" source="111381272" target="638891643">
+      <data key="d7">12293614</data>
+      <data key="d8">Wende Road</data>
+      <data key="d9">tertiary</data>
+      <data key="d14">45 mph</data>
+      <data key="d10">False</data>
+      <data key="d11">143.32</data>
+      <data key="d13">LINESTRING (-78.539935 42.9318489, -78.53987600000001 42.931722, -78.5397943 42.9315822, -78.539759 42.931509, -78.539647 42.93134, -78.539586 42.931257, -78.539461 42.931111, -78.539412 42.931061, -78.53933499999999 42.930983, -78.539198 42.930862, -78.5390561 42.9307459)</data>
+    </edge>
+    <edge id="0" source="111381314" target="111381272">
+      <data key="d7">[87456912, 87456913, 12289238]</data>
+      <data key="d8">Creekview Drive</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">994.4</data>
+      <data key="d12">yes</data>
+      <data key="d13">LINESTRING (-78.5496941 42.9302515, -78.5493213 42.9302377, -78.5486227 42.9304175, -78.5481399 42.9306139, -78.54648109999999 42.9312889, -78.5462129 42.9315854, -78.5449734 42.9318543, -78.5448337 42.9319767, -78.5449572 42.932407, -78.5448774 42.9325377, -78.54241349999999 42.9329408, -78.5418885 42.9330358, -78.5415655 42.9329948, -78.541416 42.9328199, -78.54029610000001 42.9317793, -78.539935 42.9318489)</data>
+    </edge>
+    <edge id="0" source="111422948" target="111381272">
+      <data key="d7">[52096003, 52096004, 12293614]</data>
+      <data key="d8">Wende Road</data>
+      <data key="d9">tertiary</data>
+      <data key="d10">False</data>
+      <data key="d11">588.2280000000001</data>
+      <data key="d12">yes</data>
+      <data key="d14">45 mph</data>
+      <data key="d13">LINESTRING (-78.541597 42.936996, -78.54052009999999 42.9337519, -78.54046219999999 42.933581, -78.540043 42.932112, -78.539935 42.9318489)</data>
+    </edge>
+    <edge id="0" source="638891643" target="1049824955">
+      <data key="d7">12274372</data>
+      <data key="d9">unclassified</data>
+      <data key="d10">False</data>
+      <data key="d11">181.07899999999998</data>
+      <data key="d13">LINESTRING (-78.5390561 42.9307459, -78.54084159999999 42.9303797, -78.5409489 42.9306389)</data>
+    </edge>
+    <edge id="0" source="638891643" target="111381272">
+      <data key="d7">12293614</data>
+      <data key="d8">Wende Road</data>
+      <data key="d9">tertiary</data>
+      <data key="d14">45 mph</data>
+      <data key="d10">False</data>
+      <data key="d11">143.32</data>
+      <data key="d13">LINESTRING (-78.5390561 42.9307459, -78.539198 42.930862, -78.53933499999999 42.930983, -78.539412 42.931061, -78.539461 42.931111, -78.539586 42.931257, -78.539647 42.93134, -78.539759 42.931509, -78.5397943 42.9315822, -78.53987600000001 42.931722, -78.539935 42.9318489)</data>
+    </edge>
+    <edge id="0" source="1049824955" target="638891643">
+      <data key="d7">12274372</data>
+      <data key="d9">unclassified</data>
+      <data key="d10">False</data>
+      <data key="d11">181.07899999999998</data>
+      <data key="d13">LINESTRING (-78.5409489 42.9306389, -78.54084159999999 42.9303797, -78.5390561 42.9307459)</data>
+    </edge>
+    <data key="d0">36_NY_36029014904</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{111330552: 1, 111381272: 3, 111381314: 1, 111422948: 3, 111428696: 3, 638891643: 3, 1049824955: 1, 1130381469: 1}</data>
+  </graph>
+</graphml>

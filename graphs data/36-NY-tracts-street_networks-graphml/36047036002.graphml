@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42475079">
+      <data key="d4">40.5766144</data>
+      <data key="d5">-73.9595536</data>
+      <data key="d6">42475079</data>
+    </node>
+    <node id="42484397">
+      <data key="d4">40.577212</data>
+      <data key="d5">-73.963279</data>
+      <data key="d6">42484397</data>
+    </node>
+    <node id="42484402">
+      <data key="d4">40.575716</data>
+      <data key="d5">-73.963008</data>
+      <data key="d6">42484402</data>
+    </node>
+    <node id="42489331">
+      <data key="d4">40.577993</data>
+      <data key="d5">-73.959633</data>
+      <data key="d6">42489331</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42489336">
+      <data key="d4">40.5758746</data>
+      <data key="d5">-73.9594957</data>
+      <data key="d6">42489336</data>
+    </node>
+    <node id="42489393">
+      <data key="d4">40.577796</data>
+      <data key="d5">-73.960578</data>
+      <data key="d6">42489393</data>
+    </node>
+    <node id="42489395">
+      <data key="d4">40.575837</data>
+      <data key="d5">-73.960388</data>
+      <data key="d6">42489395</data>
+    </node>
+    <node id="42492762">
+      <data key="d4">40.577411</data>
+      <data key="d5">-73.962364</data>
+      <data key="d6">42492762</data>
+    </node>
+    <node id="42492764">
+      <data key="d4">40.57761</data>
+      <data key="d5">-73.961441</data>
+      <data key="d6">42492764</data>
+    </node>
+    <node id="42500800">
+      <data key="d4">40.575762</data>
+      <data key="d5">-73.962078</data>
+      <data key="d6">42500800</data>
+    </node>
+    <node id="42500803">
+      <data key="d4">40.575803</data>
+      <data key="d5">-73.961136</data>
+      <data key="d6">42500803</data>
+    </node>
+    <node id="1167483234">
+      <data key="d4">40.5755243</data>
+      <data key="d5">-73.9594688</data>
+      <data key="d6">1167483234</data>
+      <data key="d7">turning_circle</data>
+    </node>
+    <node id="1167483308">
+      <data key="d4">40.5752126</data>
+      <data key="d5">-73.9610473</data>
+      <data key="d6">1167483308</data>
+    </node>
+    <edge id="0" source="42475079" target="42489336">
+      <data key="d8">222261079</data>
+      <data key="d9">False</data>
+      <data key="d10">Coney Island Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">82.407</data>
+    </edge>
+    <edge id="0" source="42475079" target="42489331">
+      <data key="d8">222261079</data>
+      <data key="d9">False</data>
+      <data key="d10">Coney Island Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">153.44</data>
+    </edge>
+    <edge id="0" source="42484397" target="42484402">
+      <data key="d8">5677206</data>
+      <data key="d9">True</data>
+      <data key="d10">Brighton 4th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">167.915</data>
+    </edge>
+    <edge id="0" source="42484397" target="42492762">
+      <data key="d8">5678001</data>
+      <data key="d9">False</data>
+      <data key="d10">Brighton Beach Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">80.383</data>
+    </edge>
+    <edge id="0" source="42484402" target="42500800">
+      <data key="d8">5678594</data>
+      <data key="d9">True</data>
+      <data key="d10">Brightwater Court</data>
+      <data key="d11">residential</data>
+      <data key="d12">78.712</data>
+    </edge>
+    <edge id="0" source="42489331" target="42489393">
+      <data key="d8">5678001</data>
+      <data key="d9">False</data>
+      <data key="d10">Brighton Beach Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">82.762</data>
+    </edge>
+    <edge id="0" source="42489331" target="42475079">
+      <data key="d8">222261079</data>
+      <data key="d9">False</data>
+      <data key="d10">Coney Island Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">153.44</data>
+    </edge>
+    <edge id="0" source="42489336" target="1167483234">
+      <data key="d8">222261079</data>
+      <data key="d9">False</data>
+      <data key="d10">Coney Island Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">39.018</data>
+    </edge>
+    <edge id="0" source="42489336" target="42475079">
+      <data key="d8">222261079</data>
+      <data key="d9">False</data>
+      <data key="d10">Coney Island Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">82.407</data>
+    </edge>
+    <edge id="0" source="42489393" target="42489331">
+      <data key="d8">5678001</data>
+      <data key="d9">False</data>
+      <data key="d10">Brighton Beach Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">82.762</data>
+    </edge>
+    <edge id="0" source="42489393" target="42492764">
+      <data key="d8">5678001</data>
+      <data key="d9">False</data>
+      <data key="d10">Brighton Beach Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">75.763</data>
+    </edge>
+    <edge id="0" source="42489395" target="42489393">
+      <data key="d8">5677666</data>
+      <data key="d9">True</data>
+      <data key="d10">Brighton 7th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">218.421</data>
+    </edge>
+    <edge id="0" source="42489395" target="42489336">
+      <data key="d8">5678594</data>
+      <data key="d9">True</data>
+      <data key="d10">Brightwater Court</data>
+      <data key="d11">residential</data>
+      <data key="d12">75.478</data>
+    </edge>
+    <edge id="0" source="42492762" target="42492764">
+      <data key="d8">5678001</data>
+      <data key="d9">False</data>
+      <data key="d10">Brighton Beach Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">81.032</data>
+    </edge>
+    <edge id="0" source="42492762" target="42484397">
+      <data key="d8">5678001</data>
+      <data key="d9">False</data>
+      <data key="d10">Brighton Beach Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">80.383</data>
+    </edge>
+    <edge id="0" source="42492764" target="42489393">
+      <data key="d8">5678001</data>
+      <data key="d9">False</data>
+      <data key="d10">Brighton Beach Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">75.763</data>
+    </edge>
+    <edge id="0" source="42492764" target="42492762">
+      <data key="d8">5678001</data>
+      <data key="d9">False</data>
+      <data key="d10">Brighton Beach Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">81.032</data>
+    </edge>
+    <edge id="0" source="42492764" target="42500803">
+      <data key="d8">460568466</data>
+      <data key="d9">True</data>
+      <data key="d10">Brighton 6th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">202.574</data>
+    </edge>
+    <edge id="0" source="42500800" target="42500803">
+      <data key="d8">5678594</data>
+      <data key="d9">True</data>
+      <data key="d10">Brightwater Court</data>
+      <data key="d11">residential</data>
+      <data key="d12">79.69</data>
+    </edge>
+    <edge id="0" source="42500800" target="42492762">
+      <data key="d8">5681804</data>
+      <data key="d9">True</data>
+      <data key="d10">Brighton 5th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">184.945</data>
+    </edge>
+    <edge id="0" source="42500803" target="42489395">
+      <data key="d8">5678594</data>
+      <data key="d9">True</data>
+      <data key="d10">Brightwater Court</data>
+      <data key="d11">residential</data>
+      <data key="d12">63.287</data>
+    </edge>
+    <edge id="0" source="42500803" target="1167483308">
+      <data key="d8">293239268</data>
+      <data key="d10">Brighton 6th Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">66.07600000000001</data>
+      <data key="d13">LINESTRING (-73.961136 40.575803, -73.9610632 40.5753183, -73.9610473 40.5752126)</data>
+    </edge>
+    <edge id="0" source="1167483234" target="42489336">
+      <data key="d8">222261079</data>
+      <data key="d9">False</data>
+      <data key="d10">Coney Island Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">39.018</data>
+    </edge>
+    <edge id="0" source="1167483308" target="42500803">
+      <data key="d8">293239268</data>
+      <data key="d10">Brighton 6th Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">66.07600000000001</data>
+      <data key="d13">LINESTRING (-73.9610473 40.5752126, -73.9610632 40.5753183, -73.961136 40.575803)</data>
+    </edge>
+    <data key="d0">36_NY_36047036002</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42475079: 3, 42484397: 4, 42484402: 4, 42489331: 4, 42489336: 3, 42489393: 4, 42489395: 3, 42492762: 4, 42492764: 4, 42500800: 3, 42500803: 4, 1167483234: 1, 1167483308: 1}</data>
+  </graph>
+</graphml>

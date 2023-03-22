@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="access" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42469245">
+      <data key="d4">40.689863</data>
+      <data key="d5">-73.97951</data>
+      <data key="d6">42469245</data>
+    </node>
+    <node id="42470437">
+      <data key="d4">40.691921</data>
+      <data key="d5">-73.978947</data>
+      <data key="d6">42470437</data>
+    </node>
+    <node id="42470439">
+      <data key="d4">40.6898451</data>
+      <data key="d5">-73.9786267</data>
+      <data key="d6">42470439</data>
+    </node>
+    <node id="42471615">
+      <data key="d4">40.689821</data>
+      <data key="d5">-73.9779408</data>
+      <data key="d6">42471615</data>
+    </node>
+    <node id="42490932">
+      <data key="d4">40.6897872</data>
+      <data key="d5">-73.9771033</data>
+      <data key="d6">42490932</data>
+    </node>
+    <node id="42492298">
+      <data key="d4">40.691707</data>
+      <data key="d5">-73.97354</data>
+      <data key="d6">42492298</data>
+    </node>
+    <node id="42494926">
+      <data key="d4">40.6920319</data>
+      <data key="d5">-73.9817613</data>
+      <data key="d6">42494926</data>
+    </node>
+    <node id="42504232">
+      <data key="d4">40.689663</data>
+      <data key="d5">-73.974109</data>
+      <data key="d6">42504232</data>
+    </node>
+    <node id="42510188">
+      <data key="d4">40.689901</data>
+      <data key="d5">-73.980429</data>
+      <data key="d6">42510188</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42521405">
+      <data key="d4">40.689737</data>
+      <data key="d5">-73.976102</data>
+      <data key="d6">42521405</data>
+    </node>
+    <node id="42521410">
+      <data key="d4">40.689698</data>
+      <data key="d5">-73.975106</data>
+      <data key="d6">42521410</data>
+    </node>
+    <node id="1258875373">
+      <data key="d4">40.6913087</data>
+      <data key="d5">-73.9820625</data>
+      <data key="d6">1258875373</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="3550741802">
+      <data key="d4">40.6929637</data>
+      <data key="d5">-73.981747</data>
+      <data key="d6">3550741802</data>
+    </node>
+    <edge id="0" source="42469245" target="42510188">
+      <data key="d8">[493933673, 420512619, 421118561]</data>
+      <data key="d9">True</data>
+      <data key="d10">DeKalb Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">yes</data>
+      <data key="d13">77.613</data>
+      <data key="d14">LINESTRING (-73.97951 40.689863, -73.9795869 40.6898672, -73.9798986 40.689884, -73.979944 40.6898865, -73.9802878 40.6898989, -73.980429 40.689901)</data>
+    </edge>
+    <edge id="0" source="42470437" target="42494926">
+      <data key="d8">34452220</data>
+      <data key="d9">True</data>
+      <data key="d10">Willoughby Street</data>
+      <data key="d11">residential</data>
+      <data key="d13">237.59599999999998</data>
+      <data key="d14">LINESTRING (-73.97894700000001 40.691921, -73.98002529999999 40.691964, -73.9813827 40.6920182, -73.9817613 40.6920319)</data>
+    </edge>
+    <edge id="0" source="42470437" target="42470439">
+      <data key="d8">37195087</data>
+      <data key="d10">Ashland Place</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">232.404</data>
+      <data key="d14">LINESTRING (-73.97894700000001 40.691921, -73.9787192 40.6904473, -73.9786441 40.6899614, -73.97862670000001 40.6898451)</data>
+    </edge>
+    <edge id="0" source="42470439" target="42469245">
+      <data key="d8">493933673</data>
+      <data key="d9">True</data>
+      <data key="d10">DeKalb Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">yes</data>
+      <data key="d13">74.501</data>
+    </edge>
+    <edge id="0" source="42470439" target="42470437">
+      <data key="d8">37195087</data>
+      <data key="d10">Ashland Place</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">232.404</data>
+      <data key="d14">LINESTRING (-73.97862670000001 40.6898451, -73.9786441 40.6899614, -73.9787192 40.6904473, -73.97894700000001 40.691921)</data>
+    </edge>
+    <edge id="0" source="42471615" target="42470439">
+      <data key="d8">[107391104, 493933674]</data>
+      <data key="d9">True</data>
+      <data key="d10">DeKalb Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d13">57.893</data>
+      <data key="d12">yes</data>
+      <data key="d14">LINESTRING (-73.9779408 40.689821, -73.9781436 40.6898284, -73.97862670000001 40.6898451)</data>
+    </edge>
+    <edge id="0" source="42490932" target="42471615">
+      <data key="d8">107391104</data>
+      <data key="d9">True</data>
+      <data key="d10">DeKalb Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d13">70.714</data>
+      <data key="d14">LINESTRING (-73.9771033 40.6897872, -73.9772828 40.6897961, -73.9779408 40.689821)</data>
+    </edge>
+    <edge id="0" source="42494926" target="3550741802">
+      <data key="d8">5678671</data>
+      <data key="d9">True</data>
+      <data key="d10">Fleet Place</data>
+      <data key="d11">residential</data>
+      <data key="d13">103.619</data>
+    </edge>
+    <edge id="0" source="42504232" target="42521410">
+      <data key="d8">107391104</data>
+      <data key="d9">True</data>
+      <data key="d10">DeKalb Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d13">84.151</data>
+    </edge>
+    <edge id="0" source="42521405" target="42490932">
+      <data key="d8">107391104</data>
+      <data key="d9">True</data>
+      <data key="d10">DeKalb Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d13">84.608</data>
+    </edge>
+    <edge id="0" source="42521410" target="42521405">
+      <data key="d8">107391104</data>
+      <data key="d9">True</data>
+      <data key="d10">DeKalb Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d13">84.088</data>
+    </edge>
+    <edge id="0" source="1258875373" target="42494926">
+      <data key="d8">[110155731, 46788748]</data>
+      <data key="d9">True</data>
+      <data key="d10">['Fleet Street', 'Fleet Place']</data>
+      <data key="d11">residential</data>
+      <data key="d13">87.069</data>
+      <data key="d14">LINESTRING (-73.9820625 40.6913087, -73.9819914 40.6913908, -73.981804 40.6916074, -73.98178230000001 40.6918586, -73.9817613 40.6920319)</data>
+    </edge>
+    <data key="d0">36_NY_36047003100</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42469245: 3, 42470437: 4, 42470439: 4, 42471615: 3, 42490932: 3, 42492298: 3, 42494926: 4, 42504232: 3, 42510188: 3, 42521405: 3, 42521410: 3, 1258875373: 3, 3550741802: 3}</data>
+  </graph>
+</graphml>

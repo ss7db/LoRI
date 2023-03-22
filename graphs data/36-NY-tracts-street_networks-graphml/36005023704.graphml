@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42735782">
+      <data key="d4">40.855614</data>
+      <data key="d5">-73.903514</data>
+      <data key="d6">42735782</data>
+    </node>
+    <node id="42735785">
+      <data key="d4">40.856734</data>
+      <data key="d5">-73.902779</data>
+      <data key="d6">42735785</data>
+    </node>
+    <node id="42735788">
+      <data key="d4">40.8580938</data>
+      <data key="d5">-73.9019131</data>
+      <data key="d6">42735788</data>
+    </node>
+    <node id="42741279">
+      <data key="d4">40.8574221</data>
+      <data key="d5">-73.8999596</data>
+      <data key="d6">42741279</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42741281">
+      <data key="d4">40.8560496</data>
+      <data key="d5">-73.9007854</data>
+      <data key="d6">42741281</data>
+    </node>
+    <node id="42749479">
+      <data key="d4">40.854773</data>
+      <data key="d5">-73.902988</data>
+      <data key="d6">42749479</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42749484">
+      <data key="d4">40.856388</data>
+      <data key="d5">-73.901762</data>
+      <data key="d6">42749484</data>
+    </node>
+    <node id="42749488">
+      <data key="d4">40.8577589</data>
+      <data key="d5">-73.9009391</data>
+      <data key="d6">42749488</data>
+    </node>
+    <node id="2025165409">
+      <data key="d4">40.8574846</data>
+      <data key="d5">-73.9001414</data>
+      <data key="d6">2025165409</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2025188849">
+      <data key="d4">40.8546167</data>
+      <data key="d5">-73.9020439</data>
+      <data key="d6">2025188849</data>
+    </node>
+    <node id="2025188858">
+      <data key="d4">40.8561061</data>
+      <data key="d5">-73.9009493</data>
+      <data key="d6">2025188858</data>
+    </node>
+    <node id="2025188871">
+      <data key="d4">40.8561436</data>
+      <data key="d5">-73.9007227</data>
+      <data key="d6">2025188871</data>
+    </node>
+    <node id="2025188873">
+      <data key="d4">40.8566208</data>
+      <data key="d5">-73.9006345</data>
+      <data key="d6">2025188873</data>
+    </node>
+    <node id="2025188874">
+      <data key="d4">40.8549685</data>
+      <data key="d5">-73.9017673</data>
+      <data key="d6">2025188874</data>
+    </node>
+    <edge id="0" source="42735782" target="42735785">
+      <data key="d8">232489971</data>
+      <data key="d9">True</data>
+      <data key="d10">Morris Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">139.036</data>
+    </edge>
+    <edge id="0" source="42735785" target="42749484">
+      <data key="d8">5698375</data>
+      <data key="d9">True</data>
+      <data key="d10">East 182nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">93.787</data>
+    </edge>
+    <edge id="0" source="42735785" target="42735788">
+      <data key="d8">232489971</data>
+      <data key="d9">True</data>
+      <data key="d10">Morris Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">167.826</data>
+    </edge>
+    <edge id="0" source="42735788" target="42749488">
+      <data key="d8">5698767</data>
+      <data key="d10">East 183rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">89.981</data>
+    </edge>
+    <edge id="0" source="42741279" target="2025165409">
+      <data key="d8">5698767</data>
+      <data key="d10">East 183rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">16.795</data>
+    </edge>
+    <edge id="0" source="42741279" target="2025188871">
+      <data key="d8">[420317501, 420317477]</data>
+      <data key="d9">False</data>
+      <data key="d13">['4', '5']</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">trunk</data>
+      <data key="d12">155.978</data>
+      <data key="d14">LINESTRING (-73.8999596 40.8574221, -73.9002519 40.8569323, -73.9007227 40.8561436)</data>
+    </edge>
+    <edge id="0" source="42741281" target="2025188871">
+      <data key="d8">420317501</data>
+      <data key="d9">False</data>
+      <data key="d13">4</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">trunk</data>
+      <data key="d12">11.707</data>
+    </edge>
+    <edge id="0" source="42749484" target="2025188858">
+      <data key="d8">5698375</data>
+      <data key="d9">True</data>
+      <data key="d10">East 182nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">75.195</data>
+    </edge>
+    <edge id="0" source="42749484" target="42749479">
+      <data key="d8">278121511</data>
+      <data key="d9">True</data>
+      <data key="d10">Creston Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">207.077</data>
+    </edge>
+    <edge id="0" source="42749488" target="2025165409">
+      <data key="d8">5698767</data>
+      <data key="d10">East 183rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">73.695</data>
+    </edge>
+    <edge id="0" source="42749488" target="42735788">
+      <data key="d8">5698767</data>
+      <data key="d10">East 183rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">89.981</data>
+    </edge>
+    <edge id="0" source="42749488" target="42749484">
+      <data key="d8">278121511</data>
+      <data key="d9">True</data>
+      <data key="d10">Creston Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">167.412</data>
+    </edge>
+    <edge id="0" source="2025165409" target="42741279">
+      <data key="d8">5698767</data>
+      <data key="d10">East 183rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">16.795</data>
+    </edge>
+    <edge id="0" source="2025165409" target="42749488">
+      <data key="d8">5698767</data>
+      <data key="d10">East 183rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">73.695</data>
+    </edge>
+    <edge id="0" source="2025165409" target="2025188873">
+      <data key="d8">581519808</data>
+      <data key="d9">True</data>
+      <data key="d13">1</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">secondary</data>
+      <data key="d12">104.621</data>
+    </edge>
+    <edge id="0" source="2025188849" target="42749479">
+      <data key="d8">5699192</data>
+      <data key="d9">True</data>
+      <data key="d10">East 181st Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">81.283</data>
+    </edge>
+    <edge id="0" source="2025188858" target="2025188874">
+      <data key="d8">581519808</data>
+      <data key="d9">True</data>
+      <data key="d13">1</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">secondary</data>
+      <data key="d12">144.042</data>
+      <data key="d14">LINESTRING (-73.90094929999999 40.8561061, -73.9013932 40.8554545, -73.9015139 40.8552944, -73.90161639999999 40.8551604, -73.9017673 40.8549685)</data>
+    </edge>
+    <edge id="0" source="2025188871" target="42741281">
+      <data key="d8">420317501</data>
+      <data key="d9">False</data>
+      <data key="d13">4</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">trunk</data>
+      <data key="d12">11.707</data>
+    </edge>
+    <edge id="0" source="2025188871" target="42741279">
+      <data key="d8">[420317477, 420317501]</data>
+      <data key="d9">False</data>
+      <data key="d13">['4', '5']</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">trunk</data>
+      <data key="d12">155.978</data>
+      <data key="d14">LINESTRING (-73.9007227 40.8561436, -73.9002519 40.8569323, -73.8999596 40.8574221)</data>
+    </edge>
+    <edge id="0" source="2025188873" target="2025188858">
+      <data key="d8">581519808</data>
+      <data key="d9">True</data>
+      <data key="d13">1</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">secondary</data>
+      <data key="d12">63.059</data>
+    </edge>
+    <edge id="0" source="2025188873" target="42741281">
+      <data key="d8">191956644</data>
+      <data key="d9">True</data>
+      <data key="d11">trunk_link</data>
+      <data key="d12">64.828</data>
+      <data key="d14">LINESTRING (-73.9006345 40.8566208, -73.90073630000001 40.8562974, -73.9007854 40.8560496)</data>
+    </edge>
+    <edge id="0" source="2025188874" target="2025188849">
+      <data key="d8">581519808</data>
+      <data key="d9">True</data>
+      <data key="d13">1</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">secondary</data>
+      <data key="d12">45.513</data>
+    </edge>
+    <data key="d0">36_NY_36005023704</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42735782: 3, 42735785: 4, 42735788: 4, 42741279: 5, 42741281: 3, 42749479: 4, 42749484: 4, 42749488: 4, 2025165409: 4, 2025188849: 4, 2025188858: 3, 2025188871: 3, 2025188873: 3, 2025188874: 3}</data>
+  </graph>
+</graphml>

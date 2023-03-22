@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42434166">
+      <data key="d4">40.7865436</data>
+      <data key="d5">-73.9546622</data>
+      <data key="d6">42434166</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42444487">
+      <data key="d4">40.7859253</data>
+      <data key="d5">-73.9551138</data>
+      <data key="d6">42444487</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42446070">
+      <data key="d4">40.7846666</data>
+      <data key="d5">-73.9560335</data>
+      <data key="d6">42446070</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42446072">
+      <data key="d4">40.7853035</data>
+      <data key="d5">-73.9555649</data>
+      <data key="d6">42446072</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="596776144">
+      <data key="d4">40.784671</data>
+      <data key="d5">-73.9540727</data>
+      <data key="d6">596776144</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="596776167">
+      <data key="d4">40.7859102</data>
+      <data key="d5">-73.9531708</data>
+      <data key="d6">596776167</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="596776173">
+      <data key="d4">40.7852953</data>
+      <data key="d5">-73.9536184</data>
+      <data key="d6">596776173</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="596776177">
+      <data key="d4">40.7840339</data>
+      <data key="d5">-73.9545364</data>
+      <data key="d6">596776177</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42444487" target="596776173">
+      <data key="d8">5671222</data>
+      <data key="d9">True</data>
+      <data key="d10">East 94th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">144.078</data>
+    </edge>
+    <edge id="0" source="42444487" target="42434166">
+      <data key="d8">68668544</data>
+      <data key="d9">True</data>
+      <data key="d10">Madison Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.565</data>
+    </edge>
+    <edge id="0" source="42446070" target="596776177">
+      <data key="d8">5671623</data>
+      <data key="d9">True</data>
+      <data key="d10">East 92nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">144.352</data>
+    </edge>
+    <edge id="0" source="42446070" target="42446072">
+      <data key="d8">68668544</data>
+      <data key="d9">True</data>
+      <data key="d10">Madison Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">81.068</data>
+    </edge>
+    <edge id="0" source="42446072" target="42444487">
+      <data key="d8">68668544</data>
+      <data key="d9">True</data>
+      <data key="d10">Madison Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.885</data>
+    </edge>
+    <edge id="0" source="596776144" target="596776177">
+      <data key="d8">68674962</data>
+      <data key="d9">True</data>
+      <data key="d13">3</data>
+      <data key="d10">Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">80.888</data>
+    </edge>
+    <edge id="0" source="596776144" target="42446072">
+      <data key="d8">569266484</data>
+      <data key="d9">True</data>
+      <data key="d10">East 93rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">143.979</data>
+    </edge>
+    <edge id="0" source="596776167" target="596776173">
+      <data key="d8">68674962</data>
+      <data key="d9">True</data>
+      <data key="d13">3</data>
+      <data key="d10">Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.071</data>
+    </edge>
+    <edge id="0" source="596776167" target="42434166">
+      <data key="d8">353220074</data>
+      <data key="d9">True</data>
+      <data key="d10">East 95th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">143.968</data>
+    </edge>
+    <edge id="0" source="596776173" target="596776144">
+      <data key="d8">68674962</data>
+      <data key="d9">True</data>
+      <data key="d13">3</data>
+      <data key="d10">Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.259</data>
+    </edge>
+    <data key="d0">36_NY_36061016001</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42434166: 4, 42444487: 4, 42446070: 4, 42446072: 4, 596776144: 4, 596776167: 4, 596776173: 4, 596776177: 4}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42719790">
+      <data key="d4">40.816126</data>
+      <data key="d5">-73.89514</data>
+      <data key="d6">42719790</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42737467">
+      <data key="d4">40.820307</data>
+      <data key="d5">-73.890824</data>
+      <data key="d6">42737467</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42739795">
+      <data key="d4">40.820974</data>
+      <data key="d5">-73.892836</data>
+      <data key="d6">42739795</data>
+    </node>
+    <node id="42750165">
+      <data key="d4">40.8172913</data>
+      <data key="d5">-73.8952137</data>
+      <data key="d6">42750165</data>
+    </node>
+    <node id="42750170">
+      <data key="d4">40.818129</data>
+      <data key="d5">-73.895677</data>
+      <data key="d6">42750170</data>
+    </node>
+    <node id="42753432">
+      <data key="d4">40.817878</data>
+      <data key="d5">-73.893323</data>
+      <data key="d6">42753432</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42753435">
+      <data key="d4">40.818894</data>
+      <data key="d5">-73.892278</data>
+      <data key="d6">42753435</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42756249">
+      <data key="d4">40.81986</data>
+      <data key="d5">-73.893895</data>
+      <data key="d6">42756249</data>
+    </node>
+    <node id="42765717">
+      <data key="d4">40.8183524</data>
+      <data key="d5">-73.894121</data>
+      <data key="d6">42765717</data>
+    </node>
+    <node id="42766975">
+      <data key="d4">40.819364</data>
+      <data key="d5">-73.893067</data>
+      <data key="d6">42766975</data>
+    </node>
+    <edge id="0" source="42737467" target="42753435">
+      <data key="d8">507432904</data>
+      <data key="d9">True</data>
+      <data key="d10">2</data>
+      <data key="d11">Bruckner Boulevard</data>
+      <data key="d12">trunk</data>
+      <data key="d13">199.139</data>
+    </edge>
+    <edge id="0" source="42750165" target="42765717">
+      <data key="d8">46595112</data>
+      <data key="d11">Southern Boulevard</data>
+      <data key="d12">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d13">149.588</data>
+    </edge>
+    <edge id="0" source="42750165" target="42750170">
+      <data key="d8">440887357</data>
+      <data key="d11">Intervale Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">100.978</data>
+    </edge>
+    <edge id="0" source="42750170" target="42750165">
+      <data key="d8">440887357</data>
+      <data key="d11">Intervale Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">100.978</data>
+    </edge>
+    <edge id="0" source="42753432" target="42765717">
+      <data key="d8">46595105</data>
+      <data key="d11">Tiffany Street</data>
+      <data key="d12">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">85.394</data>
+    </edge>
+    <edge id="0" source="42753432" target="42719790">
+      <data key="d8">581529702</data>
+      <data key="d9">True</data>
+      <data key="d10">2</data>
+      <data key="d11">Bruckner Boulevard</data>
+      <data key="d12">trunk</data>
+      <data key="d13">247.654</data>
+      <data key="d14">LINESTRING (-73.893323 40.817878, -73.8949949 40.8162659, -73.89514 40.816126)</data>
+    </edge>
+    <edge id="0" source="42753435" target="42753432">
+      <data key="d8">507432904</data>
+      <data key="d9">True</data>
+      <data key="d10">2</data>
+      <data key="d11">Bruckner Boulevard</data>
+      <data key="d12">trunk</data>
+      <data key="d13">143.165</data>
+    </edge>
+    <edge id="0" source="42756249" target="42739795">
+      <data key="d8">5698288</data>
+      <data key="d9">True</data>
+      <data key="d11">Simpson Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">152.595</data>
+    </edge>
+    <edge id="0" source="42756249" target="42766975">
+      <data key="d8">46662351</data>
+      <data key="d9">True</data>
+      <data key="d11">Barretto Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">88.862</data>
+    </edge>
+    <edge id="0" source="42765717" target="42753432">
+      <data key="d8">46595105</data>
+      <data key="d11">Tiffany Street</data>
+      <data key="d12">residential</data>
+      <data key="d9">False</data>
+      <data key="d13">85.394</data>
+    </edge>
+    <edge id="0" source="42765717" target="42766975">
+      <data key="d8">46595112</data>
+      <data key="d11">Southern Boulevard</data>
+      <data key="d12">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d13">143.246</data>
+    </edge>
+    <edge id="0" source="42765717" target="42750165">
+      <data key="d8">46595112</data>
+      <data key="d11">Southern Boulevard</data>
+      <data key="d12">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d13">149.588</data>
+    </edge>
+    <edge id="0" source="42766975" target="42765717">
+      <data key="d8">46595112</data>
+      <data key="d11">Southern Boulevard</data>
+      <data key="d12">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d13">143.246</data>
+    </edge>
+    <edge id="0" source="42766975" target="42753435">
+      <data key="d8">46662351</data>
+      <data key="d9">True</data>
+      <data key="d11">Barretto Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">84.495</data>
+    </edge>
+    <data key="d0">36_NY_36005008900</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42719790: 3, 42737467: 4, 42739795: 4, 42750165: 3, 42750170: 4, 42753432: 4, 42753435: 4, 42756249: 4, 42765717: 4, 42766975: 4}</data>
+  </graph>
+</graphml>

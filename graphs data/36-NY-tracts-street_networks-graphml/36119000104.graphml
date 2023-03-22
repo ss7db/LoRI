@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="254549379">
+      <data key="d4">40.928039</data>
+      <data key="d5">-73.904233</data>
+      <data key="d6">254549379</data>
+    </node>
+    <node id="254670128">
+      <data key="d4">40.924321</data>
+      <data key="d5">-73.906368</data>
+      <data key="d6">254670128</data>
+    </node>
+    <node id="254738547">
+      <data key="d4">40.924797</data>
+      <data key="d5">-73.90624</data>
+      <data key="d6">254738547</data>
+    </node>
+    <node id="254821712">
+      <data key="d4">40.924829</data>
+      <data key="d5">-73.906552</data>
+      <data key="d6">254821712</data>
+    </node>
+    <node id="254843312">
+      <data key="d4">40.9344954</data>
+      <data key="d5">-73.9034935</data>
+      <data key="d6">254843312</data>
+    </node>
+    <node id="254843316">
+      <data key="d4">40.9327885</data>
+      <data key="d5">-73.9039385</data>
+      <data key="d6">254843316</data>
+    </node>
+    <node id="1913209482">
+      <data key="d4">40.933531</data>
+      <data key="d5">-73.9037257</data>
+      <data key="d6">1913209482</data>
+    </node>
+    <edge id="0" source="254549379" target="254738547">
+      <data key="d7">[23503430, 23531199]</data>
+      <data key="d8">['Knowles Street', 'Federal Street']</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">476.6529999999999</data>
+      <data key="d12">LINESTRING (-73.904233 40.928039, -73.904267 40.927553, -73.90429399999999 40.92731, -73.904348 40.927202, -73.904409 40.927114, -73.904456 40.926865, -73.904549 40.926183, -73.90456399999999 40.926076, -73.904692 40.925469, -73.904866 40.924984, -73.90491900000001 40.92487, -73.90498599999999 40.924796, -73.905047 40.924764, -73.90506999999999 40.92476, -73.905125 40.92475, -73.905851 40.924792, -73.906113 40.924821, -73.90622999999999 40.924807, -73.90624 40.924797)</data>
+    </edge>
+    <edge id="0" source="254670128" target="254738547">
+      <data key="d7">23523958</data>
+      <data key="d8">Fernbrook Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">54.358999999999995</data>
+      <data key="d12">LINESTRING (-73.906368 40.924321, -73.906308 40.924608, -73.90625799999999 40.924782, -73.90624 40.924797)</data>
+    </edge>
+    <edge id="0" source="254738547" target="254670128">
+      <data key="d7">23523958</data>
+      <data key="d8">Fernbrook Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">54.358999999999995</data>
+      <data key="d12">LINESTRING (-73.90624 40.924797, -73.90625799999999 40.924782, -73.906308 40.924608, -73.906368 40.924321)</data>
+    </edge>
+    <edge id="0" source="254738547" target="254821712">
+      <data key="d7">23531199</data>
+      <data key="d8">Knowles Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">26.461</data>
+      <data key="d12">LINESTRING (-73.90624 40.924797, -73.90641599999999 40.924818, -73.906552 40.924829)</data>
+    </edge>
+    <edge id="0" source="254738547" target="254549379">
+      <data key="d7">[23503430, 23531199]</data>
+      <data key="d8">['Knowles Street', 'Federal Street']</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">476.65299999999996</data>
+      <data key="d12">LINESTRING (-73.90624 40.924797, -73.90622999999999 40.924807, -73.906113 40.924821, -73.905851 40.924792, -73.905125 40.92475, -73.90506999999999 40.92476, -73.905047 40.924764, -73.90498599999999 40.924796, -73.90491900000001 40.92487, -73.904866 40.924984, -73.904692 40.925469, -73.90456399999999 40.926076, -73.904549 40.926183, -73.904456 40.926865, -73.904409 40.927114, -73.904348 40.927202, -73.90429399999999 40.92731, -73.904267 40.927553, -73.904233 40.928039)</data>
+    </edge>
+    <edge id="0" source="254821712" target="254738547">
+      <data key="d7">23531199</data>
+      <data key="d8">Knowles Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">26.461</data>
+      <data key="d12">LINESTRING (-73.906552 40.924829, -73.90641599999999 40.924818, -73.90624 40.924797)</data>
+    </edge>
+    <edge id="0" source="254843312" target="1913209482">
+      <data key="d7">180867315</data>
+      <data key="d8">Water Grant Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">110.06200000000001</data>
+      <data key="d12">LINESTRING (-73.9034935 40.9344954, -73.9035362 40.9343531, -73.9036756 40.933883, -73.90375659999999 40.9336099, -73.9037257 40.933531)</data>
+    </edge>
+    <edge id="0" source="254843316" target="1913209482">
+      <data key="d7">180867315</data>
+      <data key="d8">Water Grant Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">84.475</data>
+    </edge>
+    <edge id="0" source="1913209482" target="254843316">
+      <data key="d7">180867315</data>
+      <data key="d8">Water Grant Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">84.475</data>
+    </edge>
+    <edge id="0" source="1913209482" target="254843312">
+      <data key="d7">180867315</data>
+      <data key="d8">Water Grant Street</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">110.06199999999998</data>
+      <data key="d12">LINESTRING (-73.9037257 40.933531, -73.90375659999999 40.9336099, -73.9036756 40.933883, -73.9035362 40.9343531, -73.9034935 40.9344954)</data>
+    </edge>
+    <data key="d0">36_NY_36119000104</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{254549379: 1, 254670128: 3, 254738547: 3, 254821712: 1, 254843312: 1, 254843316: 1, 1913209482: 3}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d17" />
+  <key attr.name="bridge" attr.type="string" for="edge" id="d16" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d15" />
+  <key attr.name="length" attr.type="string" for="edge" id="d14" />
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d9" />
+  <key attr.name="ref" attr.type="string" for="node" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42433302">
+      <data key="d4">40.711364</data>
+      <data key="d5">-73.996782</data>
+      <data key="d6">42433302</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42433324">
+      <data key="d4">40.7097487</data>
+      <data key="d5">-73.9963823</data>
+      <data key="d6">42433324</data>
+    </node>
+    <node id="42437135">
+      <data key="d4">40.7091819</data>
+      <data key="d5">-73.9962251</data>
+      <data key="d6">42437135</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42444108">
+      <data key="d4">40.7085585</data>
+      <data key="d5">-73.9990087</data>
+      <data key="d6">42444108</data>
+    </node>
+    <node id="205024444">
+      <data key="d4">40.7090266</data>
+      <data key="d5">-73.9968491</data>
+      <data key="d6">205024444</data>
+      <data key="d8">2</data>
+      <data key="d7">motorway_junction</data>
+    </node>
+    <node id="205025778">
+      <data key="d4">40.7087705</data>
+      <data key="d5">-73.9992643</data>
+      <data key="d6">205025778</data>
+    </node>
+    <node id="278608816">
+      <data key="d4">40.708495</data>
+      <data key="d5">-73.9993088</data>
+      <data key="d6">278608816</data>
+    </node>
+    <node id="278609760">
+      <data key="d4">40.708299</data>
+      <data key="d5">-73.9994458</data>
+      <data key="d6">278609760</data>
+    </node>
+    <node id="278609863">
+      <data key="d4">40.7095901</data>
+      <data key="d5">-74.0009031</data>
+      <data key="d6">278609863</data>
+    </node>
+    <node id="587988061">
+      <data key="d4">40.7098844</data>
+      <data key="d5">-74.0007035</data>
+      <data key="d6">587988061</data>
+    </node>
+    <node id="588455738">
+      <data key="d4">40.7092263</data>
+      <data key="d5">-74.0001918</data>
+      <data key="d6">588455738</data>
+    </node>
+    <node id="1538237325">
+      <data key="d4">40.7089526</data>
+      <data key="d5">-73.9978264</data>
+      <data key="d6">1538237325</data>
+    </node>
+    <node id="3884569924">
+      <data key="d4">40.7100562</data>
+      <data key="d5">-74.0012106</data>
+      <data key="d6">3884569924</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="3884569931">
+      <data key="d4">40.7101928</data>
+      <data key="d5">-74.0011123</data>
+      <data key="d6">3884569931</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="4158680481">
+      <data key="d4">40.7102137</data>
+      <data key="d5">-73.9965084</data>
+      <data key="d6">4158680481</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="4158749895">
+      <data key="d4">40.7088382</data>
+      <data key="d5">-73.9993476</data>
+      <data key="d6">4158749895</data>
+    </node>
+    <edge id="0" source="42433302" target="4158680481">
+      <data key="d9">5670536</data>
+      <data key="d10">True</data>
+      <data key="d11">Catherine Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">129.971</data>
+      <data key="d15">LINESTRING (-73.996782 40.711364, -73.9967698 40.7113124, -73.9965208 40.7102631, -73.9965084 40.7102137)</data>
+    </edge>
+    <edge id="0" source="42433324" target="42437135">
+      <data key="d9">46224832</data>
+      <data key="d10">True</data>
+      <data key="d11">Catherine Slip</data>
+      <data key="d12">residential</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">64.40299999999999</data>
+      <data key="d15">LINESTRING (-73.99638229999999 40.7097487, -73.99636700000001 40.7096935, -73.9962565 40.7092946, -73.9962251 40.7091819)</data>
+    </edge>
+    <edge id="0" source="42437135" target="1538237325">
+      <data key="d9">5671197</data>
+      <data key="d10">False</data>
+      <data key="d11">South Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">137.376</data>
+      <data key="d15">LINESTRING (-73.9962251 40.7091819, -73.9969183 40.7090906, -73.99705400000001 40.7090725, -73.99717579999999 40.709055, -73.99782639999999 40.7089526)</data>
+    </edge>
+    <edge id="0" source="42444108" target="205025778">
+      <data key="d9">5672986</data>
+      <data key="d11">Robert F. Wagner Sr. Place</data>
+      <data key="d12">secondary</data>
+      <data key="d13">25 mph</data>
+      <data key="d10">False</data>
+      <data key="d14">31.935</data>
+    </edge>
+    <edge id="0" source="42444108" target="1538237325">
+      <data key="d9">5671197</data>
+      <data key="d10">False</data>
+      <data key="d11">South Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">109.52499999999999</data>
+      <data key="d15">LINESTRING (-73.9990087 40.7085585, -73.99892509999999 40.7086003, -73.99883440000001 40.7086433, -73.9987423 40.7086836, -73.9986541 40.7087205, -73.99857230000001 40.7087502, -73.9984812 40.7087824, -73.9983841 40.7088169, -73.99829149999999 40.7088458, -73.9982 40.7088727, -73.99811010000001 40.708896, -73.99801840000001 40.7089166, -73.9979292 40.7089339, -73.99782639999999 40.7089526)</data>
+    </edge>
+    <edge id="0" source="42444108" target="278609760">
+      <data key="d9">5671197</data>
+      <data key="d10">False</data>
+      <data key="d11">South Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">46.80200000000001</data>
+      <data key="d15">LINESTRING (-73.9990087 40.7085585, -73.999099 40.7085061, -73.99927390000001 40.7084039, -73.999357 40.7083537, -73.9994458 40.708299)</data>
+    </edge>
+    <edge id="0" source="205024444" target="278608816">
+      <data key="d9">[5669194, 420890092]</data>
+      <data key="d16">yes</data>
+      <data key="d10">True</data>
+      <data key="d12">motorway_link</data>
+      <data key="d14">217.831</data>
+      <data key="d13">40 mph</data>
+      <data key="d15">LINESTRING (-73.99684910000001 40.7090266, -73.9972145 40.708985, -73.9972815 40.708977, -73.997349 40.7089688, -73.99742070000001 40.7089583, -73.99749420000001 40.7089468, -73.9975622 40.708935, -73.9976343 40.7089211, -73.9977055 40.7089069, -73.9977786 40.7088902, -73.9978289 40.7088778, -73.9978485 40.708873, -73.99798389999999 40.7088361, -73.9981207 40.7087964, -73.99824940000001 40.7087547, -73.998729 40.7085857, -73.99880229999999 40.7085595, -73.99887080000001 40.7085369, -73.99895050000001 40.7085143, -73.9990179 40.7085001, -73.9990906 40.7084899, -73.99916589999999 40.7084858, -73.99923510000001 40.7084884, -73.99930879999999 40.708495)</data>
+    </edge>
+    <edge id="0" source="205025778" target="4158749895">
+      <data key="d9">5672986</data>
+      <data key="d11">Robert F. Wagner Sr. Place</data>
+      <data key="d12">secondary</data>
+      <data key="d13">25 mph</data>
+      <data key="d10">False</data>
+      <data key="d14">10.294</data>
+    </edge>
+    <edge id="0" source="205025778" target="42444108">
+      <data key="d9">5672986</data>
+      <data key="d11">Robert F. Wagner Sr. Place</data>
+      <data key="d12">secondary</data>
+      <data key="d13">25 mph</data>
+      <data key="d10">False</data>
+      <data key="d14">31.935</data>
+    </edge>
+    <edge id="0" source="278608816" target="587988061">
+      <data key="d9">[32922457, 420890093]</data>
+      <data key="d16">yes</data>
+      <data key="d10">True</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">['25 mph', '40 mph']</data>
+      <data key="d14">198.42499999999998</data>
+      <data key="d15">LINESTRING (-73.99930879999999 40.708495, -73.9993779 40.7085105, -73.9994509 40.7085326, -73.99950939999999 40.7085578, -73.9995636 40.708589, -73.99960590000001 40.7086219, -73.99964559999999 40.7086633, -73.99967839999999 40.7087075, -73.9998569 40.7089798, -73.9998961 40.7090352, -73.9999408 40.7090946, -73.99998479999999 40.7091462, -74.0000233 40.7091901, -74.0000665 40.7092366, -74.0001087 40.7092785, -74.0001609 40.7093264, -74.0002125 40.7093701, -74.0003572 40.7094858, -74.0004617 40.7095752, -74.0005213 40.7096298, -74.0005738 40.7096889, -74.00061549999999 40.7097434, -74.0007035 40.7098844)</data>
+    </edge>
+    <edge id="0" source="278609760" target="42444108">
+      <data key="d9">5671197</data>
+      <data key="d10">False</data>
+      <data key="d11">South Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">46.802</data>
+      <data key="d15">LINESTRING (-73.9994458 40.708299, -73.999357 40.7083537, -73.99927390000001 40.7084039, -73.999099 40.7085061, -73.9990087 40.7085585)</data>
+    </edge>
+    <edge id="0" source="587988061" target="3884569931">
+      <data key="d9">46116183</data>
+      <data key="d10">True</data>
+      <data key="d17">4</data>
+      <data key="d11">Robert F. Wagner Sr. Place</data>
+      <data key="d12">secondary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">48.69500000000001</data>
+      <data key="d15">LINESTRING (-74.0007035 40.7098844, -74.0009513 40.7100874, -74.00101069999999 40.710129, -74.0010592 40.7101615, -74.0011123 40.7101928)</data>
+    </edge>
+    <edge id="0" source="588455738" target="278609760">
+      <data key="d9">25562074</data>
+      <data key="d10">True</data>
+      <data key="d11">Robert F. Wagner Sr. Place</data>
+      <data key="d12">secondary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">120.95500000000001</data>
+      <data key="d15">LINESTRING (-74.0001918 40.7092263, -73.9998751 40.7088159, -73.99982900000001 40.7087554, -73.9996513 40.7085115, -73.9996093 40.7084589, -73.9995528 40.7084015, -73.9994458 40.708299)</data>
+    </edge>
+    <edge id="0" source="1538237325" target="42437135">
+      <data key="d9">5671197</data>
+      <data key="d10">False</data>
+      <data key="d11">South Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">137.376</data>
+      <data key="d15">LINESTRING (-73.99782639999999 40.7089526, -73.99717579999999 40.709055, -73.99705400000001 40.7090725, -73.9969183 40.7090906, -73.9962251 40.7091819)</data>
+    </edge>
+    <edge id="0" source="1538237325" target="42444108">
+      <data key="d9">5671197</data>
+      <data key="d10">False</data>
+      <data key="d11">South Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">109.525</data>
+      <data key="d15">LINESTRING (-73.99782639999999 40.7089526, -73.9979292 40.7089339, -73.99801840000001 40.7089166, -73.99811010000001 40.708896, -73.9982 40.7088727, -73.99829149999999 40.7088458, -73.9983841 40.7088169, -73.9984812 40.7087824, -73.99857230000001 40.7087502, -73.9986541 40.7087205, -73.9987423 40.7086836, -73.99883440000001 40.7086433, -73.99892509999999 40.7086003, -73.9990087 40.7085585)</data>
+    </edge>
+    <edge id="0" source="1538237325" target="205025778">
+      <data key="d9">19726366</data>
+      <data key="d10">True</data>
+      <data key="d11">South Street</data>
+      <data key="d12">secondary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">122.99599999999998</data>
+      <data key="d15">LINESTRING (-73.99782639999999 40.7089526, -73.9981327 40.7089312, -73.9982176 40.7089234, -73.9982996 40.7089143, -73.9983847 40.7089038, -73.998645 40.7088653, -73.99926429999999 40.7087705)</data>
+    </edge>
+    <edge id="0" source="3884569924" target="3884569931">
+      <data key="d9">496990645</data>
+      <data key="d11">Pearl Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">25 mph</data>
+      <data key="d10">False</data>
+      <data key="d14">17.302</data>
+    </edge>
+    <edge id="0" source="3884569924" target="588455738">
+      <data key="d9">25562074</data>
+      <data key="d10">True</data>
+      <data key="d11">Robert F. Wagner Sr. Place</data>
+      <data key="d12">secondary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">126.13</data>
+      <data key="d15">LINESTRING (-74.00121059999999 40.7100562, -74.0011205 40.7099824, -74.000759 40.7096925, -74.0002702 40.709305, -74.000226 40.7092642, -74.0001918 40.7092263)</data>
+    </edge>
+    <edge id="0" source="3884569924" target="278609863">
+      <data key="d9">25562079</data>
+      <data key="d10">True</data>
+      <data key="d12">motorway_link</data>
+      <data key="d14">58.332</data>
+      <data key="d15">LINESTRING (-74.00121059999999 40.7100562, -74.0011525 40.7099397, -74.0010908 40.7098216, -74.0010547 40.7097614, -74.00101309999999 40.7097026, -74.00096619999999 40.7096492, -74.0009031 40.7095901)</data>
+    </edge>
+    <edge id="0" source="3884569931" target="3884569924">
+      <data key="d9">496990645</data>
+      <data key="d11">Pearl Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">25 mph</data>
+      <data key="d10">False</data>
+      <data key="d14">17.302</data>
+    </edge>
+    <edge id="0" source="4158680481" target="42433324">
+      <data key="d9">46224832</data>
+      <data key="d10">True</data>
+      <data key="d11">Catherine Slip</data>
+      <data key="d12">residential</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">52.787000000000006</data>
+      <data key="d15">LINESTRING (-73.9965084 40.7102137, -73.9964896 40.7101411, -73.99639329999999 40.7097891, -73.99638229999999 40.7097487)</data>
+    </edge>
+    <edge id="0" source="4158749895" target="205025778">
+      <data key="d9">5672986</data>
+      <data key="d11">Robert F. Wagner Sr. Place</data>
+      <data key="d12">secondary</data>
+      <data key="d13">25 mph</data>
+      <data key="d10">False</data>
+      <data key="d14">10.294</data>
+    </edge>
+    <edge id="0" source="4158749895" target="587988061">
+      <data key="d9">533472943</data>
+      <data key="d10">True</data>
+      <data key="d11">Robert F. Wagner Sr. Place</data>
+      <data key="d12">secondary</data>
+      <data key="d13">25 mph</data>
+      <data key="d14">163.243</data>
+      <data key="d15">LINESTRING (-73.99934759999999 40.7088382, -74.00013199999999 40.7094749, -74.00035149999999 40.7096521, -74.0004356 40.7097113, -74.0007035 40.7098844)</data>
+    </edge>
+    <data key="d0">36_NY_36061002500</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42433302: 3, 42433324: 3, 42437135: 3, 42444108: 3, 205024444: 3, 205025778: 3, 278608816: 3, 278609760: 3, 278609863: 3, 587988061: 3, 588455738: 3, 1538237325: 3, 3884569924: 5, 3884569931: 3, 4158680481: 3, 4158749895: 2}</data>
+  </graph>
+</graphml>

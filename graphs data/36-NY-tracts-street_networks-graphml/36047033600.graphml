@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42475089">
+      <data key="d4">40.5803033</data>
+      <data key="d5">-74.003875</data>
+      <data key="d6">42475089</data>
+      <data key="d7">crossing</data>
+    </node>
+    <node id="42501421">
+      <data key="d4">40.5722208</data>
+      <data key="d5">-74.0023761</data>
+      <data key="d6">42501421</data>
+    </node>
+    <node id="1773311778">
+      <data key="d4">40.5733798</data>
+      <data key="d5">-74.0025693</data>
+      <data key="d6">1773311778</data>
+    </node>
+    <node id="1909424171">
+      <data key="d4">40.5775288</data>
+      <data key="d5">-74.0123994</data>
+      <data key="d6">1909424171</data>
+      <data key="d7">turning_circle</data>
+    </node>
+    <node id="2377652093">
+      <data key="d4">40.5732763</data>
+      <data key="d5">-74.0025521</data>
+      <data key="d6">2377652093</data>
+    </node>
+    <node id="3639409450">
+      <data key="d4">40.5808387</data>
+      <data key="d5">-74.0039773</data>
+      <data key="d6">3639409450</data>
+    </node>
+    <node id="5462660398">
+      <data key="d4">40.5790526</data>
+      <data key="d5">-74.0116615</data>
+      <data key="d6">5462660398</data>
+    </node>
+    <edge id="0" source="42475089" target="3639409450">
+      <data key="d8">544895192</data>
+      <data key="d9">False</data>
+      <data key="d10">West 37th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">60.157</data>
+    </edge>
+    <edge id="1" source="42475089" target="3639409450">
+      <data key="d8">[5681960, 5678639, 5676209, 222266546, 224708597]</data>
+      <data key="d10">['Seagate Terrace', 'West 37th Street', 'Bayview Avenue', 'Poplar Avenue', 'Sea Gate Avenue']</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">470.484</data>
+      <data key="d13">LINESTRING (-74.00387499999999 40.5803033, -74.00605520000001 40.5800801, -74.00614109999999 40.5801174, -74.006197 40.580368, -74.006218 40.580502, -74.00625100000001 40.5807316, -74.00482839999999 40.5808876, -74.0040039 40.580978, -74.0039773 40.5808387)</data>
+    </edge>
+    <edge id="0" source="42501421" target="2377652093">
+      <data key="d8">229133747</data>
+      <data key="d9">False</data>
+      <data key="d10">West 37th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">118.304</data>
+      <data key="d13">LINESTRING (-74.00237610000001 40.5722208, -74.0024617 40.572734, -74.0025521 40.5732763)</data>
+    </edge>
+    <edge id="0" source="1773311778" target="2377652093">
+      <data key="d8">221699885</data>
+      <data key="d9">False</data>
+      <data key="d10">West 37th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">11.6</data>
+    </edge>
+    <edge id="0" source="1909424171" target="5462660398">
+      <data key="d8">567541922</data>
+      <data key="d11">road</data>
+      <data key="d9">False</data>
+      <data key="d12">190.35699999999997</data>
+      <data key="d13">LINESTRING (-74.01239940000001 40.5775288, -74.01248080000001 40.5777878, -74.0124702 40.5780257, -74.0123286 40.5783362, -74.0121003 40.5786252, -74.0116615 40.5790526)</data>
+    </edge>
+    <edge id="0" source="2377652093" target="1773311778">
+      <data key="d8">221699885</data>
+      <data key="d9">False</data>
+      <data key="d10">West 37th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">11.6</data>
+    </edge>
+    <edge id="0" source="2377652093" target="42501421">
+      <data key="d8">229133747</data>
+      <data key="d9">False</data>
+      <data key="d10">West 37th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">118.304</data>
+      <data key="d13">LINESTRING (-74.0025521 40.5732763, -74.0024617 40.572734, -74.00237610000001 40.5722208)</data>
+    </edge>
+    <edge id="0" source="3639409450" target="42475089">
+      <data key="d8">544895192</data>
+      <data key="d9">False</data>
+      <data key="d10">West 37th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">60.157</data>
+    </edge>
+    <edge id="1" source="3639409450" target="42475089">
+      <data key="d8">[5681960, 5678639, 5676209, 222266546, 224708597]</data>
+      <data key="d9">False</data>
+      <data key="d10">['West 37th Street', 'Seagate Terrace', 'Bayview Avenue', 'Poplar Avenue', 'Sea Gate Avenue']</data>
+      <data key="d11">residential</data>
+      <data key="d12">470.484</data>
+      <data key="d13">LINESTRING (-74.0039773 40.5808387, -74.0040039 40.580978, -74.00482839999999 40.5808876, -74.00625100000001 40.5807316, -74.006218 40.580502, -74.006197 40.580368, -74.00614109999999 40.5801174, -74.00605520000001 40.5800801, -74.00387499999999 40.5803033)</data>
+    </edge>
+    <edge id="0" source="5462660398" target="1909424171">
+      <data key="d8">567541922</data>
+      <data key="d11">road</data>
+      <data key="d9">False</data>
+      <data key="d12">190.357</data>
+      <data key="d13">LINESTRING (-74.0116615 40.5790526, -74.0121003 40.5786252, -74.0123286 40.5783362, -74.0124702 40.5780257, -74.01248080000001 40.5777878, -74.01239940000001 40.5775288)</data>
+    </edge>
+    <data key="d0">36_NY_36047033600</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42475089: 3, 42501421: 1, 1773311778: 3, 1909424171: 1, 2377652093: 3, 3639409450: 3, 5462660398: 1}</data>
+  </graph>
+</graphml>

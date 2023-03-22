@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42421852">
+      <data key="d4">40.8126067</data>
+      <data key="d5">-73.9568144</data>
+      <data key="d6">42421852</data>
+    </node>
+    <node id="42429825">
+      <data key="d4">40.810992</data>
+      <data key="d5">-73.954288</data>
+      <data key="d6">42429825</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42429827">
+      <data key="d4">40.811725</data>
+      <data key="d5">-73.954835</data>
+      <data key="d6">42429827</data>
+    </node>
+    <node id="42432928">
+      <data key="d4">40.810094</data>
+      <data key="d5">-73.953079</data>
+      <data key="d6">42432928</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42432929">
+      <data key="d4">40.810765</data>
+      <data key="d5">-73.952591</data>
+      <data key="d6">42432929</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42432931">
+      <data key="d4">40.811442</data>
+      <data key="d5">-73.952101</data>
+      <data key="d6">42432931</data>
+    </node>
+    <node id="42436739">
+      <data key="d4">40.813554</data>
+      <data key="d5">-73.955203</data>
+      <data key="d6">42436739</data>
+    </node>
+    <node id="42438923">
+      <data key="d4">40.810064</data>
+      <data key="d5">-73.954966</data>
+      <data key="d6">42438923</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42438928">
+      <data key="d4">40.8112598</data>
+      <data key="d5">-73.957798</data>
+      <data key="d6">42438928</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42439371">
+      <data key="d4">40.8103268</data>
+      <data key="d5">-73.9536363</data>
+      <data key="d6">42439371</data>
+    </node>
+    <node id="42440138">
+      <data key="d4">40.810687</data>
+      <data key="d5">-73.954513</data>
+      <data key="d6">42440138</data>
+    </node>
+    <node id="42440144">
+      <data key="d4">40.81137</data>
+      <data key="d5">-73.954011</data>
+      <data key="d6">42440144</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42440146">
+      <data key="d4">40.812051</data>
+      <data key="d5">-73.953544</data>
+      <data key="d6">42440146</data>
+    </node>
+    <node id="42442584">
+      <data key="d4">40.81337</data>
+      <data key="d5">-73.956257</data>
+      <data key="d6">42442584</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42421852" target="42442584">
+      <data key="d8">309956784</data>
+      <data key="d9">False</data>
+      <data key="d10">Amsterdam Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">96.976</data>
+    </edge>
+    <edge id="0" source="42421852" target="42438928">
+      <data key="d8">309956784</data>
+      <data key="d9">False</data>
+      <data key="d10">Amsterdam Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">171.123</data>
+      <data key="d13">LINESTRING (-73.9568144 40.8126067, -73.95734899999999 40.8118747, -73.957798 40.8112598)</data>
+    </edge>
+    <edge id="0" source="42429825" target="42439371">
+      <data key="d8">165886328</data>
+      <data key="d9">True</data>
+      <data key="d10">Hancock Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">92.083</data>
+    </edge>
+    <edge id="0" source="42429825" target="42440144">
+      <data key="d8">439801905</data>
+      <data key="d9">False</data>
+      <data key="d10">Morningside Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">48.064</data>
+    </edge>
+    <edge id="0" source="42429825" target="42440138">
+      <data key="d8">439801905</data>
+      <data key="d9">False</data>
+      <data key="d10">Morningside Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">38.843</data>
+    </edge>
+    <edge id="0" source="42429827" target="42429825">
+      <data key="d8">5669863</data>
+      <data key="d9">True</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">93.608</data>
+    </edge>
+    <edge id="0" source="42429827" target="42442584">
+      <data key="d8">[420881464, 195743203, 420881462]</data>
+      <data key="d9">False</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">primary</data>
+      <data key="d12">218.584</data>
+      <data key="d13">LINESTRING (-73.954835 40.811725, -73.9548968 40.8117964, -73.9549672 40.8118779, -73.95499959999999 40.8119154, -73.9551175 40.8120518, -73.9552365 40.8121895, -73.9552731 40.8122318, -73.9554409 40.8124259, -73.9557343 40.8127654, -73.95625699999999 40.81337)</data>
+    </edge>
+    <edge id="0" source="42429827" target="42440144">
+      <data key="d8">[420881460, 420881461]</data>
+      <data key="d9">False</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.795</data>
+      <data key="d13">LINESTRING (-73.954835 40.811725, -73.95450599999999 40.8115832, -73.95401099999999 40.81137)</data>
+    </edge>
+    <edge id="0" source="42432928" target="42432929">
+      <data key="d8">560344318</data>
+      <data key="d9">False</data>
+      <data key="d10">Saint Nicholas Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">85.169</data>
+      <data key="d13">LINESTRING (-73.953079 40.810094, -73.9528729 40.8103774, -73.9528097 40.8104643, -73.952591 40.810765)</data>
+    </edge>
+    <edge id="0" source="42432929" target="42432931">
+      <data key="d8">560344318</data>
+      <data key="d9">False</data>
+      <data key="d10">Saint Nicholas Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">85.834</data>
+    </edge>
+    <edge id="0" source="42432929" target="42440144">
+      <data key="d8">[420881458, 497250991]</data>
+      <data key="d9">False</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">primary</data>
+      <data key="d12">137.141</data>
+      <data key="d13">LINESTRING (-73.952591 40.810765, -73.9531697 40.8110116, -73.9535723 40.8111831, -73.95401099999999 40.81137)</data>
+    </edge>
+    <edge id="0" source="42432929" target="42432928">
+      <data key="d8">560344318</data>
+      <data key="d9">False</data>
+      <data key="d10">Saint Nicholas Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">85.169</data>
+      <data key="d13">LINESTRING (-73.952591 40.810765, -73.9528097 40.8104643, -73.9528729 40.8103774, -73.953079 40.810094)</data>
+    </edge>
+    <edge id="0" source="42432931" target="42432929">
+      <data key="d8">560344318</data>
+      <data key="d9">False</data>
+      <data key="d10">Saint Nicholas Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">85.834</data>
+    </edge>
+    <edge id="0" source="42432931" target="42440146">
+      <data key="d8">46594129</data>
+      <data key="d9">True</data>
+      <data key="d10">West 126th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">139.046</data>
+      <data key="d13">LINESTRING (-73.952101 40.811442, -73.9532105 40.8119103, -73.95354399999999 40.812051)</data>
+    </edge>
+    <edge id="0" source="42438923" target="42438928">
+      <data key="d8">5670742</data>
+      <data key="d9">True</data>
+      <data key="d10">West 123rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">272.923</data>
+      <data key="d13">LINESTRING (-73.954966 40.810064, -73.9555589 40.8103143, -73.95596999999999 40.8104862, -73.9568345 40.8108521, -73.957798 40.8112598)</data>
+    </edge>
+    <edge id="0" source="42438923" target="42440138">
+      <data key="d8">5670859</data>
+      <data key="d9">False</data>
+      <data key="d10">Morningside Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">79.073</data>
+      <data key="d13">LINESTRING (-73.954966 40.810064, -73.9545285 40.8106657, -73.95451300000001 40.810687)</data>
+    </edge>
+    <edge id="0" source="42438928" target="42421852">
+      <data key="d8">309956784</data>
+      <data key="d9">False</data>
+      <data key="d10">Amsterdam Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">171.123</data>
+      <data key="d13">LINESTRING (-73.957798 40.8112598, -73.95734899999999 40.8118747, -73.9568144 40.8126067)</data>
+    </edge>
+    <edge id="0" source="42439371" target="42432928">
+      <data key="d8">46583480</data>
+      <data key="d9">True</data>
+      <data key="d10">West 124th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">53.572</data>
+    </edge>
+    <edge id="0" source="42440138" target="42429825">
+      <data key="d8">439801905</data>
+      <data key="d9">False</data>
+      <data key="d10">Morningside Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">38.843</data>
+    </edge>
+    <edge id="0" source="42440138" target="42438923">
+      <data key="d8">5670859</data>
+      <data key="d9">False</data>
+      <data key="d10">Morningside Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">79.073</data>
+      <data key="d13">LINESTRING (-73.95451300000001 40.810687, -73.9545285 40.8106657, -73.954966 40.810064)</data>
+    </edge>
+    <edge id="0" source="42440138" target="42439371">
+      <data key="d8">46583480</data>
+      <data key="d9">True</data>
+      <data key="d10">West 124th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">83.95400000000001</data>
+      <data key="d13">LINESTRING (-73.95451300000001 40.810687, -73.9542854 40.8105935, -73.9536363 40.8103268)</data>
+    </edge>
+    <edge id="0" source="42440144" target="42440146">
+      <data key="d8">195743188</data>
+      <data key="d9">False</data>
+      <data key="d10">Morningside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">85.316</data>
+    </edge>
+    <edge id="0" source="42440144" target="42429825">
+      <data key="d8">439801905</data>
+      <data key="d9">False</data>
+      <data key="d10">Morningside Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">48.064</data>
+    </edge>
+    <edge id="0" source="42440144" target="42432929">
+      <data key="d8">[420881458, 497250991]</data>
+      <data key="d9">False</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">primary</data>
+      <data key="d12">137.141</data>
+      <data key="d13">LINESTRING (-73.95401099999999 40.81137, -73.9535723 40.8111831, -73.9531697 40.8110116, -73.952591 40.810765)</data>
+    </edge>
+    <edge id="0" source="42440144" target="42429827">
+      <data key="d8">[420881460, 420881461]</data>
+      <data key="d9">False</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.795</data>
+      <data key="d13">LINESTRING (-73.95401099999999 40.81137, -73.95450599999999 40.8115832, -73.954835 40.811725)</data>
+    </edge>
+    <edge id="0" source="42440146" target="42440144">
+      <data key="d8">195743188</data>
+      <data key="d9">False</data>
+      <data key="d10">Morningside Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">85.316</data>
+    </edge>
+    <edge id="0" source="42440146" target="42436739">
+      <data key="d8">46594129</data>
+      <data key="d9">True</data>
+      <data key="d10">West 126th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">222.12099999999998</data>
+      <data key="d13">LINESTRING (-73.95354399999999 40.812051, -73.954081 40.81228, -73.9542821 40.8125083, -73.9542869 40.8125138, -73.9544885 40.8127427, -73.955203 40.813554)</data>
+    </edge>
+    <edge id="0" source="42442584" target="42421852">
+      <data key="d8">309956784</data>
+      <data key="d9">False</data>
+      <data key="d10">Amsterdam Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">96.976</data>
+    </edge>
+    <edge id="0" source="42442584" target="42429827">
+      <data key="d8">[420881464, 195743203, 420881462]</data>
+      <data key="d9">False</data>
+      <data key="d10">West 125th Street</data>
+      <data key="d11">primary</data>
+      <data key="d12">218.58399999999995</data>
+      <data key="d13">LINESTRING (-73.95625699999999 40.81337, -73.9557343 40.8127654, -73.9554409 40.8124259, -73.9552731 40.8122318, -73.9552365 40.8121895, -73.9551175 40.8120518, -73.95499959999999 40.8119154, -73.9549672 40.8118779, -73.9548968 40.8117964, -73.954835 40.811725)</data>
+    </edge>
+    <data key="d0">36_NY_36061020901</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42421852: 3, 42429825: 4, 42429827: 3, 42432928: 5, 42432929: 4, 42432931: 4, 42436739: 3, 42438923: 4, 42438928: 4, 42439371: 3, 42440138: 3, 42440144: 4, 42440146: 4, 42442584: 4}</data>
+  </graph>
+</graphml>

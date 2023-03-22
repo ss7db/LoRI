@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42427216">
+      <data key="d4">40.857109</data>
+      <data key="d5">-73.935602</data>
+      <data key="d6">42427216</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42427782">
+      <data key="d4">40.858113</data>
+      <data key="d5">-73.932983</data>
+      <data key="d6">42427782</data>
+    </node>
+    <node id="42436296">
+      <data key="d4">40.854501</data>
+      <data key="d5">-73.934627</data>
+      <data key="d6">42436296</data>
+    </node>
+    <node id="42436297">
+      <data key="d4">40.8549175</data>
+      <data key="d5">-73.9360462</data>
+      <data key="d6">42436297</data>
+    </node>
+    <node id="42450290">
+      <data key="d4">40.855581</data>
+      <data key="d5">-73.934266</data>
+      <data key="d6">42450290</data>
+    </node>
+    <node id="42454300">
+      <data key="d4">40.856783</data>
+      <data key="d5">-73.933681</data>
+      <data key="d6">42454300</data>
+    </node>
+    <node id="1205714926">
+      <data key="d4">40.8593469</data>
+      <data key="d5">-73.9339834</data>
+      <data key="d6">1205714926</data>
+    </node>
+    <node id="5051485226">
+      <data key="d4">40.8592652</data>
+      <data key="d5">-73.9340812</data>
+      <data key="d6">5051485226</data>
+    </node>
+    <edge id="0" source="42427216" target="42436297">
+      <data key="d8">[5673064, 5671030]</data>
+      <data key="d9">['Overlook Terrace', 'West 190th Street']</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">False</data>
+      <data key="d12">310.55800000000005</data>
+      <data key="d13">LINESTRING (-73.935602 40.857109, -73.93505620000001 40.8569736, -73.9350044 40.8569573, -73.9349648 40.8569428, -73.934928 40.8569258, -73.93489169999999 40.856903, -73.9348715 40.8568867, -73.9348519 40.8568661, -73.9348399 40.8568435, -73.9348377 40.8568241, -73.9348385 40.8568077, -73.93484410000001 40.8567798, -73.93485680000001 40.8567453, -73.9348758 40.8567119, -73.9349014 40.8566707, -73.93546120000001 40.855928, -73.9356073 40.8557219, -73.9356813 40.8556192, -73.9357526 40.8555069, -73.9358584 40.8553164, -73.9359256 40.8551888, -73.9360183 40.8549881, -73.93604620000001 40.8549175)</data>
+    </edge>
+    <edge id="0" source="42427782" target="42454300">
+      <data key="d8">[104984000, 104984009]</data>
+      <data key="d11">True</data>
+      <data key="d9">Bennett Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d14">30 mph</data>
+      <data key="d12">159.114</data>
+      <data key="d13">LINESTRING (-73.93298299999999 40.858113, -73.9334312 40.8572591, -73.93368100000001 40.856783)</data>
+    </edge>
+    <edge id="0" source="42436296" target="42436297">
+      <data key="d8">61914064</data>
+      <data key="d9">West 187th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">128.031</data>
+      <data key="d13">LINESTRING (-73.93462700000001 40.854501, -73.9347231 40.8545292, -73.93594950000001 40.854889, -73.93604620000001 40.8549175)</data>
+    </edge>
+    <edge id="0" source="42436297" target="42427216">
+      <data key="d8">[5673064, 5671030]</data>
+      <data key="d9">['Overlook Terrace', 'West 190th Street']</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">False</data>
+      <data key="d12">310.558</data>
+      <data key="d13">LINESTRING (-73.93604620000001 40.8549175, -73.9360183 40.8549881, -73.9359256 40.8551888, -73.9358584 40.8553164, -73.9357526 40.8555069, -73.9356813 40.8556192, -73.9356073 40.8557219, -73.93546120000001 40.855928, -73.9349014 40.8566707, -73.9348758 40.8567119, -73.93485680000001 40.8567453, -73.93484410000001 40.8567798, -73.9348385 40.8568077, -73.9348377 40.8568241, -73.9348399 40.8568435, -73.9348519 40.8568661, -73.9348715 40.8568867, -73.93489169999999 40.856903, -73.934928 40.8569258, -73.9349648 40.8569428, -73.9350044 40.8569573, -73.93505620000001 40.8569736, -73.935602 40.857109)</data>
+    </edge>
+    <edge id="0" source="42436297" target="42436296">
+      <data key="d8">61914064</data>
+      <data key="d9">West 187th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">128.031</data>
+      <data key="d13">LINESTRING (-73.93604620000001 40.8549175, -73.93594950000001 40.854889, -73.9347231 40.8545292, -73.93462700000001 40.854501)</data>
+    </edge>
+    <edge id="0" source="42450290" target="42436296">
+      <data key="d8">104984009</data>
+      <data key="d11">True</data>
+      <data key="d9">Bennett Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d12">123.869</data>
+      <data key="d13">LINESTRING (-73.93426599999999 40.855581, -73.9346005 40.8545802, -73.93462700000001 40.854501)</data>
+    </edge>
+    <edge id="0" source="42454300" target="42450290">
+      <data key="d8">104984009</data>
+      <data key="d11">True</data>
+      <data key="d9">Bennett Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d12">142.424</data>
+    </edge>
+    <edge id="0" source="5051485226" target="1205714926">
+      <data key="d8">517694723</data>
+      <data key="d11">True</data>
+      <data key="d9">Margaret Corbin Plaza</data>
+      <data key="d10">unclassified</data>
+      <data key="d12">12.902</data>
+      <data key="d13">LINESTRING (-73.93408119999999 40.8592652, -73.9340649 40.8592685, -73.9340459 40.8592775, -73.93402690000001 40.8592874, -73.9339988 40.8593145, -73.9339834 40.8593469)</data>
+    </edge>
+    <data key="d0">36_NY_36061028100</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42427216: 4, 42427782: 3, 42436296: 4, 42436297: 3, 42450290: 3, 42454300: 3, 1205714926: 3, 5051485226: 3}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d15" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d9" />
+  <key attr.name="highway" attr.type="string" for="node" id="d8" />
+  <key attr.name="ref" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42424235">
+      <data key="d4">40.817189</data>
+      <data key="d5">-73.934463</data>
+      <data key="d6">42424235</data>
+    </node>
+    <node id="42426968">
+      <data key="d4">40.8179052</data>
+      <data key="d5">-73.9342568</data>
+      <data key="d6">42426968</data>
+    </node>
+    <node id="42426971">
+      <data key="d4">40.8187778</data>
+      <data key="d5">-73.934348</data>
+      <data key="d6">42426971</data>
+      <data key="d7">22</data>
+      <data key="d8">motorway_junction</data>
+    </node>
+    <node id="42438271">
+      <data key="d4">40.817799</data>
+      <data key="d5">-73.935956</data>
+      <data key="d6">42438271</data>
+    </node>
+    <node id="42447346">
+      <data key="d4">40.8165385</data>
+      <data key="d5">-73.9349094</data>
+      <data key="d6">42447346</data>
+    </node>
+    <node id="589927996">
+      <data key="d4">40.8166934</data>
+      <data key="d5">-73.9348013</data>
+      <data key="d6">589927996</data>
+    </node>
+    <node id="3099326122">
+      <data key="d4">40.8184876</data>
+      <data key="d5">-73.9375772</data>
+      <data key="d6">3099326122</data>
+      <data key="d8">traffic_signals</data>
+    </node>
+    <node id="3099326126">
+      <data key="d4">40.8197562</data>
+      <data key="d5">-73.9366544</data>
+      <data key="d6">3099326126</data>
+      <data key="d8">traffic_signals</data>
+    </node>
+    <node id="3099327930">
+      <data key="d4">40.8166573</data>
+      <data key="d5">-73.9389216</data>
+      <data key="d6">3099327930</data>
+      <data key="d8">traffic_signals</data>
+    </node>
+    <node id="3099327935">
+      <data key="d4">40.8178749</data>
+      <data key="d5">-73.9380263</data>
+      <data key="d6">3099327935</data>
+    </node>
+    <node id="3099327948">
+      <data key="d4">40.8172567</data>
+      <data key="d5">-73.9384793</data>
+      <data key="d6">3099327948</data>
+      <data key="d8">traffic_signals</data>
+    </node>
+    <node id="3099327965">
+      <data key="d4">40.8191141</data>
+      <data key="d5">-73.9371126</data>
+      <data key="d6">3099327965</data>
+      <data key="d8">traffic_signals</data>
+    </node>
+    <edge id="0" source="42424235" target="589927996">
+      <data key="d9">226007080</data>
+      <data key="d10">True</data>
+      <data key="d11">5th Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">62.081</data>
+      <data key="d14">LINESTRING (-73.93446299999999 40.817189, -73.93461720000001 40.8169881, -73.9348013 40.8166934)</data>
+    </edge>
+    <edge id="0" source="42426968" target="42424235">
+      <data key="d9">5672967</data>
+      <data key="d10">True</data>
+      <data key="d11">5th Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d13">84.018</data>
+      <data key="d14">LINESTRING (-73.9342568 40.8179052, -73.9342273 40.8176434, -73.93423799999999 40.8175723, -73.9342729 40.8174708, -73.93441900000001 40.8172542, -73.93446299999999 40.817189)</data>
+    </edge>
+    <edge id="0" source="42426971" target="42426968">
+      <data key="d9">5669596</data>
+      <data key="d10">True</data>
+      <data key="d15">1</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">97.42599999999999</data>
+      <data key="d14">LINESTRING (-73.934348 40.8187778, -73.9343212 40.8182785, -73.9342568 40.8179052)</data>
+    </edge>
+    <edge id="0" source="42438271" target="42424235">
+      <data key="d9">5670686</data>
+      <data key="d10">True</data>
+      <data key="d11">West 142nd Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">142.779</data>
+      <data key="d14">LINESTRING (-73.935956 40.817799, -73.9345635 40.81723, -73.93446299999999 40.817189)</data>
+    </edge>
+    <edge id="0" source="42438271" target="42447346">
+      <data key="d9">[5671488, 5671622]</data>
+      <data key="d11">['West 141st Street', 'Chisum Place']</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">220.658</data>
+      <data key="d14">LINESTRING (-73.935956 40.817799, -73.93601169999999 40.8177196, -73.9363596 40.8172232, -73.936373 40.8171663, -73.9363221 40.8171298, -73.93502789999999 40.8165876, -73.9349094 40.8165385)</data>
+    </edge>
+    <edge id="0" source="42438271" target="3099326122">
+      <data key="d9">243056522</data>
+      <data key="d10">False</data>
+      <data key="d11">West 142nd Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">156.44400000000002</data>
+      <data key="d14">LINESTRING (-73.935956 40.817799, -73.93654650000001 40.8180498, -73.93675330000001 40.8181377, -73.9369677 40.8182287, -73.93757720000001 40.8184876)</data>
+    </edge>
+    <edge id="0" source="42447346" target="589927996">
+      <data key="d9">243056523</data>
+      <data key="d11">5th Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d10">False</data>
+      <data key="d13">19.479</data>
+    </edge>
+    <edge id="0" source="42447346" target="42438271">
+      <data key="d9">[5671488, 5671622]</data>
+      <data key="d11">['West 141st Street', 'Chisum Place']</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">220.65800000000002</data>
+      <data key="d14">LINESTRING (-73.9349094 40.8165385, -73.93502789999999 40.8165876, -73.9363221 40.8171298, -73.936373 40.8171663, -73.9363596 40.8172232, -73.93601169999999 40.8177196, -73.935956 40.817799)</data>
+    </edge>
+    <edge id="0" source="589927996" target="42447346">
+      <data key="d9">243056523</data>
+      <data key="d11">5th Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d10">False</data>
+      <data key="d13">19.479</data>
+    </edge>
+    <edge id="0" source="3099326122" target="42438271">
+      <data key="d9">243056522</data>
+      <data key="d10">False</data>
+      <data key="d11">West 142nd Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">156.44400000000002</data>
+      <data key="d14">LINESTRING (-73.93757720000001 40.8184876, -73.9369677 40.8182287, -73.93675330000001 40.8181377, -73.93654650000001 40.8180498, -73.935956 40.817799)</data>
+    </edge>
+    <edge id="0" source="3099326122" target="3099327965">
+      <data key="d9">[420895464, 420895460]</data>
+      <data key="d10">True</data>
+      <data key="d15">['2', '3']</data>
+      <data key="d11">Malcolm X Boulevard</data>
+      <data key="d12">secondary</data>
+      <data key="d13">79.88499999999999</data>
+      <data key="d14">LINESTRING (-73.93757720000001 40.8184876, -73.9372652 40.8189083, -73.93711260000001 40.8191141)</data>
+    </edge>
+    <edge id="0" source="3099327930" target="3099327948">
+      <data key="d9">305323034</data>
+      <data key="d10">True</data>
+      <data key="d15">3</data>
+      <data key="d11">Malcolm X Boulevard</data>
+      <data key="d12">secondary</data>
+      <data key="d13">76.339</data>
+    </edge>
+    <edge id="0" source="3099327935" target="3099326122">
+      <data key="d9">420590033</data>
+      <data key="d10">True</data>
+      <data key="d15">2</data>
+      <data key="d11">Malcolm X Boulevard</data>
+      <data key="d12">secondary</data>
+      <data key="d13">77.909</data>
+    </edge>
+    <edge id="0" source="3099327948" target="3099327935">
+      <data key="d9">[305323034, 420590028]</data>
+      <data key="d10">True</data>
+      <data key="d15">3</data>
+      <data key="d11">Malcolm X Boulevard</data>
+      <data key="d12">secondary</data>
+      <data key="d13">78.603</data>
+      <data key="d14">LINESTRING (-73.9384793 40.8172567, -73.9382554 40.8175623, -73.9380263 40.8178749)</data>
+    </edge>
+    <edge id="0" source="3099327965" target="42426968">
+      <data key="d9">5671135</data>
+      <data key="d10">True</data>
+      <data key="d11">West 143rd Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">275.358</data>
+    </edge>
+    <edge id="0" source="3099327965" target="3099326126">
+      <data key="d9">305323033</data>
+      <data key="d10">True</data>
+      <data key="d15">2</data>
+      <data key="d11">Malcolm X Boulevard</data>
+      <data key="d12">secondary</data>
+      <data key="d13">81.144</data>
+      <data key="d14">LINESTRING (-73.93711260000001 40.8191141, -73.9367211 40.8196628, -73.93665439999999 40.8197562)</data>
+    </edge>
+    <data key="d0">36_NY_36061021400</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42424235: 4, 42426968: 3, 42426971: 3, 42438271: 3, 42447346: 3, 589927996: 3, 3099326122: 4, 3099326126: 3, 3099327930: 4, 3099327935: 3, 3099327948: 3, 3099327965: 4}</data>
+  </graph>
+</graphml>

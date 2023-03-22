@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42734579">
+      <data key="d4">40.863272</data>
+      <data key="d5">-73.870462</data>
+      <data key="d6">42734579</data>
+    </node>
+    <node id="42734582">
+      <data key="d4">40.863246</data>
+      <data key="d5">-73.869374</data>
+      <data key="d6">42734582</data>
+    </node>
+    <node id="42734586">
+      <data key="d4">40.863231</data>
+      <data key="d5">-73.868437</data>
+      <data key="d6">42734586</data>
+    </node>
+    <node id="42745593">
+      <data key="d4">40.861382</data>
+      <data key="d5">-73.869436</data>
+      <data key="d6">42745593</data>
+    </node>
+    <node id="42745596">
+      <data key="d4">40.861363</data>
+      <data key="d5">-73.868496</data>
+      <data key="d6">42745596</data>
+    </node>
+    <edge id="0" source="42734579" target="42734582">
+      <data key="d7">5696588</data>
+      <data key="d8">Mace Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">91.54</data>
+    </edge>
+    <edge id="0" source="42734582" target="42734586">
+      <data key="d7">5696588</data>
+      <data key="d8">Mace Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">78.814</data>
+    </edge>
+    <edge id="0" source="42734582" target="42734579">
+      <data key="d7">5696588</data>
+      <data key="d8">Mace Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">91.54</data>
+    </edge>
+    <edge id="0" source="42734582" target="42745593">
+      <data key="d7">5698453</data>
+      <data key="d10">True</data>
+      <data key="d8">Barker Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d11">207.334</data>
+      <data key="d12">LINESTRING (-73.86937399999999 40.863246, -73.8694307 40.8615419, -73.86943599999999 40.861382)</data>
+    </edge>
+    <edge id="0" source="42734586" target="42734582">
+      <data key="d7">5696588</data>
+      <data key="d8">Mace Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">78.814</data>
+    </edge>
+    <edge id="0" source="42745593" target="42745596">
+      <data key="d7">5697307</data>
+      <data key="d8">Waring Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">79.079</data>
+    </edge>
+    <edge id="0" source="42745596" target="42745593">
+      <data key="d7">5697307</data>
+      <data key="d8">Waring Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">79.079</data>
+    </edge>
+    <edge id="0" source="42745596" target="42734586">
+      <data key="d7">5698357</data>
+      <data key="d10">True</data>
+      <data key="d8">Olinville Avenue</data>
+      <data key="d9">residential</data>
+      <data key="d11">207.772</data>
+    </edge>
+    <data key="d0">36_NY_36005033202</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42734579: 3, 42734582: 4, 42734586: 4, 42745593: 4, 42745596: 4}</data>
+  </graph>
+</graphml>

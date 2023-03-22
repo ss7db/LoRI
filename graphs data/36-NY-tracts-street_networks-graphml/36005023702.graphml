@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42742739">
+      <data key="d4">40.862258</data>
+      <data key="d5">-73.895884</data>
+      <data key="d6">42742739</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42765905">
+      <data key="d4">40.860997</data>
+      <data key="d5">-73.896425</data>
+      <data key="d6">42765905</data>
+    </node>
+    <node id="42772936">
+      <data key="d4">40.85999</data>
+      <data key="d5">-73.896848</data>
+      <data key="d6">42772936</data>
+    </node>
+    <node id="42774790">
+      <data key="d4">40.860197</data>
+      <data key="d5">-73.897711</data>
+      <data key="d6">42774790</data>
+    </node>
+    <node id="1765378860">
+      <data key="d4">40.8624606</data>
+      <data key="d5">-73.8969235</data>
+      <data key="d6">1765378860</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2025097103">
+      <data key="d4">40.8612899</data>
+      <data key="d5">-73.8975784</data>
+      <data key="d6">2025097103</data>
+    </node>
+    <node id="2025165399">
+      <data key="d4">40.8598194</data>
+      <data key="d5">-73.8983609</data>
+      <data key="d6">2025165399</data>
+    </node>
+    <node id="2025165412">
+      <data key="d4">40.8604069</data>
+      <data key="d5">-73.8980551</data>
+      <data key="d6">2025165412</data>
+    </node>
+    <node id="2025165414">
+      <data key="d4">40.8602957</data>
+      <data key="d5">-73.8981151</data>
+      <data key="d6">2025165414</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42742739" target="42765905">
+      <data key="d8">581492505</data>
+      <data key="d9">False</data>
+      <data key="d10">Valentine Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">147.413</data>
+    </edge>
+    <edge id="0" source="42742739" target="1765378860">
+      <data key="d8">223940517</data>
+      <data key="d9">False</data>
+      <data key="d10">East Fordham Road</data>
+      <data key="d11">primary</data>
+      <data key="d12">90.278</data>
+      <data key="d13">LINESTRING (-73.895884 40.862258, -73.8967438 40.8624289, -73.8969235 40.8624606)</data>
+    </edge>
+    <edge id="0" source="42765905" target="42742739">
+      <data key="d8">581492505</data>
+      <data key="d9">False</data>
+      <data key="d10">Valentine Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">147.413</data>
+    </edge>
+    <edge id="0" source="42765905" target="42772936">
+      <data key="d8">581492505</data>
+      <data key="d9">False</data>
+      <data key="d10">Valentine Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">117.488</data>
+    </edge>
+    <edge id="0" source="42772936" target="42774790">
+      <data key="d8">559998264</data>
+      <data key="d9">True</data>
+      <data key="d10">East 187th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">76.139</data>
+    </edge>
+    <edge id="0" source="42772936" target="42765905">
+      <data key="d8">581492505</data>
+      <data key="d9">False</data>
+      <data key="d10">Valentine Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">117.488</data>
+    </edge>
+    <edge id="0" source="42774790" target="2025165414">
+      <data key="d8">559998264</data>
+      <data key="d9">True</data>
+      <data key="d10">East 187th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">35.712</data>
+    </edge>
+    <edge id="0" source="1765378860" target="42742739">
+      <data key="d8">223940517</data>
+      <data key="d9">False</data>
+      <data key="d10">East Fordham Road</data>
+      <data key="d11">primary</data>
+      <data key="d12">90.278</data>
+      <data key="d13">LINESTRING (-73.8969235 40.8624606, -73.8967438 40.8624289, -73.895884 40.862258)</data>
+    </edge>
+    <edge id="0" source="2025097103" target="42765905">
+      <data key="d8">225980803</data>
+      <data key="d9">True</data>
+      <data key="d10">East 188th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">102.422</data>
+      <data key="d13">LINESTRING (-73.8975784 40.8612899, -73.8975026 40.8612595, -73.89642499999999 40.860997)</data>
+    </edge>
+    <edge id="0" source="2025097103" target="1765378860">
+      <data key="d8">581489813</data>
+      <data key="d9">True</data>
+      <data key="d14">1</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">secondary</data>
+      <data key="d12">141.399</data>
+      <data key="d13">LINESTRING (-73.8975784 40.8612899, -73.897368 40.8616901, -73.8972265 40.861944, -73.89700240000001 40.8623444, -73.8969235 40.8624606)</data>
+    </edge>
+    <edge id="0" source="2025165399" target="2025165414">
+      <data key="d8">581489813</data>
+      <data key="d9">True</data>
+      <data key="d14">1</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">secondary</data>
+      <data key="d12">56.853</data>
+    </edge>
+    <edge id="0" source="2025165412" target="2025097103">
+      <data key="d8">581489813</data>
+      <data key="d9">True</data>
+      <data key="d14">1</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">secondary</data>
+      <data key="d12">106.054</data>
+    </edge>
+    <edge id="0" source="2025165414" target="2025165412">
+      <data key="d8">581489813</data>
+      <data key="d9">True</data>
+      <data key="d14">1</data>
+      <data key="d10">Grand Concourse</data>
+      <data key="d11">secondary</data>
+      <data key="d12">13.355</data>
+    </edge>
+    <data key="d0">36_NY_36005023702</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42742739: 4, 42765905: 4, 42772936: 4, 42774790: 3, 1765378860: 4, 2025097103: 4, 2025165399: 3, 2025165412: 3, 2025165414: 4}</data>
+  </graph>
+</graphml>

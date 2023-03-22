@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="ref" attr.type="string" for="edge" id="d17" />
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d16" />
+  <key attr.name="name" attr.type="string" for="edge" id="d15" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d9" />
+  <key attr.name="ref" attr.type="string" for="node" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42721926">
+      <data key="d4">40.8262598</data>
+      <data key="d5">-73.8738142</data>
+      <data key="d6">42721926</data>
+    </node>
+    <node id="42721930">
+      <data key="d4">40.8247221</data>
+      <data key="d5">-73.8734868</data>
+      <data key="d6">42721930</data>
+    </node>
+    <node id="42737334">
+      <data key="d4">40.8244233</data>
+      <data key="d5">-73.8735211</data>
+      <data key="d6">42737334</data>
+    </node>
+    <node id="42737338">
+      <data key="d4">40.8266607</data>
+      <data key="d5">-73.8739014</data>
+      <data key="d6">42737338</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42737347">
+      <data key="d4">40.8290545</data>
+      <data key="d5">-73.8744593</data>
+      <data key="d6">42737347</data>
+    </node>
+    <node id="42737353">
+      <data key="d4">40.8294929</data>
+      <data key="d5">-73.8746068</data>
+      <data key="d6">42737353</data>
+    </node>
+    <node id="42738396">
+      <data key="d4">40.829753</data>
+      <data key="d5">-73.873728</data>
+      <data key="d6">42738396</data>
+    </node>
+    <node id="42749565">
+      <data key="d4">40.826402</data>
+      <data key="d5">-73.875802</data>
+      <data key="d6">42749565</data>
+    </node>
+    <node id="42749568">
+      <data key="d4">40.826528</data>
+      <data key="d5">-73.874875</data>
+      <data key="d6">42749568</data>
+    </node>
+    <node id="42759429">
+      <data key="d4">40.829234</data>
+      <data key="d5">-73.875507</data>
+      <data key="d6">42759429</data>
+    </node>
+    <node id="42760370">
+      <data key="d4">40.828977</data>
+      <data key="d5">-73.876402</data>
+      <data key="d6">42760370</data>
+    </node>
+    <node id="60653814">
+      <data key="d4">40.824904</data>
+      <data key="d5">-73.8726028</data>
+      <data key="d6">60653814</data>
+      <data key="d8">2W</data>
+      <data key="d7">motorway_junction</data>
+    </node>
+    <node id="60653827">
+      <data key="d4">40.8250598</data>
+      <data key="d5">-73.8727487</data>
+      <data key="d6">60653827</data>
+    </node>
+    <node id="60653828">
+      <data key="d4">40.8248845</data>
+      <data key="d5">-73.8727143</data>
+      <data key="d6">60653828</data>
+    </node>
+    <node id="60653847">
+      <data key="d4">40.8268654</data>
+      <data key="d5">-73.8728602</data>
+      <data key="d6">60653847</data>
+      <data key="d8">2W</data>
+      <data key="d7">motorway_junction</data>
+    </node>
+    <node id="60653852">
+      <data key="d4">40.8256314</data>
+      <data key="d5">-73.8733495</data>
+      <data key="d6">60653852</data>
+    </node>
+    <node id="60653952">
+      <data key="d4">40.8294104</data>
+      <data key="d5">-73.8730721</data>
+      <data key="d6">60653952</data>
+    </node>
+    <edge id="0" source="42721926" target="60653852">
+      <data key="d9">8095804</data>
+      <data key="d10">True</data>
+      <data key="d11">1</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">82.088</data>
+      <data key="d14">LINESTRING (-73.8738142 40.8262598, -73.8737615 40.826073, -73.8736585 40.8259042, -73.87352970000001 40.8257613, -73.8733495 40.8256314)</data>
+    </edge>
+    <edge id="0" source="42721926" target="42721930">
+      <data key="d9">11876236</data>
+      <data key="d10">True</data>
+      <data key="d15">Morrison Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">173.189</data>
+      <data key="d14">LINESTRING (-73.8738142 40.8262598, -73.87364530000001 40.8254664, -73.87348679999999 40.8247221)</data>
+    </edge>
+    <edge id="0" source="42721930" target="42737334">
+      <data key="d9">5696738</data>
+      <data key="d10">True</data>
+      <data key="d11">1</data>
+      <data key="d15">Morrison Avenue</data>
+      <data key="d12">trunk</data>
+      <data key="d13">34.1</data>
+      <data key="d14">LINESTRING (-73.87348679999999 40.8247221, -73.8734599 40.8245901, -73.8734893 40.8245089, -73.8735211 40.8244233)</data>
+    </edge>
+    <edge id="0" source="42737338" target="42749568">
+      <data key="d9">5697559</data>
+      <data key="d10">False</data>
+      <data key="d15">Watson Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">83.237</data>
+    </edge>
+    <edge id="0" source="42737338" target="42721926">
+      <data key="d9">11876236</data>
+      <data key="d10">True</data>
+      <data key="d15">Morrison Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">45.178</data>
+    </edge>
+    <edge id="0" source="42737338" target="42737347">
+      <data key="d9">223943728</data>
+      <data key="d15">Morrison Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">270.286</data>
+    </edge>
+    <edge id="0" source="42737347" target="42737338">
+      <data key="d9">223943728</data>
+      <data key="d15">Morrison Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">270.286</data>
+    </edge>
+    <edge id="0" source="42737347" target="42737353">
+      <data key="d9">223943728</data>
+      <data key="d15">Morrison Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">50.70100000000001</data>
+      <data key="d14">LINESTRING (-73.8744593 40.8290545, -73.8745304 40.8293711, -73.8746068 40.8294929)</data>
+    </edge>
+    <edge id="0" source="42737353" target="42759429">
+      <data key="d9">356144432</data>
+      <data key="d15">Westchester Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d10">False</data>
+      <data key="d13">81.027</data>
+    </edge>
+    <edge id="0" source="42737353" target="42738396">
+      <data key="d9">586133520</data>
+      <data key="d15">Westchester Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d10">False</data>
+      <data key="d13">79.394</data>
+    </edge>
+    <edge id="0" source="42737353" target="42737347">
+      <data key="d9">223943728</data>
+      <data key="d15">Morrison Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d10">False</data>
+      <data key="d13">50.70100000000001</data>
+      <data key="d14">LINESTRING (-73.8746068 40.8294929, -73.8745304 40.8293711, -73.8744593 40.8290545)</data>
+    </edge>
+    <edge id="0" source="42738396" target="42737353">
+      <data key="d9">586133520</data>
+      <data key="d15">Westchester Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d10">False</data>
+      <data key="d13">79.394</data>
+    </edge>
+    <edge id="0" source="42738396" target="42737347">
+      <data key="d9">5698645</data>
+      <data key="d10">True</data>
+      <data key="d15">Harrod Place</data>
+      <data key="d12">residential</data>
+      <data key="d16">25 mph</data>
+      <data key="d13">127.303</data>
+      <data key="d14">LINESTRING (-73.873728 40.829753, -73.873634 40.829276, -73.8744593 40.8290545)</data>
+    </edge>
+    <edge id="0" source="42749565" target="42749568">
+      <data key="d9">5697559</data>
+      <data key="d10">False</data>
+      <data key="d15">Watson Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">79.247</data>
+    </edge>
+    <edge id="0" source="42749568" target="42737338">
+      <data key="d9">5697559</data>
+      <data key="d10">False</data>
+      <data key="d15">Watson Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">83.237</data>
+    </edge>
+    <edge id="0" source="42749568" target="42749565">
+      <data key="d9">5697559</data>
+      <data key="d10">False</data>
+      <data key="d15">Watson Avenue</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">79.247</data>
+    </edge>
+    <edge id="0" source="42749568" target="42759429">
+      <data key="d9">5698109</data>
+      <data key="d10">True</data>
+      <data key="d15">Stratford Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">305.55600000000004</data>
+      <data key="d14">LINESTRING (-73.874875 40.826528, -73.874939 40.826807, -73.875507 40.829234)</data>
+    </edge>
+    <edge id="0" source="42759429" target="42737353">
+      <data key="d9">356144432</data>
+      <data key="d15">Westchester Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d10">False</data>
+      <data key="d13">81.027</data>
+    </edge>
+    <edge id="0" source="42759429" target="42760370">
+      <data key="d9">356144432</data>
+      <data key="d15">Westchester Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d10">False</data>
+      <data key="d13">80.543</data>
+    </edge>
+    <edge id="0" source="42760370" target="42759429">
+      <data key="d9">356144432</data>
+      <data key="d15">Westchester Avenue</data>
+      <data key="d12">secondary</data>
+      <data key="d10">False</data>
+      <data key="d13">80.543</data>
+    </edge>
+    <edge id="0" source="42760370" target="42749565">
+      <data key="d9">274709951</data>
+      <data key="d10">True</data>
+      <data key="d15">Manor Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">290.744</data>
+      <data key="d14">LINESTRING (-73.876402 40.828977, -73.875871 40.826698, -73.87580199999999 40.826402)</data>
+    </edge>
+    <edge id="0" source="60653814" target="60653952">
+      <data key="d9">44819407</data>
+      <data key="d10">True</data>
+      <data key="d11">3</data>
+      <data key="d17">BRP</data>
+      <data key="d15">Bronx River Parkway</data>
+      <data key="d12">motorway</data>
+      <data key="d16">45 mph</data>
+      <data key="d13">503.254</data>
+      <data key="d14">LINESTRING (-73.8726028 40.824904, -73.87268589999999 40.8255461, -73.87273740000001 40.8270854, -73.8727975 40.8279297, -73.8729005 40.8285662, -73.8730721 40.8294104)</data>
+    </edge>
+    <edge id="0" source="60653827" target="60653828">
+      <data key="d9">122660446</data>
+      <data key="d10">True</data>
+      <data key="d11">2</data>
+      <data key="d17">BRP</data>
+      <data key="d15">Bronx River Parkway</data>
+      <data key="d12">motorway</data>
+      <data key="d16">35 mph</data>
+      <data key="d13">19.706</data>
+    </edge>
+    <edge id="0" source="60653847" target="60653852">
+      <data key="d9">8095802</data>
+      <data key="d10">True</data>
+      <data key="d11">1</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">145.002</data>
+      <data key="d14">LINESTRING (-73.87286020000001 40.8268654, -73.8729117 40.8265082, -73.8729718 40.8262679, -73.8730577 40.82606, -73.87317779999999 40.8258977, -73.8733495 40.8256314)</data>
+    </edge>
+    <edge id="0" source="60653847" target="60653827">
+      <data key="d9">122660447</data>
+      <data key="d10">True</data>
+      <data key="d11">1</data>
+      <data key="d17">BRP</data>
+      <data key="d15">Bronx River Parkway</data>
+      <data key="d12">motorway</data>
+      <data key="d16">35 mph</data>
+      <data key="d13">201.04</data>
+      <data key="d14">LINESTRING (-73.87286020000001 40.8268654, -73.8728431 40.8265147, -73.87280869999999 40.8259431, -73.8727916 40.8254365, -73.8727487 40.8250598)</data>
+    </edge>
+    <edge id="0" source="60653852" target="42721930">
+      <data key="d9">8095802</data>
+      <data key="d10">True</data>
+      <data key="d11">1</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">102.769</data>
+      <data key="d14">LINESTRING (-73.8733495 40.8256314, -73.8734353 40.8254495, -73.87347819999999 40.8252872, -73.8734954 40.8250858, -73.87348679999999 40.8247221)</data>
+    </edge>
+    <edge id="0" source="60653852" target="60653827">
+      <data key="d9">8095804</data>
+      <data key="d10">True</data>
+      <data key="d11">1</data>
+      <data key="d12">motorway_link</data>
+      <data key="d13">82.13900000000001</data>
+      <data key="d14">LINESTRING (-73.8733495 40.8256314, -73.8730834 40.825443, -73.87295469999999 40.8253391, -73.8728431 40.8252092, -73.8727487 40.8250598)</data>
+    </edge>
+    <data key="d0">36_NY_36005004800</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42721926: 3, 42721930: 3, 42737334: 3, 42737338: 4, 42737347: 3, 42737353: 4, 42738396: 4, 42749565: 4, 42749568: 4, 42759429: 4, 42760370: 4, 60653814: 3, 60653827: 3, 60653828: 3, 60653847: 3, 60653852: 4, 60653952: 3}</data>
+  </graph>
+</graphml>

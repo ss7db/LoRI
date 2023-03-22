@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42848257">
+      <data key="d4">40.756266</data>
+      <data key="d5">-73.823515</data>
+      <data key="d6">42848257</data>
+      <data key="d7">stop</data>
+    </node>
+    <node id="42865221">
+      <data key="d4">40.758483</data>
+      <data key="d5">-73.820045</data>
+      <data key="d6">42865221</data>
+    </node>
+    <node id="42865225">
+      <data key="d4">40.757947</data>
+      <data key="d5">-73.819233</data>
+      <data key="d6">42865225</data>
+    </node>
+    <node id="42876980">
+      <data key="d4">40.754868</data>
+      <data key="d5">-73.823979</data>
+      <data key="d6">42876980</data>
+    </node>
+    <node id="42876982">
+      <data key="d4">40.756521</data>
+      <data key="d5">-73.821431</data>
+      <data key="d6">42876982</data>
+    </node>
+    <node id="42876985">
+      <data key="d4">40.7568333</data>
+      <data key="d5">-73.8209581</data>
+      <data key="d6">42876985</data>
+    </node>
+    <node id="42876987">
+      <data key="d4">40.7575893</data>
+      <data key="d5">-73.8197695</data>
+      <data key="d6">42876987</data>
+    </node>
+    <node id="42893807">
+      <data key="d4">40.756354</data>
+      <data key="d5">-73.825781</data>
+      <data key="d6">42893807</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42914989">
+      <data key="d4">40.755488</data>
+      <data key="d5">-73.824718</data>
+      <data key="d6">42914989</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42914994">
+      <data key="d4">40.757167</data>
+      <data key="d5">-73.822111</data>
+      <data key="d6">42914994</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="5354387540">
+      <data key="d4">40.7575012</data>
+      <data key="d5">-73.8242838</data>
+      <data key="d6">5354387540</data>
+    </node>
+    <edge id="0" source="42848257" target="42914994">
+      <data key="d8">5708103</data>
+      <data key="d9">Franklin Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">154.99099999999999</data>
+      <data key="d13">LINESTRING (-73.823515 40.756266, -73.8221743 40.7571263, -73.82211100000001 40.757167)</data>
+    </edge>
+    <edge id="0" source="42848257" target="42914989">
+      <data key="d8">5708103</data>
+      <data key="d9">Franklin Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">133.235</data>
+      <data key="d13">LINESTRING (-73.823515 40.756266, -73.8240495 40.7559203, -73.824718 40.755488)</data>
+    </edge>
+    <edge id="0" source="42865221" target="42865225">
+      <data key="d8">5704723</data>
+      <data key="d11">False</data>
+      <data key="d9">Parsons Boulevard</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">90.718</data>
+    </edge>
+    <edge id="0" source="42865221" target="42914994">
+      <data key="d8">5708103</data>
+      <data key="d9">Franklin Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">227.36399999999998</data>
+      <data key="d13">LINESTRING (-73.82004499999999 40.758483, -73.820821 40.757989, -73.8210322 40.7578545, -73.8214471 40.7575904, -73.8219328 40.7572812, -73.8220422 40.7572115, -73.82211100000001 40.757167)</data>
+    </edge>
+    <edge id="0" source="42865225" target="42865221">
+      <data key="d8">5704723</data>
+      <data key="d11">False</data>
+      <data key="d9">Parsons Boulevard</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">90.718</data>
+    </edge>
+    <edge id="0" source="42876980" target="42876982">
+      <data key="d8">5705442</data>
+      <data key="d11">True</data>
+      <data key="d9">Ash Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d12">282.57</data>
+    </edge>
+    <edge id="0" source="42876980" target="42914989">
+      <data key="d8">220470240</data>
+      <data key="d11">False</data>
+      <data key="d9">Kissena Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d12">92.884</data>
+      <data key="d13">LINESTRING (-73.82397899999999 40.754868, -73.8241843 40.7550401, -73.82454920000001 40.755346, -73.824718 40.755488)</data>
+    </edge>
+    <edge id="0" source="42876982" target="42876985">
+      <data key="d8">276657099</data>
+      <data key="d11">True</data>
+      <data key="d9">Ash Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d12">52.844</data>
+    </edge>
+    <edge id="0" source="42876982" target="42914994">
+      <data key="d8">219624525</data>
+      <data key="d11">False</data>
+      <data key="d9">Bowne Street</data>
+      <data key="d10">residential</data>
+      <data key="d12">92.28899999999999</data>
+      <data key="d13">LINESTRING (-73.821431 40.756521, -73.8220785 40.7571013, -73.82211100000001 40.757167)</data>
+    </edge>
+    <edge id="0" source="42876985" target="42876987">
+      <data key="d8">276657097</data>
+      <data key="d11">True</data>
+      <data key="d9">Ash Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d12">130.727</data>
+      <data key="d13">LINESTRING (-73.8209581 40.7568333, -73.8207032 40.7569954, -73.81976950000001 40.7575893)</data>
+    </edge>
+    <edge id="0" source="42876987" target="42865225">
+      <data key="d8">276657098</data>
+      <data key="d11">True</data>
+      <data key="d9">Ash Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d12">60.199</data>
+    </edge>
+    <edge id="0" source="42893807" target="42914989">
+      <data key="d8">220470240</data>
+      <data key="d11">False</data>
+      <data key="d9">Kissena Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d12">131.49</data>
+      <data key="d13">LINESTRING (-73.82578100000001 40.756354, -73.8255901 40.7562008, -73.824718 40.755488)</data>
+    </edge>
+    <edge id="0" source="42914989" target="42848257">
+      <data key="d8">5708103</data>
+      <data key="d9">Franklin Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">133.235</data>
+      <data key="d13">LINESTRING (-73.824718 40.755488, -73.8240495 40.7559203, -73.823515 40.756266)</data>
+    </edge>
+    <edge id="0" source="42914989" target="42876980">
+      <data key="d8">220470240</data>
+      <data key="d11">False</data>
+      <data key="d9">Kissena Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d12">92.884</data>
+      <data key="d13">LINESTRING (-73.824718 40.755488, -73.82454920000001 40.755346, -73.8241843 40.7550401, -73.82397899999999 40.754868)</data>
+    </edge>
+    <edge id="0" source="42914989" target="42893807">
+      <data key="d8">220470240</data>
+      <data key="d11">False</data>
+      <data key="d9">Kissena Boulevard</data>
+      <data key="d10">secondary</data>
+      <data key="d12">131.49</data>
+      <data key="d13">LINESTRING (-73.824718 40.755488, -73.8255901 40.7562008, -73.82578100000001 40.756354)</data>
+    </edge>
+    <edge id="0" source="42914994" target="42865221">
+      <data key="d8">5708103</data>
+      <data key="d9">Franklin Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">227.36399999999998</data>
+      <data key="d13">LINESTRING (-73.82211100000001 40.757167, -73.8220422 40.7572115, -73.8219328 40.7572812, -73.8214471 40.7575904, -73.8210322 40.7578545, -73.820821 40.757989, -73.82004499999999 40.758483)</data>
+    </edge>
+    <edge id="0" source="42914994" target="42848257">
+      <data key="d8">5708103</data>
+      <data key="d9">Franklin Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">False</data>
+      <data key="d12">154.99099999999999</data>
+      <data key="d13">LINESTRING (-73.82211100000001 40.757167, -73.8221743 40.7571263, -73.823515 40.756266)</data>
+    </edge>
+    <edge id="0" source="42914994" target="42876982">
+      <data key="d8">219624525</data>
+      <data key="d11">False</data>
+      <data key="d9">Bowne Street</data>
+      <data key="d10">residential</data>
+      <data key="d12">92.28899999999999</data>
+      <data key="d13">LINESTRING (-73.82211100000001 40.757167, -73.8220785 40.7571013, -73.821431 40.756521)</data>
+    </edge>
+    <data key="d0">36_NY_36081085700</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42848257: 3, 42865221: 3, 42865225: 3, 42876980: 3, 42876982: 4, 42876985: 3, 42876987: 3, 42893807: 3, 42914989: 4, 42914994: 4, 5354387540: 1}</data>
+  </graph>
+</graphml>

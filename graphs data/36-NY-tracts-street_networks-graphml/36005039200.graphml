@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="name" attr.type="string" for="edge" id="d9" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42747462">
+      <data key="d4">40.881784</data>
+      <data key="d5">-73.865347</data>
+      <data key="d6">42747462</data>
+    </node>
+    <node id="42747465">
+      <data key="d4">40.884029</data>
+      <data key="d5">-73.864253</data>
+      <data key="d6">42747465</data>
+    </node>
+    <node id="42755854">
+      <data key="d4">40.8822552</data>
+      <data key="d5">-73.8670526</data>
+      <data key="d6">42755854</data>
+    </node>
+    <node id="42755858">
+      <data key="d4">40.8844631</data>
+      <data key="d5">-73.8656472</data>
+      <data key="d6">42755858</data>
+    </node>
+    <node id="42757243">
+      <data key="d4">40.884293</data>
+      <data key="d5">-73.865081</data>
+      <data key="d6">42757243</data>
+    </node>
+    <node id="42763575">
+      <data key="d4">40.882014</data>
+      <data key="d5">-73.866201</data>
+      <data key="d6">42763575</data>
+    </node>
+    <node id="42771144">
+      <data key="d4">40.885193</data>
+      <data key="d5">-73.865278</data>
+      <data key="d6">42771144</data>
+    </node>
+    <edge id="0" source="42747462" target="42747465">
+      <data key="d7">5697437</data>
+      <data key="d8">True</data>
+      <data key="d9">Willett Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">266.036</data>
+    </edge>
+    <edge id="0" source="42747462" target="42763575">
+      <data key="d7">487519020</data>
+      <data key="d8">True</data>
+      <data key="d9">East 216th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">76.215</data>
+    </edge>
+    <edge id="0" source="42755858" target="42757243">
+      <data key="d7">5697974</data>
+      <data key="d8">True</data>
+      <data key="d9">East 219th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">51.219</data>
+    </edge>
+    <edge id="0" source="42757243" target="42747465">
+      <data key="d7">5697974</data>
+      <data key="d8">True</data>
+      <data key="d9">East 219th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">75.545</data>
+    </edge>
+    <edge id="0" source="42757243" target="42763575">
+      <data key="d7">168325225</data>
+      <data key="d8">True</data>
+      <data key="d9">Olinville Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">270.34</data>
+    </edge>
+    <edge id="0" source="42763575" target="42755854">
+      <data key="d7">581717288</data>
+      <data key="d8">True</data>
+      <data key="d9">East 216th Street</data>
+      <data key="d10">residential</data>
+      <data key="d11">76.453</data>
+    </edge>
+    <edge id="0" source="42771144" target="42755858">
+      <data key="d7">487519016</data>
+      <data key="d8">True</data>
+      <data key="d9">Carpenter Avenue</data>
+      <data key="d10">residential</data>
+      <data key="d11">86.893</data>
+    </edge>
+    <data key="d0">36_NY_36005039200</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42747462: 4, 42747465: 3, 42755854: 3, 42755858: 3, 42757243: 3, 42763575: 4, 42771144: 3}</data>
+  </graph>
+</graphml>

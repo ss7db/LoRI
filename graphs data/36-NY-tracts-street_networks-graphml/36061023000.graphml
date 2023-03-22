@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="lanes" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42433779">
+      <data key="d4">40.8173165</data>
+      <data key="d5">-73.9386193</data>
+      <data key="d6">42433779</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42433781">
+      <data key="d4">40.8185035</data>
+      <data key="d5">-73.9414661</data>
+      <data key="d6">42433781</data>
+    </node>
+    <node id="42433785">
+      <data key="d4">40.819673</data>
+      <data key="d5">-73.944231</data>
+      <data key="d6">42433785</data>
+    </node>
+    <node id="42435858">
+      <data key="d4">40.819047</data>
+      <data key="d5">-73.944687</data>
+      <data key="d6">42435858</data>
+    </node>
+    <node id="42435861">
+      <data key="d4">40.820917</data>
+      <data key="d5">-73.943322</data>
+      <data key="d6">42435861</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42435967">
+      <data key="d4">40.8172707</data>
+      <data key="d5">-73.9423994</data>
+      <data key="d6">42435967</data>
+    </node>
+    <node id="42438275">
+      <data key="d4">40.8185487</data>
+      <data key="d5">-73.9377215</data>
+      <data key="d6">42438275</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42439897">
+      <data key="d4">40.8178917</data>
+      <data key="d5">-73.9419319</data>
+      <data key="d6">42439897</data>
+    </node>
+    <node id="42439899">
+      <data key="d4">40.8191286</data>
+      <data key="d5">-73.9410058</data>
+      <data key="d6">42439899</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42440376">
+      <data key="d4">40.8166971</data>
+      <data key="d5">-73.9390685</data>
+      <data key="d6">42440376</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42440381">
+      <data key="d4">40.8179369</data>
+      <data key="d5">-73.9381673</data>
+      <data key="d6">42440381</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2141026505">
+      <data key="d4">40.8178222</data>
+      <data key="d5">-73.9417656</data>
+      <data key="d6">2141026505</data>
+    </node>
+    <node id="2141026514">
+      <data key="d4">40.8190585</data>
+      <data key="d5">-73.9408393</data>
+      <data key="d6">2141026514</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="2141026520">
+      <data key="d4">40.8184403</data>
+      <data key="d5">-73.9413146</data>
+      <data key="d6">2141026520</data>
+    </node>
+    <node id="2141026542">
+      <data key="d4">40.8171973</data>
+      <data key="d5">-73.9422256</data>
+      <data key="d6">2141026542</data>
+    </node>
+    <edge id="0" source="42433779" target="42440376">
+      <data key="d8">[420895467, 420590039]</data>
+      <data key="d9">True</data>
+      <data key="d10">Malcolm X Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.566</data>
+      <data key="d13">LINESTRING (-73.9386193 40.8173165, -73.93886379999999 40.8169809, -73.9390685 40.8166971)</data>
+    </edge>
+    <edge id="0" source="42433781" target="2141026520">
+      <data key="d8">278099585</data>
+      <data key="d9">True</data>
+      <data key="d10">West 140th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">14.557</data>
+    </edge>
+    <edge id="0" source="42433781" target="42439897">
+      <data key="d8">420589987</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">78.51400000000001</data>
+      <data key="d13">LINESTRING (-73.9414661 40.8185035, -73.9417038 40.8181912, -73.9419319 40.8178917)</data>
+    </edge>
+    <edge id="0" source="42433785" target="42433781">
+      <data key="d8">278099585</data>
+      <data key="d9">True</data>
+      <data key="d10">West 140th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">266.542</data>
+    </edge>
+    <edge id="0" source="42433785" target="42435858">
+      <data key="d8">483360099</data>
+      <data key="d9">False</data>
+      <data key="d14">4</data>
+      <data key="d10">Frederick Douglass Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.484</data>
+      <data key="d13">LINESTRING (-73.944231 40.819673, -73.94445570000001 40.8193646, -73.944687 40.819047)</data>
+    </edge>
+    <edge id="0" source="42435858" target="42433785">
+      <data key="d8">483360099</data>
+      <data key="d9">False</data>
+      <data key="d14">4</data>
+      <data key="d10">Frederick Douglass Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.484</data>
+      <data key="d13">LINESTRING (-73.944687 40.819047, -73.94445570000001 40.8193646, -73.944231 40.819673)</data>
+    </edge>
+    <edge id="0" source="42435967" target="2141026542">
+      <data key="d8">46240154</data>
+      <data key="d9">True</data>
+      <data key="d10">West 138th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">16.749</data>
+    </edge>
+    <edge id="0" source="42438275" target="42440381">
+      <data key="d8">420895467</data>
+      <data key="d9">True</data>
+      <data key="d10">Malcolm X Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">77.687</data>
+    </edge>
+    <edge id="0" source="42439897" target="42435858">
+      <data key="d8">196117069</data>
+      <data key="d9">True</data>
+      <data key="d10">West 139th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">265.055</data>
+    </edge>
+    <edge id="0" source="42439897" target="42435967">
+      <data key="d8">420589987</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.472</data>
+      <data key="d13">LINESTRING (-73.9419319 40.8178917, -73.94216419999999 40.8175831, -73.9423994 40.8172707)</data>
+    </edge>
+    <edge id="0" source="42439899" target="42433781">
+      <data key="d8">420589987</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.572</data>
+    </edge>
+    <edge id="0" source="42440376" target="2141026505">
+      <data key="d8">196117069</data>
+      <data key="d9">True</data>
+      <data key="d10">West 139th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">259.163</data>
+    </edge>
+    <edge id="0" source="42440381" target="2141026514">
+      <data key="d8">5671491</data>
+      <data key="d9">True</data>
+      <data key="d10">West 141st Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">257.122</data>
+    </edge>
+    <edge id="0" source="42440381" target="42433779">
+      <data key="d8">420895467</data>
+      <data key="d9">True</data>
+      <data key="d10">Malcolm X Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.777</data>
+    </edge>
+    <edge id="0" source="2141026505" target="42439897">
+      <data key="d8">196117069</data>
+      <data key="d9">True</data>
+      <data key="d10">West 139th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">15.986</data>
+    </edge>
+    <edge id="0" source="2141026505" target="2141026520">
+      <data key="d8">420590003</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">78.512</data>
+    </edge>
+    <edge id="0" source="2141026514" target="42439899">
+      <data key="d8">5671491</data>
+      <data key="d9">True</data>
+      <data key="d10">West 141st Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">16.033</data>
+    </edge>
+    <edge id="0" source="2141026520" target="42433779">
+      <data key="d8">5670202</data>
+      <data key="d9">True</data>
+      <data key="d10">West 140th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">258.959</data>
+      <data key="d13">LINESTRING (-73.9413146 40.8184403, -73.9393087 40.8176039, -73.9386193 40.8173165)</data>
+    </edge>
+    <edge id="0" source="2141026520" target="2141026514">
+      <data key="d8">[420590003, 420589995]</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.531</data>
+      <data key="d13">LINESTRING (-73.9413146 40.8184403, -73.9410015 40.8188475, -73.94083929999999 40.8190585)</data>
+    </edge>
+    <edge id="0" source="2141026542" target="2141026505">
+      <data key="d8">[420590000, 420590014]</data>
+      <data key="d9">True</data>
+      <data key="d10">Adam Clayton Powell Jr. Boulevard</data>
+      <data key="d11">primary</data>
+      <data key="d12">79.541</data>
+      <data key="d13">LINESTRING (-73.9422256 40.8171973, -73.9419996 40.8175044, -73.9417656 40.8178222)</data>
+    </edge>
+    <data key="d0">36_NY_36061023000</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42433779: 4, 42433781: 4, 42433785: 4, 42435858: 4, 42435861: 4, 42435967: 4, 42438275: 4, 42439897: 4, 42439899: 4, 42440376: 4, 42440381: 4, 2141026505: 4, 2141026514: 4, 2141026520: 4, 2141026542: 4}</data>
+  </graph>
+</graphml>

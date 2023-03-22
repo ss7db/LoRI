@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42473272">
+      <data key="d4">40.68603</data>
+      <data key="d5">-73.9326643</data>
+      <data key="d6">42473272</data>
+    </node>
+    <node id="42473278">
+      <data key="d4">40.6852984</data>
+      <data key="d5">-73.9325181</data>
+      <data key="d6">42473278</data>
+    </node>
+    <node id="42473286">
+      <data key="d4">40.6845648</data>
+      <data key="d5">-73.9323716</data>
+      <data key="d6">42473286</data>
+    </node>
+    <node id="42473289">
+      <data key="d4">40.68384</data>
+      <data key="d5">-73.9322312</data>
+      <data key="d6">42473289</data>
+    </node>
+    <node id="42499500">
+      <data key="d4">40.6856359</data>
+      <data key="d5">-73.9295926</data>
+      <data key="d6">42499500</data>
+    </node>
+    <node id="42499504">
+      <data key="d4">40.6841778</data>
+      <data key="d5">-73.9293198</data>
+      <data key="d6">42499504</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42473272" target="42473278">
+      <data key="d8">489437292</data>
+      <data key="d9">True</data>
+      <data key="d10">Stuyvesant Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">82.279</data>
+    </edge>
+    <edge id="0" source="42473278" target="42473286">
+      <data key="d8">489437292</data>
+      <data key="d9">True</data>
+      <data key="d10">Stuyvesant Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">82.503</data>
+    </edge>
+    <edge id="0" source="42473278" target="42499500">
+      <data key="d8">5680442</data>
+      <data key="d9">True</data>
+      <data key="d10">Jefferson Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">249.514</data>
+      <data key="d13">LINESTRING (-73.9325181 40.6852984, -73.9321006 40.6853466, -73.92959260000001 40.6856359)</data>
+    </edge>
+    <edge id="0" source="42473286" target="42473289">
+      <data key="d8">489437292</data>
+      <data key="d9">True</data>
+      <data key="d10">Stuyvesant Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">81.459</data>
+    </edge>
+    <edge id="0" source="42473289" target="42499504">
+      <data key="d8">5679171</data>
+      <data key="d9">False</data>
+      <data key="d10">Halsey Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">248.349</data>
+    </edge>
+    <edge id="0" source="42499504" target="42473289">
+      <data key="d8">5679171</data>
+      <data key="d9">False</data>
+      <data key="d10">Halsey Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">248.349</data>
+    </edge>
+    <data key="d0">36_NY_36047029500</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42473272: 4, 42473278: 4, 42473286: 4, 42473289: 4, 42499500: 4, 42499504: 4}</data>
+  </graph>
+</graphml>

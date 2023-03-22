@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42749545">
+      <data key="d4">40.825398</data>
+      <data key="d5">-73.883279</data>
+      <data key="d6">42749545</data>
+    </node>
+    <node id="42749550">
+      <data key="d4">40.825531</data>
+      <data key="d5">-73.882275</data>
+      <data key="d6">42749550</data>
+    </node>
+    <node id="42749552">
+      <data key="d4">40.825656</data>
+      <data key="d5">-73.881352</data>
+      <data key="d6">42749552</data>
+    </node>
+    <node id="42749555">
+      <data key="d4">40.82578</data>
+      <data key="d5">-73.880427</data>
+      <data key="d6">42749555</data>
+    </node>
+    <node id="42753465">
+      <data key="d4">40.8232473</data>
+      <data key="d5">-73.8827848</data>
+      <data key="d6">42753465</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42754988">
+      <data key="d4">40.828304</data>
+      <data key="d5">-73.882951</data>
+      <data key="d6">42754988</data>
+    </node>
+    <node id="42760350">
+      <data key="d4">40.828356</data>
+      <data key="d5">-73.881981</data>
+      <data key="d6">42760350</data>
+    </node>
+    <node id="42760353">
+      <data key="d4">40.828432</data>
+      <data key="d5">-73.881046</data>
+      <data key="d6">42760353</data>
+    </node>
+    <node id="42768895">
+      <data key="d4">40.82426</data>
+      <data key="d5">-73.881028</data>
+      <data key="d6">42768895</data>
+    </node>
+    <node id="2449886967">
+      <data key="d4">40.8279048</data>
+      <data key="d5">-73.8830777</data>
+      <data key="d6">2449886967</data>
+    </node>
+    <node id="2449886973">
+      <data key="d4">40.8278961</data>
+      <data key="d5">-73.88283</data>
+      <data key="d6">2449886973</data>
+    </node>
+    <edge id="0" source="42749545" target="42749550">
+      <data key="d8">5697559</data>
+      <data key="d9">False</data>
+      <data key="d10">Watson Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">85.763</data>
+    </edge>
+    <edge id="0" source="42749545" target="2449886967">
+      <data key="d8">223491197</data>
+      <data key="d9">False</data>
+      <data key="d10">Bronx River Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">286.13300000000004</data>
+      <data key="d13">LINESTRING (-73.883279 40.825398, -73.88355199999999 40.826617, -73.8830777 40.8279048)</data>
+    </edge>
+    <edge id="0" source="42749545" target="42753465">
+      <data key="d8">223491197</data>
+      <data key="d9">False</data>
+      <data key="d10">Bronx River Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">242.73499999999999</data>
+      <data key="d13">LINESTRING (-73.883279 40.825398, -73.88321070000001 40.8251008, -73.882958 40.824001, -73.8827974 40.823302, -73.8827848 40.8232473)</data>
+    </edge>
+    <edge id="0" source="42749550" target="42749552">
+      <data key="d8">5697559</data>
+      <data key="d9">False</data>
+      <data key="d10">Watson Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">78.897</data>
+    </edge>
+    <edge id="0" source="42749550" target="42749545">
+      <data key="d8">5697559</data>
+      <data key="d9">False</data>
+      <data key="d10">Watson Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">85.763</data>
+    </edge>
+    <edge id="0" source="42749550" target="2449886973">
+      <data key="d8">5697835</data>
+      <data key="d10">Close Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">267.106</data>
+      <data key="d13">LINESTRING (-73.88227500000001 40.825531, -73.88280829999999 40.8277872, -73.88283 40.8278961)</data>
+    </edge>
+    <edge id="0" source="42749552" target="42749555">
+      <data key="d8">5697559</data>
+      <data key="d9">False</data>
+      <data key="d10">Watson Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">79.043</data>
+    </edge>
+    <edge id="0" source="42749552" target="42749550">
+      <data key="d8">5697559</data>
+      <data key="d9">False</data>
+      <data key="d10">Watson Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">78.897</data>
+    </edge>
+    <edge id="0" source="42749552" target="42768895">
+      <data key="d8">5698680</data>
+      <data key="d10">Colgate Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">157.604</data>
+    </edge>
+    <edge id="0" source="42749555" target="42749552">
+      <data key="d8">5697559</data>
+      <data key="d9">False</data>
+      <data key="d10">Watson Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">79.043</data>
+    </edge>
+    <edge id="0" source="42749555" target="42760353">
+      <data key="d8">5698241</data>
+      <data key="d9">True</data>
+      <data key="d10">Evergreen Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">299.454</data>
+      <data key="d13">LINESTRING (-73.880427 40.82578, -73.8807072 40.8269805, -73.881046 40.828432)</data>
+    </edge>
+    <edge id="0" source="42753465" target="42749545">
+      <data key="d8">223491197</data>
+      <data key="d9">False</data>
+      <data key="d10">Bronx River Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">242.735</data>
+      <data key="d13">LINESTRING (-73.8827848 40.8232473, -73.8827974 40.823302, -73.882958 40.824001, -73.88321070000001 40.8251008, -73.883279 40.825398)</data>
+    </edge>
+    <edge id="0" source="42754988" target="2449886967">
+      <data key="d8">223491197</data>
+      <data key="d9">False</data>
+      <data key="d10">Bronx River Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">45.651</data>
+    </edge>
+    <edge id="0" source="42754988" target="42760350">
+      <data key="d8">356144432</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">81.819</data>
+    </edge>
+    <edge id="0" source="42760350" target="42760353">
+      <data key="d8">356144432</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">79.122</data>
+    </edge>
+    <edge id="0" source="42760350" target="42754988">
+      <data key="d8">356144432</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">81.819</data>
+    </edge>
+    <edge id="0" source="42760350" target="42749552">
+      <data key="d8">275121727</data>
+      <data key="d9">True</data>
+      <data key="d10">Colgate Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">304.856</data>
+      <data key="d13">LINESTRING (-73.881981 40.828356, -73.88154539999999 40.826486, -73.88135200000001 40.825656)</data>
+    </edge>
+    <edge id="0" source="42760353" target="42760350">
+      <data key="d8">356144432</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">79.122</data>
+    </edge>
+    <edge id="0" source="42768895" target="42749552">
+      <data key="d8">5698680</data>
+      <data key="d10">Colgate Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">157.604</data>
+    </edge>
+    <edge id="0" source="2449886967" target="42754988">
+      <data key="d8">223491197</data>
+      <data key="d9">False</data>
+      <data key="d10">Bronx River Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">45.651</data>
+    </edge>
+    <edge id="0" source="2449886967" target="2449886973">
+      <data key="d8">585725020</data>
+      <data key="d11">unclassified</data>
+      <data key="d9">False</data>
+      <data key="d12">20.864</data>
+    </edge>
+    <edge id="0" source="2449886967" target="42749545">
+      <data key="d8">223491197</data>
+      <data key="d9">False</data>
+      <data key="d10">Bronx River Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">286.13300000000004</data>
+      <data key="d13">LINESTRING (-73.8830777 40.8279048, -73.88355199999999 40.826617, -73.883279 40.825398)</data>
+    </edge>
+    <edge id="0" source="2449886973" target="2449886967">
+      <data key="d8">585725020</data>
+      <data key="d11">unclassified</data>
+      <data key="d9">False</data>
+      <data key="d12">20.864</data>
+    </edge>
+    <edge id="0" source="2449886973" target="42749550">
+      <data key="d8">5697835</data>
+      <data key="d10">Close Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">267.106</data>
+      <data key="d13">LINESTRING (-73.88283 40.8278961, -73.88280829999999 40.8277872, -73.88227500000001 40.825531)</data>
+    </edge>
+    <edge id="0" source="2449886973" target="42754988">
+      <data key="d8">585725021</data>
+      <data key="d9">True</data>
+      <data key="d10">Close Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">46.650999999999996</data>
+      <data key="d13">LINESTRING (-73.88283 40.8278961, -73.8828817 40.8281491, -73.88295100000001 40.828304)</data>
+    </edge>
+    <data key="d0">36_NY_36005005200</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42749545: 3, 42749550: 4, 42749552: 4, 42749555: 4, 42753465: 5, 42754988: 5, 42760350: 4, 42760353: 4, 42768895: 1, 2449886967: 3, 2449886973: 3}</data>
+  </graph>
+</graphml>

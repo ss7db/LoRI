@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42481558">
+      <data key="d4">40.689864</data>
+      <data key="d5">-73.951464</data>
+      <data key="d6">42481558</data>
+    </node>
+    <node id="42481562">
+      <data key="d4">40.689133</data>
+      <data key="d5">-73.951319</data>
+      <data key="d6">42481562</data>
+    </node>
+    <node id="42481566">
+      <data key="d4">40.6883983</data>
+      <data key="d5">-73.9511747</data>
+      <data key="d6">42481566</data>
+    </node>
+    <node id="42481569">
+      <data key="d4">40.687667</data>
+      <data key="d5">-73.951028</data>
+      <data key="d6">42481569</data>
+    </node>
+    <node id="42481580">
+      <data key="d4">40.6862</data>
+      <data key="d5">-73.950737</data>
+      <data key="d6">42481580</data>
+    </node>
+    <node id="42495188">
+      <data key="d4">40.6850485</data>
+      <data key="d5">-73.9542463</data>
+      <data key="d6">42495188</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42498838">
+      <data key="d4">40.6865116</data>
+      <data key="d5">-73.9545379</data>
+      <data key="d6">42498838</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42520251">
+      <data key="d4">40.688711</data>
+      <data key="d5">-73.954975</data>
+      <data key="d6">42520251</data>
+    </node>
+    <node id="42520258">
+      <data key="d4">40.687245</data>
+      <data key="d5">-73.954684</data>
+      <data key="d6">42520258</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42520262">
+      <data key="d4">40.68578</data>
+      <data key="d5">-73.954393</data>
+      <data key="d6">42520262</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42481558" target="42481562">
+      <data key="d8">5676994</data>
+      <data key="d9">True</data>
+      <data key="d10">Nostrand Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">82.198</data>
+    </edge>
+    <edge id="0" source="42481562" target="42481566">
+      <data key="d8">5676994</data>
+      <data key="d9">True</data>
+      <data key="d10">Nostrand Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">82.596</data>
+    </edge>
+    <edge id="0" source="42481562" target="42520251">
+      <data key="d8">5681568</data>
+      <data key="d9">True</data>
+      <data key="d10">Clifton Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">311.806</data>
+    </edge>
+    <edge id="0" source="42481566" target="42481569">
+      <data key="d8">5676994</data>
+      <data key="d9">True</data>
+      <data key="d10">Nostrand Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">82.25200000000001</data>
+      <data key="d13">LINESTRING (-73.9511747 40.6883983, -73.9510916 40.6879837, -73.95102799999999 40.687667)</data>
+    </edge>
+    <edge id="0" source="42481569" target="42520258">
+      <data key="d8">5680742</data>
+      <data key="d9">True</data>
+      <data key="d10">Lexington Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">311.813</data>
+    </edge>
+    <edge id="0" source="42481580" target="42520262">
+      <data key="d8">432552966</data>
+      <data key="d9">False</data>
+      <data key="d10">Gates Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">311.78700000000003</data>
+      <data key="d13">LINESTRING (-73.950737 40.6862, -73.9513256 40.6861324, -73.95158240000001 40.6861028, -73.954063 40.6858179, -73.954393 40.68578)</data>
+    </edge>
+    <edge id="0" source="42495188" target="42520262">
+      <data key="d8">221696386</data>
+      <data key="d9">True</data>
+      <data key="d10">Bedford Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">82.274</data>
+      <data key="d13">LINESTRING (-73.95424629999999 40.6850485, -73.95429230000001 40.685278, -73.9543197 40.6854143, -73.954393 40.68578)</data>
+    </edge>
+    <edge id="0" source="42498838" target="42520258">
+      <data key="d8">221696386</data>
+      <data key="d9">True</data>
+      <data key="d10">Bedford Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">82.476</data>
+    </edge>
+    <edge id="0" source="42520262" target="42498838">
+      <data key="d8">221696386</data>
+      <data key="d9">True</data>
+      <data key="d10">Bedford Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">82.263</data>
+    </edge>
+    <edge id="0" source="42520262" target="42481580">
+      <data key="d8">432552966</data>
+      <data key="d9">False</data>
+      <data key="d10">Gates Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">311.78700000000003</data>
+      <data key="d13">LINESTRING (-73.954393 40.68578, -73.954063 40.6858179, -73.95158240000001 40.6861028, -73.9513256 40.6861324, -73.950737 40.6862)</data>
+    </edge>
+    <data key="d0">36_NY_36047024300</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42481558: 4, 42481562: 4, 42481566: 4, 42481569: 4, 42481580: 4, 42495188: 4, 42498838: 4, 42520251: 4, 42520258: 4, 42520262: 4}</data>
+  </graph>
+</graphml>

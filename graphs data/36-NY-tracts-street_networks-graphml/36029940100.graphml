@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="name" attr.type="string" for="edge" id="d12" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d11" />
+  <key attr.name="length" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="111293661">
+      <data key="d4">43.067773</data>
+      <data key="d5">-78.473804</data>
+      <data key="d6">111293661</data>
+    </node>
+    <node id="111293680">
+      <data key="d4">43.066617</data>
+      <data key="d5">-78.474775</data>
+      <data key="d6">111293680</data>
+    </node>
+    <node id="111513750">
+      <data key="d4">43.077879</data>
+      <data key="d5">-78.470282</data>
+      <data key="d6">111513750</data>
+    </node>
+    <node id="221663225">
+      <data key="d4">43.079132</data>
+      <data key="d5">-78.464252</data>
+      <data key="d6">221663225</data>
+    </node>
+    <edge id="0" source="111293661" target="111293680">
+      <data key="d7">12278120</data>
+      <data key="d8">residential</data>
+      <data key="d9">False</data>
+      <data key="d10">182.153</data>
+      <data key="d11">LINESTRING (-78.473804 43.067773, -78.474627 43.067565, -78.474695 43.067533, -78.474751 43.067489, -78.47479199999999 43.067437, -78.474813 43.067379, -78.474817 43.067337, -78.47477499999999 43.066617)</data>
+    </edge>
+    <edge id="1" source="111293661" target="111293680">
+      <data key="d7">95563619</data>
+      <data key="d12">Scotland Road</data>
+      <data key="d8">residential</data>
+      <data key="d9">False</data>
+      <data key="d10">155.38799999999998</data>
+      <data key="d11">LINESTRING (-78.473804 43.067773, -78.47389699999999 43.067717, -78.474076 43.0676, -78.474245 43.067473, -78.474402 43.06734, -78.47451700000001 43.067208, -78.47461300000001 43.067069, -78.474689 43.066923, -78.474743 43.066772, -78.47477499999999 43.066617)</data>
+    </edge>
+    <edge id="0" source="111293661" target="111513750">
+      <data key="d7">95563619</data>
+      <data key="d12">Scotland Road</data>
+      <data key="d8">residential</data>
+      <data key="d9">False</data>
+      <data key="d10">1215.1920000000002</data>
+      <data key="d11">LINESTRING (-78.473804 43.067773, -78.473585 43.067852, -78.47339100000001 43.067931, -78.47320499999999 43.06802, -78.473028 43.068118, -78.47286 43.068225, -78.472703 43.068339, -78.472556 43.068461, -78.472421 43.068591, -78.472256 43.068773, -78.472129 43.068936, -78.472069 43.069012, -78.47198400000001 43.069135, -78.47190399999999 43.069261, -78.471763 43.069516, -78.471647 43.069779, -78.471598 43.069912, -78.471555 43.070046, -78.47148900000001 43.070318, -78.47146499999999 43.070455, -78.471448 43.070592, -78.471149 43.072194, -78.470933 43.07355, -78.47090799999999 43.073738, -78.47089 43.073925, -78.47086299999999 43.074175, -78.47082399999999 43.074661, -78.470804 43.075148, -78.470803 43.075635, -78.470786 43.077183, -78.47076300000001 43.077338, -78.470716 43.077467, -78.470606 43.077724, -78.470562 43.07776, -78.470478 43.077811, -78.470384 43.077851, -78.470282 43.077879)</data>
+    </edge>
+    <edge id="0" source="111293680" target="111293661">
+      <data key="d7">12278120</data>
+      <data key="d8">residential</data>
+      <data key="d9">False</data>
+      <data key="d10">182.153</data>
+      <data key="d11">LINESTRING (-78.47477499999999 43.066617, -78.474817 43.067337, -78.474813 43.067379, -78.47479199999999 43.067437, -78.474751 43.067489, -78.474695 43.067533, -78.474627 43.067565, -78.473804 43.067773)</data>
+    </edge>
+    <edge id="1" source="111293680" target="111293661">
+      <data key="d7">95563619</data>
+      <data key="d12">Scotland Road</data>
+      <data key="d8">residential</data>
+      <data key="d9">False</data>
+      <data key="d10">155.38799999999998</data>
+      <data key="d11">LINESTRING (-78.47477499999999 43.066617, -78.474743 43.066772, -78.474689 43.066923, -78.47461300000001 43.067069, -78.47451700000001 43.067208, -78.474402 43.06734, -78.474245 43.067473, -78.474076 43.0676, -78.47389699999999 43.067717, -78.473804 43.067773)</data>
+    </edge>
+    <edge id="0" source="111513750" target="111293661">
+      <data key="d7">95563619</data>
+      <data key="d12">Scotland Road</data>
+      <data key="d8">residential</data>
+      <data key="d9">False</data>
+      <data key="d10">1215.1919999999998</data>
+      <data key="d11">LINESTRING (-78.470282 43.077879, -78.470384 43.077851, -78.470478 43.077811, -78.470562 43.07776, -78.470606 43.077724, -78.470716 43.077467, -78.47076300000001 43.077338, -78.470786 43.077183, -78.470803 43.075635, -78.470804 43.075148, -78.47082399999999 43.074661, -78.47086299999999 43.074175, -78.47089 43.073925, -78.47090799999999 43.073738, -78.470933 43.07355, -78.471149 43.072194, -78.471448 43.070592, -78.47146499999999 43.070455, -78.47148900000001 43.070318, -78.471555 43.070046, -78.471598 43.069912, -78.471647 43.069779, -78.471763 43.069516, -78.47190399999999 43.069261, -78.47198400000001 43.069135, -78.472069 43.069012, -78.472129 43.068936, -78.472256 43.068773, -78.472421 43.068591, -78.472556 43.068461, -78.472703 43.068339, -78.47286 43.068225, -78.473028 43.068118, -78.47320499999999 43.06802, -78.47339100000001 43.067931, -78.473585 43.067852, -78.473804 43.067773)</data>
+    </edge>
+    <data key="d0">36_NY_36029940100</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{111293661: 3, 111293680: 3, 111513750: 3, 221663225: 1}</data>
+  </graph>
+</graphml>

@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42731002">
+      <data key="d4">40.862749</data>
+      <data key="d5">-73.904934</data>
+      <data key="d6">42731002</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42742756">
+      <data key="d4">40.858289</data>
+      <data key="d5">-73.910208</data>
+      <data key="d6">42742756</data>
+    </node>
+    <node id="42742762">
+      <data key="d4">40.8587794</data>
+      <data key="d5">-73.9108934</data>
+      <data key="d6">42742762</data>
+    </node>
+    <node id="42742765">
+      <data key="d4">40.8596194</data>
+      <data key="d5">-73.9132597</data>
+      <data key="d6">42742765</data>
+    </node>
+    <node id="42743103">
+      <data key="d4">40.860633</data>
+      <data key="d5">-73.9109461</data>
+      <data key="d6">42743103</data>
+    </node>
+    <node id="42747812">
+      <data key="d4">40.8600087</data>
+      <data key="d5">-73.9086107</data>
+      <data key="d6">42747812</data>
+    </node>
+    <node id="42747815">
+      <data key="d4">40.8600997</data>
+      <data key="d5">-73.9098591</data>
+      <data key="d6">42747815</data>
+    </node>
+    <node id="1764776464">
+      <data key="d4">40.8627971</data>
+      <data key="d5">-73.9084662</data>
+      <data key="d6">1764776464</data>
+    </node>
+    <node id="1891639900">
+      <data key="d4">40.8603119</data>
+      <data key="d5">-73.9094504</data>
+      <data key="d6">1891639900</data>
+    </node>
+    <node id="2327325360">
+      <data key="d4">40.8628124</data>
+      <data key="d5">-73.9075518</data>
+      <data key="d6">2327325360</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="42742756" target="42742762">
+      <data key="d8">5697133</data>
+      <data key="d9">True</data>
+      <data key="d10">Hall of Fame Terrace</data>
+      <data key="d11">residential</data>
+      <data key="d12">79.863</data>
+      <data key="d13">LINESTRING (-73.910208 40.858289, -73.910652 40.8586582, -73.91089340000001 40.8587794)</data>
+    </edge>
+    <edge id="0" source="42742762" target="42742765">
+      <data key="d8">5697133</data>
+      <data key="d9">True</data>
+      <data key="d10">Hall of Fame Terrace</data>
+      <data key="d11">residential</data>
+      <data key="d12">219.878</data>
+      <data key="d13">LINESTRING (-73.91089340000001 40.8587794, -73.9112775 40.8589313, -73.9116599 40.8590596, -73.9117734 40.8590993, -73.9132597 40.8596194)</data>
+    </edge>
+    <edge id="0" source="42742762" target="42747815">
+      <data key="d8">5698777</data>
+      <data key="d9">True</data>
+      <data key="d10">Loring Place North</data>
+      <data key="d11">residential</data>
+      <data key="d12">171.017</data>
+      <data key="d13">LINESTRING (-73.91089340000001 40.8587794, -73.91029899999999 40.859471, -73.9100995 40.8597031, -73.90985910000001 40.8600997)</data>
+    </edge>
+    <edge id="0" source="42742765" target="42743103">
+      <data key="d8">224084753</data>
+      <data key="d9">False</data>
+      <data key="d10">Sedgwick Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">226.63100000000003</data>
+      <data key="d13">LINESTRING (-73.9132597 40.8596194, -73.9123518 40.8601442, -73.91161099999999 40.860364, -73.91121649999999 40.8604984, -73.9109461 40.860633)</data>
+    </edge>
+    <edge id="0" source="42743103" target="42742765">
+      <data key="d8">224084753</data>
+      <data key="d9">False</data>
+      <data key="d10">Sedgwick Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">226.63099999999997</data>
+      <data key="d13">LINESTRING (-73.9109461 40.860633, -73.91121649999999 40.8604984, -73.91161099999999 40.860364, -73.9123518 40.8601442, -73.9132597 40.8596194)</data>
+    </edge>
+    <edge id="0" source="42743103" target="42747815">
+      <data key="d8">274458294</data>
+      <data key="d9">True</data>
+      <data key="d10">West 183rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">113.64500000000001</data>
+      <data key="d13">LINESTRING (-73.9109461 40.860633, -73.910616 40.8604756, -73.91036680000001 40.8602172, -73.9102168 40.8601518, -73.90998999999999 40.8601097, -73.90985910000001 40.8600997)</data>
+    </edge>
+    <edge id="0" source="42747812" target="42742756">
+      <data key="d8">5699405</data>
+      <data key="d9">True</data>
+      <data key="d10">Andrews Avenue North</data>
+      <data key="d11">residential</data>
+      <data key="d12">233.69</data>
+    </edge>
+    <edge id="0" source="42747815" target="1891639900">
+      <data key="d8">274458294</data>
+      <data key="d9">True</data>
+      <data key="d10">West 183rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">41.788000000000004</data>
+      <data key="d13">LINESTRING (-73.90985910000001 40.8600997, -73.9096962 40.8601898, -73.9095555 40.8602612, -73.9094786 40.8602918, -73.9094504 40.8603119)</data>
+    </edge>
+    <edge id="0" source="1764776464" target="2327325360">
+      <data key="d8">548193559</data>
+      <data key="d9">False</data>
+      <data key="d10">West Fordham Road</data>
+      <data key="d11">primary</data>
+      <data key="d12">77.247</data>
+      <data key="d13">LINESTRING (-73.90846620000001 40.8627971, -73.9082246 40.8628296, -73.90755179999999 40.8628124)</data>
+    </edge>
+    <edge id="0" source="1891639900" target="2327325360">
+      <data key="d8">178808513</data>
+      <data key="d9">True</data>
+      <data key="d10">Loring Place North</data>
+      <data key="d11">residential</data>
+      <data key="d12">320.62600000000003</data>
+      <data key="d13">LINESTRING (-73.9094504 40.8603119, -73.9076202 40.8627224, -73.90755179999999 40.8628124)</data>
+    </edge>
+    <edge id="0" source="1891639900" target="42747812">
+      <data key="d8">274458294</data>
+      <data key="d9">True</data>
+      <data key="d10">West 183rd Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">80.26400000000001</data>
+      <data key="d13">LINESTRING (-73.9094504 40.8603119, -73.9092899 40.8603181, -73.9089489 40.8601786, -73.9086107 40.8600087)</data>
+    </edge>
+    <edge id="0" source="2327325360" target="1764776464">
+      <data key="d8">548193559</data>
+      <data key="d9">False</data>
+      <data key="d10">West Fordham Road</data>
+      <data key="d11">primary</data>
+      <data key="d12">77.247</data>
+      <data key="d13">LINESTRING (-73.90755179999999 40.8628124, -73.9082246 40.8628296, -73.90846620000001 40.8627971)</data>
+    </edge>
+    <data key="d0">36_NY_36005025500</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42731002: 4, 42742756: 3, 42742762: 3, 42742765: 3, 42743103: 3, 42747812: 4, 42747815: 3, 1764776464: 2, 1891639900: 3, 2327325360: 3}</data>
+  </graph>
+</graphml>

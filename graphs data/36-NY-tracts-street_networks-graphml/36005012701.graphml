@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42733371">
+      <data key="d4">40.8257283</data>
+      <data key="d5">-73.8908789</data>
+      <data key="d6">42733371</data>
+    </node>
+    <node id="42746544">
+      <data key="d4">40.825307</data>
+      <data key="d5">-73.890663</data>
+      <data key="d6">42746544</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42746551">
+      <data key="d4">40.826788</data>
+      <data key="d5">-73.890905</data>
+      <data key="d6">42746551</data>
+    </node>
+    <node id="42756259">
+      <data key="d4">40.823984</data>
+      <data key="d5">-73.893898</data>
+      <data key="d6">42756259</data>
+    </node>
+    <node id="42756262">
+      <data key="d4">40.826515</data>
+      <data key="d5">-73.893868</data>
+      <data key="d6">42756262</data>
+    </node>
+    <node id="42759015">
+      <data key="d4">40.826257</data>
+      <data key="d5">-73.888806</data>
+      <data key="d6">42759015</data>
+    </node>
+    <node id="42759512">
+      <data key="d4">40.826787</data>
+      <data key="d5">-73.892933</data>
+      <data key="d6">42759512</data>
+    </node>
+    <node id="42759515">
+      <data key="d4">40.826794</data>
+      <data key="d5">-73.891913</data>
+      <data key="d6">42759515</data>
+    </node>
+    <node id="42759521">
+      <data key="d4">40.826743</data>
+      <data key="d5">-73.887895</data>
+      <data key="d6">42759521</data>
+    </node>
+    <node id="42760321">
+      <data key="d4">40.82414</data>
+      <data key="d5">-73.892947</data>
+      <data key="d6">42760321</data>
+    </node>
+    <node id="42760322">
+      <data key="d4">40.824656</data>
+      <data key="d5">-73.89193</data>
+      <data key="d6">42760322</data>
+    </node>
+    <node id="42760328">
+      <data key="d4">40.8258</data>
+      <data key="d5">-73.889711</data>
+      <data key="d6">42760328</data>
+    </node>
+    <node id="42760481">
+      <data key="d4">40.824008</data>
+      <data key="d5">-73.8932</data>
+      <data key="d6">42760481</data>
+    </node>
+    <edge id="0" source="42733371" target="42746544">
+      <data key="d8">223491202</data>
+      <data key="d9">False</data>
+      <data key="d10">Hoe Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">50.245</data>
+    </edge>
+    <edge id="0" source="42746544" target="42733371">
+      <data key="d8">223491202</data>
+      <data key="d9">False</data>
+      <data key="d10">Hoe Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">50.245</data>
+    </edge>
+    <edge id="0" source="42746544" target="42760328">
+      <data key="d8">440887376</data>
+      <data key="d9">False</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">97.065</data>
+    </edge>
+    <edge id="0" source="42746551" target="42733371">
+      <data key="d8">223491194</data>
+      <data key="d9">True</data>
+      <data key="d10">Hoe Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">117.854</data>
+    </edge>
+    <edge id="0" source="42746551" target="42759515">
+      <data key="d8">224069070</data>
+      <data key="d9">False</data>
+      <data key="d10">East 167th Street</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">84.816</data>
+    </edge>
+    <edge id="0" source="42756259" target="42760481">
+      <data key="d8">280301025</data>
+      <data key="d10">East 165th Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">58.793</data>
+    </edge>
+    <edge id="0" source="42756262" target="42756259">
+      <data key="d8">274458288</data>
+      <data key="d9">True</data>
+      <data key="d10">Fox Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">281.446</data>
+    </edge>
+    <edge id="0" source="42756262" target="42759512">
+      <data key="d8">275112246</data>
+      <data key="d9">False</data>
+      <data key="d10">East 167th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">84.285</data>
+    </edge>
+    <edge id="0" source="42759015" target="42760328">
+      <data key="d8">440887376</data>
+      <data key="d9">False</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">91.546</data>
+    </edge>
+    <edge id="0" source="42759015" target="42759521">
+      <data key="d8">586133519</data>
+      <data key="d9">False</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">93.787</data>
+    </edge>
+    <edge id="0" source="42759512" target="42759515">
+      <data key="d8">224069070</data>
+      <data key="d9">False</data>
+      <data key="d10">East 167th Street</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">85.826</data>
+    </edge>
+    <edge id="0" source="42759512" target="42756262">
+      <data key="d8">275112246</data>
+      <data key="d9">False</data>
+      <data key="d10">East 167th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">84.285</data>
+    </edge>
+    <edge id="0" source="42759515" target="42760322">
+      <data key="d8">223491198</data>
+      <data key="d9">False</data>
+      <data key="d10">Southern Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">237.739</data>
+    </edge>
+    <edge id="0" source="42759515" target="42759512">
+      <data key="d8">224069070</data>
+      <data key="d9">False</data>
+      <data key="d10">East 167th Street</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">85.826</data>
+    </edge>
+    <edge id="0" source="42759515" target="42746551">
+      <data key="d8">224069070</data>
+      <data key="d9">False</data>
+      <data key="d10">East 167th Street</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">84.816</data>
+    </edge>
+    <edge id="0" source="42759521" target="42759015">
+      <data key="d8">586133519</data>
+      <data key="d9">False</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">93.787</data>
+    </edge>
+    <edge id="0" source="42760321" target="42760322">
+      <data key="d8">5698162</data>
+      <data key="d9">False</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">103.029</data>
+    </edge>
+    <edge id="0" source="42760321" target="42760481">
+      <data key="d8">5698582</data>
+      <data key="d9">False</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">25.858</data>
+    </edge>
+    <edge id="0" source="42760321" target="42759512">
+      <data key="d8">273541615</data>
+      <data key="d9">True</data>
+      <data key="d10">Simpson Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">294.336</data>
+    </edge>
+    <edge id="0" source="42760322" target="42760321">
+      <data key="d8">5698162</data>
+      <data key="d9">False</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">103.029</data>
+    </edge>
+    <edge id="0" source="42760322" target="42759515">
+      <data key="d8">223491198</data>
+      <data key="d9">False</data>
+      <data key="d10">Southern Boulevard</data>
+      <data key="d11">secondary</data>
+      <data key="d12">237.739</data>
+    </edge>
+    <edge id="0" source="42760328" target="42759015">
+      <data key="d8">440887376</data>
+      <data key="d9">False</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">91.546</data>
+    </edge>
+    <edge id="0" source="42760328" target="42746544">
+      <data key="d8">440887376</data>
+      <data key="d9">False</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">97.065</data>
+    </edge>
+    <edge id="0" source="42760481" target="42760321">
+      <data key="d8">5698582</data>
+      <data key="d9">False</data>
+      <data key="d10">Westchester Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">25.858</data>
+    </edge>
+    <edge id="0" source="42760481" target="42756259">
+      <data key="d8">280301025</data>
+      <data key="d10">East 165th Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">58.793</data>
+    </edge>
+    <data key="d0">36_NY_36005012701</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42733371: 3, 42746544: 4, 42746551: 4, 42756259: 4, 42756262: 4, 42759015: 4, 42759512: 5, 42759515: 4, 42759521: 5, 42760321: 4, 42760322: 4, 42760328: 3, 42760481: 3}</data>
+  </graph>
+</graphml>

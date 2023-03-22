@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d12" />
+  <key attr.name="length" attr.type="string" for="edge" id="d11" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d10" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="name" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42152852">
+      <data key="d4">43.100215</data>
+      <data key="d5">-73.780809</data>
+      <data key="d6">42152852</data>
+    </node>
+    <node id="443504531">
+      <data key="d4">43.100067</data>
+      <data key="d5">-73.777796</data>
+      <data key="d6">443504531</data>
+    </node>
+    <node id="443504532">
+      <data key="d4">43.099636</data>
+      <data key="d5">-73.777983</data>
+      <data key="d6">443504532</data>
+    </node>
+    <node id="443504534">
+      <data key="d4">43.1044</data>
+      <data key="d5">-73.775575</data>
+      <data key="d6">443504534</data>
+    </node>
+    <edge id="0" source="42152852" target="443504532">
+      <data key="d7">5652223</data>
+      <data key="d8">Wait Lane</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">244.36599999999999</data>
+      <data key="d12">LINESTRING (-73.780809 43.100215, -73.780659 43.100273, -73.7806121 43.1002703, -73.779967 43.100233, -73.7797784 43.1001763, -73.7787816 43.0998763, -73.77798300000001 43.099636)</data>
+    </edge>
+    <edge id="0" source="443504531" target="443504532">
+      <data key="d7">5640135</data>
+      <data key="d8">Glen Mitchell Road</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">50.273</data>
+    </edge>
+    <edge id="0" source="443504532" target="443504531">
+      <data key="d7">5640135</data>
+      <data key="d8">Glen Mitchell Road</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">50.273</data>
+    </edge>
+    <edge id="0" source="443504532" target="42152852">
+      <data key="d7">5652223</data>
+      <data key="d8">Wait Lane</data>
+      <data key="d9">residential</data>
+      <data key="d10">False</data>
+      <data key="d11">244.366</data>
+      <data key="d12">LINESTRING (-73.77798300000001 43.099636, -73.7787816 43.0998763, -73.7797784 43.1001763, -73.779967 43.100233, -73.7806121 43.1002703, -73.780659 43.100273, -73.780809 43.100215)</data>
+    </edge>
+    <data key="d0">36_NY_36091061303</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42152852: 1, 443504531: 1, 443504532: 3, 443504534: 1}</data>
+  </graph>
+</graphml>

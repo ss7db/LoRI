@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42740896">
+      <data key="d4">40.8680404</data>
+      <data key="d5">-73.9000171</data>
+      <data key="d6">42740896</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42743181">
+      <data key="d4">40.870585</data>
+      <data key="d5">-73.90265</data>
+      <data key="d6">42743181</data>
+    </node>
+    <node id="42743353">
+      <data key="d4">40.868283</data>
+      <data key="d5">-73.901062</data>
+      <data key="d6">42743353</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42743357">
+      <data key="d4">40.868696</data>
+      <data key="d5">-73.902358</data>
+      <data key="d6">42743357</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42743691">
+      <data key="d4">40.8685579</data>
+      <data key="d5">-73.899657</data>
+      <data key="d6">42743691</data>
+    </node>
+    <node id="42752259">
+      <data key="d4">40.869409</data>
+      <data key="d5">-73.902127</data>
+      <data key="d6">42752259</data>
+    </node>
+    <node id="42752263">
+      <data key="d4">40.870393</data>
+      <data key="d5">-73.901523</data>
+      <data key="d6">42752263</data>
+    </node>
+    <node id="42752776">
+      <data key="d4">40.869118</data>
+      <data key="d5">-73.900409</data>
+      <data key="d6">42752776</data>
+    </node>
+    <node id="42752778">
+      <data key="d4">40.869274</data>
+      <data key="d5">-73.901342</data>
+      <data key="d6">42752778</data>
+    </node>
+    <node id="42760264">
+      <data key="d4">40.870233</data>
+      <data key="d5">-73.900606</data>
+      <data key="d6">42760264</data>
+    </node>
+    <node id="5327525600">
+      <data key="d4">40.8683832</data>
+      <data key="d5">-73.9014661</data>
+      <data key="d6">5327525600</data>
+    </node>
+    <edge id="0" source="42740896" target="42743353">
+      <data key="d8">223940535</data>
+      <data key="d9">False</data>
+      <data key="d10">West Kingsbridge Road</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">91.911</data>
+      <data key="d13">LINESTRING (-73.9000171 40.8680404, -73.9001446 40.8680703, -73.901062 40.868283)</data>
+    </edge>
+    <edge id="0" source="42743353" target="42752776">
+      <data key="d8">223487959</data>
+      <data key="d9">False</data>
+      <data key="d10">University Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">107.869</data>
+    </edge>
+    <edge id="0" source="42743353" target="5327525600">
+      <data key="d8">223487960</data>
+      <data key="d9">False</data>
+      <data key="d10">West Kingsbridge Road</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">35.76</data>
+    </edge>
+    <edge id="0" source="42743353" target="42740896">
+      <data key="d8">223940535</data>
+      <data key="d9">False</data>
+      <data key="d10">West Kingsbridge Road</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">91.911</data>
+      <data key="d13">LINESTRING (-73.901062 40.868283, -73.9001446 40.8680703, -73.9000171 40.8680404)</data>
+    </edge>
+    <edge id="0" source="42743357" target="5327525600">
+      <data key="d8">581520056</data>
+      <data key="d9">False</data>
+      <data key="d10">West Kingsbridge Road</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">82.903</data>
+      <data key="d13">LINESTRING (-73.90235800000001 40.868696, -73.90173799999999 40.8684506, -73.90146609999999 40.8683832)</data>
+    </edge>
+    <edge id="0" source="42743691" target="42740896">
+      <data key="d8">5697193</data>
+      <data key="d9">True</data>
+      <data key="d10">Reservoir Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">66.97</data>
+      <data key="d13">LINESTRING (-73.899657 40.8685579, -73.8997325 40.8683324, -73.8997943 40.8682322, -73.89986380000001 40.8681394, -73.9000171 40.8680404)</data>
+    </edge>
+    <edge id="0" source="42752259" target="42752778">
+      <data key="d8">5697747</data>
+      <data key="d9">True</data>
+      <data key="d10">Eames Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">67.693</data>
+    </edge>
+    <edge id="0" source="42752259" target="42743357">
+      <data key="d8">224064181</data>
+      <data key="d9">True</data>
+      <data key="d10">Webb Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">81.627</data>
+    </edge>
+    <edge id="0" source="42752263" target="42752259">
+      <data key="d8">224064181</data>
+      <data key="d9">True</data>
+      <data key="d10">Webb Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">120.628</data>
+    </edge>
+    <edge id="0" source="42752263" target="42743181">
+      <data key="d8">225980856</data>
+      <data key="d9">True</data>
+      <data key="d10">West 195th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">97.139</data>
+    </edge>
+    <edge id="0" source="42752776" target="42743353">
+      <data key="d8">223487959</data>
+      <data key="d9">False</data>
+      <data key="d10">University Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">107.869</data>
+    </edge>
+    <edge id="0" source="42752778" target="42752776">
+      <data key="d8">5697747</data>
+      <data key="d9">True</data>
+      <data key="d10">Eames Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">80.347</data>
+    </edge>
+    <edge id="0" source="42752778" target="42760264">
+      <data key="d8">5698155</data>
+      <data key="d9">True</data>
+      <data key="d10">Claflin Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">123.293</data>
+    </edge>
+    <edge id="0" source="42760264" target="42752263">
+      <data key="d8">225980856</data>
+      <data key="d9">True</data>
+      <data key="d10">West 195th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">79.132</data>
+    </edge>
+    <edge id="0" source="5327525600" target="42743353">
+      <data key="d8">223487960</data>
+      <data key="d9">False</data>
+      <data key="d10">West Kingsbridge Road</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">35.76</data>
+    </edge>
+    <edge id="0" source="5327525600" target="42743357">
+      <data key="d8">581520056</data>
+      <data key="d9">False</data>
+      <data key="d10">West Kingsbridge Road</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">82.903</data>
+      <data key="d13">LINESTRING (-73.90146609999999 40.8683832, -73.90173799999999 40.8684506, -73.90235800000001 40.868696)</data>
+    </edge>
+    <data key="d0">36_NY_36005026701</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42740896: 4, 42743181: 3, 42743353: 4, 42743357: 4, 42743691: 3, 42752259: 3, 42752263: 4, 42752776: 3, 42752778: 3, 42760264: 4, 5327525600: 3}</data>
+  </graph>
+</graphml>

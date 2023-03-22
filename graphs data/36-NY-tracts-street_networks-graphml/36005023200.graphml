@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42745153">
+      <data key="d4">40.84614</data>
+      <data key="d5">-73.861707</data>
+      <data key="d6">42745153</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42745160">
+      <data key="d4">40.848362</data>
+      <data key="d5">-73.862509</data>
+      <data key="d6">42745160</data>
+    </node>
+    <node id="42746721">
+      <data key="d4">40.845778</data>
+      <data key="d5">-73.863451</data>
+      <data key="d6">42746721</data>
+    </node>
+    <node id="42746723">
+      <data key="d4">40.847981</data>
+      <data key="d5">-73.864244</data>
+      <data key="d6">42746723</data>
+    </node>
+    <node id="42751717">
+      <data key="d4">40.846659</data>
+      <data key="d5">-73.85944</data>
+      <data key="d6">42751717</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42751724">
+      <data key="d4">40.848603</data>
+      <data key="d5">-73.861193</data>
+      <data key="d6">42751724</data>
+    </node>
+    <node id="42756711">
+      <data key="d4">40.845415</data>
+      <data key="d5">-73.865194</data>
+      <data key="d6">42756711</data>
+    </node>
+    <node id="42756713">
+      <data key="d4">40.845596</data>
+      <data key="d5">-73.864323</data>
+      <data key="d6">42756713</data>
+    </node>
+    <node id="42756720">
+      <data key="d4">40.845961</data>
+      <data key="d5">-73.862585</data>
+      <data key="d6">42756720</data>
+    </node>
+    <node id="42756732">
+      <data key="d4">40.846332</data>
+      <data key="d5">-73.860805</data>
+      <data key="d6">42756732</data>
+    </node>
+    <node id="42756736">
+      <data key="d4">40.846427</data>
+      <data key="d5">-73.86033</data>
+      <data key="d6">42756736</data>
+    </node>
+    <node id="42757338">
+      <data key="d4">40.847288</data>
+      <data key="d5">-73.861142</data>
+      <data key="d6">42757338</data>
+    </node>
+    <node id="42757341">
+      <data key="d4">40.848547</data>
+      <data key="d5">-73.861603</data>
+      <data key="d6">42757341</data>
+    </node>
+    <node id="42761379">
+      <data key="d4">40.847489</data>
+      <data key="d5">-73.8669338</data>
+      <data key="d6">42761379</data>
+    </node>
+    <node id="42761383">
+      <data key="d4">40.84759</data>
+      <data key="d5">-73.866343</data>
+      <data key="d6">42761383</data>
+    </node>
+    <node id="42761387">
+      <data key="d4">40.847633</data>
+      <data key="d5">-73.865995</data>
+      <data key="d6">42761387</data>
+    </node>
+    <node id="42761390">
+      <data key="d4">40.847801</data>
+      <data key="d5">-73.865118</data>
+      <data key="d6">42761390</data>
+    </node>
+    <node id="42761395">
+      <data key="d4">40.848162</data>
+      <data key="d5">-73.863373</data>
+      <data key="d6">42761395</data>
+    </node>
+    <edge id="0" source="42745153" target="42745160">
+      <data key="d8">275066832</data>
+      <data key="d9">True</data>
+      <data key="d10">Matthews Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">256.12</data>
+      <data key="d13">LINESTRING (-73.861707 40.84614, -73.862329 40.847864, -73.862509 40.848362)</data>
+    </edge>
+    <edge id="0" source="42745153" target="42756732">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.82499999999999</data>
+      <data key="d13">LINESTRING (-73.861707 40.84614, -73.86149 40.846186, -73.8611901 40.8462542, -73.860805 40.846332)</data>
+    </edge>
+    <edge id="0" source="42745153" target="42756720">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">76.489</data>
+      <data key="d13">LINESTRING (-73.861707 40.84614, -73.8620368 40.8460728, -73.862585 40.845961)</data>
+    </edge>
+    <edge id="0" source="42745160" target="42757341">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">78.934</data>
+    </edge>
+    <edge id="0" source="42745160" target="42761395">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">76.0</data>
+    </edge>
+    <edge id="0" source="42746721" target="42746723">
+      <data key="d8">275066836</data>
+      <data key="d9">True</data>
+      <data key="d10">Wallace Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">253.882</data>
+    </edge>
+    <edge id="0" source="42746721" target="42756720">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">75.633</data>
+    </edge>
+    <edge id="0" source="42746721" target="42756713">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">76.09</data>
+    </edge>
+    <edge id="0" source="42746723" target="42761395">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">75.977</data>
+    </edge>
+    <edge id="0" source="42746723" target="42761390">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">76.191</data>
+    </edge>
+    <edge id="0" source="42751717" target="42751724">
+      <data key="d8">5697685</data>
+      <data key="d10">Bronxdale Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">271.729</data>
+      <data key="d13">LINESTRING (-73.85944000000001 40.846659, -73.860387 40.848236, -73.861193 40.848603)</data>
+    </edge>
+    <edge id="0" source="42751717" target="42756736">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.487</data>
+      <data key="d13">LINESTRING (-73.85944000000001 40.846659, -73.8597335 40.8465511, -73.86033 40.846427)</data>
+    </edge>
+    <edge id="0" source="42751724" target="42757341">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">35.044</data>
+    </edge>
+    <edge id="0" source="42751724" target="42751717">
+      <data key="d8">5697685</data>
+      <data key="d10">Bronxdale Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d9">False</data>
+      <data key="d12">271.729</data>
+      <data key="d13">LINESTRING (-73.861193 40.848603, -73.860387 40.848236, -73.85944000000001 40.846659)</data>
+    </edge>
+    <edge id="0" source="42756711" target="42761387">
+      <data key="d8">275066828</data>
+      <data key="d9">True</data>
+      <data key="d10">Hunt Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">255.668</data>
+    </edge>
+    <edge id="0" source="42756711" target="42756713">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">75.98</data>
+    </edge>
+    <edge id="0" source="42756713" target="42746721">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">76.09</data>
+    </edge>
+    <edge id="0" source="42756713" target="42756711">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">75.98</data>
+    </edge>
+    <edge id="0" source="42756720" target="42746721">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">75.633</data>
+    </edge>
+    <edge id="0" source="42756720" target="42745153">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">76.489</data>
+      <data key="d13">LINESTRING (-73.862585 40.845961, -73.8620368 40.8460728, -73.861707 40.84614)</data>
+    </edge>
+    <edge id="0" source="42756732" target="42756736">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">41.328</data>
+    </edge>
+    <edge id="0" source="42756732" target="42745153">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">78.825</data>
+      <data key="d13">LINESTRING (-73.860805 40.846332, -73.8611901 40.8462542, -73.86149 40.846186, -73.861707 40.84614)</data>
+    </edge>
+    <edge id="0" source="42756736" target="42756732">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">41.328</data>
+    </edge>
+    <edge id="0" source="42756736" target="42757338">
+      <data key="d8">5699523</data>
+      <data key="d9">True</data>
+      <data key="d10">Delancey Place</data>
+      <data key="d11">residential</data>
+      <data key="d14">25 mph</data>
+      <data key="d12">134.863</data>
+      <data key="d13">LINESTRING (-73.86033 40.846427, -73.860861 40.847337, -73.861142 40.847288)</data>
+    </edge>
+    <edge id="0" source="42756736" target="42751717">
+      <data key="d8">552161490</data>
+      <data key="d9">False</data>
+      <data key="d10">Morris Park Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">79.487</data>
+      <data key="d13">LINESTRING (-73.86033 40.846427, -73.8597335 40.8465511, -73.85944000000001 40.846659)</data>
+    </edge>
+    <edge id="0" source="42757338" target="42756732">
+      <data key="d8">5697978</data>
+      <data key="d9">True</data>
+      <data key="d10">Muliner Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">110.017</data>
+    </edge>
+    <edge id="0" source="42757341" target="42757338">
+      <data key="d8">5697978</data>
+      <data key="d9">True</data>
+      <data key="d10">Muliner Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">145.266</data>
+    </edge>
+    <edge id="0" source="42757341" target="42751724">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">35.044</data>
+    </edge>
+    <edge id="0" source="42757341" target="42745160">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">78.934</data>
+    </edge>
+    <edge id="0" source="42761379" target="42761383">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">50.948</data>
+    </edge>
+    <edge id="0" source="42761383" target="42761387">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">29.66</data>
+    </edge>
+    <edge id="0" source="42761383" target="42761379">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">50.948</data>
+    </edge>
+    <edge id="0" source="42761387" target="42761390">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">76.096</data>
+    </edge>
+    <edge id="0" source="42761387" target="42761383">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">29.66</data>
+    </edge>
+    <edge id="0" source="42761390" target="42756713">
+      <data key="d8">5699423</data>
+      <data key="d9">True</data>
+      <data key="d10">Holland Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">254.141</data>
+    </edge>
+    <edge id="0" source="42761390" target="42746723">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">76.191</data>
+    </edge>
+    <edge id="0" source="42761390" target="42761387">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">76.096</data>
+    </edge>
+    <edge id="0" source="42761395" target="42745160">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">76.0</data>
+    </edge>
+    <edge id="0" source="42761395" target="42746723">
+      <data key="d8">275060864</data>
+      <data key="d10">Rhinelander Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">75.977</data>
+    </edge>
+    <edge id="0" source="42761395" target="42756720">
+      <data key="d8">5698307</data>
+      <data key="d9">True</data>
+      <data key="d10">Barnes Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">253.557</data>
+      <data key="d13">LINESTRING (-73.863373 40.848162, -73.863232 40.84777, -73.862585 40.845961)</data>
+    </edge>
+    <data key="d0">36_NY_36005023200</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42745153: 4, 42745160: 4, 42746721: 4, 42746723: 4, 42751717: 4, 42751724: 4, 42756711: 4, 42756713: 4, 42756720: 4, 42756732: 3, 42756736: 3, 42757338: 3, 42757341: 4, 42761379: 4, 42761383: 3, 42761387: 3, 42761390: 4, 42761395: 4}</data>
+  </graph>
+</graphml>

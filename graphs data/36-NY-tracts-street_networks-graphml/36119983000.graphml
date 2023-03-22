@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="name" attr.type="string" for="edge" id="d12" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d11" />
+  <key attr.name="length" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d8" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="254137197">
+      <data key="d4">41.241497</data>
+      <data key="d5">-73.67999</data>
+      <data key="d6">254137197</data>
+    </node>
+    <node id="254137418">
+      <data key="d4">41.247067</data>
+      <data key="d5">-73.674913</data>
+      <data key="d6">254137418</data>
+    </node>
+    <node id="254206819">
+      <data key="d4">41.24137</data>
+      <data key="d5">-73.677321</data>
+      <data key="d6">254206819</data>
+    </node>
+    <node id="254230769">
+      <data key="d4">41.243112</data>
+      <data key="d5">-73.680088</data>
+      <data key="d6">254230769</data>
+    </node>
+    <edge id="0" source="254137197" target="254137418">
+      <data key="d7">23467214</data>
+      <data key="d8">residential</data>
+      <data key="d9">False</data>
+      <data key="d10">837.989</data>
+      <data key="d11">LINESTRING (-73.67999 41.241497, -73.679868 41.24161, -73.67976299999999 41.241691, -73.679625 41.241768, -73.679463 41.241893, -73.679405 41.241974, -73.679382 41.242052, -73.679328 41.242466, -73.67922 41.243009, -73.679186 41.243111, -73.679129 41.243215, -73.679041 41.243323, -73.678983 41.243374, -73.678757 41.243482, -73.67810299999999 41.24395, -73.67784899999999 41.24417, -73.677708 41.244338, -73.677606 41.244497, -73.67752900000001 41.244645, -73.67741700000001 41.244935, -73.67734 41.24508, -73.677269 41.245178, -73.67707299999999 41.24534, -73.676962 41.245394, -73.67643200000001 41.245509, -73.676378 41.245529, -73.676334 41.245562, -73.67631 41.245596, -73.67630699999999 41.245647, -73.67632399999999 41.245731, -73.67644199999999 41.245991, -73.67645899999999 41.246062, -73.67644199999999 41.246156, -73.67624000000001 41.246642, -73.67615499999999 41.2468, -73.676091 41.246878, -73.676034 41.246928, -73.675932 41.246962, -73.675828 41.246972, -73.675578 41.246945, -73.67543999999999 41.246945, -73.675325 41.246962, -73.674913 41.247067)</data>
+    </edge>
+    <edge id="0" source="254137197" target="254206819">
+      <data key="d7">23474208</data>
+      <data key="d12">Harris Road</data>
+      <data key="d8">residential</data>
+      <data key="d9">False</data>
+      <data key="d10">230.043</data>
+      <data key="d11">LINESTRING (-73.67999 41.241497, -73.67984 41.241509, -73.678659 41.24165, -73.67846 41.241657, -73.678301 41.241639, -73.67761900000001 41.241472, -73.67732100000001 41.24137)</data>
+    </edge>
+    <edge id="0" source="254137418" target="254137197">
+      <data key="d7">23467214</data>
+      <data key="d8">residential</data>
+      <data key="d9">False</data>
+      <data key="d10">837.9889999999999</data>
+      <data key="d11">LINESTRING (-73.674913 41.247067, -73.675325 41.246962, -73.67543999999999 41.246945, -73.675578 41.246945, -73.675828 41.246972, -73.675932 41.246962, -73.676034 41.246928, -73.676091 41.246878, -73.67615499999999 41.2468, -73.67624000000001 41.246642, -73.67644199999999 41.246156, -73.67645899999999 41.246062, -73.67644199999999 41.245991, -73.67632399999999 41.245731, -73.67630699999999 41.245647, -73.67631 41.245596, -73.676334 41.245562, -73.676378 41.245529, -73.67643200000001 41.245509, -73.676962 41.245394, -73.67707299999999 41.24534, -73.677269 41.245178, -73.67734 41.24508, -73.67741700000001 41.244935, -73.67752900000001 41.244645, -73.677606 41.244497, -73.677708 41.244338, -73.67784899999999 41.24417, -73.67810299999999 41.24395, -73.678757 41.243482, -73.678983 41.243374, -73.679041 41.243323, -73.679129 41.243215, -73.679186 41.243111, -73.67922 41.243009, -73.679328 41.242466, -73.679382 41.242052, -73.679405 41.241974, -73.679463 41.241893, -73.679625 41.241768, -73.67976299999999 41.241691, -73.679868 41.24161, -73.67999 41.241497)</data>
+    </edge>
+    <edge id="0" source="254206819" target="254137197">
+      <data key="d7">23474208</data>
+      <data key="d12">Harris Road</data>
+      <data key="d8">residential</data>
+      <data key="d9">False</data>
+      <data key="d10">230.043</data>
+      <data key="d11">LINESTRING (-73.67732100000001 41.24137, -73.67761900000001 41.241472, -73.678301 41.241639, -73.67846 41.241657, -73.678659 41.24165, -73.67984 41.241509, -73.67999 41.241497)</data>
+    </edge>
+    <data key="d0">36_NY_36119983000</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{254137197: 3, 254137418: 1, 254206819: 3, 254230769: 1}</data>
+  </graph>
+</graphml>

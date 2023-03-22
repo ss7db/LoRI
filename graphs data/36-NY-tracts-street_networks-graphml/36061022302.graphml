@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="bridge" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42424679">
+      <data key="d4">40.820283</data>
+      <data key="d5">-73.959539</data>
+      <data key="d6">42424679</data>
+    </node>
+    <node id="42425242">
+      <data key="d4">40.8203291</data>
+      <data key="d5">-73.9596517</data>
+      <data key="d6">42425242</data>
+    </node>
+    <node id="42428880">
+      <data key="d4">40.8188645</data>
+      <data key="d5">-73.9561599</data>
+      <data key="d6">42428880</data>
+    </node>
+    <node id="42439042">
+      <data key="d4">40.8211505</data>
+      <data key="d5">-73.9575495</data>
+      <data key="d6">42439042</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="561035348">
+      <data key="d4">40.819405</data>
+      <data key="d5">-73.9554946</data>
+      <data key="d6">561035348</data>
+    </node>
+    <node id="587861515">
+      <data key="d4">40.8203246</data>
+      <data key="d5">-73.9578045</data>
+      <data key="d6">587861515</data>
+    </node>
+    <node id="595320307">
+      <data key="d4">40.8206097</data>
+      <data key="d5">-73.9584609</data>
+      <data key="d6">595320307</data>
+    </node>
+    <edge id="0" source="42424679" target="42425242">
+      <data key="d8">46226328</data>
+      <data key="d9">True</data>
+      <data key="d10">West 133rd Street</data>
+      <data key="d11">secondary</data>
+      <data key="d12">10.78</data>
+    </edge>
+    <edge id="0" source="42439042" target="595320307">
+      <data key="d8">[505478248, 46568321]</data>
+      <data key="d10">Riverside Drive</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">101.52999999999999</data>
+      <data key="d13">yes</data>
+      <data key="d14">LINESTRING (-73.9575495 40.8211505, -73.9577433 40.8210957, -73.95795010000001 40.8210372, -73.95805900000001 40.8209926, -73.9581345 40.8209523, -73.95819 40.8209144, -73.9582486 40.8208709, -73.9583107 40.8208086, -73.95846090000001 40.8206097)</data>
+    </edge>
+    <edge id="0" source="587861515" target="595320307">
+      <data key="d8">5671626</data>
+      <data key="d13">yes</data>
+      <data key="d10">West 134th Street (upper)</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">63.686</data>
+    </edge>
+    <edge id="0" source="595320307" target="587861515">
+      <data key="d8">5671626</data>
+      <data key="d13">yes</data>
+      <data key="d10">West 134th Street (upper)</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">63.686</data>
+    </edge>
+    <edge id="0" source="595320307" target="42439042">
+      <data key="d8">[505478248, 46568321]</data>
+      <data key="d13">yes</data>
+      <data key="d10">Riverside Drive</data>
+      <data key="d11">secondary</data>
+      <data key="d9">False</data>
+      <data key="d12">101.53</data>
+      <data key="d14">LINESTRING (-73.95846090000001 40.8206097, -73.9583107 40.8208086, -73.9582486 40.8208709, -73.95819 40.8209144, -73.9581345 40.8209523, -73.95805900000001 40.8209926, -73.95795010000001 40.8210372, -73.9577433 40.8210957, -73.9575495 40.8211505)</data>
+    </edge>
+    <data key="d0">36_NY_36061022302</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42424679: 3, 42425242: 3, 42428880: 4, 42439042: 3, 561035348: 3, 587861515: 1, 595320307: 3}</data>
+  </graph>
+</graphml>

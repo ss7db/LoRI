@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42472022">
+      <data key="d4">40.604768</data>
+      <data key="d5">-74.007625</data>
+      <data key="d6">42472022</data>
+    </node>
+    <node id="42472024">
+      <data key="d4">40.60345</data>
+      <data key="d5">-74.008995</data>
+      <data key="d6">42472024</data>
+    </node>
+    <node id="42472026">
+      <data key="d4">40.60247</data>
+      <data key="d5">-74.010017</data>
+      <data key="d6">42472026</data>
+    </node>
+    <node id="42472028">
+      <data key="d4">40.601657</data>
+      <data key="d5">-74.010868</data>
+      <data key="d6">42472028</data>
+    </node>
+    <node id="42478681">
+      <data key="d4">40.602291</data>
+      <data key="d5">-74.006781</data>
+      <data key="d6">42478681</data>
+    </node>
+    <node id="42478686">
+      <data key="d4">40.600357</data>
+      <data key="d5">-74.008714</data>
+      <data key="d6">42478686</data>
+    </node>
+    <node id="42480353">
+      <data key="d4">40.601218</data>
+      <data key="d5">-74.010129</data>
+      <data key="d6">42480353</data>
+    </node>
+    <node id="42480356">
+      <data key="d4">40.600777</data>
+      <data key="d5">-74.009407</data>
+      <data key="d6">42480356</data>
+    </node>
+    <node id="42493702">
+      <data key="d4">40.603861</data>
+      <data key="d5">-74.00978</data>
+      <data key="d6">42493702</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42493709">
+      <data key="d4">40.603056</data>
+      <data key="d5">-74.008244</data>
+      <data key="d6">42493709</data>
+    </node>
+    <node id="42493715">
+      <data key="d4">40.602645</data>
+      <data key="d5">-74.007459</data>
+      <data key="d6">42493715</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42512380">
+      <data key="d4">40.603887</data>
+      <data key="d5">-74.006172</data>
+      <data key="d6">42512380</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42522541">
+      <data key="d4">40.604338</data>
+      <data key="d5">-74.00691</data>
+      <data key="d6">42522541</data>
+    </node>
+    <edge id="0" source="42472022" target="42522541">
+      <data key="d8">5680492</data>
+      <data key="d9">False</data>
+      <data key="d10">Bath Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">77.004</data>
+    </edge>
+    <edge id="0" source="42472022" target="42472024">
+      <data key="d8">594657230</data>
+      <data key="d9">True</data>
+      <data key="d10">Bay 16th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">186.696</data>
+      <data key="d13">LINESTRING (-74.007625 40.604768, -74.0088885 40.6035525, -74.008995 40.60345)</data>
+    </edge>
+    <edge id="0" source="42472024" target="42493709">
+      <data key="d8">480456048</data>
+      <data key="d9">False</data>
+      <data key="d10">Cropsey Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">77.066</data>
+    </edge>
+    <edge id="0" source="42472024" target="42493702">
+      <data key="d8">480456048</data>
+      <data key="d9">False</data>
+      <data key="d10">Cropsey Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">80.502</data>
+    </edge>
+    <edge id="0" source="42472024" target="42472026">
+      <data key="d8">594657230</data>
+      <data key="d9">True</data>
+      <data key="d10">Bay 16th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">138.993</data>
+      <data key="d13">LINESTRING (-74.008995 40.60345, -74.0092544 40.6032013, -74.010017 40.60247)</data>
+    </edge>
+    <edge id="0" source="42472026" target="42493702">
+      <data key="d8">[5680916, 594657229]</data>
+      <data key="d10">['17th Court', '17th Avenue']</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">212.641</data>
+      <data key="d13">LINESTRING (-74.010017 40.60247, -74.01038459999999 40.6026934, -74.010751 40.602916, -74.00978000000001 40.603861)</data>
+    </edge>
+    <edge id="0" source="42472026" target="42472028">
+      <data key="d8">594657230</data>
+      <data key="d9">True</data>
+      <data key="d10">Bay 16th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">115.47399999999999</data>
+      <data key="d13">LINESTRING (-74.010017 40.60247, -74.0105602 40.6019511, -74.0106244 40.6018898, -74.010868 40.601657)</data>
+    </edge>
+    <edge id="0" source="42478681" target="42478686">
+      <data key="d8">5676769</data>
+      <data key="d9">True</data>
+      <data key="d10">Bay 19th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">270.001</data>
+      <data key="d13">LINESTRING (-74.006781 40.602291, -74.0078745 40.6011631, -74.0084421 40.6006181, -74.008714 40.600357)</data>
+    </edge>
+    <edge id="0" source="42478681" target="42493715">
+      <data key="d8">46865618</data>
+      <data key="d9">False</data>
+      <data key="d10">Cropsey Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">69.46799999999999</data>
+      <data key="d13">LINESTRING (-74.006781 40.602291, -74.00711990000001 40.6024679, -74.007459 40.602645)</data>
+    </edge>
+    <edge id="0" source="42478686" target="42480356">
+      <data key="d8">46868303</data>
+      <data key="d9">True</data>
+      <data key="d10">Shore Parkway</data>
+      <data key="d11">residential</data>
+      <data key="d12">74.861</data>
+    </edge>
+    <edge id="0" source="42480353" target="42493709">
+      <data key="d8">5680930</data>
+      <data key="d9">True</data>
+      <data key="d10">Bay 17th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">259.033</data>
+      <data key="d13">LINESTRING (-74.01012900000001 40.601218, -74.0099142 40.6014275, -74.0098727 40.6014679, -74.009833 40.6015066, -74.0098042 40.6015347, -74.0095639 40.601769, -74.00928519999999 40.6020408, -74.0092518 40.6020705, -74.0084913 40.6028149, -74.00833179999999 40.6029704, -74.008244 40.603056)</data>
+    </edge>
+    <edge id="0" source="42480353" target="42472028">
+      <data key="d8">46868303</data>
+      <data key="d9">True</data>
+      <data key="d10">Shore Parkway</data>
+      <data key="d11">residential</data>
+      <data key="d12">79.218</data>
+      <data key="d13">LINESTRING (-74.01012900000001 40.601218, -74.0103775 40.6013656, -74.01051 40.6014444, -74.010868 40.601657)</data>
+    </edge>
+    <edge id="0" source="42480356" target="42480353">
+      <data key="d8">46868303</data>
+      <data key="d9">True</data>
+      <data key="d10">Shore Parkway</data>
+      <data key="d11">residential</data>
+      <data key="d12">78.232</data>
+    </edge>
+    <edge id="0" source="42480356" target="42493715">
+      <data key="d8">46865619</data>
+      <data key="d9">False</data>
+      <data key="d10">Cristoforo Colombo Boulevard</data>
+      <data key="d11">residential</data>
+      <data key="d12">264.937</data>
+      <data key="d13">LINESTRING (-74.009407 40.600777, -74.00913869999999 40.6010343, -74.007459 40.602645)</data>
+    </edge>
+    <edge id="0" source="42493702" target="42472024">
+      <data key="d8">480456048</data>
+      <data key="d9">False</data>
+      <data key="d10">Cropsey Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">80.502</data>
+    </edge>
+    <edge id="0" source="42493702" target="42472026">
+      <data key="d8">[5680916, 594657229]</data>
+      <data key="d10">['17th Court', '17th Avenue']</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">212.641</data>
+      <data key="d13">LINESTRING (-74.00978000000001 40.603861, -74.010751 40.602916, -74.01038459999999 40.6026934, -74.010017 40.60247)</data>
+    </edge>
+    <edge id="0" source="42493709" target="42472024">
+      <data key="d8">480456048</data>
+      <data key="d9">False</data>
+      <data key="d10">Cropsey Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">77.066</data>
+    </edge>
+    <edge id="0" source="42493709" target="42522541">
+      <data key="d8">5680930</data>
+      <data key="d9">True</data>
+      <data key="d10">Bay 17th Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">181.67000000000002</data>
+      <data key="d13">LINESTRING (-74.008244 40.603056, -74.00701220000001 40.6042397, -74.00691 40.604338)</data>
+    </edge>
+    <edge id="0" source="42493709" target="42493715">
+      <data key="d8">480456048</data>
+      <data key="d9">False</data>
+      <data key="d10">Cropsey Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">80.503</data>
+      <data key="d13">LINESTRING (-74.008244 40.603056, -74.00784229999999 40.6028457, -74.007459 40.602645)</data>
+    </edge>
+    <edge id="0" source="42493715" target="42478681">
+      <data key="d8">46865618</data>
+      <data key="d9">False</data>
+      <data key="d10">Cropsey Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">69.46799999999999</data>
+      <data key="d13">LINESTRING (-74.007459 40.602645, -74.00711990000001 40.6024679, -74.006781 40.602291)</data>
+    </edge>
+    <edge id="0" source="42493715" target="42480356">
+      <data key="d8">46865619</data>
+      <data key="d9">False</data>
+      <data key="d10">Cristoforo Colombo Boulevard</data>
+      <data key="d11">residential</data>
+      <data key="d12">264.937</data>
+      <data key="d13">LINESTRING (-74.007459 40.602645, -74.00913869999999 40.6010343, -74.009407 40.600777)</data>
+    </edge>
+    <edge id="0" source="42493715" target="42512380">
+      <data key="d8">46865620</data>
+      <data key="d9">False</data>
+      <data key="d10">Cristoforo Colombo Boulevard</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">175.721</data>
+      <data key="d13">LINESTRING (-74.007459 40.602645, -74.0066485 40.6034272, -74.0065094 40.6035614, -74.00649129999999 40.6035788, -74.00617200000001 40.603887)</data>
+    </edge>
+    <edge id="0" source="42493715" target="42493709">
+      <data key="d8">480456048</data>
+      <data key="d9">False</data>
+      <data key="d10">Cropsey Avenue</data>
+      <data key="d11">secondary</data>
+      <data key="d12">80.503</data>
+      <data key="d13">LINESTRING (-74.007459 40.602645, -74.00784229999999 40.6028457, -74.008244 40.603056)</data>
+    </edge>
+    <edge id="0" source="42512380" target="42522541">
+      <data key="d8">5680492</data>
+      <data key="d9">False</data>
+      <data key="d10">Bath Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">79.979</data>
+    </edge>
+    <edge id="0" source="42512380" target="42493715">
+      <data key="d8">46865620</data>
+      <data key="d9">False</data>
+      <data key="d10">Cristoforo Colombo Boulevard</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">175.721</data>
+      <data key="d13">LINESTRING (-74.00617200000001 40.603887, -74.00649129999999 40.6035788, -74.0065094 40.6035614, -74.0066485 40.6034272, -74.007459 40.602645)</data>
+    </edge>
+    <edge id="0" source="42522541" target="42512380">
+      <data key="d8">5680492</data>
+      <data key="d9">False</data>
+      <data key="d10">Bath Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">79.979</data>
+    </edge>
+    <edge id="0" source="42522541" target="42472022">
+      <data key="d8">5680492</data>
+      <data key="d9">False</data>
+      <data key="d10">Bath Avenue</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">77.004</data>
+    </edge>
+    <data key="d0">36_NY_36047017600</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42472022: 4, 42472024: 4, 42472026: 3, 42472028: 3, 42478681: 4, 42478686: 3, 42480353: 3, 42480356: 3, 42493702: 4, 42493709: 4, 42493715: 4, 42512380: 4, 42522541: 4}</data>
+  </graph>
+</graphml>

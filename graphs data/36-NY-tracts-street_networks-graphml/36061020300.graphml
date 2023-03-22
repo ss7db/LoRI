@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d14" />
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="561035338">
+      <data key="d4">40.8111851</data>
+      <data key="d5">-73.9615185</data>
+      <data key="d6">561035338</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="627905367">
+      <data key="d4">40.8073074</data>
+      <data key="d5">-73.9643043</data>
+      <data key="d6">627905367</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="1504153604">
+      <data key="d4">40.8104995</data>
+      <data key="d5">-73.9620178</data>
+      <data key="d6">1504153604</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="1506445762">
+      <data key="d4">40.8079924</data>
+      <data key="d5">-73.9638152</data>
+      <data key="d6">1506445762</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <edge id="0" source="627905367" target="1506445762">
+      <data key="d8">524569306</data>
+      <data key="d9">True</data>
+      <data key="d10">Broadway</data>
+      <data key="d11">primary</data>
+      <data key="d12">86.581</data>
+      <data key="d13">LINESTRING (-73.96430429999999 40.8073074, -73.96388450000001 40.8078954, -73.9638152 40.8079924)</data>
+    </edge>
+    <edge id="0" source="1504153604" target="561035338">
+      <data key="d8">196116983</data>
+      <data key="d9">True</data>
+      <data key="d10">Broadway</data>
+      <data key="d11">primary</data>
+      <data key="d12">87.05</data>
+    </edge>
+    <edge id="0" source="1506445762" target="1504153604">
+      <data key="d8">402097156</data>
+      <data key="d9">True</data>
+      <data key="d10">Broadway</data>
+      <data key="d11">primary</data>
+      <data key="d14">25 mph</data>
+      <data key="d12">317.175</data>
+      <data key="d13">LINESTRING (-73.9638152 40.8079924, -73.9637536 40.8080783, -73.9632294 40.8088095, -73.9620178 40.8104995)</data>
+    </edge>
+    <data key="d0">36_NY_36061020300</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{561035338: 4, 627905367: 3, 1504153604: 4, 1506445762: 3}</data>
+  </graph>
+</graphml>

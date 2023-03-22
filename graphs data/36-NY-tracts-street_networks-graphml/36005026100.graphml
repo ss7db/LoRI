@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42729933">
+      <data key="d4">40.864426</data>
+      <data key="d5">-73.906805</data>
+      <data key="d6">42729933</data>
+    </node>
+    <node id="42743109">
+      <data key="d4">40.863024</data>
+      <data key="d5">-73.9090685</data>
+      <data key="d6">42743109</data>
+    </node>
+    <node id="42743357">
+      <data key="d4">40.868696</data>
+      <data key="d5">-73.902358</data>
+      <data key="d6">42743357</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42750590">
+      <data key="d4">40.86356</data>
+      <data key="d5">-73.907539</data>
+      <data key="d6">42750590</data>
+    </node>
+    <node id="42752256">
+      <data key="d4">40.865905</data>
+      <data key="d5">-73.904391</data>
+      <data key="d6">42752256</data>
+    </node>
+    <node id="1396352292">
+      <data key="d4">40.869268</data>
+      <data key="d5">-73.9033976</data>
+      <data key="d6">1396352292</data>
+    </node>
+    <node id="2328996401">
+      <data key="d4">40.8677098</data>
+      <data key="d5">-73.9030764</data>
+      <data key="d6">2328996401</data>
+    </node>
+    <edge id="0" source="42729933" target="42750590">
+      <data key="d8">5697712</data>
+      <data key="d9">True</data>
+      <data key="d10">Webb Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">114.586</data>
+      <data key="d13">LINESTRING (-73.90680500000001 40.864426, -73.9071203 40.8640697, -73.907478 40.8636655, -73.9074882 40.863654, -73.907539 40.86356)</data>
+    </edge>
+    <edge id="0" source="42743357" target="1396352292">
+      <data key="d8">224064176</data>
+      <data key="d9">False</data>
+      <data key="d10">West Kingsbridge Road</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">108.33100000000002</data>
+      <data key="d13">LINESTRING (-73.90235800000001 40.868696, -73.90270529999999 40.8688537, -73.90309809999999 40.8690766, -73.9033089 40.8692113, -73.90339760000001 40.869268)</data>
+    </edge>
+    <edge id="0" source="42743357" target="2328996401">
+      <data key="d8">[224064179, 586133509]</data>
+      <data key="d9">False</data>
+      <data key="d10">Webb Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">125.19800000000001</data>
+      <data key="d13">LINESTRING (-73.90235800000001 40.868696, -73.90294969999999 40.8678838, -73.9030764 40.8677098)</data>
+    </edge>
+    <edge id="0" source="42750590" target="42743109">
+      <data key="d8">5697712</data>
+      <data key="d9">True</data>
+      <data key="d10">Webb Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">146.138</data>
+      <data key="d13">LINESTRING (-73.907539 40.86356, -73.90781 40.8635512, -73.90807359999999 40.8635194, -73.90811770000001 40.8635045, -73.9082434 40.863462, -73.9084003 40.8633996, -73.9086083 40.8632933, -73.90864449999999 40.8632748, -73.9088854 40.8631611, -73.9090685 40.863024)</data>
+    </edge>
+    <edge id="0" source="42752256" target="42729933">
+      <data key="d8">5697712</data>
+      <data key="d9">True</data>
+      <data key="d10">Webb Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">274.11699999999996</data>
+      <data key="d13">LINESTRING (-73.904391 40.865905, -73.90440099999999 40.865888, -73.904471 40.865793, -73.90455900000001 40.8657, -73.904662 40.865616, -73.904771 40.865546, -73.904899 40.865481, -73.905045 40.865426, -73.905197 40.865387, -73.90531900000001 40.865368, -73.905455 40.865363, -73.905591 40.865346, -73.905726 40.865316, -73.905826 40.865285, -73.905964 40.865229, -73.906071 40.865171, -73.906183 40.865093, -73.90628 40.865007, -73.90635399999999 40.864922, -73.90680500000001 40.864426)</data>
+    </edge>
+    <edge id="0" source="1396352292" target="42743357">
+      <data key="d8">224064176</data>
+      <data key="d9">False</data>
+      <data key="d10">West Kingsbridge Road</data>
+      <data key="d11">tertiary</data>
+      <data key="d12">108.33099999999999</data>
+      <data key="d13">LINESTRING (-73.90339760000001 40.869268, -73.9033089 40.8692113, -73.90309809999999 40.8690766, -73.90270529999999 40.8688537, -73.90235800000001 40.868696)</data>
+    </edge>
+    <edge id="0" source="2328996401" target="42752256">
+      <data key="d8">5697712</data>
+      <data key="d9">True</data>
+      <data key="d10">Webb Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">229.116</data>
+    </edge>
+    <edge id="0" source="2328996401" target="42743357">
+      <data key="d8">[224064179, 586133509]</data>
+      <data key="d9">False</data>
+      <data key="d10">Webb Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">125.19800000000001</data>
+      <data key="d13">LINESTRING (-73.9030764 40.8677098, -73.90294969999999 40.8678838, -73.90235800000001 40.868696)</data>
+    </edge>
+    <data key="d0">36_NY_36005026100</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42729933: 3, 42743109: 4, 42743357: 4, 42750590: 3, 42752256: 3, 1396352292: 3, 2328996401: 2}</data>
+  </graph>
+</graphml>

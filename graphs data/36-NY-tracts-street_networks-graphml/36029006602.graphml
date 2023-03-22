@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d16" />
+  <key attr.name="length" attr.type="string" for="edge" id="d15" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d14" />
+  <key attr.name="maxspeed" attr.type="string" for="edge" id="d13" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="name" attr.type="string" for="edge" id="d11" />
+  <key attr.name="ref" attr.type="string" for="edge" id="d10" />
+  <key attr.name="lanes" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="111226793">
+      <data key="d4">42.912486</data>
+      <data key="d5">-78.865494</data>
+      <data key="d6">111226793</data>
+    </node>
+    <node id="111333301">
+      <data key="d4">42.9112579</data>
+      <data key="d5">-78.8681349</data>
+      <data key="d6">111333301</data>
+    </node>
+    <node id="111333307">
+      <data key="d4">42.9153713</data>
+      <data key="d5">-78.866824</data>
+      <data key="d6">111333307</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="111344566">
+      <data key="d4">42.915425</data>
+      <data key="d5">-78.873128</data>
+      <data key="d6">111344566</data>
+    </node>
+    <node id="111382767">
+      <data key="d4">42.9140581</data>
+      <data key="d5">-78.8695633</data>
+      <data key="d6">111382767</data>
+    </node>
+    <node id="111401230">
+      <data key="d4">42.912214</data>
+      <data key="d5">-78.87282</data>
+      <data key="d6">111401230</data>
+    </node>
+    <node id="111462044">
+      <data key="d4">42.9112696</data>
+      <data key="d5">-78.8703249</data>
+      <data key="d6">111462044</data>
+    </node>
+    <node id="111462051">
+      <data key="d4">42.9131542</data>
+      <data key="d5">-78.8698191</data>
+      <data key="d6">111462051</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="111462057">
+      <data key="d4">42.9153914</data>
+      <data key="d5">-78.8691839</data>
+      <data key="d6">111462057</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="111509124">
+      <data key="d4">42.9112829</data>
+      <data key="d5">-78.8728299</data>
+      <data key="d6">111509124</data>
+    </node>
+    <node id="111509127">
+      <data key="d4">42.9131544</data>
+      <data key="d5">-78.872815</data>
+      <data key="d6">111509127</data>
+    </node>
+    <node id="111560950">
+      <data key="d4">42.911246</data>
+      <data key="d5">-78.865913</data>
+      <data key="d6">111560950</data>
+    </node>
+    <node id="111561634">
+      <data key="d4">42.91536</data>
+      <data key="d5">-78.865495</data>
+      <data key="d6">111561634</data>
+    </node>
+    <node id="111582471">
+      <data key="d4">42.9139458</data>
+      <data key="d5">-78.8650013</data>
+      <data key="d6">111582471</data>
+    </node>
+    <edge id="0" source="111226793" target="111582471">
+      <data key="d8">67508650</data>
+      <data key="d9">6</data>
+      <data key="d10">NY 5</data>
+      <data key="d11">Main Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">167.208</data>
+    </edge>
+    <edge id="0" source="111226793" target="111560950">
+      <data key="d8">67508650</data>
+      <data key="d9">6</data>
+      <data key="d10">NY 5</data>
+      <data key="d11">Main Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">142.042</data>
+    </edge>
+    <edge id="0" source="111333301" target="111333307">
+      <data key="d8">12283591</data>
+      <data key="d14">True</data>
+      <data key="d11">Linwood Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">469.683</data>
+    </edge>
+    <edge id="0" source="111333301" target="111462044">
+      <data key="d8">12320360</data>
+      <data key="d11">West Utica Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">178.359</data>
+    </edge>
+    <edge id="0" source="111333301" target="111560950">
+      <data key="d8">12320360</data>
+      <data key="d11">West Utica Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">180.957</data>
+    </edge>
+    <edge id="0" source="111333307" target="111561634">
+      <data key="d8">35377729</data>
+      <data key="d14">False</data>
+      <data key="d11">West Ferry Street</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">108.234</data>
+    </edge>
+    <edge id="0" source="111333307" target="111462057">
+      <data key="d8">35377729</data>
+      <data key="d14">False</data>
+      <data key="d11">West Ferry Street</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">192.191</data>
+    </edge>
+    <edge id="0" source="111344566" target="111462057">
+      <data key="d8">35377729</data>
+      <data key="d14">False</data>
+      <data key="d11">West Ferry Street</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">321.209</data>
+      <data key="d16">LINESTRING (-78.87312799999999 42.915425, -78.8701743 42.9153999, -78.8691839 42.9153914)</data>
+    </edge>
+    <edge id="0" source="111382767" target="111462057">
+      <data key="d8">23641431</data>
+      <data key="d14">False</data>
+      <data key="d9">2</data>
+      <data key="d10">NY 384</data>
+      <data key="d11">Delaware Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">151.442</data>
+    </edge>
+    <edge id="0" source="111382767" target="111462051">
+      <data key="d8">23641431</data>
+      <data key="d14">False</data>
+      <data key="d9">2</data>
+      <data key="d10">NY 384</data>
+      <data key="d11">Delaware Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">102.645</data>
+    </edge>
+    <edge id="0" source="111401230" target="111509127">
+      <data key="d8">12303394</data>
+      <data key="d11">Atlantic Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">104.569</data>
+    </edge>
+    <edge id="0" source="111401230" target="111509124">
+      <data key="d8">12303394</data>
+      <data key="d11">Atlantic Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">103.537</data>
+    </edge>
+    <edge id="0" source="111462044" target="111509124">
+      <data key="d8">12320360</data>
+      <data key="d11">West Utica Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">204.013</data>
+    </edge>
+    <edge id="0" source="111462044" target="111333301">
+      <data key="d8">12320360</data>
+      <data key="d11">West Utica Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">178.359</data>
+    </edge>
+    <edge id="0" source="111462044" target="111462051">
+      <data key="d8">23641431</data>
+      <data key="d14">False</data>
+      <data key="d9">2</data>
+      <data key="d10">NY 384</data>
+      <data key="d11">Delaware Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">213.568</data>
+    </edge>
+    <edge id="0" source="111462051" target="111509127">
+      <data key="d8">12307324</data>
+      <data key="d11">Lexington Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">243.979</data>
+    </edge>
+    <edge id="0" source="111462051" target="111382767">
+      <data key="d8">23641431</data>
+      <data key="d14">False</data>
+      <data key="d9">2</data>
+      <data key="d10">NY 384</data>
+      <data key="d11">Delaware Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">102.645</data>
+    </edge>
+    <edge id="0" source="111462051" target="111462044">
+      <data key="d8">23641431</data>
+      <data key="d14">False</data>
+      <data key="d9">2</data>
+      <data key="d10">NY 384</data>
+      <data key="d11">Delaware Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">213.568</data>
+    </edge>
+    <edge id="0" source="111462057" target="111382767">
+      <data key="d8">23641431</data>
+      <data key="d14">False</data>
+      <data key="d9">2</data>
+      <data key="d10">NY 384</data>
+      <data key="d11">Delaware Avenue</data>
+      <data key="d12">primary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">151.442</data>
+    </edge>
+    <edge id="0" source="111462057" target="111333307">
+      <data key="d8">35377729</data>
+      <data key="d14">False</data>
+      <data key="d11">West Ferry Street</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">192.191</data>
+    </edge>
+    <edge id="0" source="111462057" target="111344566">
+      <data key="d8">35377729</data>
+      <data key="d14">False</data>
+      <data key="d11">West Ferry Street</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">321.209</data>
+      <data key="d16">LINESTRING (-78.8691839 42.9153914, -78.8701743 42.9153999, -78.87312799999999 42.915425)</data>
+    </edge>
+    <edge id="0" source="111509124" target="111401230">
+      <data key="d8">12303394</data>
+      <data key="d11">Atlantic Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">103.537</data>
+    </edge>
+    <edge id="0" source="111509124" target="111462044">
+      <data key="d8">12320360</data>
+      <data key="d11">West Utica Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">204.013</data>
+    </edge>
+    <edge id="0" source="111509127" target="111401230">
+      <data key="d8">12303394</data>
+      <data key="d11">Atlantic Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">104.569</data>
+    </edge>
+    <edge id="0" source="111509127" target="111462051">
+      <data key="d8">12307324</data>
+      <data key="d11">Lexington Avenue</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">243.979</data>
+    </edge>
+    <edge id="0" source="111560950" target="111333301">
+      <data key="d8">12320360</data>
+      <data key="d11">West Utica Street</data>
+      <data key="d12">residential</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">180.957</data>
+    </edge>
+    <edge id="0" source="111560950" target="111226793">
+      <data key="d8">67508650</data>
+      <data key="d9">6</data>
+      <data key="d10">NY 5</data>
+      <data key="d11">Main Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">142.042</data>
+    </edge>
+    <edge id="0" source="111561634" target="111333307">
+      <data key="d8">35377729</data>
+      <data key="d14">False</data>
+      <data key="d11">West Ferry Street</data>
+      <data key="d12">tertiary</data>
+      <data key="d13">30 mph</data>
+      <data key="d15">108.234</data>
+    </edge>
+    <edge id="0" source="111582471" target="111226793">
+      <data key="d8">67508650</data>
+      <data key="d9">6</data>
+      <data key="d10">NY 5</data>
+      <data key="d11">Main Street</data>
+      <data key="d12">primary</data>
+      <data key="d13">30 mph</data>
+      <data key="d14">False</data>
+      <data key="d15">167.208</data>
+    </edge>
+    <data key="d0">36_NY_36029006602</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{111226793: 3, 111333301: 4, 111333307: 4, 111344566: 3, 111382767: 3, 111401230: 3, 111462044: 4, 111462051: 3, 111462057: 4, 111509124: 3, 111509127: 3, 111560950: 4, 111561634: 3, 111582471: 3}</data>
+  </graph>
+</graphml>

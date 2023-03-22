@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42747780">
+      <data key="d4">40.8806886</data>
+      <data key="d5">-73.9193107</data>
+      <data key="d6">42747780</data>
+      <data key="d7">stop</data>
+    </node>
+    <node id="42747790">
+      <data key="d4">40.8828012</data>
+      <data key="d5">-73.9202556</data>
+      <data key="d6">42747790</data>
+    </node>
+    <node id="42748885">
+      <data key="d4">40.8855808</data>
+      <data key="d5">-73.9187665</data>
+      <data key="d6">42748885</data>
+    </node>
+    <node id="42750160">
+      <data key="d4">40.8795139</data>
+      <data key="d5">-73.9209701</data>
+      <data key="d6">42750160</data>
+    </node>
+    <node id="42751120">
+      <data key="d4">40.8842684</data>
+      <data key="d5">-73.9204619</data>
+      <data key="d6">42751120</data>
+    </node>
+    <node id="42751123">
+      <data key="d4">40.8850375</data>
+      <data key="d5">-73.9199737</data>
+      <data key="d6">42751123</data>
+    </node>
+    <node id="42770888">
+      <data key="d4">40.884805</data>
+      <data key="d5">-73.919267</data>
+      <data key="d6">42770888</data>
+    </node>
+    <node id="42770895">
+      <data key="d4">40.885118</data>
+      <data key="d5">-73.9202148</data>
+      <data key="d6">42770895</data>
+    </node>
+    <node id="1545196739">
+      <data key="d4">40.880517</data>
+      <data key="d5">-73.922354</data>
+      <data key="d6">1545196739</data>
+    </node>
+    <edge id="0" source="42747780" target="42747790">
+      <data key="d8">132500869</data>
+      <data key="d9">False</data>
+      <data key="d10">Kappock Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">256.367</data>
+      <data key="d13">LINESTRING (-73.9193107 40.8806886, -73.9194114 40.8807672, -73.9194799 40.8808206, -73.9196094 40.880936, -73.9196725 40.8810138, -73.91971409999999 40.88112, -73.9197291 40.88123, -73.9197355 40.8815026, -73.9197405 40.8817118, -73.9197435 40.8818401, -73.9197508 40.8819423, -73.9197775 40.8820553, -73.9198299 40.8821767, -73.9199672 40.8823841, -73.9199887 40.882419, -73.92010260000001 40.8825928, -73.9202556 40.8828012)</data>
+    </edge>
+    <edge id="0" source="42747780" target="42750160">
+      <data key="d8">141153899</data>
+      <data key="d9">True</data>
+      <data key="d10">Independence Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">199.926</data>
+      <data key="d13">LINESTRING (-73.9193107 40.8806886, -73.91940630000001 40.8805744, -73.9194629 40.8805252, -73.919527 40.8804791, -73.9195941 40.8804396, -73.9196547 40.8804134, -73.9197454 40.8803811, -73.9198267 40.8803626, -73.91990180000001 40.8803546, -73.9199785 40.880348, -73.9200627 40.8803367, -73.9201362 40.8803167, -73.9202483 40.8802715, -73.92035319999999 40.8802052, -73.92042790000001 40.8801387, -73.9208872 40.8795971, -73.92097010000001 40.8795139)</data>
+    </edge>
+    <edge id="0" source="42747780" target="1545196739">
+      <data key="d8">141153900</data>
+      <data key="d10">Independence Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">282.40599999999995</data>
+      <data key="d13">LINESTRING (-73.9193107 40.8806886, -73.9195113 40.8805801, -73.919628 40.8805209, -73.9197159 40.8804839, -73.9198016 40.8804638, -73.9198901 40.8804556, -73.91999 40.880458, -73.9200939 40.8804661, -73.9202097 40.8804788, -73.92033000000001 40.8804839, -73.92043049999999 40.8804783, -73.920534 40.8804641, -73.9206458 40.8804419, -73.9208249 40.8803947, -73.9210315 40.8803428, -73.9212674 40.8802902, -73.9216243 40.880237, -73.9218422 40.8802169, -73.9219354 40.880225, -73.9220208 40.8802412, -73.9221175 40.8802741, -73.9221981 40.8803268, -73.92225449999999 40.880382, -73.9223179 40.8804506, -73.922354 40.880517)</data>
+    </edge>
+    <edge id="0" source="42747790" target="42770888">
+      <data key="d8">5699587</data>
+      <data key="d10">Palisade Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">238.787</data>
+      <data key="d13">LINESTRING (-73.9202556 40.8828012, -73.9202047 40.8829329, -73.9201656 40.8830746, -73.92013249999999 40.8831823, -73.9200951 40.8832797, -73.919858 40.8838486, -73.919774 40.8840258, -73.9196721 40.8842079, -73.919267 40.884805)</data>
+    </edge>
+    <edge id="0" source="42747790" target="1545196739">
+      <data key="d8">5699587</data>
+      <data key="d10">Palisade Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">313.811</data>
+      <data key="d13">LINESTRING (-73.9202556 40.8828012, -73.92035869999999 40.8826367, -73.92047599999999 40.8824924, -73.9205891 40.8823827, -73.9207091 40.8822918, -73.9208357 40.8822106, -73.9210854 40.882044, -73.9211339 40.8820103, -73.9216323 40.8815686, -73.9218762 40.8813433, -73.9219796 40.8812125, -73.92211690000001 40.8810071, -73.922354 40.880517)</data>
+    </edge>
+    <edge id="0" source="42747790" target="42747780">
+      <data key="d8">132500869</data>
+      <data key="d9">False</data>
+      <data key="d10">Kappock Street</data>
+      <data key="d11">residential</data>
+      <data key="d12">256.36699999999996</data>
+      <data key="d13">LINESTRING (-73.9202556 40.8828012, -73.92010260000001 40.8825928, -73.9199887 40.882419, -73.9199672 40.8823841, -73.9198299 40.8821767, -73.9197775 40.8820553, -73.9197508 40.8819423, -73.9197435 40.8818401, -73.9197405 40.8817118, -73.9197355 40.8815026, -73.9197291 40.88123, -73.91971409999999 40.88112, -73.9196725 40.8810138, -73.9196094 40.880936, -73.9194799 40.8808206, -73.9194114 40.8807672, -73.9193107 40.8806886)</data>
+    </edge>
+    <edge id="0" source="42748885" target="42770888">
+      <data key="d8">5699587</data>
+      <data key="d10">Palisade Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">96.13400000000001</data>
+      <data key="d13">LINESTRING (-73.9187665 40.8855808, -73.9188298 40.8854918, -73.9189303 40.8853632, -73.9190188 40.8852395, -73.91908770000001 40.8851344, -73.9191501 40.8850192, -73.9192188 40.8848911, -73.919267 40.884805)</data>
+    </edge>
+    <edge id="0" source="42750160" target="1545196739">
+      <data key="d8">5699587</data>
+      <data key="d10">Palisade Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">191.72400000000002</data>
+      <data key="d13">LINESTRING (-73.92097010000001 40.8795139, -73.9210154 40.8795861, -73.92104999999999 40.8796477, -73.92109480000001 40.8797224, -73.9211687 40.8797957, -73.92126450000001 40.8798633, -73.92136240000001 40.8799139, -73.9214961 40.8799463, -73.9216243 40.8799509, -73.92175039999999 40.8799392, -73.9218762 40.8799386, -73.921999 40.8799614, -73.92212019999999 40.8799927, -73.9222202 40.8800385, -73.9223126 40.8800955, -73.9223839 40.8801673, -73.9224139 40.8802646, -73.9224177 40.8803367, -73.9224024 40.880408, -73.922354 40.880517)</data>
+    </edge>
+    <edge id="0" source="42751120" target="42751123">
+      <data key="d8">5697649</data>
+      <data key="d10">Scenic Place</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">94.858</data>
+    </edge>
+    <edge id="0" source="42751123" target="42751120">
+      <data key="d8">5697649</data>
+      <data key="d10">Scenic Place</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">94.858</data>
+    </edge>
+    <edge id="0" source="42751123" target="42770888">
+      <data key="d8">5698793</data>
+      <data key="d10">West 231st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">64.791</data>
+    </edge>
+    <edge id="0" source="42751123" target="42770895">
+      <data key="d8">[5698793, 244771902]</data>
+      <data key="d10">West 231st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">22.158</data>
+      <data key="d13">LINESTRING (-73.9199737 40.8850375, -73.9201211 40.8850878, -73.9202148 40.885118)</data>
+    </edge>
+    <edge id="0" source="42770888" target="42751123">
+      <data key="d8">5698793</data>
+      <data key="d10">West 231st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">64.791</data>
+    </edge>
+    <edge id="0" source="42770888" target="42748885">
+      <data key="d8">5699587</data>
+      <data key="d10">Palisade Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">96.134</data>
+      <data key="d13">LINESTRING (-73.919267 40.884805, -73.9192188 40.8848911, -73.9191501 40.8850192, -73.91908770000001 40.8851344, -73.9190188 40.8852395, -73.9189303 40.8853632, -73.9188298 40.8854918, -73.9187665 40.8855808)</data>
+    </edge>
+    <edge id="0" source="42770888" target="42747790">
+      <data key="d8">5699587</data>
+      <data key="d10">Palisade Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">238.78699999999998</data>
+      <data key="d13">LINESTRING (-73.919267 40.884805, -73.9196721 40.8842079, -73.919774 40.8840258, -73.919858 40.8838486, -73.9200951 40.8832797, -73.92013249999999 40.8831823, -73.9201656 40.8830746, -73.9202047 40.8829329, -73.9202556 40.8828012)</data>
+    </edge>
+    <edge id="0" source="42770895" target="42751123">
+      <data key="d8">[5698793, 244771902]</data>
+      <data key="d10">West 231st Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">22.158</data>
+      <data key="d13">LINESTRING (-73.9202148 40.885118, -73.9201211 40.8850878, -73.9199737 40.8850375)</data>
+    </edge>
+    <edge id="0" source="1545196739" target="42747790">
+      <data key="d8">5699587</data>
+      <data key="d10">Palisade Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">313.81100000000004</data>
+      <data key="d13">LINESTRING (-73.922354 40.880517, -73.92211690000001 40.8810071, -73.9219796 40.8812125, -73.9218762 40.8813433, -73.9216323 40.8815686, -73.9211339 40.8820103, -73.9210854 40.882044, -73.9208357 40.8822106, -73.9207091 40.8822918, -73.9205891 40.8823827, -73.92047599999999 40.8824924, -73.92035869999999 40.8826367, -73.9202556 40.8828012)</data>
+    </edge>
+    <edge id="0" source="1545196739" target="42750160">
+      <data key="d8">5699587</data>
+      <data key="d10">Palisade Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">191.72400000000002</data>
+      <data key="d13">LINESTRING (-73.922354 40.880517, -73.9224024 40.880408, -73.9224177 40.8803367, -73.9224139 40.8802646, -73.9223839 40.8801673, -73.9223126 40.8800955, -73.9222202 40.8800385, -73.92212019999999 40.8799927, -73.921999 40.8799614, -73.9218762 40.8799386, -73.92175039999999 40.8799392, -73.9216243 40.8799509, -73.9214961 40.8799463, -73.92136240000001 40.8799139, -73.92126450000001 40.8798633, -73.9211687 40.8797957, -73.92109480000001 40.8797224, -73.92104999999999 40.8796477, -73.9210154 40.8795861, -73.92097010000001 40.8795139)</data>
+    </edge>
+    <edge id="0" source="1545196739" target="42747780">
+      <data key="d8">141153900</data>
+      <data key="d10">Independence Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">282.406</data>
+      <data key="d13">LINESTRING (-73.922354 40.880517, -73.9223179 40.8804506, -73.92225449999999 40.880382, -73.9221981 40.8803268, -73.9221175 40.8802741, -73.9220208 40.8802412, -73.9219354 40.880225, -73.9218422 40.8802169, -73.9216243 40.880237, -73.9212674 40.8802902, -73.9210315 40.8803428, -73.9208249 40.8803947, -73.9206458 40.8804419, -73.920534 40.8804641, -73.92043049999999 40.8804783, -73.92033000000001 40.8804839, -73.9202097 40.8804788, -73.9200939 40.8804661, -73.91999 40.880458, -73.9198901 40.8804556, -73.9198016 40.8804638, -73.9197159 40.8804839, -73.919628 40.8805209, -73.9195113 40.8805801, -73.9193107 40.8806886)</data>
+    </edge>
+    <data key="d0">36_NY_36005029301</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42747780: 5, 42747790: 3, 42748885: 3, 42750160: 3, 42751120: 1, 42751123: 3, 42770888: 4, 42770895: 1, 1545196739: 3}</data>
+  </graph>
+</graphml>

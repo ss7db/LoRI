@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d13" />
+  <key attr.name="length" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42719078">
+      <data key="d4">40.8441854</data>
+      <data key="d5">-73.919697</data>
+      <data key="d6">42719078</data>
+    </node>
+    <node id="42735003">
+      <data key="d4">40.841084</data>
+      <data key="d5">-73.9219157</data>
+      <data key="d6">42735003</data>
+    </node>
+    <node id="42735006">
+      <data key="d4">40.842434</data>
+      <data key="d5">-73.920913</data>
+      <data key="d6">42735006</data>
+    </node>
+    <node id="42735011">
+      <data key="d4">40.843661</data>
+      <data key="d5">-73.920035</data>
+      <data key="d6">42735011</data>
+    </node>
+    <node id="42745197">
+      <data key="d4">40.8403092</data>
+      <data key="d5">-73.9214283</data>
+      <data key="d6">42745197</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42751864">
+      <data key="d4">40.842082</data>
+      <data key="d5">-73.920107</data>
+      <data key="d6">42751864</data>
+    </node>
+    <node id="42751999">
+      <data key="d4">40.844065</data>
+      <data key="d5">-73.920987</data>
+      <data key="d6">42751999</data>
+    </node>
+    <node id="42759768">
+      <data key="d4">40.843307</data>
+      <data key="d5">-73.919182</data>
+      <data key="d6">42759768</data>
+    </node>
+    <node id="42770678">
+      <data key="d4">40.844176</data>
+      <data key="d5">-73.917452</data>
+      <data key="d6">42770678</data>
+    </node>
+    <node id="42776415">
+      <data key="d4">40.840876</data>
+      <data key="d5">-73.919783</data>
+      <data key="d6">42776415</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="42780103">
+      <data key="d4">40.844366</data>
+      <data key="d5">-73.921744</data>
+      <data key="d6">42780103</data>
+    </node>
+    <node id="60924012">
+      <data key="d4">40.8442417</data>
+      <data key="d5">-73.9227073</data>
+      <data key="d6">60924012</data>
+      <data key="d7">traffic_signals</data>
+    </node>
+    <node id="596668878">
+      <data key="d4">40.8449699</data>
+      <data key="d5">-73.9186824</data>
+      <data key="d6">596668878</data>
+    </node>
+    <node id="1377427132">
+      <data key="d4">40.8427831</data>
+      <data key="d5">-73.9183121</data>
+      <data key="d6">1377427132</data>
+    </node>
+    <node id="2912071062">
+      <data key="d4">40.8418813</data>
+      <data key="d5">-73.9223934</data>
+      <data key="d6">2912071062</data>
+    </node>
+    <node id="3001741335">
+      <data key="d4">40.8428254</data>
+      <data key="d5">-73.9227665</data>
+      <data key="d6">3001741335</data>
+    </node>
+    <edge id="0" source="42719078" target="42735011">
+      <data key="d8">273624223</data>
+      <data key="d9">False</data>
+      <data key="d10">Shakespeare Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">64.873</data>
+    </edge>
+    <edge id="0" source="42735003" target="42735006">
+      <data key="d8">223874083</data>
+      <data key="d9">True</data>
+      <data key="d10">Shakespeare Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">172.188</data>
+    </edge>
+    <edge id="0" source="42735003" target="2912071062">
+      <data key="d8">[421842667, 420900462]</data>
+      <data key="d9">True</data>
+      <data key="d10">Edward L. Grant Highway</data>
+      <data key="d11">secondary</data>
+      <data key="d12">97.34299999999999</data>
+      <data key="d13">LINESTRING (-73.9219157 40.841084, -73.9219769 40.8411818, -73.92211930000001 40.8414159, -73.9222322 40.8416121, -73.9223934 40.8418813)</data>
+    </edge>
+    <edge id="0" source="42735006" target="42751864">
+      <data key="d8">5697693</data>
+      <data key="d9">True</data>
+      <data key="d10">Jesup Place</data>
+      <data key="d11">residential</data>
+      <data key="d12">78.288</data>
+    </edge>
+    <edge id="0" source="42735006" target="42735011">
+      <data key="d8">223874083</data>
+      <data key="d9">True</data>
+      <data key="d10">Shakespeare Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">155.144</data>
+    </edge>
+    <edge id="0" source="42735011" target="42751999">
+      <data key="d8">5699668</data>
+      <data key="d10">West 172nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">91.82</data>
+    </edge>
+    <edge id="0" source="42735011" target="42759768">
+      <data key="d8">5699668</data>
+      <data key="d10">West 172nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">81.841</data>
+    </edge>
+    <edge id="0" source="42735011" target="42719078">
+      <data key="d8">273624223</data>
+      <data key="d9">False</data>
+      <data key="d10">Shakespeare Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">64.873</data>
+    </edge>
+    <edge id="0" source="42745197" target="42751864">
+      <data key="d8">5698132</data>
+      <data key="d9">True</data>
+      <data key="d10">Jesup Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">226.304</data>
+    </edge>
+    <edge id="0" source="42745197" target="42735003">
+      <data key="d8">[420900452, 420900461]</data>
+      <data key="d9">True</data>
+      <data key="d10">Edward L. Grant Highway</data>
+      <data key="d11">secondary</data>
+      <data key="d12">95.416</data>
+      <data key="d13">LINESTRING (-73.9214283 40.8403092, -73.9214595 40.8403629, -73.9215444 40.8404972, -73.921783 40.8408717, -73.9219157 40.841084)</data>
+    </edge>
+    <edge id="0" source="42751864" target="42759768">
+      <data key="d8">5698132</data>
+      <data key="d9">True</data>
+      <data key="d10">Jesup Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">156.872</data>
+    </edge>
+    <edge id="0" source="42751999" target="2912071062">
+      <data key="d8">5697701</data>
+      <data key="d9">True</data>
+      <data key="d10">Nelson Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">270.104</data>
+    </edge>
+    <edge id="0" source="42751999" target="42780103">
+      <data key="d8">5699668</data>
+      <data key="d10">West 172nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">71.938</data>
+    </edge>
+    <edge id="0" source="42751999" target="42735011">
+      <data key="d8">5699668</data>
+      <data key="d10">West 172nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">91.82</data>
+    </edge>
+    <edge id="0" source="42759768" target="42735011">
+      <data key="d8">5699668</data>
+      <data key="d10">West 172nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">81.841</data>
+    </edge>
+    <edge id="0" source="42780103" target="42751999">
+      <data key="d8">5699668</data>
+      <data key="d10">West 172nd Street</data>
+      <data key="d11">residential</data>
+      <data key="d9">False</data>
+      <data key="d12">71.938</data>
+    </edge>
+    <edge id="0" source="1377427132" target="42776415">
+      <data key="d8">5699763</data>
+      <data key="d9">True</data>
+      <data key="d10">Cromwell Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">245.519</data>
+    </edge>
+    <edge id="0" source="2912071062" target="3001741335">
+      <data key="d8">[420900457, 421842670]</data>
+      <data key="d9">True</data>
+      <data key="d10">Edward L. Grant Highway</data>
+      <data key="d11">secondary</data>
+      <data key="d12">109.70499999999998</data>
+      <data key="d13">LINESTRING (-73.9223934 40.8418813, -73.9224514 40.8419889, -73.92262049999999 40.8424068, -73.9226882 40.8425773, -73.922724 40.8426673, -73.92276649999999 40.8428254)</data>
+    </edge>
+    <edge id="0" source="3001741335" target="60924012">
+      <data key="d8">[420900451, 420900463]</data>
+      <data key="d9">True</data>
+      <data key="d10">Edward L. Grant Highway</data>
+      <data key="d11">secondary</data>
+      <data key="d12">159.552</data>
+      <data key="d13">LINESTRING (-73.92276649999999 40.8428254, -73.922805 40.8429689, -73.922821 40.8430818, -73.9228552 40.8433767, -73.92286439999999 40.8435318, -73.9228633 40.8436794, -73.92284720000001 40.843815, -73.92281370000001 40.8439451, -73.9227966 40.8439927, -73.9227073 40.8442417)</data>
+    </edge>
+    <edge id="0" source="3001741335" target="42780103">
+      <data key="d8">586133578</data>
+      <data key="d9">True</data>
+      <data key="d10">Plimpton Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">191.721</data>
+      <data key="d13">LINESTRING (-73.92276649999999 40.8428254, -73.92262150000001 40.8430697, -73.921744 40.844366)</data>
+    </edge>
+    <data key="d0">36_NY_36005021302</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42719078: 1, 42735003: 4, 42735006: 3, 42735011: 4, 42745197: 5, 42751864: 3, 42751999: 4, 42759768: 3, 42770678: 3, 42776415: 4, 42780103: 2, 60924012: 3, 596668878: 3, 1377427132: 3, 2912071062: 4, 3001741335: 4}</data>
+  </graph>
+</graphml>

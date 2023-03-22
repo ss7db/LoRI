@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="geometry" attr.type="string" for="edge" id="d14" />
+  <key attr.name="length" attr.type="string" for="edge" id="d13" />
+  <key attr.name="oneway" attr.type="string" for="edge" id="d12" />
+  <key attr.name="highway" attr.type="string" for="edge" id="d11" />
+  <key attr.name="name" attr.type="string" for="edge" id="d10" />
+  <key attr.name="bridge" attr.type="string" for="edge" id="d9" />
+  <key attr.name="osmid" attr.type="string" for="edge" id="d8" />
+  <key attr.name="highway" attr.type="string" for="node" id="d7" />
+  <key attr.name="osmid" attr.type="string" for="node" id="d6" />
+  <key attr.name="x" attr.type="string" for="node" id="d5" />
+  <key attr.name="y" attr.type="string" for="node" id="d4" />
+  <key attr.name="streets_per_node" attr.type="string" for="graph" id="d3" />
+  <key attr.name="simplified" attr.type="string" for="graph" id="d2" />
+  <key attr.name="crs" attr.type="string" for="graph" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="directed">
+    <node id="42745481">
+      <data key="d4">40.8525908</data>
+      <data key="d5">-73.9215459</data>
+      <data key="d6">42745481</data>
+    </node>
+    <node id="42781084">
+      <data key="d4">40.8538699</data>
+      <data key="d5">-73.9206768</data>
+      <data key="d6">42781084</data>
+    </node>
+    <node id="60919839">
+      <data key="d4">40.8520781</data>
+      <data key="d5">-73.9210631</data>
+      <data key="d6">60919839</data>
+    </node>
+    <node id="595750834">
+      <data key="d4">40.8513528</data>
+      <data key="d5">-73.9231328</data>
+      <data key="d6">595750834</data>
+      <data key="d7">turning_circle</data>
+    </node>
+    <node id="595750836">
+      <data key="d4">40.8537406</data>
+      <data key="d5">-73.9204415</data>
+      <data key="d6">595750836</data>
+    </node>
+    <edge id="0" source="42745481" target="595750836">
+      <data key="d8">5698354</data>
+      <data key="d9">yes</data>
+      <data key="d10">Matthewson Road</data>
+      <data key="d11">residential</data>
+      <data key="d12">False</data>
+      <data key="d13">158.032</data>
+    </edge>
+    <edge id="0" source="42745481" target="595750834">
+      <data key="d8">5697300</data>
+      <data key="d9">yes</data>
+      <data key="d10">Richman Plaza</data>
+      <data key="d11">residential</data>
+      <data key="d12">False</data>
+      <data key="d13">213.38</data>
+      <data key="d14">LINESTRING (-73.9215459 40.8525908, -73.9217716 40.8527096, -73.922206 40.8522183, -73.922482 40.8520404, -73.9231328 40.8513528)</data>
+    </edge>
+    <edge id="0" source="42781084" target="595750836">
+      <data key="d8">46619357</data>
+      <data key="d9">yes</data>
+      <data key="d10">West Tremont Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">False</data>
+      <data key="d13">24.461</data>
+    </edge>
+    <edge id="0" source="595750834" target="42745481">
+      <data key="d8">5697300</data>
+      <data key="d9">yes</data>
+      <data key="d10">Richman Plaza</data>
+      <data key="d11">residential</data>
+      <data key="d12">False</data>
+      <data key="d13">213.38</data>
+      <data key="d14">LINESTRING (-73.9231328 40.8513528, -73.922482 40.8520404, -73.922206 40.8522183, -73.9217716 40.8527096, -73.9215459 40.8525908)</data>
+    </edge>
+    <edge id="0" source="595750836" target="42745481">
+      <data key="d8">5698354</data>
+      <data key="d9">yes</data>
+      <data key="d10">Matthewson Road</data>
+      <data key="d11">residential</data>
+      <data key="d12">False</data>
+      <data key="d13">158.032</data>
+    </edge>
+    <edge id="0" source="595750836" target="42781084">
+      <data key="d8">46619357</data>
+      <data key="d9">yes</data>
+      <data key="d10">West Tremont Avenue</data>
+      <data key="d11">residential</data>
+      <data key="d12">False</data>
+      <data key="d13">24.461</data>
+    </edge>
+    <data key="d0">36_NY_36005005300</data>
+    <data key="d1">{'init': 'epsg:4326'}</data>
+    <data key="d2">True</data>
+    <data key="d3">{42745481: 3, 42781084: 1, 60919839: 3, 595750834: 1, 595750836: 3}</data>
+  </graph>
+</graphml>
